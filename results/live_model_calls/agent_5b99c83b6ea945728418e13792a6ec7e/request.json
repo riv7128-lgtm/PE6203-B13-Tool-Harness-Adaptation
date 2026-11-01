@@ -1,0 +1,2902 @@
+{
+  "request_type": "agent_action",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI agent connected to the MCP (Model Context Protocol) server. Based on the user's request, select and invoke tools to fulfill the task accurately and efficiently. \nNote that do not to ask any questions to the user, just call the tool to complete the task.\n\nConsidering real-time performance, the time is set to be around `2026-10-28`.\n\nThese files are stored in the local file system and serve as relevant resources for tool utilization. Add the prefix path \"./anotation_path\" to the following file systems as an absolute path during use:\n`Isolated anotation_path directory. Selected tasks are self contained and need no user files.`\n\nDatabase Configuration (if applicable):\n- Host: 127.0.0.1\n- Port: 3305\n- User: root\n- Password: 123456\n- Database Name: mydb\n\n"
+    },
+    {
+      "role": "user",
+      "content": "I need to create a sales performance dashboard for our Chinese regional teams. First, I want a map showing our 2025 sales distribution across provinces - we have data showing Guangdong had ¥15.8M, Jiangsu ¥12.3M, Zhejiang ¥9.7M, Shandong ¥8.4M, and Beijing ¥7.2M. Then create an area chart showing monthly sales trends from January to December 2025, with values: Jan: 1.2M, Feb: 1.1M, Mar: 1.4M, Apr: 1.6M, May: 1.8M, Jun: 2.1M, Jul: 2.3M, Aug: 2.2M, Sep: 2.5M, Oct: 2.7M, Nov: 3.0M, Dec: 3.5M. Finally, make a column chart comparing our top product categories across regions: Electronics (Guangdong: 6.2M, Jiangsu: 4.8M), Home Appliances (Guangdong: 4.5M, Jiangsu: 3.9M), and Clothing (Guangdong: 5.1M, Jiangsu: 3.6M)."
+    },
+    {
+      "role": "assistant",
+      "content": "Generate the three requested charts with sales expressed in millions of yuan.",
+      "tool_calls": [
+        {
+          "id": "agent_6c4455328a924cba864adae933677c7b_0",
+          "type": "function",
+          "function": {
+            "name": "tool_6fc35a20b85a31efdb2182ef",
+            "arguments": "{\"title\":\"2025年省级销售分布\",\"data\":{\"name\":\"中国\",\"dataType\":\"number\",\"dataLabel\":\"销售额\",\"dataValueUnit\":\"百万元人民币\",\"showAllSubdistricts\":true,\"style\":{\"fillColor\":\"rgb(235,238,242)\"},\"colors\":[\"rgb(230,100,45)\"],\"subdistricts\":[{\"name\":\"广东省\",\"dataValue\":\"15.8\"},{\"name\":\"江苏省\",\"dataValue\":\"12.3\"},{\"name\":\"浙江省\",\"dataValue\":\"9.7\"},{\"name\":\"山东省\",\"dataValue\":\"8.4\"},{\"name\":\"北京市\",\"dataValue\":\"7.2\"}]},\"width\":1200,\"height\":750}"
+          }
+        },
+        {
+          "id": "agent_6c4455328a924cba864adae933677c7b_1",
+          "type": "function",
+          "function": {
+            "name": "tool_4abd2802bae7eb6090f002e6",
+            "arguments": "{\"data\":[{\"time\":\"2025-01\",\"value\":1.2},{\"time\":\"2025-02\",\"value\":1.1},{\"time\":\"2025-03\",\"value\":1.4},{\"time\":\"2025-04\",\"value\":1.6},{\"time\":\"2025-05\",\"value\":1.8},{\"time\":\"2025-06\",\"value\":2.1},{\"time\":\"2025-07\",\"value\":2.3},{\"time\":\"2025-08\",\"value\":2.2},{\"time\":\"2025-09\",\"value\":2.5},{\"time\":\"2025-10\",\"value\":2.7},{\"time\":\"2025-11\",\"value\":3},{\"time\":\"2025-12\",\"value\":3.5}],\"stack\":false,\"title\":\"2025年每月销售趋势\",\"axisXTitle\":\"月份\",\"axisYTitle\":\"销售额（百万元人民币）\",\"width\":1000,\"height\":500,\"style\":{\"palette\":[\"#2563EB\"],\"backgroundColor\":\"#FFFFFF\",\"lineWidth\":3}}"
+          }
+        },
+        {
+          "id": "agent_6c4455328a924cba864adae933677c7b_2",
+          "type": "function",
+          "function": {
+            "name": "tool_6e9dabb27c0444ca64d11455",
+            "arguments": "{\"data\":[{\"category\":\"电子产品\",\"value\":6.2,\"group\":\"广东\"},{\"category\":\"电子产品\",\"value\":4.8,\"group\":\"江苏\"},{\"category\":\"家用电器\",\"value\":4.5,\"group\":\"广东\"},{\"category\":\"家用电器\",\"value\":3.9,\"group\":\"江苏\"},{\"category\":\"服装\",\"value\":5.1,\"group\":\"广东\"},{\"category\":\"服装\",\"value\":3.6,\"group\":\"江苏\"}],\"group\":true,\"stack\":false,\"title\":\"2025年各地区主要产品销售对比\",\"axisXTitle\":\"产品类别\",\"axisYTitle\":\"销售额（百万元人民币）\",\"width\":1000,\"height\":500,\"style\":{\"palette\":[\"#2563EB\",\"#F59E0B\"],\"backgroundColor\":\"#FFFFFF\"},\"axis\":{\"y\":{\"labelFormatter\":\".1f\"}},\"tooltip\":{\"channel\":\"y\",\"valueFormatter\":\".1f\"}}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "agent_6c4455328a924cba864adae933677c7b_0",
+      "content": "{\"meta\": {\"description\": \"This is the chart's spec and configuration, which can be renderred to corresponding chart by AntV GPT-Vis chart components.\", \"spec\": {\"type\": \"district-map\", \"title\": \"2025年省级销售分布\", \"data\": {\"name\": \"中国\", \"dataType\": \"number\", \"dataLabel\": \"销售额\", \"dataValueUnit\": \"百万元人民币\", \"showAllSubdistricts\": true, \"style\": {\"fillColor\": \"rgb(235,238,242)\"}, \"colors\": [\"rgb(230,100,45)\"], \"subdistricts\": [{\"name\": \"广东省\", \"dataValue\": \"15.8\"}, {\"name\": \"江苏省\", \"dataValue\": \"12.3\"}, {\"name\": \"浙江省\", \"dataValue\": \"9.7\"}, {\"name\": \"山东省\", \"dataValue\": \"8.4\"}, {\"name\": \"北京市\", \"dataValue\": \"7.2\"}]}, \"width\": 1200, \"height\": 750}}, \"content\": [{\"type\": \"text\", \"text\": \"```vis-chart\\n{\\\"type\\\":\\\"district-map\\\",\\\"title\\\":\\\"2025年省级销售分布\\\",\\\"data\\\":{\\\"name\\\":\\\"中国\\\",\\\"dataType\\\":\\\"number\\\",\\\"dataLabel\\\":\\\"销售额\\\",\\\"dataValueUnit\\\":\\\"百万元人民币\\\",\\\"showAllSubdistricts\\\":true,\\\"style\\\":{\\\"fillColor\\\":\\\"rgb(235,238,242)\\\"},\\\"colors\\\":[\\\"rgb(230,100,45)\\\"],\\\"subdistricts\\\":[{\\\"name\\\":\\\"广东省\\\",\\\"dataValue\\\":\\\"15.8\\\"},{\\\"name\\\":\\\"江苏省\\\",\\\"dataValue\\\":\\\"12.3\\\"},{\\\"name\\\":\\\"浙江省\\\",\\\"dataValue\\\":\\\"9.7\\\"},{\\\"name\\\":\\\"山东省\\\",\\\"dataValue\\\":\\\"8.4\\\"},{\\\"name\\\":\\\"北京市\\\",\\\"dataValue\\\":\\\"7.2\\\"}]},\\\"width\\\":1200,\\\"height\\\":750}\\n```\"}], \"isError\": false}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "agent_6c4455328a924cba864adae933677c7b_1",
+      "content": "{\"meta\": {\"description\": \"This is the chart's spec and configuration, which can be renderred to corresponding chart by AntV GPT-Vis chart components.\", \"spec\": {\"type\": \"area\", \"data\": [{\"time\": \"2025-01\", \"value\": 1.2}, {\"time\": \"2025-02\", \"value\": 1.1}, {\"time\": \"2025-03\", \"value\": 1.4}, {\"time\": \"2025-04\", \"value\": 1.6}, {\"time\": \"2025-05\", \"value\": 1.8}, {\"time\": \"2025-06\", \"value\": 2.1}, {\"time\": \"2025-07\", \"value\": 2.3}, {\"time\": \"2025-08\", \"value\": 2.2}, {\"time\": \"2025-09\", \"value\": 2.5}, {\"time\": \"2025-10\", \"value\": 2.7}, {\"time\": \"2025-11\", \"value\": 3}, {\"time\": \"2025-12\", \"value\": 3.5}], \"stack\": false, \"title\": \"2025年每月销售趋势\", \"axisXTitle\": \"月份\", \"axisYTitle\": \"销售额（百万元人民币）\", \"width\": 1000, \"height\": 500, \"style\": {\"palette\": [\"#2563EB\"], \"backgroundColor\": \"#FFFFFF\", \"lineWidth\": 3}}}, \"content\": [{\"type\": \"text\", \"text\": \"```vis-chart\\n{\\\"type\\\":\\\"area\\\",\\\"data\\\":[{\\\"time\\\":\\\"2025-01\\\",\\\"value\\\":1.2},{\\\"time\\\":\\\"2025-02\\\",\\\"value\\\":1.1},{\\\"time\\\":\\\"2025-03\\\",\\\"value\\\":1.4},{\\\"time\\\":\\\"2025-04\\\",\\\"value\\\":1.6},{\\\"time\\\":\\\"2025-05\\\",\\\"value\\\":1.8},{\\\"time\\\":\\\"2025-06\\\",\\\"value\\\":2.1},{\\\"time\\\":\\\"2025-07\\\",\\\"value\\\":2.3},{\\\"time\\\":\\\"2025-08\\\",\\\"value\\\":2.2},{\\\"time\\\":\\\"2025-09\\\",\\\"value\\\":2.5},{\\\"time\\\":\\\"2025-10\\\",\\\"value\\\":2.7},{\\\"time\\\":\\\"2025-11\\\",\\\"value\\\":3},{\\\"time\\\":\\\"2025-12\\\",\\\"value\\\":3.5}],\\\"stack\\\":false,\\\"title\\\":\\\"2025年每月销售趋势\\\",\\\"axisXTitle\\\":\\\"月份\\\",\\\"axisYTitle\\\":\\\"销售额（百万元人民币）\\\",\\\"width\\\":1000,\\\"height\\\":500,\\\"style\\\":{\\\"palette\\\":[\\\"#2563EB\\\"],\\\"backgroundColor\\\":\\\"#FFFFFF\\\",\\\"lineWidth\\\":3}}\\n```\"}], \"isError\": false}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "agent_6c4455328a924cba864adae933677c7b_2",
+      "content": "{\"meta\": {\"description\": \"This is the chart's spec and configuration, which can be renderred to corresponding chart by AntV GPT-Vis chart components.\", \"spec\": {\"type\": \"column\", \"data\": [{\"category\": \"电子产品\", \"value\": 6.2, \"group\": \"广东\"}, {\"category\": \"电子产品\", \"value\": 4.8, \"group\": \"江苏\"}, {\"category\": \"家用电器\", \"value\": 4.5, \"group\": \"广东\"}, {\"category\": \"家用电器\", \"value\": 3.9, \"group\": \"江苏\"}, {\"category\": \"服装\", \"value\": 5.1, \"group\": \"广东\"}, {\"category\": \"服装\", \"value\": 3.6, \"group\": \"江苏\"}], \"group\": true, \"stack\": false, \"title\": \"2025年各地区主要产品销售对比\", \"axisXTitle\": \"产品类别\", \"axisYTitle\": \"销售额（百万元人民币）\", \"width\": 1000, \"height\": 500, \"style\": {\"palette\": [\"#2563EB\", \"#F59E0B\"], \"backgroundColor\": \"#FFFFFF\"}, \"axis\": {\"y\": {\"labelFormatter\": \".1f\"}}, \"tooltip\": {\"channel\": \"y\", \"valueFormatter\": \".1f\"}}}, \"content\": [{\"type\": \"text\", \"text\": \"```vis-chart\\n{\\\"type\\\":\\\"column\\\",\\\"data\\\":[{\\\"category\\\":\\\"电子产品\\\",\\\"value\\\":6.2,\\\"group\\\":\\\"广东\\\"},{\\\"category\\\":\\\"电子产品\\\",\\\"value\\\":4.8,\\\"group\\\":\\\"江苏\\\"},{\\\"category\\\":\\\"家用电器\\\",\\\"value\\\":4.5,\\\"group\\\":\\\"广东\\\"},{\\\"category\\\":\\\"家用电器\\\",\\\"value\\\":3.9,\\\"group\\\":\\\"江苏\\\"},{\\\"category\\\":\\\"服装\\\",\\\"value\\\":5.1,\\\"group\\\":\\\"广东\\\"},{\\\"category\\\":\\\"服装\\\",\\\"value\\\":3.6,\\\"group\\\":\\\"江苏\\\"}],\\\"group\\\":true,\\\"stack\\\":false,\\\"title\\\":\\\"2025年各地区主要产品销售对比\\\",\\\"axisXTitle\\\":\\\"产品类别\\\",\\\"axisYTitle\\\":\\\"销售额（百万元人民币）\\\",\\\"width\\\":1000,\\\"height\\\":500,\\\"style\\\":{\\\"palette\\\":[\\\"#2563EB\\\",\\\"#F59E0B\\\"],\\\"backgroundColor\\\":\\\"#FFFFFF\\\"},\\\"axis\\\":{\\\"y\\\":{\\\"labelFormatter\\\":\\\".1f\\\"}},\\\"tooltip\\\":{\\\"channel\\\":\\\"y\\\",\\\"valueFormatter\\\":\\\".1f\\\"}}\\n```\"}], \"isError\": false}"
+    }
+  ],
+  "allowed_tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_4abd2802bae7eb6090f002e6",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_area_chart\nGenerate a area chart to show data trends under continuous independent variables and observe the overall data trend, such as, displacement = velocity (average or instantaneous) × time: s = v × t. If the x-axis is time (t) and the y-axis is velocity (v) at each moment, an area chart allows you to observe the trend of velocity over time and infer the distance traveled by the area's size.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "time": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "group": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "time",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for area chart, such as, [{ time: '2018', value: 99.9 }]."
+            },
+            "stack": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether stacking is enabled. When enabled, area charts require a 'group' field in the data."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                },
+                "lineWidth": {
+                  "type": "number",
+                  "description": "Line width for the lines of chart, such as 4."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_62329d5c96a66cab9ef7fe8d",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_bar_chart\nGenerate a horizontal bar chart to show data for numerical comparisons among different categories, such as, comparing categorical data and for horizontal comparisons.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "group": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "category",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for bar chart, such as, [{ category: '分类一', value: 10 }, { category: '分类二', value: 20 }], when grouping or stacking is needed for bar, the data should contain a `group` field, such as, when [{ category: '北京', value: 825, group: '油车' }, { category: '北京', value: 1000, group: '电车' }]."
+            },
+            "group": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether grouping is enabled. When enabled, bar charts require a 'group' field in the data. When `group` is true, `stack` should be false."
+            },
+            "stack": {
+              "type": "boolean",
+              "default": true,
+              "description": "Whether stacking is enabled. When enabled, bar charts require a 'group' field in the data. When `stack` is true, `group` should be false."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            },
+            "axis": {
+              "type": "object",
+              "properties": {
+                "y": {
+                  "type": "object",
+                  "properties": {
+                    "labelFormatter": {
+                      "type": "string",
+                      "description": "Set the label formatter for chart using d3-format syntax: [[fill]align][sign][symbol][0][width][,][.precision][~][type]. Fill: padding character, default is space. Align: '<' left align, '^' center, '>' right align, '=' number right align. Sign: '+' always show sign, '-' show negative sign only, '(' negative in parentheses. Symbol: '#' base prefix, '$' currency symbol. 0: zero padding. Width: minimum width. ,: thousands separator. Precision: precision control. ~: trim trailing zeros. Type: format type. Common types: 'd' integer (42), 'f' fixed decimals (42.00), 'e' scientific notation (4.2e+1), 's' SI prefix (42k, 1.5M), '%' percentage (42%), '$' currency ($42.00), 'r' significant digits (42.0), 'g' general (42). Examples: '.2f' fixed 2 decimals (23.45), '.0f' integer (23), '.1%' percentage (23.4%), ',.0f' thousands separator (1,234,567), 's' SI prefix (1.2M, 3.4k), '.1s' 1 decimal SI (1.2M, 3.4k), '~s' trimmed SI (1.2M, 3k), '.0s' integer SI (1M, 3k), '$,.2f' currency ($1,234.56), '$.2s' currency SI ($1.23M), '.2e' scientific (1.23e+6), '.2g' general (1.2e+6 or 1234), 'd' decimal (1234), 'x' hexadecimal (4d2), 'o' octal (2322), 'b' binary (10011010010)."
+                    }
+                  },
+                  "description": "Axis configuration for the chart y-axis, optional."
+                }
+              },
+              "description": "Axis configuration for the chart with a JSON object, optional."
+            },
+            "tooltip": {
+              "type": "object",
+              "properties": {
+                "channel": {
+                  "type": "string",
+                  "const": "y"
+                },
+                "valueFormatter": {
+                  "type": "string",
+                  "description": "Set the label formatter for chart using d3-format syntax: [[fill]align][sign][symbol][0][width][,][.precision][~][type]. Fill: padding character, default is space. Align: '<' left align, '^' center, '>' right align, '=' number right align. Sign: '+' always show sign, '-' show negative sign only, '(' negative in parentheses. Symbol: '#' base prefix, '$' currency symbol. 0: zero padding. Width: minimum width. ,: thousands separator. Precision: precision control. ~: trim trailing zeros. Type: format type. Common types: 'd' integer (42), 'f' fixed decimals (42.00), 'e' scientific notation (4.2e+1), 's' SI prefix (42k, 1.5M), '%' percentage (42%), '$' currency ($42.00), 'r' significant digits (42.0), 'g' general (42). Examples: '.2f' fixed 2 decimals (23.45), '.0f' integer (23), '.1%' percentage (23.4%), ',.0f' thousands separator (1,234,567), 's' SI prefix (1.2M, 3.4k), '.1s' 1 decimal SI (1.2M, 3.4k), '~s' trimmed SI (1.2M, 3k), '.0s' integer SI (1M, 3k), '$,.2f' currency ($1,234.56), '$.2s' currency SI ($1.23M), '.2e' scientific (1.23e+6), '.2g' general (1.2e+6 or 1234), 'd' decimal (1234), 'x' hexadecimal (4d2), 'o' octal (2322), 'b' binary (10011010010)."
+                }
+              },
+              "required": [
+                "channel"
+              ],
+              "description": "设置默认的tooltip，使用d3格式化方式,尤其涉及百分比，千分位，例如: {channel: 'y', valueFormatter: ',.0f'}"
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_d1fa49c8a0c88d0ef9abcf45",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_boxplot_chart\nGenerate a boxplot chart to show data for statistical summaries among different categories, such as, comparing the distribution of data points across categories.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string",
+                    "description": "Category of the data point, such as '分类一'."
+                  },
+                  "value": {
+                    "type": "number",
+                    "description": "Value of the data point, such as 10."
+                  },
+                  "group": {
+                    "type": "string",
+                    "description": "Optional group for the data point, used for grouping in the boxplot."
+                  }
+                },
+                "required": [
+                  "category",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for boxplot chart, such as, [{ category: '分类一', value: 10 }] or [{ category: '分类二', value: 20, group: '组别一' }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_6e9dabb27c0444ca64d11455",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_column_chart\nGenerate a column chart, which are best for comparing categorical data, such as, when values are close, column charts are preferable because our eyes are better at judging height than other visual elements like area or angles.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "group": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "category",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for column chart, such as, [{ category: '分类一', value: 10 }, { category: '分类二', value: 20 }], when grouping or stacking is needed for column, the data should contain a `group` field, such as, when [{ category: '北京', value: 825, group: '油车' }, { category: '北京', value: 1000, group: '电车' }]."
+            },
+            "group": {
+              "type": "boolean",
+              "default": true,
+              "description": "Whether grouping is enabled. When enabled, column charts require a 'group' field in the data. When `group` is true, `stack` should be false."
+            },
+            "stack": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether stacking is enabled. When enabled, column charts require a 'group' field in the data. When `stack` is true, `group` should be false."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            },
+            "axis": {
+              "type": "object",
+              "properties": {
+                "y": {
+                  "type": "object",
+                  "properties": {
+                    "labelFormatter": {
+                      "type": "string",
+                      "description": "Set the label formatter for chart using d3-format syntax: [[fill]align][sign][symbol][0][width][,][.precision][~][type]. Fill: padding character, default is space. Align: '<' left align, '^' center, '>' right align, '=' number right align. Sign: '+' always show sign, '-' show negative sign only, '(' negative in parentheses. Symbol: '#' base prefix, '$' currency symbol. 0: zero padding. Width: minimum width. ,: thousands separator. Precision: precision control. ~: trim trailing zeros. Type: format type. Common types: 'd' integer (42), 'f' fixed decimals (42.00), 'e' scientific notation (4.2e+1), 's' SI prefix (42k, 1.5M), '%' percentage (42%), '$' currency ($42.00), 'r' significant digits (42.0), 'g' general (42). Examples: '.2f' fixed 2 decimals (23.45), '.0f' integer (23), '.1%' percentage (23.4%), ',.0f' thousands separator (1,234,567), 's' SI prefix (1.2M, 3.4k), '.1s' 1 decimal SI (1.2M, 3.4k), '~s' trimmed SI (1.2M, 3k), '.0s' integer SI (1M, 3k), '$,.2f' currency ($1,234.56), '$.2s' currency SI ($1.23M), '.2e' scientific (1.23e+6), '.2g' general (1.2e+6 or 1234), 'd' decimal (1234), 'x' hexadecimal (4d2), 'o' octal (2322), 'b' binary (10011010010)."
+                    }
+                  },
+                  "description": "Axis configuration for the chart y-axis, optional."
+                }
+              },
+              "description": "Axis configuration for the chart with a JSON object, optional."
+            },
+            "tooltip": {
+              "type": "object",
+              "properties": {
+                "channel": {
+                  "type": "string",
+                  "const": "y"
+                },
+                "valueFormatter": {
+                  "type": "string",
+                  "description": "Set the label formatter for chart using d3-format syntax: [[fill]align][sign][symbol][0][width][,][.precision][~][type]. Fill: padding character, default is space. Align: '<' left align, '^' center, '>' right align, '=' number right align. Sign: '+' always show sign, '-' show negative sign only, '(' negative in parentheses. Symbol: '#' base prefix, '$' currency symbol. 0: zero padding. Width: minimum width. ,: thousands separator. Precision: precision control. ~: trim trailing zeros. Type: format type. Common types: 'd' integer (42), 'f' fixed decimals (42.00), 'e' scientific notation (4.2e+1), 's' SI prefix (42k, 1.5M), '%' percentage (42%), '$' currency ($42.00), 'r' significant digits (42.0), 'g' general (42). Examples: '.2f' fixed 2 decimals (23.45), '.0f' integer (23), '.1%' percentage (23.4%), ',.0f' thousands separator (1,234,567), 's' SI prefix (1.2M, 3.4k), '.1s' 1 decimal SI (1.2M, 3.4k), '~s' trimmed SI (1.2M, 3k), '.0s' integer SI (1M, 3k), '$,.2f' currency ($1,234.56), '$.2s' currency SI ($1.23M), '.2e' scientific (1.23e+6), '.2g' general (1.2e+6 or 1234), 'd' decimal (1234), 'x' hexadecimal (4d2), 'o' octal (2322), 'b' binary (10011010010)."
+                }
+              },
+              "required": [
+                "channel"
+              ],
+              "description": "设置默认的tooltip，使用d3格式化方式,尤其涉及百分比，千分位，例如: {channel: 'y', valueFormatter: ',.0f'}"
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_6fc35a20b85a31efdb2182ef",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_district_map\nGenerates regional distribution maps, which are usually used to show the administrative divisions and coverage of a dataset. It is not suitable for showing the distribution of specific locations, such as urban administrative divisions, GDP distribution maps of provinces and cities across the country, etc. This tool is limited to generating data maps within China.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "The map title should not exceed 16 characters. The content should be consistent with the information the map wants to convey and should be accurate, rich, creative, and attractive."
+            },
+            "data": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Keywords for the Chinese name of an administrative region (must be within China), and must be one of China, province, city, district, or county. The name should be more specific and add attributive descriptions, for example, \"西安市\" is better than \"西安\", \"杭州西湖区\" is better than \"西湖区\". It cannot be a specific place name or a vague name, such as \"其它\"."
+                },
+                "style": {
+                  "type": "object",
+                  "properties": {
+                    "fillColor": {
+                      "type": "string",
+                      "description": "Fill color, rgb or rgba format."
+                    }
+                  },
+                  "description": "Style settings."
+                },
+                "colors": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": [
+                    "#1783FF",
+                    "#00C9C9",
+                    "#F0884D",
+                    "#D580FF",
+                    "#7863FF",
+                    "#60C42D",
+                    "#BD8F24",
+                    "#FF80CA",
+                    "#2491B3",
+                    "#17C76F"
+                  ],
+                  "description": "Data color list, in rgb or rgba format."
+                },
+                "dataType": {
+                  "type": "string",
+                  "enum": [
+                    "number",
+                    "enum"
+                  ],
+                  "description": "The type of the data value, numeric or enumeration type"
+                },
+                "dataLabel": {
+                  "type": "string",
+                  "description": "Data label, such as \"GDP\""
+                },
+                "dataValue": {
+                  "type": "string",
+                  "description": "Data value, numeric string or enumeration string."
+                },
+                "dataValueUnit": {
+                  "type": "string",
+                  "description": "Data unit, such as \"万亿\""
+                },
+                "showAllSubdistricts": {
+                  "type": "boolean",
+                  "default": false,
+                  "description": "Whether to display all subdistricts."
+                },
+                "subdistricts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "description": "Keywords for the Chinese name of an administrative region (must be within China), and must be one of China, province, city, district, or county. The name should be more specific and add attributive descriptions, for example, \"西安市\" is better than \"西安\", \"杭州西湖区\" is better than \"西湖区\". It cannot be a specific place name or a vague name, such as \"其它\"."
+                      },
+                      "dataValue": {
+                        "type": "string",
+                        "description": "Data value, numeric string or enumeration string."
+                      },
+                      "style": {
+                        "type": "object",
+                        "properties": {
+                          "fillColor": {
+                            "type": "string",
+                            "description": "Fill color, rgb or rgba format."
+                          }
+                        },
+                        "description": "Style settings."
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  },
+                  "description": "Sub-administrative regions are used to display the regional composition or regional distribution of related data."
+                }
+              },
+              "required": [
+                "name"
+              ],
+              "description": "Administrative division data, lower-level administrative divisions are optional. There are usually two scenarios: one is to simply display the regional composition, only `fillColor` needs to be configured, and all administrative divisions are consistent, representing that all blocks are connected as one; the other is the regional data distribution scenario, first determine the `dataType`, `dataValueUnit` and `dataLabel` configurations, `dataValue` should be a meaningful value and consistent with the meaning of dataType, and then determine the style configuration. The `fillColor` configuration represents the default fill color for areas without data. Lower-level administrative divisions do not need `fillColor` configuration, and their fill colors are determined by the `colors` configuration (If `dataType` is \"number\", only one base color (warm color) is needed in the list to calculate the continuous data mapping color band; if `dataType` is \"enum\", the number of color values in the list is equal to the number of enumeration values (contrast colors)). If `subdistricts` has a value, `showAllSubdistricts` must be set to true. For example, {\"title\": \"陕西省地级市分布图\", \"data\": {\"name\": \"陕西省\", \"showAllSubdistricts\": true, \"dataLabel\": \"城市\", \"dataType\": \"enum\", \"colors\": [\"#4ECDC4\", \"#A5D8FF\"], \"subdistricts\": [{\"name\": \"西安市\", \"dataValue\": \"省会\"}, {\"name\": \"宝鸡市\", \"dataValue\": \"地级市\"}, {\"name\": \"咸阳市\", \"dataValue\": \"地级市\"}, {\"name\": \"铜川市\", \"dataValue\": \"地级市\"}, {\"name\": \"渭南市\", \"dataValue\": \"地级市\"}, {\"name\": \"延安市\", \"dataValue\": \"地级市\"}, {\"name\": \"榆林市\", \"dataValue\": \"地级市\"}, {\"name\": \"汉中市\", \"dataValue\": \"地级市\"}, {\"name\": \"安康市\", \"dataValue\": \"地级市\"}, {\"name\": \"商洛市\", \"dataValue\": \"地级市\"}]}, \"width\": 1000, \"height\": 1000}."
+            },
+            "width": {
+              "type": "number",
+              "default": 1600,
+              "description": "Set the width of map, default is 1600."
+            },
+            "height": {
+              "type": "number",
+              "default": 1000,
+              "description": "Set the height of map, default is 1000."
+            }
+          },
+          "required": [
+            "title",
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_70d7924e0d309d5540d3dcc1",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_dual_axes_chart\nGenerate a dual axes chart which is a combination chart that integrates two different chart types, typically combining a bar chart with a line chart to display both the trend and comparison of data, such as, the trend of sales and profit over time.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "description": "Categories for dual axes chart, such as, ['2015', '2016', '2017']."
+            },
+            "series": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "column",
+                      "line"
+                    ],
+                    "description": "The optional value can be 'column' or 'line'."
+                  },
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    },
+                    "description": "When type is column, the data represents quantities, such as [91.9, 99.1, 101.6, 114.4, 121]. When type is line, the data represents ratios and its values are recommended to be less than 1, such as [0.055, 0.06, 0.062, 0.07, 0.075]."
+                  },
+                  "axisYTitle": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Set the y-axis title of the chart series, such as, axisYTitle: '销售额'."
+                  }
+                },
+                "required": [
+                  "type",
+                  "data"
+                ]
+              },
+              "minItems": 1,
+              "description": "Series for dual axes chart, such as, [{ type: 'column', data: [91.9, 99.1, 101.6, 114.4, 121], axisYTitle: '销售额' }, { type: 'line', data: [0.055, 0.06, 0.062, 0.07, 0.075], 'axisYTitle': '利润率' }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            }
+          },
+          "required": [
+            "categories",
+            "series"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_255deca1dcf826ee08e7fb86",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_fishbone_diagram\nGenerate a fishbone diagram chart to uses a fish skeleton, like structure to display the causes or effects of a core problem, with the problem as the fish head and the causes/effects as the fish bones. It suits problems that can be split into multiple related factors.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "children": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "name"
+                                ]
+                              }
+                            }
+                          },
+                          "required": [
+                            "name"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "name"
+              ],
+              "description": "Data for fishbone diagram chart which is a hierarchical structure, such as, { name: 'main topic', children: [{ name: 'topic 1', children: [{ name: 'subtopic 1-1' }] }] }, and the maximum depth is 3."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_aef85a53af52ccdbacaa6996",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_flow_diagram\nGenerate a flow diagram chart to show the steps and decision points of a process or system, such as, scenarios requiring linear process presentation.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "nodes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  },
+                  "minItems": 1
+                },
+                "edges": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "source": {
+                        "type": "string"
+                      },
+                      "target": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string",
+                        "default": ""
+                      }
+                    },
+                    "required": [
+                      "source",
+                      "target"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "nodes",
+                "edges"
+              ],
+              "description": "Data for flow diagram chart, such as, { nodes: [{ name: 'node1' }, { name: 'node2' }], edges: [{ source: 'node1', target: 'node2', name: 'edge1' }] }."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_1732256b1cc59f0c35dc649c",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_funnel_chart\nGenerate a funnel chart to visualize the progressive reduction of data as it passes through stages, such as, the conversion rates of users from visiting a website to completing a purchase.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "category",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for funnel chart, such as, [{ category: '浏览网站', value: 50000 }, { category: '放入购物车', value: 35000 }, { category: '生成订单', value: 25000 }, { category: '支付订单', value: 15000 }, { category: '完成交易', value: 8000 }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_115410a98d964573fe621401",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_heatmap_chart\nGenerate a heatmap chart to visualize data through variations in coloring within a matrix. Suitable for showing patterns, correlations, or intensity in 2-dimensional data.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": [
+                      "number",
+                      "string"
+                    ],
+                    "description": "X coordinate or category"
+                  },
+                  "y": {
+                    "type": [
+                      "number",
+                      "string"
+                    ],
+                    "description": "Y coordinate or category"
+                  },
+                  "value": {
+                    "type": "number",
+                    "description": "Value for the heatmap cell"
+                  }
+                },
+                "required": [
+                  "x",
+                  "y",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for heatmap chart, such as, [{ x: 1, y: 1, value: 10 }, { x: 1, y: 2, value: 20 }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_1fc1dc18f1681387c1de9db5",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_histogram_chart\nGenerate a histogram chart to show the frequency of data points within a certain range. It can observe data distribution, such as, normal and skewed distributions, and identify data concentration areas and extreme points.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 1,
+              "description": "Data for histogram chart, it should be an array of numbers, such as, [78, 88, 60, 100, 95]."
+            },
+            "binNumber": {
+              "type": "number",
+              "description": "Number of intervals to define the number of intervals in a histogram, when not specified, a built-in value will be used."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_0362e8b3250d7a3f0ce9788e",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_indented_tree\nGenerate an indented tree chart to display hierarchical data in an indented outline format, suitable for showing organizational structures, file directories, or any tree-like data where nesting levels are represented by indentation.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "children": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "name"
+                                ]
+                              }
+                            }
+                          },
+                          "required": [
+                            "name"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "name"
+              ],
+              "description": "Data for indented tree chart which is a hierarchical structure, such as, { name: 'main topic', children: [{ name: 'topic 1', children: [{ name: 'subtopic 1-1' }] }] }, and the maximum depth is 3."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_bc4fa699d17b1ee9156bdd1e",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_line_chart\nGenerate a line chart to show trends over time, such as, the ratio of Apple computer sales to Apple's profits changed from 2000 to 2016.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "time": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "group": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "time",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for line chart, it should be an array of objects, each object contains a `time` field and a `value` field, such as, [{ time: '2015', value: 23 }, { time: '2016', value: 32 }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                },
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "lineWidth": {
+                  "type": "number",
+                  "description": "Line width for the lines of chart, such as 4."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_cc61b31c4c87f35f5935a5c0",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_liquid_chart\nGenerate a liquid chart to visualize a single value as a percentage, such as, the current occupancy rate of a reservoir or the completion percentage of a project.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "The percentage value to display in the liquid chart, should be a number between 0 and 1, where 1 represents 100%. For example, 0.75 represents 75%."
+            },
+            "shape": {
+              "type": "string",
+              "enum": [
+                "circle",
+                "rect",
+                "pin",
+                "triangle"
+              ],
+              "default": "circle",
+              "description": "The shape of the liquid chart, can be 'circle', 'rect', 'pin', or 'triangle'. Default is 'circle'."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                },
+                "color": {
+                  "type": "string",
+                  "description": "Custom color for the liquid chart, if not specified, defaults to the theme color."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "percent"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_5aac161b47563fe9a6655901",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_mind_map\nGenerate a mind map chart to organizes and presents information in a hierarchical structure with branches radiating from a central topic, such as, a diagram showing the relationship between a main topic and its subtopics.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "children": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "name"
+                                ]
+                              }
+                            }
+                          },
+                          "required": [
+                            "name"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "name"
+              ],
+              "description": "Data for mind map chart which is a hierarchical structure, such as, { name: 'main topic', children: [{ name: 'topic 1', children: [{ name:'subtopic 1-1' }] }, and the maximum depth is 3."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_0a2f5afc8f863758c347c3e5",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_network_graph\nGenerate a network graph chart to show relationships (edges) between entities (nodes), such as, relationships between people in social networks.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "nodes": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  },
+                  "minItems": 1
+                },
+                "edges": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "source": {
+                        "type": "string"
+                      },
+                      "target": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string",
+                        "default": ""
+                      }
+                    },
+                    "required": [
+                      "source",
+                      "target"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "nodes",
+                "edges"
+              ],
+              "description": "Data for network graph chart, such as, { nodes: [{ name: 'node1' }, { name: 'node2' }], edges: [{ source: 'node1', target: 'node2', name: 'edge1' }] }"
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_b35feee630354b43650181b4",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_organization_chart\nGenerate an organization chart to visualize the hierarchical structure of an organization, such as, a diagram showing the relationship between a CEO and their direct reports.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "children": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "description": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [
+                                  "name"
+                                ]
+                              }
+                            }
+                          },
+                          "required": [
+                            "name"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "name"
+              ],
+              "description": "Data for organization chart which is a hierarchical structure, such as, { name: 'CEO', description: 'Chief Executive Officer', children: [{ name: 'CTO', description: 'Chief Technology Officer', children: [{ name: 'Dev Manager', description: 'Development Manager' }] }] }, and the maximum depth is 3."
+            },
+            "orient": {
+              "type": "string",
+              "enum": [
+                "horizontal",
+                "vertical"
+              ],
+              "default": "vertical",
+              "description": "Orientation of the organization chart, either horizontal or vertical. Default is vertical, when the level of the chart is more than 3, it is recommended to use horizontal orientation."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_509899dd337623a6431395d7",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_path_map\nGenerate a route map to display the user's planned route, such as travel guide routes.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "The map title should not exceed 16 characters. The content should be consistent with the information the map wants to convey and should be accurate, rich, creative, and attractive."
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "minItems": 1,
+                    "description": "A list of keywords for the names of points of interest (POIs) in Chinese. These POIs usually contain a group of places with similar locations, so the names should be more descriptive, must adding attributives to indicate that they are different places in the same area, such as \"北京市\" is better than \"北京\", \"杭州西湖\" is better than \"西湖\"; in addition, if you can determine that a location may appear in multiple areas, you can be more specific, such as \"杭州西湖的苏堤春晓\" is better than \"苏堤春晓\". The tool will use these keywords to search for specific POIs and query their detailed data, such as latitude and longitude, location photos, etc. For example, [\"西安钟楼\", \"西安大唐不夜城\", \"西安大雁塔\"]."
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "description": "The route and places along it."
+              },
+              "minItems": 1,
+              "description": "Routes, each group represents all POIs along a route. For example, [{ \"data\": [\"西安钟楼\", \"西安大唐不夜城\", \"西安大雁塔\"] }, { \"data\": [\"西安曲江池公园\", \"西安回民街\"] }]"
+            },
+            "width": {
+              "type": "number",
+              "default": 1600,
+              "description": "Set the width of map, default is 1600."
+            },
+            "height": {
+              "type": "number",
+              "default": 1000,
+              "description": "Set the height of map, default is 1000."
+            }
+          },
+          "required": [
+            "title",
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_8f587060d9f7d336c5e41eb2",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_pie_chart\nGenerate a pie chart to show the proportion of parts, such as, market share and budget allocation.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "category",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for pie chart, it should be an array of objects, each object contains a `category` field and a `value` field, such as, [{ category: '分类一', value: 27 }]."
+            },
+            "innerRadius": {
+              "type": "number",
+              "default": 0,
+              "description": "Set the innerRadius of pie chart, the value between 0 and 1. Set the pie chart as a donut chart. Set the value to 0.6 or number in [0 ,1] to enable it."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_64ad1a621e193143f563520c",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_pin_map\nGenerate a point map to display the location and distribution of point data on the map, such as the location distribution of attractions, hospitals, supermarkets, etc.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "The map title should not exceed 16 characters. The content should be consistent with the information the map wants to convey and should be accurate, rich, creative, and attractive."
+            },
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "description": "A list of keywords for the names of points of interest (POIs) in Chinese. These POIs usually contain a group of places with similar locations, so the names should be more descriptive, must adding attributives to indicate that they are different places in the same area, such as \"北京市\" is better than \"北京\", \"杭州西湖\" is better than \"西湖\"; in addition, if you can determine that a location may appear in multiple areas, you can be more specific, such as \"杭州西湖的苏堤春晓\" is better than \"苏堤春晓\". The tool will use these keywords to search for specific POIs and query their detailed data, such as latitude and longitude, location photos, etc. For example, [\"西安钟楼\", \"西安大唐不夜城\", \"西安大雁塔\"]."
+            },
+            "markerPopup": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "default": "image",
+                  "description": "Must be \"image\"."
+                },
+                "width": {
+                  "type": "number",
+                  "default": 40,
+                  "description": "Width of the photo."
+                },
+                "height": {
+                  "type": "number",
+                  "default": 40,
+                  "description": "Height of the photo."
+                },
+                "borderRadius": {
+                  "type": "number",
+                  "default": 8,
+                  "description": "Border radius of the photo."
+                }
+              },
+              "description": "Marker type, one is simple mode, which is just an icon and does not require `markerPopup` configuration; the other is image mode, which displays location photos and requires `markerPopup` configuration. Among them, `width`/`height`/`borderRadius` can be combined to realize rectangular photos and square photos. In addition, when `borderRadius` is half of the width and height, it can also be a circular photo."
+            },
+            "width": {
+              "type": "number",
+              "default": 1600,
+              "description": "Set the width of map, default is 1600."
+            },
+            "height": {
+              "type": "number",
+              "default": 1000,
+              "description": "Set the height of map, default is 1000."
+            }
+          },
+          "required": [
+            "title",
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_f4eff7656a742157f6628757",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_radar_chart\nGenerate a radar chart to display multidimensional data (four dimensions or more), such as, evaluate Huawei and Apple phones in terms of five dimensions: ease of use, functionality, camera, benchmark scores, and battery life.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "group": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for radar chart, it should be an array of objects, each object contains a `name` field and a `value` field, such as, [{ name: 'Design', value: 70 }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                },
+                "lineWidth": {
+                  "type": "number",
+                  "description": "Line width for the lines of chart, such as 4."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_262a92d9c64dea53cdb5b217",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_sankey_chart\nGenerate a sankey chart to visualize the flow of data between different stages or categories, such as, the user journey from landing on a page to completing a purchase.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "source": {
+                    "type": "string"
+                  },
+                  "target": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "source",
+                  "target",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Date for sankey chart, such as, [{ source: 'Landing Page', target: 'Product Page', value: 50000 }, { source: 'Product Page', target: 'Add to Cart', value: 35000 }, { source: 'Add to Cart', target: 'Checkout', value: 25000 }, { source: 'Checkout', target: 'Payment', value: 15000 }, { source: 'Payment', target: 'Purchase Completed', value: 8000 }]."
+            },
+            "nodeAlign": {
+              "type": "string",
+              "enum": [
+                "left",
+                "right",
+                "justify",
+                "center"
+              ],
+              "default": "center",
+              "description": "Alignment of nodes in the sankey chart, such as, 'left', 'right', 'justify', or 'center'."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_806cec9bbe611350a8f70385",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_scatter_chart\nGenerate a scatter chart to show the relationship between two variables, helps discover their relationship or trends, such as, the strength of correlation, data distribution patterns.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number"
+                  },
+                  "y": {
+                    "type": "number"
+                  },
+                  "group": {
+                    "type": "string",
+                    "description": "Group name for the data point."
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for scatter chart, such as, [{ x: 10, y: 15 }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_f8d5eff80965ec6acde9ebc1",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_table\nGenerate a table chart to display structured data in rows and columns, suitable for presenting detailed information and precise values.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              "minItems": 1,
+              "description": "Data for table chart, such as, [{ \"Name\": \"胡彦斌\", \"Age\": 32, \"Address\": \"西湖区湖底公园1号\" }, { \"Name\": \"吴彦祖\", \"Age\": 42, \"Address\": \"西湖区湖底公园1号\" }]. Each item in the array represents a row, and the keys of each item represent the column names."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_407a1d917601cf5229a96a41",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_treemap_chart\nGenerate a treemap chart to display hierarchical data and can intuitively show comparisons between items at the same level, such as, show disk space usage with treemap.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "children": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "number"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string"
+                              },
+                              "value": {
+                                "type": "number"
+                              }
+                            },
+                            "required": [
+                              "name",
+                              "value"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "value"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "name",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for treemap chart which is a hierarchical structure, such as, [{ name: 'Design', value: 70, children: [{ name: 'Tech', value: 20 }] }], and the maximum depth is 3."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_c7e8b9acddfb88df86240259",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_venn_chart\nGenerate a Venn diagram to visualize the relationships between different sets, showing how they intersect and overlap, such as the commonalities and differences between various groups.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "description": "Label for the venn chart segment, such as 'A', 'B', or 'C'."
+                  },
+                  "value": {
+                    "type": "number",
+                    "description": "Value for the venn chart segment, such as 10, 20, or 30."
+                  },
+                  "sets": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Array of set names that this segment belongs to, such as ['A', 'B'] for an intersection between sets A and B."
+                  }
+                },
+                "required": [
+                  "value",
+                  "sets"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for venn chart, such as, [{ label: 'A', value: 10, sets: ['A'] }, { label: 'B', value: 20, sets: ['B'] }, { label: 'C', value: 30, sets: ['C'] }, { label: 'AB', value: 5, sets: ['A', 'B'] }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_bbb741a7bb17d72934b46822",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_violin_chart\nGenerate a violin chart to show data for statistical summaries among different categories, such as, comparing the distribution of data points across categories.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "category": {
+                    "type": "string",
+                    "description": "Category of the data point, such as '分类一'."
+                  },
+                  "value": {
+                    "type": "number",
+                    "description": "Value of the data point, such as 10."
+                  },
+                  "group": {
+                    "type": "string",
+                    "description": "Optional group for the data point, used for grouping in the violin chart."
+                  }
+                },
+                "required": [
+                  "category",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for violin chart, such as, [{ category: '分类一', value: 10 }] or [{ category: '分类二', value: 20, group: '组别一' }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            },
+            "axisXTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the x-axis title of chart."
+            },
+            "axisYTitle": {
+              "type": "string",
+              "default": "",
+              "description": "Set the y-axis title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "tool_8421eb2e0cc31d90e040ba0f",
+        "description": "Tool identity: @umengfe/mcp-server-chart_1mcp_generate_word_cloud_chart\nGenerate a word cloud chart to show word frequency or weight through text size variation, such as, analyzing common words in social media, reviews, or feedback.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "text",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "description": "Data for word cloud chart, it should be an array of objects, each object contains a `text` field and a `value` field, such as, [{ value: 4.272, text: '形成' }]."
+            },
+            "style": {
+              "type": "object",
+              "properties": {
+                "backgroundColor": {
+                  "type": "string",
+                  "description": "Background color of the chart, such as, '#fff'."
+                },
+                "palette": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Color palette for the chart, it is a collection of colors."
+                },
+                "texture": {
+                  "type": "string",
+                  "enum": [
+                    "default",
+                    "rough"
+                  ],
+                  "default": "default",
+                  "description": "Set the texture for the chart, optional, default is 'default'. 'rough' refers to hand-drawn style."
+                }
+              },
+              "description": "Style configuration for the chart with a JSON object, optional."
+            },
+            "theme": {
+              "type": "string",
+              "enum": [
+                "default",
+                "academy",
+                "dark"
+              ],
+              "default": "default",
+              "description": "Set the theme for the chart, optional, default is 'default'."
+            },
+            "width": {
+              "type": "number",
+              "default": 600,
+              "description": "Set the width of chart, default is 600."
+            },
+            "height": {
+              "type": "number",
+              "default": 400,
+              "description": "Set the height of chart, default is 400."
+            },
+            "title": {
+              "type": "string",
+              "default": "",
+              "description": "Set the title of chart."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "$schema": "http://json-schema.org/draft-07/schema#"
+        }
+      }
+    }
+  ],
+  "response_rules": "Return JSON content and tool_calls. Each call has an allowed name and arguments encoded as a JSON object string. Propose only supplied tools. Use an empty tool_calls array when finished, with a final answer grounded in observed results. Do not execute tools yourself."
+}

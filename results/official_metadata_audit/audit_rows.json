@@ -1,0 +1,306 @@
+[
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 1,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "math-mcp__validate_syntax"
+    ],
+    "adaptation_seconds": 0.00036408298183232546,
+    "target_tool_json_bytes": 1109,
+    "target_harness_json_bytes": 1409
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "batch_review",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "@j0kz/smart-reviewer-mcp__batch_review"
+    ],
+    "adaptation_seconds": 0.00020820804638788104,
+    "target_tool_json_bytes": 834,
+    "target_harness_json_bytes": 1163
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "saleskit-mcp__clientOcrEntry"
+    ],
+    "adaptation_seconds": 0.0002627079957164824,
+    "target_tool_json_bytes": 1478,
+    "target_harness_json_bytes": 1785
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 1,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "giisp-openlibrary-mcp__searchBooks"
+    ],
+    "adaptation_seconds": 0.00025329203344881535,
+    "target_tool_json_bytes": 953,
+    "target_harness_json_bytes": 1275
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 1,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "clojars-deps-server__get_clojars_history"
+    ],
+    "adaptation_seconds": 0.0002312079886905849,
+    "target_tool_json_bytes": 1201,
+    "target_harness_json_bytes": 1527
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "claude-faf-mcp",
+    "tool": "faf_readme",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [],
+    "adaptation_seconds": 0.00013166700955480337,
+    "target_tool_json_bytes": 706,
+    "target_harness_json_bytes": 1013
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "review_file",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "@j0kz/smart-reviewer-mcp__review_file"
+    ],
+    "adaptation_seconds": 0.00022679101675748825,
+    "target_tool_json_bytes": 702,
+    "target_harness_json_bytes": 1030
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 1,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "mcp-maven-deps__get_latest_release"
+    ],
+    "adaptation_seconds": 0.00018558301962912083,
+    "target_tool_json_bytes": 919,
+    "target_harness_json_bytes": 1234
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 1,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "clojars-deps-server__get_clojars_history"
+    ],
+    "adaptation_seconds": 0.00017566594760864973,
+    "target_tool_json_bytes": 753,
+    "target_harness_json_bytes": 1079
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "math-mcp__validate_syntax"
+    ],
+    "adaptation_seconds": 0.00015183305367827415,
+    "target_tool_json_bytes": 548,
+    "target_harness_json_bytes": 848
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "slidev-mcp",
+    "tool": "create_bulk_slides",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "slidev-mcp__create_bulk_slides"
+    ],
+    "adaptation_seconds": 0.00029204104794189334,
+    "target_tool_json_bytes": 1276,
+    "target_harness_json_bytes": 1583
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "plantuml-mcp-server__generate_plantuml_diagram"
+    ],
+    "adaptation_seconds": 0.0003014579997397959,
+    "target_tool_json_bytes": 1614,
+    "target_harness_json_bytes": 1946
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@itseasy21/mcp-knowledge-graph",
+    "tool": "create_entities",
+    "hunk_index": 1,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "@itseasy21/mcp-knowledge-graph__create_entities"
+    ],
+    "adaptation_seconds": 0.0002650830429047346,
+    "target_tool_json_bytes": 975,
+    "target_harness_json_bytes": 1319
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "giisp-openlibrary-mcp__searchBooks"
+    ],
+    "adaptation_seconds": 0.0002057079691439867,
+    "target_tool_json_bytes": 690,
+    "target_harness_json_bytes": 1012
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "review_file",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "@j0kz/smart-reviewer-mcp__review_file"
+    ],
+    "adaptation_seconds": 0.00022354203974828124,
+    "target_tool_json_bytes": 937,
+    "target_harness_json_bytes": 1265
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "get_time_info",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "@guanxiong/mcp-server-time__get_time_info"
+    ],
+    "adaptation_seconds": 0.0001639170222915709,
+    "target_tool_json_bytes": 663,
+    "target_harness_json_bytes": 997
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 0,
+    "changed_tool_matches_target": true,
+    "unchanged_control_preserved": true,
+    "global_rules_preserved": true,
+    "source_input_unchanged": true,
+    "idempotent": true,
+    "affected": [
+      "@hugeicons/mcp-server__search_icons"
+    ],
+    "adaptation_seconds": 0.00016941700596362352,
+    "target_tool_json_bytes": 828,
+    "target_harness_json_bytes": 1151
+  }
+]

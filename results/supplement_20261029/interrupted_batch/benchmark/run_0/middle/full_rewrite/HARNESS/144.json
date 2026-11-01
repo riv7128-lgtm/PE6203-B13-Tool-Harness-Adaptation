@@ -1,0 +1,176 @@
+{
+  "tools": [
+    {
+      "name": "time-mcp_1mcp_convert_time",
+      "description": "Convert a time from one timezone to another.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "sourceTimezone": {
+            "type": "string",
+            "description": "The source timezone of the input time."
+          },
+          "targetTimezone": {
+            "type": "string",
+            "description": "The timezone to convert the input time into."
+          },
+          "time": {
+            "type": "string",
+            "description": "The time value to convert."
+          }
+        },
+        "required": [
+          "sourceTimezone",
+          "targetTimezone",
+          "time"
+        ]
+      },
+      "server": "time-mcp"
+    },
+    {
+      "name": "time-mcp_1mcp_current_time",
+      "description": "Get the current date and time.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "format": {
+            "default": "YYYY-MM-DD HH:mm:ss",
+            "type": "string",
+            "enum": [
+              "h:mm A",
+              "h:mm:ss A",
+              "YYYY-MM-DD HH:mm:ss",
+              "YYYY-MM-DD",
+              "YYYY-MM",
+              "MM/DD/YYYY",
+              "MM/DD/YY",
+              "YYYY/MM/DD",
+              "YYYY/MM"
+            ]
+          },
+          "timezone": {
+            "type": "string"
+          }
+        }
+      },
+      "server": "time-mcp"
+    },
+    {
+      "name": "time-mcp_1mcp_days_in_month",
+      "description": "Get the number of days in a month. If no date is provided, get the number of days in the current month.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          }
+        }
+      },
+      "server": "time-mcp"
+    },
+    {
+      "name": "time-mcp_1mcp_get_timestamp",
+      "description": "Get the timestamp for the time.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "time": {
+            "type": "string"
+          }
+        }
+      },
+      "server": "time-mcp"
+    },
+    {
+      "name": "time-mcp_1mcp_get_week_year",
+      "description": "Get the week and isoWeek of the year.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          }
+        }
+      },
+      "server": "time-mcp"
+    },
+    {
+      "name": "time-mcp_1mcp_relative_time",
+      "description": "Get the relative time from now.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "time": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "time"
+        ]
+      },
+      "server": "time-mcp"
+    },
+    {
+      "name": "time_1mcp_convert_time",
+      "description": "Convert time between timezones",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_timezone": {
+            "type": "string",
+            "description": "Source IANA timezone name (e.g., 'America/New_York', 'Europe/London'). Use 'America/New_York' as local timezone if no source timezone provided by the user."
+          },
+          "time": {
+            "type": "string",
+            "description": "Time to convert in 24-hour format (HH:MM)"
+          },
+          "target_timezone": {
+            "type": "string",
+            "description": "Target IANA timezone name (e.g., 'Asia/Tokyo', 'America/San_Francisco'). Use 'America/New_York' as local timezone if no target timezone provided by the user."
+          }
+        },
+        "required": [
+          "source_timezone",
+          "time",
+          "target_timezone"
+        ]
+      },
+      "server": "time"
+    },
+    {
+      "name": "time_1mcp_get_current_time",
+      "description": "Get current time in a specific timezones",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "timezone": {
+            "type": "string",
+            "description": "IANA timezone name (e.g., 'America/New_York', 'Europe/London'). Use 'America/New_York' as local timezone if no timezone provided by the user."
+          }
+        },
+        "required": [
+          "timezone"
+        ]
+      },
+      "server": "time"
+    }
+  ],
+  "usage_rules": {},
+  "routing": {
+    "time-mcp_1mcp_convert_time": "time-mcp_1mcp_convert_time",
+    "time-mcp_1mcp_current_time": "time-mcp_1mcp_current_time",
+    "time-mcp_1mcp_days_in_month": "time-mcp_1mcp_days_in_month",
+    "time-mcp_1mcp_get_timestamp": "time-mcp_1mcp_get_timestamp",
+    "time-mcp_1mcp_get_week_year": "time-mcp_1mcp_get_week_year",
+    "time-mcp_1mcp_relative_time": "time-mcp_1mcp_relative_time",
+    "time_1mcp_convert_time": "time_1mcp_convert_time",
+    "time_1mcp_get_current_time": "time_1mcp_get_current_time"
+  },
+  "global_rules": []
+}

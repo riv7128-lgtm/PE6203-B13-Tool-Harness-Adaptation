@@ -1,0 +1,143 @@
+{
+  "evidence_kind": "OFFICIAL_SERVER_TRANSPORT_PROBE_NOT_BENCHMARK",
+  "version": "original",
+  "server": "time-mcp",
+  "status": "TRANSPORT_READY",
+  "chart_external_proxy_unreachable": false,
+  "tools": [
+    {
+      "name": "current_time",
+      "description": "Get the current date and time.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "format": {
+            "default": "YYYY-MM-DD HH:mm:ss",
+            "type": "string",
+            "enum": [
+              "h:mm A",
+              "h:mm:ss A",
+              "YYYY-MM-DD HH:mm:ss",
+              "YYYY-MM-DD",
+              "YYYY-MM",
+              "MM/DD/YYYY",
+              "MM/DD/YY",
+              "YYYY/MM/DD",
+              "YYYY/MM"
+            ]
+          },
+          "timezone": {
+            "type": "string"
+          }
+        }
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "relative_time",
+      "description": "Get the relative time from now.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "time": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "time"
+        ]
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "days_in_month",
+      "description": "Get the number of days in a month. If no date is provided, get the number of days in the current month.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          }
+        }
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_timestamp",
+      "description": "Get the timestamp for the time.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "time": {
+            "type": "string"
+          }
+        }
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "convert_time",
+      "description": "Convert time between timezones.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "sourceTimezone": {
+            "type": "string"
+          },
+          "targetTimezone": {
+            "type": "string"
+          },
+          "time": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceTimezone",
+          "targetTimezone",
+          "time"
+        ]
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_week_year",
+      "description": "Get the week and isoWeek of the year.",
+      "inputSchema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          }
+        }
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    }
+  ],
+  "call_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Current UTC time is 2026-10-28 01:54:45, and the time in Asia/Shanghai is 2026-10-28 09:54:45."
+      }
+    ],
+    "isError": false
+  }
+}

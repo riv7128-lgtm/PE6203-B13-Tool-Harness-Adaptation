@@ -1,0 +1,13 @@
+[MCP-Server-Chart] 2026-10-28T01:54:45.710Z ℹ️  setting up tool handlers...
+[MCP-Server-Chart] 2026-10-28T01:54:45.711Z ℹ️  tool handlers set up
+[MCP-Server-Chart] 2026-10-28T01:54:45.713Z ✅ Stdio MCP Server started
+[MCP-Server-Chart] 2026-10-28T01:54:45.722Z ℹ️  calling tool generate_column_chart {
+  data: [
+    { category: 'transport_probe_A', value: 1 },
+    { category: 'transport_probe_B', value: 2 }
+  ],
+  group: false,
+  stack: false,
+  title: 'Transport availability probe'
+}
+[MCP-Server-Chart] 2026-10-28T01:54:45.723Z ℹ️  Calling tool: generate_column_chart

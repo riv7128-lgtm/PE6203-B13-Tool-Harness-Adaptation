@@ -1,0 +1,821 @@
+[
+  {
+    "call_id": "agent_cacb0facbf8a42b7b76d258d1ea8c5d9",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_cacb0facbf8a42b7b76d258d1ea8c5d9/metadata.json",
+    "metadata_sha256": "6cd04ae1dab6e48f4b9483b8c0b9be802778d9b2d551ddc58dfdd51fdbc734ef",
+    "input_tokens": 30137,
+    "output_tokens": 359,
+    "elapsed_seconds": 25.191328048706055
+  },
+  {
+    "call_id": "agent_03a9eac5449e481593bbefc16464b94a",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_03a9eac5449e481593bbefc16464b94a/metadata.json",
+    "metadata_sha256": "8bb181b2de4dcabb090430293f897f5ad75bddb90a720db964ba2d557bc06f79",
+    "input_tokens": 33147,
+    "output_tokens": 403,
+    "elapsed_seconds": 25.02424693107605
+  },
+  {
+    "call_id": "judge_29fb8a1026ae42329678f7457e5629b3",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_29fb8a1026ae42329678f7457e5629b3/metadata.json",
+    "metadata_sha256": "7d62203c583675746cd1664a657b980e9f45af073cd869b5abe03bbb0f2082a5",
+    "input_tokens": 36771,
+    "output_tokens": 383,
+    "elapsed_seconds": 26.27402687072754
+  },
+  {
+    "call_id": "agent_6ba3c26dddc144ef86c3bc04caf7af3a",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_6ba3c26dddc144ef86c3bc04caf7af3a/metadata.json",
+    "metadata_sha256": "5a3c4076155c43dfcddcb5a32387c061e02548ab8ce280dbe1106486a8f48b86",
+    "input_tokens": 11504,
+    "output_tokens": 59,
+    "elapsed_seconds": 17.213778972625732
+  },
+  {
+    "call_id": "agent_c3c69958310e4d9f9420021cdc0a094a",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_c3c69958310e4d9f9420021cdc0a094a/metadata.json",
+    "metadata_sha256": "ec7227ff186a9f1ad73e4f830531895862f99855d5e7089e9072e4f4cbabcef4",
+    "input_tokens": 11701,
+    "output_tokens": 70,
+    "elapsed_seconds": 21.679055213928223
+  },
+  {
+    "call_id": "agent_a260bce98e5f456db3f523cccd0177cc",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_a260bce98e5f456db3f523cccd0177cc/metadata.json",
+    "metadata_sha256": "88fd0d245db7c979e5d86ba68a5d27244686024287284b7fb3a2635501af2d9e",
+    "input_tokens": 11918,
+    "output_tokens": 76,
+    "elapsed_seconds": 18.43248414993286
+  },
+  {
+    "call_id": "judge_5147a2fc579f49f989101590bc8c8043",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_5147a2fc579f49f989101590bc8c8043/metadata.json",
+    "metadata_sha256": "f98c94771e4bc8bc93a87e6dd594ffda364974022e87366c6bdb1f315f1d5a52",
+    "input_tokens": 13284,
+    "output_tokens": 271,
+    "elapsed_seconds": 22.883837938308716
+  },
+  {
+    "call_id": "agent_03a149ad14a04b67b321861b4a85ba69",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_03a149ad14a04b67b321861b4a85ba69/metadata.json",
+    "metadata_sha256": "4be66f851b7e568e2c8f5a08217ce0420cbea2fc2362330fb48f89699a44ffbb",
+    "input_tokens": 30391,
+    "output_tokens": 718,
+    "elapsed_seconds": 32.98236393928528
+  },
+  {
+    "call_id": "agent_7430e6e6eb774fbdbc4f76ded8457c43",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_7430e6e6eb774fbdbc4f76ded8457c43/metadata.json",
+    "metadata_sha256": "32f52ca7874804e476e7cef615844ecbf6c660658a6ddedf8d78e75ea111fe88",
+    "input_tokens": 33396,
+    "output_tokens": 134,
+    "elapsed_seconds": 19.54607892036438
+  },
+  {
+    "call_id": "judge_ffbb909731c14796b835bea6ca7fb65a",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_ffbb909731c14796b835bea6ca7fb65a/metadata.json",
+    "metadata_sha256": "77c455c241475ef594d022727d420f40fa2c481b1a322a63822bc5e8321333e2",
+    "input_tokens": 37287,
+    "output_tokens": 326,
+    "elapsed_seconds": 24.998783826828003
+  },
+  {
+    "call_id": "agent_e774c8f1a5df45c4b01fbcf65b164fab",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_e774c8f1a5df45c4b01fbcf65b164fab/metadata.json",
+    "metadata_sha256": "c7e68a920a11c3ab82867c484c8942a6be6e2d5d08f8e31b9c55321e5ae36234",
+    "input_tokens": 30133,
+    "output_tokens": 392,
+    "elapsed_seconds": 25.017603874206543
+  },
+  {
+    "call_id": "agent_d8acb004fd3b4be5a9c96cbf5b9f2651",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_d8acb004fd3b4be5a9c96cbf5b9f2651/metadata.json",
+    "metadata_sha256": "426b80cbbbf50d24fd48835074cfa3fe0eb2cfe39e6ad3d6d4bdbb62bc7dad82",
+    "input_tokens": 33272,
+    "output_tokens": 377,
+    "elapsed_seconds": 25.175124883651733
+  },
+  {
+    "call_id": "judge_6b39eb54787045ea855dac3941119fd6",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_6b39eb54787045ea855dac3941119fd6/metadata.json",
+    "metadata_sha256": "2c17abaeb7efc2d187897545472c3f9c085ee2bf13b33dd9a14bb4b62adf2539",
+    "input_tokens": 36839,
+    "output_tokens": 533,
+    "elapsed_seconds": 30.685052156448364
+  },
+  {
+    "call_id": "agent_a34471e6ea494d29aaa45b1263086208",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_a34471e6ea494d29aaa45b1263086208/metadata.json",
+    "metadata_sha256": "e90d5b61f44365bd0083f268c4f2cba2fc0162b64409673a75bb16bb6c3d715a",
+    "input_tokens": 11496,
+    "output_tokens": 59,
+    "elapsed_seconds": 17.97562313079834
+  },
+  {
+    "call_id": "agent_5d85f7e483914587a7f3e82c4f6b345c",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_5d85f7e483914587a7f3e82c4f6b345c/metadata.json",
+    "metadata_sha256": "10125ce53bb675c7093854b68f0fb1fdb77d6c8e1d4e64640418a0cbe3dcd4b3",
+    "input_tokens": 11701,
+    "output_tokens": 70,
+    "elapsed_seconds": 15.987934827804565
+  },
+  {
+    "call_id": "agent_21b5e72b9c09418093f169d4fc817d2b",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_21b5e72b9c09418093f169d4fc817d2b/metadata.json",
+    "metadata_sha256": "6bfbbc4ca9a9883a914edfab42d322d78dfcf88a6ea40462f47e4c05a8f683b2",
+    "input_tokens": 11924,
+    "output_tokens": 85,
+    "elapsed_seconds": 17.650440216064453
+  },
+  {
+    "call_id": "judge_89baef05eeda43efa0a927cf3f74dc7b",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_89baef05eeda43efa0a927cf3f74dc7b/metadata.json",
+    "metadata_sha256": "9e38408bed19c05dd55427f69441df69764d3d85feb04b434c932d78a689c502",
+    "input_tokens": 13304,
+    "output_tokens": 302,
+    "elapsed_seconds": 23.161086797714233
+  },
+  {
+    "call_id": "agent_00f15458659f4aac8baec6c7933bb2ba",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_00f15458659f4aac8baec6c7933bb2ba/metadata.json",
+    "metadata_sha256": "edbcb38c5de5962e06fb5230051f236c93d4f3d73dda9d7cef23c4aaf6a1a3f2",
+    "input_tokens": 30391,
+    "output_tokens": 710,
+    "elapsed_seconds": 30.27120566368103
+  },
+  {
+    "call_id": "agent_57dd7ae5c008470e97fb0b30302f144a",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_57dd7ae5c008470e97fb0b30302f144a/metadata.json",
+    "metadata_sha256": "b4bec72ade865e485e2eda7cfbc833fc9cdfa0ae5dc9dd020bfbf8ea92ffd86c",
+    "input_tokens": 33398,
+    "output_tokens": 65,
+    "elapsed_seconds": 20.326515913009644
+  },
+  {
+    "call_id": "judge_688ca0114f66411ab755a7b0fd4495a9",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_688ca0114f66411ab755a7b0fd4495a9/metadata.json",
+    "metadata_sha256": "aa188abe644f14dde8c8b6b25de71419ebe10d042d60ab00bffc4c120f5684be",
+    "input_tokens": 37155,
+    "output_tokens": 255,
+    "elapsed_seconds": 21.52854084968567
+  },
+  {
+    "call_id": "agent_e7eee36bd1e94f3494af3ffbc98c9ccb",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_e7eee36bd1e94f3494af3ffbc98c9ccb/metadata.json",
+    "metadata_sha256": "334bc4ffb531a2bbf3fa15815be5515e37f880e1a34dc7c3032fb22c87218962",
+    "input_tokens": 30129,
+    "output_tokens": 364,
+    "elapsed_seconds": 21.51385498046875
+  },
+  {
+    "call_id": "agent_dde2b4779c334b6abbe7d92f5ed60829",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_dde2b4779c334b6abbe7d92f5ed60829/metadata.json",
+    "metadata_sha256": "f3105253a2e63b77d4bdf3d65d25269cec68abd6422f52eb7a1b44fc2abc6b10",
+    "input_tokens": 33142,
+    "output_tokens": 396,
+    "elapsed_seconds": 26.872661113739014
+  },
+  {
+    "call_id": "judge_1c607b1ba15b44218836a90be485cbb1",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_1c607b1ba15b44218836a90be485cbb1/metadata.json",
+    "metadata_sha256": "69237c242ba18d2511a38113b9844dc82e936d9caa45aa36b580ab301144b3b1",
+    "input_tokens": 36654,
+    "output_tokens": 371,
+    "elapsed_seconds": 29.574932098388672
+  },
+  {
+    "call_id": "agent_d537676e0e0e4853bd9a5c6365699e38",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_d537676e0e0e4853bd9a5c6365699e38/metadata.json",
+    "metadata_sha256": "a83b2634d571df51d047d94358a9c2a1b7aed852ae5cdc2f2137a0d45a09e944",
+    "input_tokens": 11504,
+    "output_tokens": 59,
+    "elapsed_seconds": 17.038179636001587
+  },
+  {
+    "call_id": "agent_8bc300851cc8462fa10e91c3f30d613d",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_8bc300851cc8462fa10e91c3f30d613d/metadata.json",
+    "metadata_sha256": "9ea82c23158a4c27fa29d03920a2efc43fbdcc1a0a3236b5dc623651c31605e7",
+    "input_tokens": 11701,
+    "output_tokens": 70,
+    "elapsed_seconds": 15.970325946807861
+  },
+  {
+    "call_id": "agent_1168fcdda7dd40e985cb817b96d54126",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_1168fcdda7dd40e985cb817b96d54126/metadata.json",
+    "metadata_sha256": "d8a32b62fd006e051a3e5a803582d2ee76502d613d2c8094f7d3ad365b167325",
+    "input_tokens": 11916,
+    "output_tokens": 79,
+    "elapsed_seconds": 19.26334524154663
+  },
+  {
+    "call_id": "judge_6cc164f393a9412580143f8ca20bdf5e",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_6cc164f393a9412580143f8ca20bdf5e/metadata.json",
+    "metadata_sha256": "2c1d48fb511e8008c6868f33cb85606a7dbfe42d5713f60546c02e1ee33f10ab",
+    "input_tokens": 13292,
+    "output_tokens": 267,
+    "elapsed_seconds": 20.85400390625
+  },
+  {
+    "call_id": "agent_6c4455328a924cba864adae933677c7b",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_6c4455328a924cba864adae933677c7b/metadata.json",
+    "metadata_sha256": "11df6b5e39af724f626785be652b989b7e09977fd55858ab30dfe61dd8c1082b",
+    "input_tokens": 30389,
+    "output_tokens": 708,
+    "elapsed_seconds": 33.28232979774475
+  },
+  {
+    "call_id": "agent_5b99c83b6ea945728418e13792a6ec7e",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_5b99c83b6ea945728418e13792a6ec7e/metadata.json",
+    "metadata_sha256": "32b9835dfa8de6cbbf9bd25afde0d34cbb5fbe839c11d6cbbcc875d0a144b2fa",
+    "input_tokens": 33391,
+    "output_tokens": 135,
+    "elapsed_seconds": 17.335548162460327
+  },
+  {
+    "call_id": "judge_8c2a21acf6554618a479a25cc48838cc",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_8c2a21acf6554618a479a25cc48838cc/metadata.json",
+    "metadata_sha256": "43e0b4e16c40cf9d6b289484113ef6cd38d872df0eba92622c9661fe03a2fe8c",
+    "input_tokens": 37295,
+    "output_tokens": 354,
+    "elapsed_seconds": 21.05015516281128
+  },
+  {
+    "call_id": "agent_5c7d5ff90507435bb31b68b97abb1dee",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_5c7d5ff90507435bb31b68b97abb1dee/metadata.json",
+    "metadata_sha256": "6024c022389234bfc6ac03123c949e28eff12de8816cac5b19cb267fbdf3261b",
+    "input_tokens": 30129,
+    "output_tokens": 364,
+    "elapsed_seconds": 26.508071184158325
+  },
+  {
+    "call_id": "agent_ca9b7b0b48ff44d8b725f622ba441dac",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_ca9b7b0b48ff44d8b725f622ba441dac/metadata.json",
+    "metadata_sha256": "666bf377ef8881edddb07e30a787cf2400f4a95dcf25afcfe139854446bbe545",
+    "input_tokens": 33132,
+    "output_tokens": 371,
+    "elapsed_seconds": 26.466739892959595
+  },
+  {
+    "call_id": "judge_74f25aa31fa0441ea61086b26b658156",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_74f25aa31fa0441ea61086b26b658156/metadata.json",
+    "metadata_sha256": "4a73059aba752ab6eca0ea4fedd1a51a3f6fa4b851b6f3364f0f1d6d432642f9",
+    "input_tokens": 37380,
+    "output_tokens": 478,
+    "elapsed_seconds": 32.718295097351074
+  },
+  {
+    "call_id": "agent_dbefc235e1e043b697f71b610f3fe2ac",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_dbefc235e1e043b697f71b610f3fe2ac/metadata.json",
+    "metadata_sha256": "d712c6a3548ee8b67d2b4d9ad3188ad3b33892a5bce8142b76fe1efaced11e94",
+    "input_tokens": 11502,
+    "output_tokens": 59,
+    "elapsed_seconds": 17.528462886810303
+  },
+  {
+    "call_id": "agent_35f574bfc08147b1b984411ae69bd4e8",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_35f574bfc08147b1b984411ae69bd4e8/metadata.json",
+    "metadata_sha256": "a8eddfc24b62236f3f3050438f3679634d8e3337b6fada50d0e28725e63650b3",
+    "input_tokens": 11699,
+    "output_tokens": 70,
+    "elapsed_seconds": 20.94555902481079
+  },
+  {
+    "call_id": "agent_9e3230ca77a342eeb14ff0b5f1358838",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_9e3230ca77a342eeb14ff0b5f1358838/metadata.json",
+    "metadata_sha256": "9c5d749e7381b98e4d362d7b02ef85a8a8a0124c3b82cc55cc266e922e474a77",
+    "input_tokens": 11920,
+    "output_tokens": 77,
+    "elapsed_seconds": 19.3570659160614
+  },
+  {
+    "call_id": "judge_3bc499116e01450aa706319fc40b6259",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_3bc499116e01450aa706319fc40b6259/metadata.json",
+    "metadata_sha256": "175b343f2bc533c4befa0fcd6f51468c55d014847ea00de1e9fc435b1b9e05c5",
+    "input_tokens": 13318,
+    "output_tokens": 272,
+    "elapsed_seconds": 26.89291501045227
+  },
+  {
+    "call_id": "agent_ffb0f3211a1a4b298e6854b052a827a3",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_ffb0f3211a1a4b298e6854b052a827a3/metadata.json",
+    "metadata_sha256": "4f5b44ffba1930bdde2030e3ca8d1fb19189570b4d4f1345f853741071716e98",
+    "input_tokens": 30395,
+    "output_tokens": 689,
+    "elapsed_seconds": 32.11319923400879
+  },
+  {
+    "call_id": "agent_75e4da0f84404ba59547d34be568199d",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_75e4da0f84404ba59547d34be568199d/metadata.json",
+    "metadata_sha256": "cd590e5e1b2d08782ed3c641e4035cafc993e07a1e62e64c8a1130759291d5c3",
+    "input_tokens": 33365,
+    "output_tokens": 777,
+    "elapsed_seconds": 32.705893993377686
+  },
+  {
+    "call_id": "judge_124fdb4917e6448e9fec1736dcbbe3ff",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_124fdb4917e6448e9fec1736dcbbe3ff/metadata.json",
+    "metadata_sha256": "691509c374b0c14d9ced1eb118c34178145443b4fcef76883813658fda126794",
+    "input_tokens": 38903,
+    "output_tokens": 372,
+    "elapsed_seconds": 24.2678861618042
+  },
+  {
+    "call_id": "agent_ddb876c614b34c808b99d4309fd49792",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_ddb876c614b34c808b99d4309fd49792/metadata.json",
+    "metadata_sha256": "3f15aa46cd14535b8753ab681383a44d381c82e9eb9adf0627fc39af84e64d47",
+    "input_tokens": 30774,
+    "output_tokens": 377,
+    "elapsed_seconds": 25.18506097793579
+  },
+  {
+    "call_id": "agent_c84c096cd7d24d0c8ef58681082574bf",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_c84c096cd7d24d0c8ef58681082574bf/metadata.json",
+    "metadata_sha256": "3aec7e2cd27e476de9c85e10050eeee7806a8cfee1f04b763af2d2d7112891d5",
+    "input_tokens": 33902,
+    "output_tokens": 357,
+    "elapsed_seconds": 27.04304790496826
+  },
+  {
+    "call_id": "judge_b424ba9e50af49c8b32b39ba92444613",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_b424ba9e50af49c8b32b39ba92444613/metadata.json",
+    "metadata_sha256": "915521070074b9f3b7284fedb0f2589e9030371e5f3e6b46b7eea4563387b6d7",
+    "input_tokens": 37487,
+    "output_tokens": 398,
+    "elapsed_seconds": 27.761686086654663
+  },
+  {
+    "call_id": "agent_8fa17fb6f62a4dd68bcfe51154bf0860",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_8fa17fb6f62a4dd68bcfe51154bf0860/metadata.json",
+    "metadata_sha256": "af96fd5f2de3b2078df5401f6866a092a211a2701a8fa482026f0b33fde16052",
+    "input_tokens": 11542,
+    "output_tokens": 59,
+    "elapsed_seconds": 20.564675092697144
+  },
+  {
+    "call_id": "agent_60e4559dc02743d68858f5e07e7650c2",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_60e4559dc02743d68858f5e07e7650c2/metadata.json",
+    "metadata_sha256": "32a0b6f1cbf92af37d55633f875506f09414daa66a496c2daaa6bb2baaf9f232",
+    "input_tokens": 11741,
+    "output_tokens": 70,
+    "elapsed_seconds": 16.12137222290039
+  },
+  {
+    "call_id": "agent_65a88631f94a4d768dd56684c9d94438",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_65a88631f94a4d768dd56684c9d94438/metadata.json",
+    "metadata_sha256": "1423e7db461f24abdae27fb18b520d4867b0232acaf429fbaf8809162e1910b0",
+    "input_tokens": 11960,
+    "output_tokens": 77,
+    "elapsed_seconds": 15.804441928863525
+  },
+  {
+    "call_id": "judge_3f11b6127a0b4fc0b1e95b3498305416",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_3f11b6127a0b4fc0b1e95b3498305416/metadata.json",
+    "metadata_sha256": "626081673a2388a5745e8760cd7ef08a041313c3bb0cf2bb2b45e0bf13e0d9f1",
+    "input_tokens": 13332,
+    "output_tokens": 270,
+    "elapsed_seconds": 22.738175868988037
+  },
+  {
+    "call_id": "agent_9a132ec4890542fa9944a71bce099ae9",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_9a132ec4890542fa9944a71bce099ae9/metadata.json",
+    "metadata_sha256": "e512ba5e0d3137c5811d1aff804f070672cee748dfe2d0160804a0ca6e188cc2",
+    "input_tokens": 30389,
+    "output_tokens": 698,
+    "elapsed_seconds": 28.428526878356934
+  },
+  {
+    "call_id": "agent_990e00c9aa2e4885b656984f7b32c465",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_990e00c9aa2e4885b656984f7b32c465/metadata.json",
+    "metadata_sha256": "0cd6fe6f2afa3c36943fd4b364cf4a0fa6642ac2144ae683877449d910e805d4",
+    "input_tokens": 33374,
+    "output_tokens": 764,
+    "elapsed_seconds": 29.732588052749634
+  },
+  {
+    "call_id": "judge_220abfb60ba7450097606d56203d673b",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_220abfb60ba7450097606d56203d673b/metadata.json",
+    "metadata_sha256": "48fc98cee1540ae3a456c62a3a3e3a4e70d8548ae7aa588f60ea747394e821eb",
+    "input_tokens": 38887,
+    "output_tokens": 435,
+    "elapsed_seconds": 25.407060146331787
+  },
+  {
+    "call_id": "agent_68407ad807174653ba6fcb88ba1d65ac",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_68407ad807174653ba6fcb88ba1d65ac/metadata.json",
+    "metadata_sha256": "cc6da843f754bc683da2410bfa95e07e0b227af3eb4edc6a2d07cd61b716e6fc",
+    "input_tokens": 30774,
+    "output_tokens": 340,
+    "elapsed_seconds": 23.7230441570282
+  },
+  {
+    "call_id": "agent_4445c3b22ed44aeb8b181c3748f89265",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_4445c3b22ed44aeb8b181c3748f89265/metadata.json",
+    "metadata_sha256": "62aa467b42c6abe8308edd73ab5936f2e1c6b0dda33fc5f07ce470ef1886f987",
+    "input_tokens": 33755,
+    "output_tokens": 411,
+    "elapsed_seconds": 24.813735961914062
+  },
+  {
+    "call_id": "judge_f620b0c9b67a47828293952ebd5e9c4a",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_f620b0c9b67a47828293952ebd5e9c4a/metadata.json",
+    "metadata_sha256": "c73257f156ef9d69cf97d1f6505f3d9c72627deb670d11acfcbdbbfb4a912eca",
+    "input_tokens": 37321,
+    "output_tokens": 714,
+    "elapsed_seconds": 33.301615715026855
+  },
+  {
+    "call_id": "agent_5312161243e74981a3204ccead8b31b3",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_5312161243e74981a3204ccead8b31b3/metadata.json",
+    "metadata_sha256": "7faef19f99faca7c15d87f0e10b58f7ed1dd293618dcdcb15ff6ffcb29c28d8d",
+    "input_tokens": 11542,
+    "output_tokens": 59,
+    "elapsed_seconds": 15.943073034286499
+  },
+  {
+    "call_id": "agent_1d71f16c92ba436f8fa999aa44af1e4d",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_1d71f16c92ba436f8fa999aa44af1e4d/metadata.json",
+    "metadata_sha256": "73e3400445372f4c75b2af6900febdeca7a42fcbeaddbfad8b2f0a9c355aa13f",
+    "input_tokens": 11743,
+    "output_tokens": 70,
+    "elapsed_seconds": 14.237304925918579
+  },
+  {
+    "call_id": "agent_94f1c0ff5daf46febf0d620fd04f6ece",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_94f1c0ff5daf46febf0d620fd04f6ece/metadata.json",
+    "metadata_sha256": "ea23ef11775ee227b0bc6b50d711baf289034022a18c5728d876201af001438a",
+    "input_tokens": 11964,
+    "output_tokens": 76,
+    "elapsed_seconds": 14.38403606414795
+  },
+  {
+    "call_id": "judge_76aeaa3a9cc04f6eb9a667466eb6f153",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_76aeaa3a9cc04f6eb9a667466eb6f153/metadata.json",
+    "metadata_sha256": "7b17206cc5e23376508cda296a9944d6c34e7cf1849672f58273f54453bfb843",
+    "input_tokens": 13328,
+    "output_tokens": 263,
+    "elapsed_seconds": 18.482685089111328
+  },
+  {
+    "call_id": "agent_f1f51c5afd1a4f7689d0718513459735",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_f1f51c5afd1a4f7689d0718513459735/metadata.json",
+    "metadata_sha256": "5ef82edd72c2fa561c6fd44d2555a59d15d32e256a1d78c4f492e010b7fe6e17",
+    "input_tokens": 30391,
+    "output_tokens": 700,
+    "elapsed_seconds": 29.070951223373413
+  },
+  {
+    "call_id": "agent_caed023403b446e0b791a2f7625b6fa1",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_caed023403b446e0b791a2f7625b6fa1/metadata.json",
+    "metadata_sha256": "315f34689d336a94ca1bbd10bdeb54384f29519b3a51a03469719aa7bfbd586b",
+    "input_tokens": 33364,
+    "output_tokens": 128,
+    "elapsed_seconds": 21.156885862350464
+  },
+  {
+    "call_id": "judge_3a822b0e18be476d80fa217755bff10e",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_3a822b0e18be476d80fa217755bff10e/metadata.json",
+    "metadata_sha256": "b416f8879e5ea214424635b6f4a041152d0d26d86e0f761fb5b0f813b2d2f9d6",
+    "input_tokens": 37252,
+    "output_tokens": 387,
+    "elapsed_seconds": 69.4655921459198
+  },
+  {
+    "call_id": "agent_21c0e11f1cff47e99941fa3d8df1f65c",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_21c0e11f1cff47e99941fa3d8df1f65c/metadata.json",
+    "metadata_sha256": "cd1c13f65dc04a4766f01b413a8c2eb4634b9a86821646e82160537e2688eaeb",
+    "input_tokens": 30135,
+    "output_tokens": 404,
+    "elapsed_seconds": 24.69229006767273
+  },
+  {
+    "call_id": "agent_71bc410658044753b71127f3f591fcb8",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_71bc410658044753b71127f3f591fcb8/metadata.json",
+    "metadata_sha256": "a28142640364de890effb75eccf7d4578bcbac51612f8aeb1ae26f2f87045284",
+    "input_tokens": 33287,
+    "output_tokens": 116,
+    "elapsed_seconds": 20.231394052505493
+  },
+  {
+    "call_id": "agent_883e53d6cd49403ab5b056e37d8a4241",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_883e53d6cd49403ab5b056e37d8a4241/metadata.json",
+    "metadata_sha256": "7c8e2b376df42f15f6c728983c4555040cea3882e8820d419fd0e7c25ec09979",
+    "input_tokens": 33488,
+    "output_tokens": 327,
+    "elapsed_seconds": 24.900336265563965
+  },
+  {
+    "call_id": "judge_aa295c5789b34847954795bb724f93db",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_aa295c5789b34847954795bb724f93db/metadata.json",
+    "metadata_sha256": "71d135e2d1aceae728f1266aec71e6fb6a83bdca4fd63a4a024d82a3dab14da7",
+    "input_tokens": 38650,
+    "output_tokens": 425,
+    "elapsed_seconds": 27.579262018203735
+  },
+  {
+    "call_id": "agent_a26744763b4e407f89ec656d61ae1e51",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_a26744763b4e407f89ec656d61ae1e51/metadata.json",
+    "metadata_sha256": "ba7eca7e238e8db024c08a0421479e7499804617d10a6d520b9008d2baa73d98",
+    "input_tokens": 11500,
+    "output_tokens": 59,
+    "elapsed_seconds": 18.90162181854248
+  },
+  {
+    "call_id": "agent_4c3be442eaf24637adc717ee6f329085",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_4c3be442eaf24637adc717ee6f329085/metadata.json",
+    "metadata_sha256": "897c9f7818e253bf96d42615c677132e75162c1af80770317b1e1baed558f20e",
+    "input_tokens": 11693,
+    "output_tokens": 70,
+    "elapsed_seconds": 17.284574031829834
+  },
+  {
+    "call_id": "agent_f729d14e30204cd4a1a744737f2caa33",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_f729d14e30204cd4a1a744737f2caa33/metadata.json",
+    "metadata_sha256": "6ac6cb9048657bce27817f4f1b4529efbcb6d3dd1c8e61d9b1b5c9f77ca87a83",
+    "input_tokens": 11912,
+    "output_tokens": 85,
+    "elapsed_seconds": 16.027565002441406
+  },
+  {
+    "call_id": "judge_1d298feb168c4f169353a6618cee7450",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_1d298feb168c4f169353a6618cee7450/metadata.json",
+    "metadata_sha256": "f3c12a2a1e8de2cb248f9e1a41f56bde98a04b72ff6a3204e8ee69df26f16dad",
+    "input_tokens": 13346,
+    "output_tokens": 441,
+    "elapsed_seconds": 27.362011909484863
+  },
+  {
+    "call_id": "agent_e0d68761873848c7a9548559a4de93da",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_e0d68761873848c7a9548559a4de93da/metadata.json",
+    "metadata_sha256": "7c96f95d014015683725ab9d51ca323b694783ae9c6ad506ceeac557d0f4f264",
+    "input_tokens": 30389,
+    "output_tokens": 702,
+    "elapsed_seconds": 38.825013637542725
+  },
+  {
+    "call_id": "agent_18660c184da546cda7d43fa6443e3c26",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_18660c184da546cda7d43fa6443e3c26/metadata.json",
+    "metadata_sha256": "0f1fb46b3cd368b096831ff4b50007507495a4d69349b7194515f900c8aa83c0",
+    "input_tokens": 33356,
+    "output_tokens": 66,
+    "elapsed_seconds": 16.713027238845825
+  },
+  {
+    "call_id": "judge_bb46ffaf647f4c61ab426726f4e5501a",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_bb46ffaf647f4c61ab426726f4e5501a/metadata.json",
+    "metadata_sha256": "7c184138058fd3e1ef883b090d1edcb5170a6d00ce313a2229b140eb3b8d649f",
+    "input_tokens": 37111,
+    "output_tokens": 260,
+    "elapsed_seconds": 26.336468935012817
+  },
+  {
+    "call_id": "agent_0e67e63908744275bc45d3f7dcaab7f2",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_0e67e63908744275bc45d3f7dcaab7f2/metadata.json",
+    "metadata_sha256": "d78fdec6e4e5bfb20a4b5bf2e446362abeb04f6b9934a0b488274052ad3932b5",
+    "input_tokens": 31739,
+    "output_tokens": 391,
+    "elapsed_seconds": 30.740875005722046
+  },
+  {
+    "call_id": "agent_02d6004c5ff347228a4945192d8f42c7",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_02d6004c5ff347228a4945192d8f42c7/metadata.json",
+    "metadata_sha256": "b1c9cfe259120dc12e0005199a0f2197f8ff8139fd3fd806e14f0614f2b1a93d",
+    "input_tokens": 34760,
+    "output_tokens": 521,
+    "elapsed_seconds": 27.09419274330139
+  },
+  {
+    "call_id": "judge_7d7eb1680cc94e5094abed2afffbd4fd",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_7d7eb1680cc94e5094abed2afffbd4fd/metadata.json",
+    "metadata_sha256": "b9866bca8b86266a3cc4f15d3a9344bd2024d5e64c4bde6a6e6e9b6e12ff765e",
+    "input_tokens": 38552,
+    "output_tokens": 454,
+    "elapsed_seconds": 29.21765422821045
+  },
+  {
+    "call_id": "agent_a03c06a1692c44b88e084c921869bca9",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_a03c06a1692c44b88e084c921869bca9/metadata.json",
+    "metadata_sha256": "d83110a0caafc209f0bd3cd6398b6cb2baa46b0e5590721af3126c9cc7d6edd8",
+    "input_tokens": 11558,
+    "output_tokens": 59,
+    "elapsed_seconds": 21.62864112854004
+  },
+  {
+    "call_id": "agent_e0af127b1853428d9006c391656ba419",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_e0af127b1853428d9006c391656ba419/metadata.json",
+    "metadata_sha256": "06290f882e891e1c4b72465e8d8df09895e08db84db29dfe840510a1cce0667f",
+    "input_tokens": 11749,
+    "output_tokens": 70,
+    "elapsed_seconds": 21.868345022201538
+  },
+  {
+    "call_id": "agent_e8b8af384ef74a11afcfec3a4d960b37",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_e8b8af384ef74a11afcfec3a4d960b37/metadata.json",
+    "metadata_sha256": "5bb3d0dd4ea0ceb32d17b59e934cf7b628e845a1f4a82f920bdd21348f830827",
+    "input_tokens": 11970,
+    "output_tokens": 85,
+    "elapsed_seconds": 17.339531898498535
+  },
+  {
+    "call_id": "judge_bbb6c2737e57416da7082392e4a7f53c",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_bbb6c2737e57416da7082392e4a7f53c/metadata.json",
+    "metadata_sha256": "3aa3be3818e8e503ecf645dd180544b3c0906426d83d3bd597b16eae5d82d840",
+    "input_tokens": 13352,
+    "output_tokens": 368,
+    "elapsed_seconds": 25.50261688232422
+  },
+  {
+    "call_id": "agent_9d37cfeea02c491a8dee9271df1612d9",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_9d37cfeea02c491a8dee9271df1612d9/metadata.json",
+    "metadata_sha256": "1ede0a6dc8d9d1bc29384097a19865fd64c7621495762b25400693460d71753c",
+    "input_tokens": 30393,
+    "output_tokens": 701,
+    "elapsed_seconds": 28.68417716026306
+  },
+  {
+    "call_id": "agent_d3e19a74b5b24bfc9a66523166835e0a",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_d3e19a74b5b24bfc9a66523166835e0a/metadata.json",
+    "metadata_sha256": "27220da62f69db7111ab85376a0bc2ed3da877b4d2fb45abded97faaa99be15f",
+    "input_tokens": 33377,
+    "output_tokens": 95,
+    "elapsed_seconds": 17.087214946746826
+  },
+  {
+    "call_id": "judge_53f25b25853549f1b80acfc8d13573ee",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_53f25b25853549f1b80acfc8d13573ee/metadata.json",
+    "metadata_sha256": "f19f9e14e6e584767be60359dbe889f26b983c67b868bda4d8f092ee79af68df",
+    "input_tokens": 37192,
+    "output_tokens": 319,
+    "elapsed_seconds": 25.874660968780518
+  },
+  {
+    "call_id": "agent_bca2c76002f94b78ad3db2dda5dd6a0c",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_bca2c76002f94b78ad3db2dda5dd6a0c/metadata.json",
+    "metadata_sha256": "b55e160cb70adbf9c6bc8add66c5bc5f6f8749b61f73630bcfd8d4c804375371",
+    "input_tokens": 31739,
+    "output_tokens": 412,
+    "elapsed_seconds": 22.03339695930481
+  },
+  {
+    "call_id": "agent_87b0b26f93184167bf78d0d6ece7e275",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_87b0b26f93184167bf78d0d6ece7e275/metadata.json",
+    "metadata_sha256": "9ad7c07ef8510d82499dd2e7828f9a181eec2a12e32139588539858176b5e8fd",
+    "input_tokens": 34907,
+    "output_tokens": 371,
+    "elapsed_seconds": 22.975759029388428
+  },
+  {
+    "call_id": "judge_ecfb06a15ddc4136807f62876be9088a",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_ecfb06a15ddc4136807f62876be9088a/metadata.json",
+    "metadata_sha256": "dd8c3a9ba1597831ca7e5f5f38f7bc0eae466b5dd30dde1f534c5288628ef29b",
+    "input_tokens": 38546,
+    "output_tokens": 408,
+    "elapsed_seconds": 29.842970848083496
+  },
+  {
+    "call_id": "agent_191c3325a1f94e5d86f0dd22ca8cd876",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_191c3325a1f94e5d86f0dd22ca8cd876/metadata.json",
+    "metadata_sha256": "4f85fc9a50d5bf4833e28cebc0d315aee1e50884ba3032d6acbd5ad43f35dd8c",
+    "input_tokens": 11562,
+    "output_tokens": 59,
+    "elapsed_seconds": 14.667029857635498
+  },
+  {
+    "call_id": "agent_ad44dfcb24ef45709f6c1bafd2e76932",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_ad44dfcb24ef45709f6c1bafd2e76932/metadata.json",
+    "metadata_sha256": "c8968d7f38b60f25dc76174d0a22a652aa83a686078357c6892dbef3b4d8ad71",
+    "input_tokens": 11757,
+    "output_tokens": 70,
+    "elapsed_seconds": 16.52599287033081
+  },
+  {
+    "call_id": "agent_9d52aa6dab62482f92c91231f6bc566d",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_9d52aa6dab62482f92c91231f6bc566d/metadata.json",
+    "metadata_sha256": "320af149e5474a6baabd2094a212bcb60b8003647a0373c26944f3c151547af2",
+    "input_tokens": 11976,
+    "output_tokens": 85,
+    "elapsed_seconds": 19.475738048553467
+  },
+  {
+    "call_id": "judge_0369861413764fc499d79dbbb94cd05e",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_0369861413764fc499d79dbbb94cd05e/metadata.json",
+    "metadata_sha256": "4914373a3c6721156d6a2c7fc703720e0a5dccffec19db2ae0a4f9355b306862",
+    "input_tokens": 13352,
+    "output_tokens": 291,
+    "elapsed_seconds": 22.072821140289307
+  },
+  {
+    "call_id": "agent_f567399ac4964034b2662061642d3f86",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_f567399ac4964034b2662061642d3f86/metadata.json",
+    "metadata_sha256": "9ddc9067352c08c748d79b35dd7f07726a1cca261a7731950496ef42f24326b9",
+    "input_tokens": 30385,
+    "output_tokens": 711,
+    "elapsed_seconds": 28.839972972869873
+  },
+  {
+    "call_id": "agent_3673da0d973848d4b01d6f4a2d34e9ea",
+    "role": "agent",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_3673da0d973848d4b01d6f4a2d34e9ea/metadata.json",
+    "metadata_sha256": "bc942a3a63a0e697f6b833533a3d7447de7aa7b22be16f339bbb50449b729676",
+    "input_tokens": 33390,
+    "output_tokens": 55,
+    "elapsed_seconds": 17.32967495918274
+  },
+  {
+    "call_id": "judge_665ec8af9771463fac097dc064160ae9",
+    "role": "judge",
+    "metadata_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/judge_665ec8af9771463fac097dc064160ae9/metadata.json",
+    "metadata_sha256": "271dc4d3b966163608e987d70b1ce1cc16eadb264c49a251b6775d850f3a036b",
+    "input_tokens": 37118,
+    "output_tokens": 257,
+    "elapsed_seconds": 20.941481828689575
+  }
+]

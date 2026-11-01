@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "evidence_kind": "PORTABLE_PREPARATION_SMOKE_NOT_BENCHMARK",
+  "archive_sha256": "7fef10380105ae147b22e4fe451657ac5a0c1960d83034a4354fd7106cb028ee",
+  "checks": [
+    {
+      "stage": "early",
+      "servers": 5,
+      "all_runtime_paths_rebased": true
+    },
+    {
+      "stage": "middle",
+      "servers": 5,
+      "all_runtime_paths_rebased": true
+    },
+    {
+      "stage": "late",
+      "servers": 5,
+      "all_runtime_paths_rebased": true
+    }
+  ],
+  "complete_runtime_tree_matches_frozen": true,
+  "copied_package_location_rebased": true,
+  "services_launched": false,
+  "model_calls": 0,
+  "explicit_existing_python_and_repo_reused": true,
+  "temporary_root_removed_after_check": true,
+  "syntax_check": "PASS",
+  "unsafe_archive_checks": [
+    {
+      "case": "traversal",
+      "rejected": true
+    },
+    {
+      "case": "absolute",
+      "rejected": true
+    },
+    {
+      "case": "symlink",
+      "rejected": true
+    }
+  ],
+  "localhost_health_ignores_proxy_env": true,
+  "network_range_download_rerun": "NOT_REPEATED; same verified extraction algorithm; new root parameter and central SHA checks compiled, archive path independently tested"
+}

@@ -1,0 +1,20 @@
+{
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "[FINISH] READY",
+        "tool_calls": []
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 9555,
+    "completion_tokens": 19,
+    "cached_input_tokens": 0
+  },
+  "backend_metadata": {
+    "call_id": "agent_52e79c6b22934b558c5f9bc11159edd7",
+    "path": "E:\\eai项目文件\\6203 后半\\OneDrive_1_2026-10-26\\supplemental_experiments\\live_pilot\\results\\model_smoke\\agent_52e79c6b22934b558c5f9bc11159edd7\\metadata.json"
+  }
+}

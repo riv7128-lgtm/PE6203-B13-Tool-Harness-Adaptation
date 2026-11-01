@@ -1,0 +1,20 @@
+{
+  "method": "SHA256 of UTF-8 JSON [[relative_path,bytes,file_sha256],...] sorted by path; separators comma colon; ensure_ascii false",
+  "versions": {
+    "original": {
+      "file_count": 11390,
+      "total_bytes": 89966717,
+      "tree_sha256": "ea07e90021b2b5eff597cc57286feb70958a9090ee7a7800f686e6207ad0a31e"
+    },
+    "iter3": {
+      "file_count": 11387,
+      "total_bytes": 89971676,
+      "tree_sha256": "09462b3fddf8d0c6b7087f06f4716a6f25b1f2ecd141c874cbfdd62182921a43"
+    },
+    "iter5": {
+      "file_count": 11387,
+      "total_bytes": 89992566,
+      "tree_sha256": "2bd8b9e3c8c0bf17c7e9a4558cf549e439cf2acf8551be9726bdad7b1bc46c7a"
+    }
+  }
+}

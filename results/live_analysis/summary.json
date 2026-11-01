@@ -1,0 +1,889 @@
+{
+  "evidence_kind": "IMPORTED_OFFICIAL_JUDGE_RESULTS",
+  "protocol_id": "772dc057b8ee91a62a87db1d0d873abe1b685f88e7c37906504258eddca64955",
+  "protocol": {
+    "model_id": "gpt-6.1-sol",
+    "decoding": {
+      "backend": "codex_cli",
+      "max_rounds": 6,
+      "fixed_time": "2026-10-28",
+      "cli_version": "codex-cli 0.164.0-alpha.11.1",
+      "reasoning_effort": "low",
+      "unsupported_parameters": [
+        "temperature",
+        "seed",
+        "max_tokens"
+      ],
+      "sampling_parameters_controlled": false,
+      "action_protocol": "Stateless strict JSON proposals converted by external executor"
+    },
+    "judge": {
+      "backend": "codex_cli",
+      "model": "gpt-6.1-sol",
+      "runs": 1,
+      "reasoning_effort": "low",
+      "sampling_parameters_controlled": false,
+      "independent_ephemeral_session": true,
+      "rubric": "pinned official build_mcp_bench_judge_prompt",
+      "dimension_order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+    "config": {
+      "backend": "codex_cli",
+      "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+      "model": "gpt-6.1-sol",
+      "judge_model": "gpt-6.1-sol",
+      "codex_cli_executable": "codex",
+      "codex_cli_expected_version": "codex-cli 0.164.0-alpha.11.1",
+      "codex_cli_reasoning_effort": "low",
+      "codex_cli_timeout_seconds": 300,
+      "codex_cli_log_dir": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls",
+      "cli_unsupported_parameters": [
+        "temperature",
+        "seed",
+        "max_tokens"
+      ],
+      "temperature": null,
+      "max_tokens": null,
+      "seed": null,
+      "run_seeds": [
+        0
+      ],
+      "run_seed_note": "Compatibility placeholder only; Codex CLI does not expose or control seed.",
+      "max_rounds": 6,
+      "runs": 1,
+      "judge_runs": 1,
+      "fixed_time": "2026-10-28",
+      "tool_result_max_chars": 12000,
+      "workspace": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime",
+      "file_tree": "Isolated anotation_path directory. Selected tasks are self contained and need no user files.",
+      "reset_command": [
+        "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_venv/bin/python",
+        "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/code/scripts/reset_live_environment.py",
+        "--endpoint",
+        "{endpoint}"
+      ],
+      "endpoints": {
+        "early": "http://127.0.0.1:3050/mcp/",
+        "middle": "http://127.0.0.1:3051/mcp/",
+        "late": "http://127.0.0.1:3052/mcp/"
+      },
+      "protocol_notes": [
+        "Codex CLI unexposed sampling parameters are not claimed as controlled.",
+        "One run and one independent judge session per condition.",
+        "Official raw task records are unchanged.",
+        "Official descriptions are overlaid from metadata before strategy adaptation.",
+        "Graph tools produce official vis-chart specifications, not rendered PNG files."
+      ],
+      "stage_workers": 3
+    },
+    "task_sha256": "e0a434ee37820fd08ab3aa7095b7006ad8b26218ec8953b2419c48ee8c8443d9",
+    "snapshots": {
+      "early": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+      "middle": "c51cfd2295cfb0fa0d8ec8c29e81cfeb5bd1f7ab077049956ef46629796c1c84",
+      "late": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a"
+    },
+    "protocol_extension": "Canonical tool-knowledge intervention; all candidate-server tools; hashed aliases; fixed time and max rounds; complete assistant evidence for judge. CLI is a custom JSON action backend with unexposed sampling parameters, not native API tool calling."
+  },
+  "task_ids": [
+    "133",
+    "144",
+    "235"
+  ],
+  "run_ids": [
+    "0"
+  ],
+  "record_count": 27,
+  "stage_metrics": [
+    {
+      "strategy": "no_update",
+      "version": "Early",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "no_update",
+      "version": "Middle",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "no_update",
+      "version": "Late",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 8.666666666666666,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Early",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Middle",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Late",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Early",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Middle",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Late",
+      "task_count": 3,
+      "run_count": 1,
+      "tf_mean": 10.0,
+      "pe_mean": 10.0,
+      "tf_run_sample_std": null,
+      "pe_run_sample_std": null
+    }
+  ],
+  "ecs": [
+    {
+      "strategy": "no_update",
+      "ecs_mean": 10.0,
+      "ecs_run_sample_std": null,
+      "run_count": 1
+    },
+    {
+      "strategy": "full_rewrite",
+      "ecs_mean": 10.0,
+      "ecs_run_sample_std": null,
+      "run_count": 1
+    },
+    {
+      "strategy": "selective_patch",
+      "ecs_mean": 10.0,
+      "ecs_run_sample_std": null,
+      "run_count": 1
+    }
+  ],
+  "ecs_per_task_per_run": [
+    {
+      "task_id": "133",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "no_update",
+      "run_id": "0"
+    },
+    {
+      "task_id": "144",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "no_update",
+      "run_id": "0"
+    },
+    {
+      "task_id": "235",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "no_update",
+      "run_id": "0"
+    },
+    {
+      "task_id": "133",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "full_rewrite",
+      "run_id": "0"
+    },
+    {
+      "task_id": "144",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "full_rewrite",
+      "run_id": "0"
+    },
+    {
+      "task_id": "235",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "full_rewrite",
+      "run_id": "0"
+    },
+    {
+      "task_id": "133",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "selective_patch",
+      "run_id": "0"
+    },
+    {
+      "task_id": "144",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "selective_patch",
+      "run_id": "0"
+    },
+    {
+      "task_id": "235",
+      "tf_by_stage": {
+        "Early": 10.0,
+        "Middle": 10.0,
+        "Late": 10.0
+      },
+      "mean": 10.0,
+      "population_std": 0.0,
+      "ecs": 10.0,
+      "strategy": "selective_patch",
+      "run_id": "0"
+    }
+  ],
+  "recovery_and_retention": [
+    {
+      "strategy": "no_update",
+      "version": "Middle",
+      "cohort": "changed",
+      "task_count": 2,
+      "paired_observations": 2,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 2,
+      "status": "available"
+    },
+    {
+      "strategy": "no_update",
+      "version": "Middle",
+      "cohort": "retained",
+      "task_count": 1,
+      "paired_observations": 1,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 1,
+      "status": "available"
+    },
+    {
+      "strategy": "no_update",
+      "version": "Late",
+      "cohort": "changed",
+      "task_count": 2,
+      "paired_observations": 2,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 2,
+      "status": "available"
+    },
+    {
+      "strategy": "no_update",
+      "version": "Late",
+      "cohort": "retained",
+      "task_count": 1,
+      "paired_observations": 1,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 1,
+      "status": "available"
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Middle",
+      "cohort": "changed",
+      "task_count": 2,
+      "paired_observations": 2,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 2,
+      "status": "available"
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Middle",
+      "cohort": "retained",
+      "task_count": 1,
+      "paired_observations": 1,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 1,
+      "status": "available"
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Late",
+      "cohort": "changed",
+      "task_count": 2,
+      "paired_observations": 2,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 2,
+      "status": "available"
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Late",
+      "cohort": "retained",
+      "task_count": 1,
+      "paired_observations": 1,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 1,
+      "status": "available"
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Middle",
+      "cohort": "changed",
+      "task_count": 2,
+      "paired_observations": 2,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 2,
+      "status": "available"
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Middle",
+      "cohort": "retained",
+      "task_count": 1,
+      "paired_observations": 1,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 1,
+      "status": "available"
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Late",
+      "cohort": "changed",
+      "task_count": 2,
+      "paired_observations": 2,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 2,
+      "status": "available"
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Late",
+      "cohort": "retained",
+      "task_count": 1,
+      "paired_observations": 1,
+      "tf_delta_vs_no_update": 0.0,
+      "positive_tf_loss_vs_no_update": 0.0,
+      "tf_delta_vs_early_no_update": 0.0,
+      "improved_count": 0,
+      "regressed_count": 0,
+      "equal_count": 1,
+      "status": "available"
+    }
+  ],
+  "adaptation_costs": {
+    "status": "measured_dimensions_only",
+    "accounting_unit": "one adaptation per strategy stage run",
+    "rows": [
+      {
+        "strategy": "full_rewrite",
+        "version": "Early",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.0,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "full_rewrite",
+        "version": "Late",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.0015816660015843809,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "full_rewrite",
+        "version": "Middle",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.003223916981369257,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "no_update",
+        "version": "Early",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.0,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "no_update",
+        "version": "Late",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.0012971669784747064,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "no_update",
+        "version": "Middle",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.0011932080378755927,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "selective_patch",
+        "version": "Early",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.0,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "selective_patch",
+        "version": "Late",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.029001999995671213,
+        "mean_api_cost_usd": 0.0
+      },
+      {
+        "strategy": "selective_patch",
+        "version": "Middle",
+        "run_count": 1,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "mean_wall_seconds": 0.019785584008786827,
+        "mean_api_cost_usd": 0.0
+      }
+    ]
+  },
+  "caveats": [
+    "Protocol metadata are supplied declarations; review against actual run manifests.",
+    "Changed and retained cohorts must be fixed before viewing scores.",
+    "A single run has no estimable between-run standard deviation.",
+    "Cohort deltas are additional analysis, not official benchmark metric definitions.",
+    "Custom Codex CLI JSON action protocol uses an explicit model alias and unexposed sampling controls.",
+    "One agent run and one same-model independent judge session per cell cannot establish uncertainty or population robustness.",
+    "Full refresh and selective patch expose equal model-facing tools and routes for every selected task-stage; score differences cannot establish a semantic patch advantage.",
+    "The judge sees current tool schemas even when no-update actors receive Early knowledge. Some PE rationales may incorrectly attribute stale-call errors to ignoring supplied rules.",
+    "Task 235 measures official vis-chart specifications, not rendered PNG artifact production.",
+    "Invalid attempts remain retained and unscored; accepted retry results occupy the same frozen grid cell."
+  ],
+  "source_eval_files": [
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/no_update/EVAL/133.json",
+      "sha256": "0502ca3fdfcb75ff0791ba63fc088490da16fa7b2ce2112e74d001d9bdd16ad1",
+      "identity": [
+        "0",
+        "Early",
+        "no_update",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/no_update/EVAL/144.json",
+      "sha256": "ca2f82cc13bc080d71b965669ad366a62395d318c18e98a2e966910f867ebb70",
+      "identity": [
+        "0",
+        "Early",
+        "no_update",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/no_update/EVAL/235.json",
+      "sha256": "db7145e2014115055e1956978b5f584562414942d2888c26005ddfdae76bab41",
+      "identity": [
+        "0",
+        "Early",
+        "no_update",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/full_rewrite/EVAL/133.json",
+      "sha256": "66694d9678aa481ce87ae06eba965aa26ac698fba33c91c65bac906552f36950",
+      "identity": [
+        "0",
+        "Early",
+        "full_rewrite",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/full_rewrite/EVAL/144.json",
+      "sha256": "0065e91e13eb42cce252fd3f2fe2355a2b1675960297862cf34ff1d200d08de5",
+      "identity": [
+        "0",
+        "Early",
+        "full_rewrite",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/full_rewrite/EVAL/235.json",
+      "sha256": "a9eaef10453095e5ce6756405e016ba798a2b0c2e8af22c6bde21fea86a1ef38",
+      "identity": [
+        "0",
+        "Early",
+        "full_rewrite",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/selective_patch/EVAL/133.json",
+      "sha256": "4307264c627f29da684847932bf54939cd25725f7d731ba7843e6a7b4e60a4f1",
+      "identity": [
+        "0",
+        "Early",
+        "selective_patch",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/selective_patch/EVAL/144.json",
+      "sha256": "5d1a0bfd2ac15d203c62e7b6c3863ced5b247a4f1746c6b0f51eda3dbdf3e826",
+      "identity": [
+        "0",
+        "Early",
+        "selective_patch",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/early/selective_patch/EVAL/235.json",
+      "sha256": "df5e494538e58d75bec2361f48e6a8ec7d9919e1cb103725566d8d67fc2c8398",
+      "identity": [
+        "0",
+        "Early",
+        "selective_patch",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/no_update/EVAL/133.json",
+      "sha256": "cc1bc3ec52f50b3a69e70d2789a150fb7cce279e7241711fcc00a23e10f994f0",
+      "identity": [
+        "0",
+        "Middle",
+        "no_update",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/no_update/EVAL/144.json",
+      "sha256": "984c8bb088632d3551a4c6a987d9cf9cc9f33c74f0ac05d4b8713676b8a891bb",
+      "identity": [
+        "0",
+        "Middle",
+        "no_update",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/no_update/EVAL/235.json",
+      "sha256": "3e0809475e43bf4aa019051ffbbc8ab9a4e86bfcf9852e47a3d8d608bfe0c6d8",
+      "identity": [
+        "0",
+        "Middle",
+        "no_update",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/full_rewrite/EVAL/133.json",
+      "sha256": "841937d0d0e481b4999180fd6f32d41c01ca74dd8958d9b06d8a7caa83d41c41",
+      "identity": [
+        "0",
+        "Middle",
+        "full_rewrite",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/full_rewrite/EVAL/144.json",
+      "sha256": "1762b4d9ce2d1d06910d8ba1a47aa76b2c6c7055c81d77b091a91a23ba5f6caa",
+      "identity": [
+        "0",
+        "Middle",
+        "full_rewrite",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/full_rewrite/EVAL/235.json",
+      "sha256": "bb4fb6f9beb59f2a65e35f594891e44d550bb88c0f425108a47705d000dc4a0a",
+      "identity": [
+        "0",
+        "Middle",
+        "full_rewrite",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/selective_patch/EVAL/133.json",
+      "sha256": "0f3f2dfd597acc9e11019311fc9a96e3c9c073397bcd94b9c7c6b901b6e64e86",
+      "identity": [
+        "0",
+        "Middle",
+        "selective_patch",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/selective_patch/EVAL/144.json",
+      "sha256": "ef4bf74a4df6128a59df95c1e18d5eeb3b06b708a77a830514a1e9489f12ae2a",
+      "identity": [
+        "0",
+        "Middle",
+        "selective_patch",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/selective_patch/EVAL/235.json",
+      "sha256": "ec8d280edd9854db5fda16df9aaa5b9ccdd05be208734b0294ff73dba87f0229",
+      "identity": [
+        "0",
+        "Middle",
+        "selective_patch",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/no_update/EVAL/133.json",
+      "sha256": "fb2dc7601afacf43c9f807ffd3b1be3cf2f8e1f22a9e52691c5291be231c714b",
+      "identity": [
+        "0",
+        "Late",
+        "no_update",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/no_update/EVAL/144.json",
+      "sha256": "64a116c17448f1177fca42fc752292fd011a6f4512aefd56f6e53b114a4b9e0b",
+      "identity": [
+        "0",
+        "Late",
+        "no_update",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/no_update/EVAL/235.json",
+      "sha256": "a025a1b5578fe9f6b03b99a43f85f4864bc676693589ceaa13387e97aa19e396",
+      "identity": [
+        "0",
+        "Late",
+        "no_update",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/full_rewrite/EVAL/133.json",
+      "sha256": "7d5c4d9dd37ecff725a7e36a6785e0208d4ae204659eb43ec7758e56ef8169ce",
+      "identity": [
+        "0",
+        "Late",
+        "full_rewrite",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/full_rewrite/EVAL/144.json",
+      "sha256": "cce370a32998eadfde2bd99d2e6ce5473a2b1496346a93669b0f4321d0370b5d",
+      "identity": [
+        "0",
+        "Late",
+        "full_rewrite",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/full_rewrite/EVAL/235.json",
+      "sha256": "30444fa2c75dba6ae26b345d271eb6f265d597331edf152a384e9f0978d88464",
+      "identity": [
+        "0",
+        "Late",
+        "full_rewrite",
+        "235"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/selective_patch/EVAL/133.json",
+      "sha256": "c07e5e75ccd1097d740a9d993a4795b95812f7f908e813d7ae0cfad8ab3aab93",
+      "identity": [
+        "0",
+        "Late",
+        "selective_patch",
+        "133"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/selective_patch/EVAL/144.json",
+      "sha256": "786ba4e3a63a1164547615956a61f30a0f0779a9e6d84ff3a4d719dcb613663f",
+      "identity": [
+        "0",
+        "Late",
+        "selective_patch",
+        "144"
+      ]
+    },
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/selective_patch/EVAL/235.json",
+      "sha256": "3c9d0b5bbb4ee46ca28dcad97705eff2bc7cf03d2443ee36d978c82bca9a8df5",
+      "identity": [
+        "0",
+        "Late",
+        "selective_patch",
+        "235"
+      ]
+    }
+  ],
+  "attempt_audit_file": "attempt_audit.json",
+  "knowledge_equivalence_file": "knowledge_equivalence.json",
+  "accepted_model_usage": {
+    "agent": {
+      "calls": 64,
+      "input_tokens": 1503060,
+      "output_tokens": 17495,
+      "api_cost_usd": null
+    },
+    "judge": {
+      "calls": 27,
+      "input_tokens": 796308,
+      "output_tokens": 9874,
+      "api_cost_usd": null
+    }
+  }
+}

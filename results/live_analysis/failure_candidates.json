@@ -1,0 +1,56 @@
+{
+  "candidates": [
+    {
+      "review_status": "CANDIDATE_REQUIRES_HUMAN_CAUSAL_REVIEW",
+      "category": "under_update_stale_required_parameter",
+      "task_id": "133",
+      "strategy": "no_update",
+      "version": "Late",
+      "run_id": "0",
+      "source_path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/late/no_update/EVAL/133.json",
+      "source_sha256": "fb2dc7601afacf43c9f807ffd3b1be3cf2f8e1f22a9e52691c5291be231c714b",
+      "observation_index": 0,
+      "tool_identity": "math-mcp_1mcp_validate_syntax",
+      "observation": {
+        "round": 1,
+        "tool_call_id": "agent_21c0e11f1cff47e99941fa3d8df1f65c_0",
+        "proposed_alias": "tool_894f961f14fe17daf923508a",
+        "tool_identity": "math-mcp_1mcp_validate_syntax",
+        "arguments": {
+          "expression": "2 * (3 + 4)"
+        },
+        "route": "math-mcp_1mcp_validate_syntax",
+        "redaction_policy": "Complete untruncated tool result with credential values removed",
+        "status": "VALID_TASK_FAILURE",
+        "failure_category": "mcp_isError_response",
+        "raw_result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Error: validate_syntax requires allow_variables to be explicitly provided as a boolean"
+            }
+          ],
+          "isError": true
+        },
+        "model_visible_char_limit": 12000,
+        "model_observation_truncated": false
+      },
+      "old_required": [
+        "expression"
+      ],
+      "current_required": [
+        "allow_variables",
+        "expression"
+      ],
+      "newly_required_but_missing": [
+        "allow_variables"
+      ],
+      "same_tool_later_successful": true,
+      "raw_tf": 10.0,
+      "raw_pe": 6.0,
+      "judge_caveat": "The judge sees current schemas while a no-update actor sees Early knowledge. A real stale call and retry do not establish that the actor ignored a requirement it had received. Preserve the original score and disclose this attribution asymmetry."
+    }
+  ],
+  "natural_over_update": "No structural over-update is established by these candidate records. Retention score variation under identical knowledge cannot establish that mechanism.",
+  "controlled_over_update": "See separately labelled LOCAL_CONTRACT_TEST route-corruption example; it has no benchmark score."
+}

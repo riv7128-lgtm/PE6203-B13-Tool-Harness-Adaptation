@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "task_fulfillment": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "grounding": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "planning_and_efficiency": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "task_fulfillment_reasoning": {
+      "type": "string"
+    },
+    "grounding_reasoning": {
+      "type": "string"
+    },
+    "planning_efficiency_reasoning": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "task_fulfillment",
+    "grounding",
+    "planning_and_efficiency",
+    "task_fulfillment_reasoning",
+    "grounding_reasoning",
+    "planning_efficiency_reasoning"
+  ],
+  "additionalProperties": false
+}

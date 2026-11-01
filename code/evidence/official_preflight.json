@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED_NOT_EXECUTED",
+  "errors": [
+    "Configure model",
+    "Configure judge_model",
+    "Configure api_base_url",
+    "Configure judge_api_base_url",
+    "Configure file_tree",
+    "Provide a reviewed reset_command argv list to restore sandbox state before every condition",
+    "Configure an existing isolated benchmark workspace",
+    "Missing captured early.json snapshot",
+    "Missing captured middle.json snapshot",
+    "Missing captured late.json snapshot",
+    "Missing credential environment variable MODEL_API_KEY",
+    "Missing credential environment variable JUDGE_API_KEY",
+    "Optional mcp package is not installed"
+  ],
+  "credential_values_logged": false
+}

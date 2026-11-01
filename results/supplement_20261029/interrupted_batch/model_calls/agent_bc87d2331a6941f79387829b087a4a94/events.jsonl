@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a18762-7869-7c10-ac62-ff92aaa55935"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"content\":\"The request identifies category leaders but supplies no sales amounts. The available tools only render supplied data, so I can’t accurately generate the charts yet. Required data: province, total sales, electronics sales, and apparel sales for a consistent period and currency. Use #1783FF for electronics, #00C9C9 for apparel, and a continuous blue gradient for provincial totals.\",\"tool_calls\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":29671,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":115,"reasoning_output_tokens":20}}

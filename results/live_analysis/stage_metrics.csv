@@ -1,0 +1,10 @@
+strategy,version,task_count,run_count,tf_mean,pe_mean,tf_run_sample_std,pe_run_sample_std
+no_update,Early,3,1,10.0,10.0,,
+no_update,Middle,3,1,10.0,10.0,,
+no_update,Late,3,1,10.0,8.666666666666666,,
+full_rewrite,Early,3,1,10.0,10.0,,
+full_rewrite,Middle,3,1,10.0,10.0,,
+full_rewrite,Late,3,1,10.0,10.0,,
+selective_patch,Early,3,1,10.0,10.0,,
+selective_patch,Middle,3,1,10.0,10.0,,
+selective_patch,Late,3,1,10.0,10.0,,

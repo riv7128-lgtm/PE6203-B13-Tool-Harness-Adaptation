@@ -1,0 +1,86 @@
+[
+  {
+    "source": "node_modules/zod/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/zod/package.json",
+    "size": 3284,
+    "sha256": "70eedbe34fd52385a4ae2f3e5759b19682189f0118ea73a6e7c32c677f61668e"
+  },
+  {
+    "source": "node_modules/@modelcontextprotocol/sdk/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@modelcontextprotocol/sdk/package.json",
+    "size": 5924,
+    "sha256": "7f878a9bf7276aabe8e695ce712b9ae0dbba9660f611d7e1f877923bf0a02686"
+  },
+  {
+    "source": "node_modules/@modelcontextprotocol/server-filesystem/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@modelcontextprotocol/server-filesystem/package.json",
+    "size": 1173,
+    "sha256": "a7fb83c2a8000d1d69e632f6c7ce150db8ea615df9e605bc8a14ac78832cab9e"
+  },
+  {
+    "source": "node_modules/@guanxiong/mcp-server-time/index.js",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@guanxiong/mcp-server-time/index.js",
+    "size": 5902,
+    "sha256": "0d0a7cff06a2416299c025d40a7a9f75c7e2ca809194839b776346a9f39465ad"
+  },
+  {
+    "source": "node_modules/@guanxiong/mcp-server-time/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@guanxiong/mcp-server-time/package.json",
+    "size": 970,
+    "sha256": "a394dcdfdcd6266d7c966d35d48f199f8aff6f15add4e7a24b2e11a4b9b06592"
+  },
+  {
+    "source": "node_modules/mcp-tasks/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mcp-tasks/package.json",
+    "size": 3152,
+    "sha256": "ede3f50cf63508b060cc2a78ce7581cb5aac5c74ce1d2098342c05c2f1a0536b"
+  },
+  {
+    "source": "node_modules/time-mcp/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/time-mcp/package.json",
+    "size": 1687,
+    "sha256": "954afa21aff9fea80da5fbda752d60a393a22aa77b5db953a19a41cad2ea7cd7"
+  },
+  {
+    "source": "node_modules/mcp-filesystem-server/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mcp-filesystem-server/package.json",
+    "size": 942,
+    "sha256": "2eb5e82fec2f04113d62a7ac2de36fd66b6caa5dd5df6c44f913f66bdea377b0"
+  },
+  {
+    "source": "node_modules/mcp-sequentialthinking-tools/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mcp-sequentialthinking-tools/package.json",
+    "size": 1674,
+    "sha256": "a0787cb82aa7119895d36bebc18b31f3c9e172602baf126eacbb3aa728a2986f"
+  },
+  {
+    "source": "node_modules/math-mcp/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/math-mcp/package.json",
+    "size": 1683,
+    "sha256": "0b349138d84dc458d3a36cf9eb3ba092a78e96d10d368dc18105af6e4dd307b4"
+  },
+  {
+    "source": "node_modules/@guanxiong/mcp-server-time/index.js",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@guanxiong/mcp-server-time/index.js",
+    "size": 6429,
+    "sha256": "a22dd6add78e5a65c8e7ab236ce660f7111557cf05f5d9da5b39b75e9a58e1af"
+  },
+  {
+    "source": "node_modules/@guanxiong/mcp-server-time/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@guanxiong/mcp-server-time/package.json",
+    "size": 970,
+    "sha256": "a394dcdfdcd6266d7c966d35d48f199f8aff6f15add4e7a24b2e11a4b9b06592"
+  },
+  {
+    "source": "node_modules/@guanxiong/mcp-server-time/index.js",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/@guanxiong/mcp-server-time/index.js",
+    "size": 15282,
+    "sha256": "b5cc7e56366447c8c3954e423fc06cfe67a879b97a411ceb663115db52b0c9a2"
+  },
+  {
+    "source": "node_modules/@guanxiong/mcp-server-time/package.json",
+    "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/@guanxiong/mcp-server-time/package.json",
+    "size": 970,
+    "sha256": "a394dcdfdcd6266d7c966d35d48f199f8aff6f15add4e7a24b2e11a4b9b06592"
+  }
+]

@@ -1,0 +1,5 @@
+# Optional transport dependency pinned to the inspected upstream requirements.
+# The official model wrapper and deployed servers require upstream dependencies.
+# Install in a dedicated environment after reviewing the official README.
+mcp==1.25.0
+openai==2.16.0

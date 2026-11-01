@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\run_expanded.py", line 80, in <module>
+    run_official(config,repo,prepared,snapshots,batch/'benchmark')
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\runner.py", line 216, in run_official
+    future.result()
+  File "C:\Users\泥舟\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\泥舟\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\泥舟\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\runner.py", line 173, in run_version
+    case = run_agent(task, harness, config["endpoints"][version], run_config, repo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\official.py", line 517, in run_agent
+    response = completion(config, messages, tools)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\official.py", line 276, in completion
+    return codex_cli_completion(config, messages, tools, judge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\official.py", line 404, in codex_cli_completion
+    raise RuntimeError(f"Codex CLI failed with exit code {result.returncode}; see saved stderr log")
+RuntimeError: Codex CLI failed with exit code 1; see saved stderr log

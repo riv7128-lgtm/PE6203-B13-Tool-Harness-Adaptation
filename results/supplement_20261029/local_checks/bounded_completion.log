@@ -1,0 +1,2 @@
+{"event": "CALL_COMPLETED", "budget": {"max_calls": 20, "max_input_tokens": 300000, "completed_calls": 7, "input_tokens": 259569, "output_tokens": 2548, "status": "RUNNING", "automatic_retries": 0}}
+{"event": "CONDITION_COMPLETED", "strategy": "selective_patch", "scores": {"task_fulfillment_mean": 10.0, "planning_and_efficiency_mean": 10.0, "successful_runs": 1, "total_runs": 1}}

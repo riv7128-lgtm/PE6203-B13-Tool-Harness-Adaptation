@@ -1,0 +1,57 @@
+{
+  "status": "FROZEN_BEFORE_BENCHMARK_SCORES",
+  "benchmark": "MCPEvol-Bench",
+  "commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+  "task_ids": [
+    133,
+    144,
+    235
+  ],
+  "tasks_sha256": "e0a434ee37820fd08ab3aa7095b7006ad8b26218ec8953b2419c48ee8c8443d9",
+  "selection": "Selected before model task scores, based on inspectable published server bundles, local dependency availability and self-contained tasks. 133 covers math parameter/tool inventory changes, 144 covers official description overlays, 235 is a graph-spec retention control. No task text, reference labels or source fields are edited.",
+  "excluded_preliminary_tasks": "The earlier 12-task draft was never model-scored; it is superseded for resource-limited live execution.",
+  "model_outcomes_used_in_selection": false,
+  "runs": 1,
+  "judge_runs": 1,
+  "resource_limitation": "One run per cell and a small convenience subset, no population generalization or significance claim.",
+  "tasks": [
+    {
+      "idx": 133,
+      "question_sha256": "2696530b363e56858c54c15f1ba48eb2bbf4264a7290629284fbbbc28c41b05b",
+      "servers": {
+        "math-mcp": [
+          "validate_syntax",
+          "evaluate"
+        ],
+        "mcp-ai-agent-guidelines": [
+          "security-hardening-prompt-builder"
+        ]
+      }
+    },
+    {
+      "idx": 144,
+      "question_sha256": "1d7205c5c29de713dd90a485fe83d67d3efdab8804b4765f57ef277bfdcffcff",
+      "servers": {
+        "time-mcp": [
+          "current_time",
+          "convert_time"
+        ],
+        "time": [
+          "get_current_time",
+          "convert_time"
+        ]
+      }
+    },
+    {
+      "idx": 235,
+      "question_sha256": "7c83997ef2d8579fccb662e104afbe045b79743aa9387a452edac87f00628bd5",
+      "servers": {
+        "@umengfe/mcp-server-chart": [
+          "generate_district_map",
+          "generate_area_chart",
+          "generate_column_chart"
+        ]
+      }
+    }
+  ]
+}

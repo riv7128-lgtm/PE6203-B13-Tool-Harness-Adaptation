@@ -1,0 +1,200 @@
+Math MCP Server started
+MCP AI Agent Guide Server running on stdio
+Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_env\Lib\site-packages\mcp\client\stdio\__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_env\Lib\site-packages\pydantic\main.py", line 845, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Starting Time MCP server...', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.14/v/json_invalid
+[MCP-Server-Chart] 2026-10-29T11:42:47.661Z ℹ️  setting up tool handlers...
+[MCP-Server-Chart] 2026-10-29T11:42:47.662Z ℹ️  tool handlers set up
+[MCP-Server-Chart] 2026-10-29T11:42:47.664Z ✅ Stdio MCP Server started
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_area_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_bar_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_boxplot_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_column_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_district_map":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_dual_axes_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_fishbone_diagram":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_flow_diagram":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_funnel_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_heatmap_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_histogram_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_indented_tree":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_line_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_liquid_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_mind_map":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_network_graph":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_organization_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_path_map":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_pie_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_pin_map":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_radar_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_sankey_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_scatter_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_table":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_treemap_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_venn_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_violin_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+WARNING:mcp.shared.tool_name_validation:Tool name validation warning for "@umengfe/mcp-server-chart_1mcp_generate_word_cloud_chart":
+WARNING:mcp.shared.tool_name_validation:  - Tool name contains invalid characters: '@', '/'
+WARNING:mcp.shared.tool_name_validation:  - Allowed characters are: A-Z, a-z, 0-9, underscore (_), dash (-), and dot (.)
+WARNING:mcp.shared.tool_name_validation:Tool registration will proceed, but this may cause compatibility issues.
+WARNING:mcp.shared.tool_name_validation:Consider updating the tool name to conform to the MCP tool naming standard.
+WARNING:mcp.shared.tool_name_validation:See SEP-986 (https://modelcontextprotocol.io/specification/2025-11-25/server/tools#tool-names) for more details.
+Math MCP Server started
+MCP AI Agent Guide Server running on stdio
+ERROR:mcp.client.stdio:Failed to parse JSONRPC message from server
+Traceback (most recent call last):
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_env\Lib\site-packages\mcp\client\stdio\__init__.py", line 155, in stdout_reader
+    message = types.JSONRPCMessage.model_validate_json(line)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_env\Lib\site-packages\pydantic\main.py", line 845, in model_validate_json
+    return cls.__pydantic_validator__.validate_json(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Starting Time MCP server...', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.14/v/json_invalid
+[MCP-Server-Chart] 2026-10-29T11:42:52.877Z ℹ️  setting up tool handlers...
+[MCP-Server-Chart] 2026-10-29T11:42:52.879Z ℹ️  tool handlers set up
+[MCP-Server-Chart] 2026-10-29T11:42:52.880Z ✅ Stdio MCP Server started

@@ -1,0 +1,168 @@
+{
+  "evidence_kind": "OFFICIAL_SERVER_TRANSPORT_PROBE_NOT_BENCHMARK",
+  "version": "iter5",
+  "server": "math-mcp",
+  "status": "TRANSPORT_READY",
+  "chart_external_proxy_unreachable": false,
+  "tools": [
+    {
+      "name": "evaluate",
+      "description": "Evaluate mathematical expressions with strict grammar validation",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to evaluate"
+          },
+          "validate_only": {
+            "type": "boolean",
+            "description": "If true, only validate syntax without evaluation",
+            "default": false
+          }
+        },
+        "required": [
+          "expression"
+        ]
+      }
+    },
+    {
+      "name": "validate_syntax",
+      "description": "Validate mathematical expression syntax against grammar",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to validate",
+            "minLength": 1
+          },
+          "detailed": {
+            "type": "boolean",
+            "description": "If true, return a more detailed validation result when supported",
+            "default": false
+          },
+          "allow_variables": {
+            "type": "boolean",
+            "description": "Explicitly specify whether variable references are allowed during validation"
+          },
+          "show_ast": {
+            "type": "boolean",
+            "description": "If true, include the abstract syntax tree (AST) structure in the validation result",
+            "default": false
+          },
+          "check_balanced": {
+            "type": "boolean",
+            "description": "If true, perform additional validation to ensure all brackets and parentheses are properly balanced",
+            "default": true
+          },
+          "max_depth": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "description": "Maximum allowed nesting depth for expressions (e.g., nested parentheses or function calls). If specified, validation fails if depth exceeds this limit"
+          }
+        },
+        "required": [
+          "expression",
+          "allow_variables"
+        ]
+      }
+    },
+    {
+      "name": "set_variable",
+      "description": "Set a variable value in the math context",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Variable name"
+          },
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to evaluate and store"
+          }
+        },
+        "required": [
+          "name",
+          "expression"
+        ]
+      }
+    },
+    {
+      "name": "get_variable",
+      "description": "Get the value of a variable",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Variable name"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "list_variables",
+      "description": "List all defined variables",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "clear_variables",
+      "description": "Clear all defined variables",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "batch_evaluate",
+      "description": "Evaluate multiple mathematical expressions in a single batch operation",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expressions": {
+            "type": "array",
+            "description": "Array of mathematical expressions to evaluate",
+            "items": {
+              "type": "string"
+            }
+          },
+          "stop_on_error": {
+            "type": "boolean",
+            "description": "If true, stop processing on first error; if false, continue and report all results",
+            "default": false
+          }
+        },
+        "required": [
+          "expressions"
+        ]
+      }
+    }
+  ],
+  "call_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error: validate_syntax requires allow_variables to be explicitly provided as a boolean"
+      }
+    ],
+    "isError": true
+  },
+  "call_with_current_schema": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Expression is syntactically valid."
+      }
+    ],
+    "isError": false
+  }
+}

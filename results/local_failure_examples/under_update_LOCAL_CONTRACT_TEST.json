@@ -1,0 +1,67 @@
+{
+  "evidence_kind": "LOCAL_CONTRACT_TEST",
+  "official_benchmark": false,
+  "agent_type": "deterministic in-process tool emulator",
+  "scores": null,
+  "benchmark_task_id": null,
+  "failure_type": "under_update",
+  "title": "Parameter rename missed by patch",
+  "environment_change": {
+    "tool": "files.read",
+    "old_parameter": "path",
+    "new_parameter": "file_path"
+  },
+  "attempted_update": {
+    "description": "changed",
+    "parameter_knowledge": "left stale"
+  },
+  "trajectory": [
+    {
+      "step": 1,
+      "action": "load_harness",
+      "knowledge": {
+        "parameter": "path",
+        "route": "files-v2",
+        "description": "Read a file using the new environment"
+      }
+    },
+    {
+      "step": 2,
+      "action": "call_tool",
+      "tool": "files.read",
+      "arguments": {
+        "path": "fixture.txt"
+      },
+      "route": "files-v2"
+    },
+    {
+      "step": 3,
+      "action": "observe",
+      "result": {
+        "ok": false,
+        "error": "MissingRequiredParameter",
+        "missing": [
+          "file_path"
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "action": "apply_corrective_patch",
+      "new_parameter": "file_path"
+    },
+    {
+      "step": 5,
+      "action": "call_tool",
+      "arguments": {
+        "file_path": "fixture.txt"
+      },
+      "result": {
+        "ok": true,
+        "content": "local fixture file content",
+        "path": "fixture.txt"
+      }
+    }
+  ],
+  "conclusion": "Updating the description alone leaves the required argument name stale."
+}

@@ -1,0 +1,19 @@
+{
+  "strategy": "no_update",
+  "version": "Early",
+  "run_id": "0",
+  "run_seed": null,
+  "seed_controlled": false,
+  "protocol_id": "772dc057b8ee91a62a87db1d0d873abe1b685f88e7c37906504258eddca64955",
+  "protocol_fingerprint": "772dc057b8ee91a62a87db1d0d873abe1b685f88e7c37906504258eddca64955",
+  "task_ids": [
+    "133",
+    "144",
+    "235"
+  ],
+  "cohort": "retained",
+  "affected_required_tools": [],
+  "agent_visible_harness_sha256": "0347f374e73af5a4e35ddb17ab7fe2e8b196a5c6f29ed855a09671be0abe23af",
+  "execution_snapshot_sha256": "0347f374e73af5a4e35ddb17ab7fe2e8b196a5c6f29ed855a09671be0abe23af",
+  "execution_endpoint": "http://127.0.0.1:3050/mcp/"
+}

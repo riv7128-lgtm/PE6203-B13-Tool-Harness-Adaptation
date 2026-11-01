@@ -1,0 +1,228 @@
+{
+  "evidence_kind": "MODEL_KNOWLEDGE_EQUIVALENCE_AND_COHORT_AUDIT",
+  "rows": [
+    {
+      "task_id": "133",
+      "version": "Early",
+      "cohort": "retained",
+      "affected_required_tools": [],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [],
+      "actual_change_levels": [],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": true,
+      "model_tools_sha256": {
+        "no_update": "83012bf9e957bf1df2b8a56d53654c203be930b946b1dcb886058c8eddd46bf6",
+        "full_rewrite": "83012bf9e957bf1df2b8a56d53654c203be930b946b1dcb886058c8eddd46bf6",
+        "selective_patch": "83012bf9e957bf1df2b8a56d53654c203be930b946b1dcb886058c8eddd46bf6"
+      }
+    },
+    {
+      "task_id": "133",
+      "version": "Middle",
+      "cohort": "changed",
+      "affected_required_tools": [
+        "math-mcp_1mcp_validate_syntax"
+      ],
+      "added_tools": [
+        "mcp-ai-agent-guidelines_1mcp_constitution-validator"
+      ],
+      "removed_tools": [],
+      "changed_tools": [
+        "math-mcp_1mcp_validate_syntax",
+        "mcp-ai-agent-guidelines_1mcp_design-assistant",
+        "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+        "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+        "mcp-ai-agent-guidelines_1mcp_validate-spec"
+      ],
+      "actual_change_levels": [
+        "Description",
+        "Parameter",
+        "Tool"
+      ],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": false,
+      "model_tools_sha256": {
+        "no_update": "83012bf9e957bf1df2b8a56d53654c203be930b946b1dcb886058c8eddd46bf6",
+        "full_rewrite": "5439f49ec704ac9d6fbd29c7d7faa9d96d5ccd000a90ddb654496f7687ccbb19",
+        "selective_patch": "5439f49ec704ac9d6fbd29c7d7faa9d96d5ccd000a90ddb654496f7687ccbb19"
+      }
+    },
+    {
+      "task_id": "133",
+      "version": "Late",
+      "cohort": "changed",
+      "affected_required_tools": [
+        "math-mcp_1mcp_validate_syntax"
+      ],
+      "added_tools": [
+        "math-mcp_1mcp_batch_evaluate",
+        "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+        "mcp-ai-agent-guidelines_1mcp_prompt-version-manager"
+      ],
+      "removed_tools": [],
+      "changed_tools": [
+        "math-mcp_1mcp_validate_syntax",
+        "mcp-ai-agent-guidelines_1mcp_design-assistant",
+        "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+        "mcp-ai-agent-guidelines_1mcp_prompt-hierarchy",
+        "mcp-ai-agent-guidelines_1mcp_prompting-hierarchy-evaluator",
+        "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+        "mcp-ai-agent-guidelines_1mcp_validate-spec"
+      ],
+      "actual_change_levels": [
+        "Description",
+        "Parameter",
+        "Tool"
+      ],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": false,
+      "model_tools_sha256": {
+        "no_update": "83012bf9e957bf1df2b8a56d53654c203be930b946b1dcb886058c8eddd46bf6",
+        "full_rewrite": "57a3f9e99020ac5610cb0c7bd9dcc94e011a7bd8d16c1b16ee53434e379582f1",
+        "selective_patch": "57a3f9e99020ac5610cb0c7bd9dcc94e011a7bd8d16c1b16ee53434e379582f1"
+      }
+    },
+    {
+      "task_id": "144",
+      "version": "Early",
+      "cohort": "retained",
+      "affected_required_tools": [],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [],
+      "actual_change_levels": [],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": true,
+      "model_tools_sha256": {
+        "no_update": "1aa16d4f0250f1f41ee91613c292d738d38ca2f542fc92ba49805121ee38a14b",
+        "full_rewrite": "1aa16d4f0250f1f41ee91613c292d738d38ca2f542fc92ba49805121ee38a14b",
+        "selective_patch": "1aa16d4f0250f1f41ee91613c292d738d38ca2f542fc92ba49805121ee38a14b"
+      }
+    },
+    {
+      "task_id": "144",
+      "version": "Middle",
+      "cohort": "changed",
+      "affected_required_tools": [
+        "time-mcp_1mcp_convert_time"
+      ],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [
+        "time-mcp_1mcp_convert_time"
+      ],
+      "actual_change_levels": [
+        "Description"
+      ],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": false,
+      "model_tools_sha256": {
+        "no_update": "1aa16d4f0250f1f41ee91613c292d738d38ca2f542fc92ba49805121ee38a14b",
+        "full_rewrite": "8c33fe3186e14377615c0a20ddbbac9038b167ed56d247632f9e4a846304873e",
+        "selective_patch": "8c33fe3186e14377615c0a20ddbbac9038b167ed56d247632f9e4a846304873e"
+      }
+    },
+    {
+      "task_id": "144",
+      "version": "Late",
+      "cohort": "changed",
+      "affected_required_tools": [
+        "time-mcp_1mcp_convert_time",
+        "time-mcp_1mcp_current_time"
+      ],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [
+        "time-mcp_1mcp_convert_time",
+        "time-mcp_1mcp_current_time"
+      ],
+      "actual_change_levels": [
+        "Description"
+      ],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": false,
+      "model_tools_sha256": {
+        "no_update": "1aa16d4f0250f1f41ee91613c292d738d38ca2f542fc92ba49805121ee38a14b",
+        "full_rewrite": "0c20254f204b39f094ec15f0af939f7b4568e392a542e461481e1a00b11e026f",
+        "selective_patch": "0c20254f204b39f094ec15f0af939f7b4568e392a542e461481e1a00b11e026f"
+      }
+    },
+    {
+      "task_id": "235",
+      "version": "Early",
+      "cohort": "retained",
+      "affected_required_tools": [],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [],
+      "actual_change_levels": [],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": true,
+      "model_tools_sha256": {
+        "no_update": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e",
+        "full_rewrite": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e",
+        "selective_patch": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e"
+      }
+    },
+    {
+      "task_id": "235",
+      "version": "Middle",
+      "cohort": "retained",
+      "affected_required_tools": [],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [],
+      "actual_change_levels": [],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": true,
+      "model_tools_sha256": {
+        "no_update": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e",
+        "full_rewrite": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e",
+        "selective_patch": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e"
+      }
+    },
+    {
+      "task_id": "235",
+      "version": "Late",
+      "cohort": "retained",
+      "affected_required_tools": [],
+      "added_tools": [],
+      "removed_tools": [],
+      "changed_tools": [],
+      "actual_change_levels": [],
+      "full_selective_equal_model_tools": true,
+      "full_selective_equal_routes": true,
+      "no_update_equal_full_model_tools": true,
+      "model_tools_sha256": {
+        "no_update": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e",
+        "full_rewrite": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e",
+        "selective_patch": "e0bf648510f3636992438d56cec9d9402a12f9e83c62c1348e97f2ee3613442e"
+      }
+    }
+  ],
+  "cohort_by_version": {
+    "Middle": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained"
+    },
+    "Late": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained"
+    }
+  },
+  "full_selective_equal_for_every_task_stage": true,
+  "interpretation": "When full refresh and selective patch expose equal model tools and routes, score differences cannot establish a semantic update advantage. Uncontrolled sampling, live clock timing and judge variability remain possible causes.",
+  "schema_description_note": "Descriptions nested inside inputSchema count as Description coverage here, not structural Parameter changes."
+}

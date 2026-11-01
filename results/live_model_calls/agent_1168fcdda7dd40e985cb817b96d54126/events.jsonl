@@ -1,0 +1,10 @@
+{"type":"thread.started","thread_id":"01a18048-7fd6-7c62-8e4b-9c47d7aa1e87"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"error","message":"Reconnecting... 5/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Falling back from WebSockets to HTTPS transport. stream disconnected before completion: Connection reset by peer (os error 54)"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"content\":\"At the time checked:\\n- Tokyo: October 28, 2026, at 11:13:01 AM JST.\\n- New York: October 27, 2026, at 10:13:01 PM EDT.\\n\\nTokyo is 13 hours ahead of New York.\",\"tool_calls\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":11916,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":79,"reasoning_output_tokens":0}}

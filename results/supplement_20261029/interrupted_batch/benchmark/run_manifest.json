@@ -1,0 +1,144 @@
+{
+  "benchmark": "MCPEvol-Bench",
+  "result_type": "OFFICIAL_TASKS_ADAPTER_PROTOCOL",
+  "task_ids": [
+    "133",
+    "144",
+    "235",
+    "249",
+    "291",
+    "448"
+  ],
+  "run_ids": [
+    "0",
+    "1",
+    "2"
+  ],
+  "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211",
+  "protocol_fingerprint": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211",
+  "protocol": {
+    "model_id": "gpt-6.1-sol",
+    "decoding": {
+      "backend": "codex_cli",
+      "max_rounds": 6,
+      "fixed_time": "2026-10-29",
+      "cli_version": "codex-cli 0.165.0-alpha.1.2",
+      "reasoning_effort": "low",
+      "unsupported_parameters": [
+        "temperature",
+        "seed",
+        "max_tokens"
+      ],
+      "sampling_parameters_controlled": false,
+      "action_protocol": "Stateless strict JSON proposals converted by external executor"
+    },
+    "judge": {
+      "backend": "codex_cli",
+      "model": "gpt-6.1-sol",
+      "runs": 1,
+      "reasoning_effort": "low",
+      "sampling_parameters_controlled": false,
+      "independent_ephemeral_session": true,
+      "rubric": "pinned official build_mcp_bench_judge_prompt",
+      "dimension_order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+    "config": {
+      "backend": "codex_cli",
+      "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+      "model": "gpt-6.1-sol",
+      "judge_model": "gpt-6.1-sol",
+      "codex_cli_executable": "C:\\Users\\泥舟\\AppData\\Local\\OpenAI\\Codex\\bin\\0ab0e7a8f3779036\\codex.exe",
+      "codex_cli_expected_version": "codex-cli 0.165.0-alpha.1.2",
+      "codex_cli_reasoning_effort": "low",
+      "codex_cli_timeout_seconds": 300,
+      "cli_unsupported_parameters": [
+        "temperature",
+        "seed",
+        "max_tokens"
+      ],
+      "temperature": null,
+      "max_tokens": null,
+      "seed": null,
+      "run_seeds": [
+        0,
+        1,
+        2
+      ],
+      "run_seed_note": "Compatibility placeholder only; Codex CLI does not expose or control seed.",
+      "max_rounds": 6,
+      "runs": 3,
+      "judge_runs": 1,
+      "fixed_time": "2026-10-29",
+      "tool_result_max_chars": 12000,
+      "file_tree": "Isolated anotation_path directory. Selected tasks are self contained and need no user files.",
+      "endpoints": {
+        "early": "http://127.0.0.1:3050/mcp/",
+        "middle": "http://127.0.0.1:3051/mcp/",
+        "late": "http://127.0.0.1:3052/mcp/"
+      },
+      "protocol_notes": [
+        "Six-task resource-limited convenience subset: all chosen official tasks whose required servers are entirely deployed.",
+        "Three independent fresh-session repetitions; CLI sampling seeds remain uncontrolled.",
+        "Judge receives actor-visible and current metadata; no actor label leakage.",
+        "Tasks 249 291 448 lack some numerical inputs: no added data or labels; inspect invented data and requests for clarification.",
+        "New Windows environment; no pooling with old pilot or connectivity/smoke calls.",
+        "Strategy order fixed no-update/full-rewrite/selective; stages isolated; same six-round action cap."
+      ],
+      "stage_workers": 3,
+      "workspace": "E:\\eai项目文件\\6203 后半\\OneDrive_1_2026-10-26\\supplemental_experiments\\live_pilot\\work\\live_runtime",
+      "codex_cli_log_dir": "E:\\eai项目文件\\6203 后半\\OneDrive_1_2026-10-26\\supplemental_experiments\\live_pilot\\results\\expanded_6tasks_3runs\\model_calls",
+      "reset_command": [
+        "E:\\eai项目文件\\6203 后半\\OneDrive_1_2026-10-26\\supplemental_experiments\\live_env\\Scripts\\python.exe",
+        "E:\\eai项目文件\\6203 后半\\OneDrive_1_2026-10-26\\supplemental_experiments\\live_pilot\\code\\scripts\\reset_live_environment.py",
+        "--endpoint",
+        "{endpoint}"
+      ],
+      "source_hashes": {
+        "harness_adapt/analysis.py": "f787fb8b7c4825384e1bf1a08c2448ec8eee9396d2393a95bb29c5ef9f105471",
+        "harness_adapt/baselines.py": "ebfe3113789e07caf75810075e8680e67ab4f5313a3472de5e396a31f6451576",
+        "harness_adapt/changes.py": "af622c8ad09ee879f1deedc438b207157d3f12148dea9066a7e48a028a9ce189",
+        "harness_adapt/description_overlay.py": "951d2f6b6623dae3dba581fd0f2c180479adc864a5809d0064860951a5b56a60",
+        "harness_adapt/literal_parser.py": "8f9425fc323f0ce18acb990cb08dff90ce967cfaaa7e4ec0b2da2c07f3a3a201",
+        "harness_adapt/metrics.py": "5935dfa78b136c770075c190c758c1d1ed202c101467d4b86af7c4db1f4455ca",
+        "harness_adapt/official.py": "355df716ee681bc6b2ada342799c7d2e5763b46a1666be84c719dfdf71753385",
+        "harness_adapt/patch.py": "23943f1e7e551e202596524774653bd1f70f0a3d682bd0b19c4b91f4442a9ad6",
+        "harness_adapt/runner.py": "a4e62fdc8675b0d2d2274f449fd966d6c9f5552a174ed949e8ca52680a70ce92",
+        "harness_adapt/validation.py": "8fc2c21fa3032ef0b4551022e161b3330afda3422739257a61d421753a99d01a",
+        "harness_adapt/__init__.py": "5f94f028fd8ff35559352ba6bc86579a01df62c50e6315402044980e53581f05",
+        "harness_adapt/__main__.py": "8fda124942c1535a5de3d48057be3524a626b1f648786b7b6c0ec5fcc2aa1fec"
+      }
+    },
+    "task_sha256": "779b842d261ca872f41aa5431e9acf3b081c24ff779d7acadfd0a63c25032c0e",
+    "snapshots": {
+      "early": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+      "middle": "c51cfd2295cfb0fa0d8ec8c29e81cfeb5bd1f7ab077049956ef46629796c1c84",
+      "late": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a"
+    },
+    "protocol_extension": "Canonical tool-knowledge intervention; all candidate-server tools; hashed aliases; fixed time and max rounds; complete assistant evidence for judge. CLI is a custom JSON action backend with unexposed sampling parameters, not native API tool calling."
+  },
+  "cohort_by_version": {
+    "Middle": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained",
+      "249": "retained",
+      "291": "retained",
+      "448": "retained"
+    },
+    "Late": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained",
+      "249": "retained",
+      "291": "retained",
+      "448": "retained"
+    }
+  },
+  "adaptation_costs": [],
+  "status": "RUNNING"
+}

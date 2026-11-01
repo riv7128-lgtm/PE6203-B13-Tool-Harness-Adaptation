@@ -1,0 +1,16 @@
+{
+  "smoke_model_calls": {
+    "started_calls": 10,
+    "completed_calls": 10,
+    "input_tokens": 403583,
+    "cached_input_tokens": 0,
+    "output_tokens": 3612
+  },
+  "model_calls": {
+    "started_calls": 67,
+    "completed_calls": 58,
+    "input_tokens": 1969666,
+    "cached_input_tokens": 23040,
+    "output_tokens": 15818
+  }
+}

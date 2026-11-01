@@ -1,0 +1,126 @@
+--- reference_harness/patch.py
++++ harness_adapt/patch.py
+@@ -5,7 +5,7 @@
+ from copy import deepcopy
+ 
+ from .changes import canonical_digest, detect_changes
+-from .validation import preservation_report, validate_harness
++from .validation import _preservation_report_for_changes
+ 
+ 
+ def selective_patch(old_harness: dict, new_harness: dict, rename_map: dict[str, str] | None = None) -> dict:
+@@ -16,14 +16,20 @@
+     unrelated top-level knowledge are intentionally immutable under this method.
+     """
+     changes = detect_changes(old_harness, new_harness, rename_map)
++    patched, _ = _apply_patch(old_harness, new_harness, changes)
++    return patched
++
++
++def _apply_patch(old_harness: dict, new_harness: dict, changes: dict) -> tuple[dict, dict]:
++    """Apply an internal fresh diff and preserve every original safety check."""
+     affected = set(changes["affected"])
+     removed = set(changes["removed"])
+     added = set(changes["added"])
+     new_tools = {tool["name"]: tool for tool in new_harness["tools"]}
+     patched = deepcopy(old_harness)
+     patched["tools"] = [
+-        deepcopy(new_tools[tool["name"]] if tool["name"] in affected else tool)
+-        for tool in old_harness["tools"] if tool["name"] not in removed
++        deepcopy(new_tools[tool["name"]]) if tool["name"] in affected else tool
++        for tool in patched["tools"] if tool["name"] not in removed
+     ]
+     patched["tools"].extend(deepcopy(tool) for tool in new_harness["tools"] if tool["name"] in added)
+     for field in ("usage_rules", "routing"):
+@@ -38,18 +44,16 @@
+                 values[name] = deepcopy(target[name])
+             else:
+                 values.pop(name, None)
+-    validate_harness(patched)
+-    report = preservation_report(old_harness, new_harness, patched)
++    report = _preservation_report_for_changes(old_harness, patched, changes)
+     if not report["preserved"]:
+         raise AssertionError(f"selective patch violated preservation: {report['violations']}")
+-    return patched
++    return patched, report
+ 
+ 
+ def patch_with_audit(old_harness: dict, new_harness: dict, rename_map: dict[str, str] | None = None) -> tuple[dict, dict]:
+     """Return the patch plus transparent update and preservation evidence."""
+     changes = detect_changes(old_harness, new_harness, rename_map)
+-    patched = selective_patch(old_harness, new_harness, rename_map)
+-    report = preservation_report(old_harness, new_harness, patched)
++    patched, report = _apply_patch(old_harness, new_harness, changes)
+     new_tools = {tool["name"]: tool for tool in new_harness["tools"]}
+     patched_tools = {tool["name"]: tool for tool in patched["tools"]}
+     unresolved = []
+--- reference_harness/changes.py
++++ harness_adapt/changes.py
+@@ -39,8 +39,8 @@
+     return [{"path": path or "/", "operation": "replace", "before": before, "after": after}]
+ 
+ 
+-def _knowledge(harness: dict, name: str) -> dict:
+-    tool = next(tool for tool in harness["tools"] if tool["name"] == name)
++def _knowledge(harness: dict, name: str, tools: dict) -> dict:
++    tool = tools[name]
+     record = {"tool": tool}
+     for field in ("usage_rules", "routing"):
+         if name in harness.get(field, {}):
+@@ -73,8 +73,10 @@
+     """
+     validate_harness(old_harness)
+     validate_harness(new_harness)
+-    old_names = {tool["name"] for tool in old_harness["tools"]}
+-    new_names = {tool["name"] for tool in new_harness["tools"]}
++    old_tools = {tool["name"]: tool for tool in old_harness["tools"]}
++    new_tools = {tool["name"]: tool for tool in new_harness["tools"]}
++    old_names = set(old_tools)
++    new_names = set(new_tools)
+     added = sorted(new_names - old_names)
+     removed = sorted(old_names - new_names)
+     if rename_map is None:
+@@ -90,7 +92,7 @@
+     changed = []
+     unchanged = []
+     for name in sorted(old_names & new_names):
+-        deltas = _diff(_knowledge(old_harness, name), _knowledge(new_harness, name))
++        deltas = _diff(_knowledge(old_harness, name, old_tools), _knowledge(new_harness, name, new_tools))
+         if deltas:
+             changed.append(name)
+             details[name] = {"kind": "changed", "levels": _levels(deltas), "changes": deltas}
+@@ -98,11 +100,11 @@
+             unchanged.append(name)
+     inverse_renames = {destination: source for source, destination in rename_map.items()}
+     for name in added:
+-        details[name] = {"kind": "added", "levels": ["Tool"], "changes": [{"path": "/", "operation": "add", "after": _knowledge(new_harness, name)}]}
++        details[name] = {"kind": "added", "levels": ["Tool"], "changes": [{"path": "/", "operation": "add", "after": _knowledge(new_harness, name, new_tools)}]}
+         if name in inverse_renames:
+             details[name]["renamed_from"] = inverse_renames[name]
+     for name in removed:
+-        details[name] = {"kind": "removed", "levels": ["Tool"], "changes": [{"path": "/", "operation": "remove", "before": _knowledge(old_harness, name)}]}
++        details[name] = {"kind": "removed", "levels": ["Tool"], "changes": [{"path": "/", "operation": "remove", "before": _knowledge(old_harness, name, old_tools)}]}
+         if name in rename_map:
+             details[name]["renamed_to"] = rename_map[name]
+     global_deltas = _diff(old_harness.get("global_rules", []), new_harness.get("global_rules", []), "/global_rules")
+--- reference_harness/validation.py
++++ harness_adapt/validation.py
+@@ -173,10 +173,15 @@
+ 
+ def preservation_report(old_harness: dict, new_harness: dict, patched: dict) -> dict:
+     """Audit unaffected knowledge plus global and unrelated top-level fields."""
+-    from .changes import canonical_digest, detect_changes
+-
++    from .changes import detect_changes
++    changes = detect_changes(old_harness, new_harness)
++    return _preservation_report_for_changes(old_harness, patched, changes)
++
++
++def _preservation_report_for_changes(old_harness: dict, patched: dict, changes: dict) -> dict:
++    """Internal reuse of a freshly computed diff; public audit recomputes it."""
++    from .changes import canonical_digest
+     validate_harness(patched)
+-    changes = detect_changes(old_harness, new_harness)
+     unchanged = changes["unchanged"]
+     old_tools = {tool["name"]: tool for tool in old_harness["tools"]}
+     patched_tools = {tool["name"]: tool for tool in patched["tools"]}

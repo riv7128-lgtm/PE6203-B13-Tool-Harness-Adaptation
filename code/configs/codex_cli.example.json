@@ -1,0 +1,30 @@
+{
+  "backend": "codex_cli",
+  "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+  "model": "gpt-6.1-sol",
+  "judge_model": "gpt-6.1-sol",
+  "codex_cli_executable": "codex",
+  "codex_cli_expected_version": "codex-cli 0.164.0-alpha.11.1",
+  "codex_cli_reasoning_effort": "low",
+  "codex_cli_timeout_seconds": 300,
+  "codex_cli_log_dir": "SET_MODEL_CALL_EVIDENCE_DIRECTORY",
+  "cli_unsupported_parameters": ["temperature", "seed", "max_tokens"],
+  "temperature": null,
+  "max_tokens": null,
+  "seed": null,
+  "run_seeds": [0],
+  "run_seed_note": "Compatibility placeholder only; Codex CLI does not expose or control seed.",
+  "max_rounds": 15,
+  "runs": 1,
+  "judge_runs": 1,
+  "fixed_time": "2026-10-27",
+  "tool_result_max_chars": 500,
+  "workspace": "SET_ISOLATED_BENCHMARK_WORKSPACE",
+  "file_tree": "SET_ANNOTATION_RESOURCE_TREE",
+  "reset_command": [],
+  "endpoints": {
+    "early": "http://127.0.0.1:3050/mcp",
+    "middle": "http://127.0.0.1:3051/mcp",
+    "late": "http://127.0.0.1:3052/mcp"
+  }
+}

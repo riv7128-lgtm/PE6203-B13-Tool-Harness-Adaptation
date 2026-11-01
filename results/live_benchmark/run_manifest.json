@@ -1,0 +1,198 @@
+{
+  "benchmark": "MCPEvol-Bench",
+  "result_type": "OFFICIAL_TASKS_ADAPTER_PROTOCOL",
+  "task_ids": [
+    "133",
+    "144",
+    "235"
+  ],
+  "run_ids": [
+    "0"
+  ],
+  "protocol_id": "772dc057b8ee91a62a87db1d0d873abe1b685f88e7c37906504258eddca64955",
+  "protocol_fingerprint": "772dc057b8ee91a62a87db1d0d873abe1b685f88e7c37906504258eddca64955",
+  "protocol": {
+    "model_id": "gpt-6.1-sol",
+    "decoding": {
+      "backend": "codex_cli",
+      "max_rounds": 6,
+      "fixed_time": "2026-10-28",
+      "cli_version": "codex-cli 0.164.0-alpha.11.1",
+      "reasoning_effort": "low",
+      "unsupported_parameters": [
+        "temperature",
+        "seed",
+        "max_tokens"
+      ],
+      "sampling_parameters_controlled": false,
+      "action_protocol": "Stateless strict JSON proposals converted by external executor"
+    },
+    "judge": {
+      "backend": "codex_cli",
+      "model": "gpt-6.1-sol",
+      "runs": 1,
+      "reasoning_effort": "low",
+      "sampling_parameters_controlled": false,
+      "independent_ephemeral_session": true,
+      "rubric": "pinned official build_mcp_bench_judge_prompt",
+      "dimension_order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+    "config": {
+      "backend": "codex_cli",
+      "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+      "model": "gpt-6.1-sol",
+      "judge_model": "gpt-6.1-sol",
+      "codex_cli_executable": "codex",
+      "codex_cli_expected_version": "codex-cli 0.164.0-alpha.11.1",
+      "codex_cli_reasoning_effort": "low",
+      "codex_cli_timeout_seconds": 300,
+      "codex_cli_log_dir": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls",
+      "cli_unsupported_parameters": [
+        "temperature",
+        "seed",
+        "max_tokens"
+      ],
+      "temperature": null,
+      "max_tokens": null,
+      "seed": null,
+      "run_seeds": [
+        0
+      ],
+      "run_seed_note": "Compatibility placeholder only; Codex CLI does not expose or control seed.",
+      "max_rounds": 6,
+      "runs": 1,
+      "judge_runs": 1,
+      "fixed_time": "2026-10-28",
+      "tool_result_max_chars": 12000,
+      "workspace": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime",
+      "file_tree": "Isolated anotation_path directory. Selected tasks are self contained and need no user files.",
+      "reset_command": [
+        "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_venv/bin/python",
+        "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/code/scripts/reset_live_environment.py",
+        "--endpoint",
+        "{endpoint}"
+      ],
+      "endpoints": {
+        "early": "http://127.0.0.1:3050/mcp/",
+        "middle": "http://127.0.0.1:3051/mcp/",
+        "late": "http://127.0.0.1:3052/mcp/"
+      },
+      "protocol_notes": [
+        "Codex CLI unexposed sampling parameters are not claimed as controlled.",
+        "One run and one independent judge session per condition.",
+        "Official raw task records are unchanged.",
+        "Official descriptions are overlaid from metadata before strategy adaptation.",
+        "Graph tools produce official vis-chart specifications, not rendered PNG files."
+      ],
+      "stage_workers": 3
+    },
+    "task_sha256": "e0a434ee37820fd08ab3aa7095b7006ad8b26218ec8953b2419c48ee8c8443d9",
+    "snapshots": {
+      "early": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+      "middle": "c51cfd2295cfb0fa0d8ec8c29e81cfeb5bd1f7ab077049956ef46629796c1c84",
+      "late": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a"
+    },
+    "protocol_extension": "Canonical tool-knowledge intervention; all candidate-server tools; hashed aliases; fixed time and max rounds; complete assistant evidence for judge. CLI is a custom JSON action backend with unexposed sampling parameters, not native API tool calling."
+  },
+  "cohort_by_version": {
+    "Middle": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained"
+    },
+    "Late": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained"
+    }
+  },
+  "adaptation_costs": [
+    {
+      "strategy": "full_rewrite",
+      "version": "Early",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.0,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "no_update",
+      "version": "Early",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.0,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Early",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.0,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Late",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.0015816660015843809,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "no_update",
+      "version": "Late",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.0012971669784747064,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Late",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.029001999995671213,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "full_rewrite",
+      "version": "Middle",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.003223916981369257,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "no_update",
+      "version": "Middle",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.0011932080378755927,
+      "api_cost_usd": 0.0
+    },
+    {
+      "strategy": "selective_patch",
+      "version": "Middle",
+      "run_id": "0",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "wall_seconds": 0.019785584008786827,
+      "api_cost_usd": 0.0
+    }
+  ],
+  "status": "COMPLETED"
+}

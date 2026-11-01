@@ -1,0 +1,9 @@
+{
+  "max_calls": 20,
+  "max_input_tokens": 300000,
+  "completed_calls": 7,
+  "input_tokens": 259569,
+  "output_tokens": 2548,
+  "status": "COMPLETED_TWO_MISSING_CONDITIONS",
+  "automatic_retries": 0
+}

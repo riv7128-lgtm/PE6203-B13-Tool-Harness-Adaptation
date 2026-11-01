@@ -1,0 +1,49 @@
+{
+  "backend": "codex_cli",
+  "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+  "model": "gpt-6.1-sol",
+  "judge_model": "gpt-6.1-sol",
+  "codex_cli_executable": "codex",
+  "codex_cli_expected_version": "codex-cli 0.164.0-alpha.11.1",
+  "codex_cli_reasoning_effort": "low",
+  "codex_cli_timeout_seconds": 300,
+  "codex_cli_log_dir": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls",
+  "cli_unsupported_parameters": [
+    "temperature",
+    "seed",
+    "max_tokens"
+  ],
+  "temperature": null,
+  "max_tokens": null,
+  "seed": null,
+  "run_seeds": [
+    0
+  ],
+  "run_seed_note": "Compatibility placeholder only; Codex CLI does not expose or control seed.",
+  "max_rounds": 6,
+  "runs": 1,
+  "judge_runs": 1,
+  "fixed_time": "2026-10-28",
+  "tool_result_max_chars": 12000,
+  "workspace": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime",
+  "file_tree": "Isolated anotation_path directory. Selected tasks are self contained and need no user files.",
+  "reset_command": [
+    "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_venv/bin/python",
+    "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/code/scripts/reset_live_environment.py",
+    "--endpoint",
+    "{endpoint}"
+  ],
+  "endpoints": {
+    "early": "http://127.0.0.1:3050/mcp/",
+    "middle": "http://127.0.0.1:3051/mcp/",
+    "late": "http://127.0.0.1:3052/mcp/"
+  },
+  "protocol_notes": [
+    "Codex CLI unexposed sampling parameters are not claimed as controlled.",
+    "One run and one independent judge session per condition.",
+    "Official raw task records are unchanged.",
+    "Official descriptions are overlaid from metadata before strategy adaptation.",
+    "Graph tools produce official vis-chart specifications, not rendered PNG files."
+  ],
+  "stage_workers": 3
+}

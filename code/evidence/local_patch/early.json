@@ -1,0 +1,78 @@
+{
+  "tools": [
+    {
+      "name": "weather.forecast",
+      "description": "Return a fixture forecast for a city name.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "city"
+        ],
+        "additionalProperties": false
+      },
+      "server": "weather"
+    },
+    {
+      "name": "files.read",
+      "description": "Read a fixture text file using an absolute path.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "server": "filesystem"
+    },
+    {
+      "name": "reports.save",
+      "description": "Save fixture report text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "text"
+        ],
+        "additionalProperties": false
+      },
+      "server": "reports"
+    }
+  ],
+  "usage_rules": {
+    "weather.forecast": [
+      "Pass a city name using the city argument."
+    ],
+    "files.read": [
+      "Use the path argument and preserve the file contents."
+    ],
+    "reports.save": [
+      "Pass the target path and report text."
+    ]
+  },
+  "routing": {
+    "weather.forecast": "weather",
+    "files.read": "filesystem",
+    "reports.save": "reports"
+  },
+  "global_rules": [
+    "Use tool observations as evidence and preserve unrelated tool knowledge."
+  ]
+}

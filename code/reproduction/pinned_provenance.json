@@ -1,0 +1,40 @@
+{
+  "dataset": "anonymous2233/evol-servers",
+  "revision": "162e3ffbea1717ac8a20fe9b26465e29117229e4",
+  "pinned_tree_matches_original_main_tree": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 2504,
+      "git_blob_oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "lfs_oid": null
+    },
+    {
+      "path": "README.md",
+      "size": 31,
+      "git_blob_oid": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+      "lfs_oid": null
+    },
+    {
+      "path": "iter3_servers.zip",
+      "size": 1088423924,
+      "git_blob_oid": "d75bbaa90d2de8f31987812aca4b14a57ce58e17",
+      "lfs_oid": "18ef1f0c693b4d84730992211f0663817973f3fb6b436e2e77f7c082137e2391",
+      "central_directory_sha256": "b06e51ea165e121556eb44419d23be4bfd39af5a33f467470faea667619efb57"
+    },
+    {
+      "path": "iter5_servers.zip",
+      "size": 1088574402,
+      "git_blob_oid": "a1c7213aa94d11ae7c8cc1fa4b6ebe6e8b44196b",
+      "lfs_oid": "67cc5adc6959acfa978ee67a0b53cc02f2fb064b16811d7a300a505117acaad1",
+      "central_directory_sha256": "e2f1a5592bccb7a917b045ed8a41503cbcf9eb6fcae580699268c24acfe49b38"
+    },
+    {
+      "path": "original_servers.zip",
+      "size": 1218495812,
+      "git_blob_oid": "4209ff995b70a2713025bccff81d66e247460e8e",
+      "lfs_oid": "a66baee83b5d7b810e4064472fbc9030ba656a324e806aa263187e754e6935ec",
+      "central_directory_sha256": "046399f5008784c4fc601901aa64e94550d700b7a0d9df500b18bee925159762"
+    }
+  ]
+}

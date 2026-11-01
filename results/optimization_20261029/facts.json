@@ -1,0 +1,115 @@
+{
+  "randomized_cases": 120,
+  "official_snapshot_pairs": 3,
+  "measured_executions": 396,
+  "scenario_count": 9,
+  "repeats": 11,
+  "model_calls": 0,
+  "pairs": [
+    {
+      "tools": 100,
+      "changed": 1,
+      "original_ms": 8.7911,
+      "optimized_ms": 4.9781,
+      "full_rewrite_ms": 0.705,
+      "speedup": 1.7659548823848454,
+      "reduction_pct": 43.373411745970344
+    },
+    {
+      "tools": 100,
+      "changed": 10,
+      "original_ms": 9.8161,
+      "optimized_ms": 5.4004,
+      "full_rewrite_ms": 0.7164,
+      "speedup": 1.817661654692245,
+      "reduction_pct": 44.984260551542874
+    },
+    {
+      "tools": 100,
+      "changed": 50,
+      "original_ms": 14.2557,
+      "optimized_ms": 7.4869,
+      "full_rewrite_ms": 0.6958,
+      "speedup": 1.9040858032029275,
+      "reduction_pct": 47.48135833385943
+    },
+    {
+      "tools": 300,
+      "changed": 3,
+      "original_ms": 30.2748,
+      "optimized_ms": 14.9624,
+      "full_rewrite_ms": 2.2396,
+      "speedup": 2.0233919692028017,
+      "reduction_pct": 50.57803850066722
+    },
+    {
+      "tools": 300,
+      "changed": 30,
+      "original_ms": 33.4527,
+      "optimized_ms": 16.9158,
+      "full_rewrite_ms": 2.3196,
+      "speedup": 1.9776008228993012,
+      "reduction_pct": 49.43367799908527
+    },
+    {
+      "tools": 300,
+      "changed": 150,
+      "original_ms": 47.2693,
+      "optimized_ms": 22.7993,
+      "full_rewrite_ms": 2.1923,
+      "speedup": 2.073278565569996,
+      "reduction_pct": 51.7672146615245
+    },
+    {
+      "tools": 1000,
+      "changed": 10,
+      "original_ms": 153.2541,
+      "optimized_ms": 52.3324,
+      "full_rewrite_ms": 7.8929,
+      "speedup": 2.928474520564698,
+      "reduction_pct": 65.85252857835451
+    },
+    {
+      "tools": 1000,
+      "changed": 100,
+      "original_ms": 164.0647,
+      "optimized_ms": 58.2425,
+      "full_rewrite_ms": 8.1403,
+      "speedup": 2.816924067476499,
+      "reduction_pct": 64.50028555807556
+    },
+    {
+      "tools": 1000,
+      "changed": 500,
+      "original_ms": 210.2995,
+      "optimized_ms": 78.894,
+      "full_rewrite_ms": 8.117,
+      "speedup": 2.665595609298552,
+      "reduction_pct": 62.4849322038331
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "methodology": "One excluded warmup per method/scenario; cyclic order; same process/input/clock. Independent validation outside timing. Both methods retain internal preservation checks. Elapsed wall time, not CPU time.",
+  "source_sha256": {
+    "harness_adapt\\analysis.py": "f787fb8b7c4825384e1bf1a08c2448ec8eee9396d2393a95bb29c5ef9f105471",
+    "harness_adapt\\baselines.py": "ebfe3113789e07caf75810075e8680e67ab4f5313a3472de5e396a31f6451576",
+    "harness_adapt\\changes.py": "ada4cefff66342a891a9da26505915bc58512348c7d326210bc77377f7228e96",
+    "harness_adapt\\description_overlay.py": "951d2f6b6623dae3dba581fd0f2c180479adc864a5809d0064860951a5b56a60",
+    "harness_adapt\\literal_parser.py": "8f9425fc323f0ce18acb990cb08dff90ce967cfaaa7e4ec0b2da2c07f3a3a201",
+    "harness_adapt\\metrics.py": "5935dfa78b136c770075c190c758c1d1ed202c101467d4b86af7c4db1f4455ca",
+    "harness_adapt\\official.py": "355df716ee681bc6b2ada342799c7d2e5763b46a1666be84c719dfdf71753385",
+    "harness_adapt\\patch.py": "6b0080a0833b489a92c37c198eed7db9b2cd1cff1068f4505c0cddfc19c47de1",
+    "harness_adapt\\runner.py": "a4e62fdc8675b0d2d2274f449fd966d6c9f5552a174ed949e8ca52680a70ce92",
+    "harness_adapt\\validation.py": "5b7131c2d38ebaa42f097d89e6356c5c9dd663d4c19642095ba42f7272990769",
+    "harness_adapt\\__init__.py": "5f94f028fd8ff35559352ba6bc86579a01df62c50e6315402044980e53581f05",
+    "harness_adapt\\__main__.py": "8fda124942c1535a5de3d48057be3524a626b1f648786b7b6c0ec5fcc2aa1fec",
+    "reference_harness\\baselines.py": "ebfe3113789e07caf75810075e8680e67ab4f5313a3472de5e396a31f6451576",
+    "reference_harness\\changes.py": "af622c8ad09ee879f1deedc438b207157d3f12148dea9066a7e48a028a9ce189",
+    "reference_harness\\patch.py": "23943f1e7e551e202596524774653bd1f70f0a3d682bd0b19c4b91f4442a9ad6",
+    "reference_harness\\validation.py": "8fc2c21fa3032ef0b4551022e161b3330afda3422739257a61d421753a99d01a",
+    "reference_harness\\__init__.py": "5f94f028fd8ff35559352ba6bc86579a01df62c50e6315402044980e53581f05"
+  }
+}

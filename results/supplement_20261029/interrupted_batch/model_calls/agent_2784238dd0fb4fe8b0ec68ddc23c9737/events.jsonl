@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a18763-465a-7020-8395-6ae468a0b8d4"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"content\":\"The supplied context contains no actual 2025 sales or profit margin figures, and the available tools only render charts; they cannot retrieve company data. Creating the requested dashboard requires provincial sales in millions RMB and January–December sales volumes and profit margins. No figures have been invented or charts generated.\",\"tool_calls\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":29673,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":97,"reasoning_output_tokens":20}}

@@ -1,0 +1,15 @@
+{
+  "evidence_type": "OFFICIAL_METADATA_STATIC_AUDIT",
+  "not_task_evaluation": true,
+  "tf": null,
+  "pe": null,
+  "ecs": null,
+  "source_files": 4,
+  "total_diff_hunks": 357,
+  "accepted_literal_pairs": 17,
+  "rejected_hunks": 340,
+  "assertions_per_pair": 5,
+  "passed_assertions": 85,
+  "failed_assertions": 0,
+  "coverage_limit": "Complete JSON-like JS tool literals only. Python/TypeScript/function-body hunks and additions/deletions without paired complete literals are excluded. The unchanged control is local, not a measured unaffected benchmark task."
+}

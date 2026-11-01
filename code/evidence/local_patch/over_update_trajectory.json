@@ -1,0 +1,57 @@
+{
+  "evidence_type": "LOCAL_CONTRACT_TEST",
+  "is_official_benchmark": false,
+  "failure_type": "over_update",
+  "cause": "Fault injection modifies an unchanged files.read schema from path to file.",
+  "environment": "middle",
+  "fault_injected": true,
+  "trajectory": [
+    {
+      "step": 1,
+      "harness": "fault-injected broad update",
+      "action": {
+        "tool": "files.read",
+        "arguments": {
+          "file": "/fixture/report.txt"
+        }
+      },
+      "result": {
+        "accepted": false,
+        "errors": [
+          "$.path: required property missing",
+          "$.file: additional property forbidden"
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "harness": "selectively patched",
+      "action": {
+        "tool": "files.read",
+        "arguments": {
+          "path": "/fixture/report.txt"
+        }
+      },
+      "result": {
+        "accepted": true,
+        "observation": {
+          "fixture_only": true,
+          "path": "/fixture/report.txt",
+          "text": "fixture file contents"
+        }
+      }
+    }
+  ],
+  "preservation_check": {
+    "unchanged_tools_checked": 1,
+    "unchanged_tool_names": [
+      "files.read"
+    ],
+    "preserved": false,
+    "violations": [
+      "tools/files.read"
+    ],
+    "global_rules_preserved": true
+  },
+  "interpretation": "This constructed negative control demonstrates the guard, not evidence that a particular full-rewrite implementation naturally fails."
+}

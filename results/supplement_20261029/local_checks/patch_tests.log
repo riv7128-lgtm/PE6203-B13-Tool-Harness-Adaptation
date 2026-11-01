@@ -1,0 +1,25 @@
+test_description_usage_and_route_changes_are_detected (test_patch.DetectionTests.test_description_usage_and_route_changes_are_detected) ... ok
+test_identical_and_tool_reorder_are_not_changes (test_patch.DetectionTests.test_identical_and_tool_reorder_are_not_changes) ... ok
+test_invalid_rename_fails (test_patch.DetectionTests.test_invalid_rename_fails) ... ok
+test_json_boolean_and_number_are_not_identical (test_patch.DetectionTests.test_json_boolean_and_number_are_not_identical) ... ok
+test_nested_parameter_and_output_changes_are_localized (test_patch.DetectionTests.test_nested_parameter_and_output_changes_are_localized) ... ok
+test_rename_is_not_inferred (test_patch.DetectionTests.test_rename_is_not_inferred) ... ok
+test_usage_only_change_is_affected (test_patch.DetectionTests.test_usage_only_change_is_affected) ... ok
+test_add_remove_and_cleanup_keyed_knowledge (test_patch.PatchTests.test_add_remove_and_cleanup_keyed_knowledge) ... ok
+test_detects_injected_over_update (test_patch.PatchTests.test_detects_injected_over_update) ... ok
+test_does_not_mutate_inputs_or_alias_outputs (test_patch.PatchTests.test_does_not_mutate_inputs_or_alias_outputs) ... ok
+test_global_change_is_preserved_and_flagged_as_unsupported (test_patch.PatchTests.test_global_change_is_preserved_and_flagged_as_unsupported) ... ok
+test_optional_maps_absent_are_not_introduced (test_patch.PatchTests.test_optional_maps_absent_are_not_introduced) ... ok
+test_patch_restores_changed_call_and_preserves_unrelated_tool (test_patch.PatchTests.test_patch_restores_changed_call_and_preserves_unrelated_tool) ... ok
+test_rule_removal_does_not_leave_stale_rule (test_patch.PatchTests.test_rule_removal_does_not_leave_stale_rule) ... ok
+test_dangling_rule_rejected (test_patch.ValidationTests.test_dangling_rule_rejected) ... ok
+test_duplicate_tool_names_rejected (test_patch.ValidationTests.test_duplicate_tool_names_rejected) ... ok
+test_integer_rejects_boolean (test_patch.ValidationTests.test_integer_rejects_boolean) ... ok
+test_nonfinite_json_rejected (test_patch.ValidationTests.test_nonfinite_json_rejected) ... ok
+test_unknown_tool_and_missing_parameter (test_patch.ValidationTests.test_unknown_tool_and_missing_parameter) ... ok
+test_unsupported_json_schema_features_are_reported (test_patch.ValidationTests.test_unsupported_json_schema_features_are_reported) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.006s
+
+OK

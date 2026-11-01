@@ -1,0 +1,50 @@
+[
+  {
+    "type": "file",
+    "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+    "size": 2504,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+    "size": 31,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "d75bbaa90d2de8f31987812aca4b14a57ce58e17",
+    "size": 1088423924,
+    "lfs": {
+      "oid": "18ef1f0c693b4d84730992211f0663817973f3fb6b436e2e77f7c082137e2391",
+      "size": 1088423924,
+      "pointerSize": 135
+    },
+    "xetHash": "42ea3504cb52e7e2ebb98e52a2a31bc1e6961694208cfbfca1e9ba22b95f9b95",
+    "path": "iter3_servers.zip"
+  },
+  {
+    "type": "file",
+    "oid": "a1c7213aa94d11ae7c8cc1fa4b6ebe6e8b44196b",
+    "size": 1088574402,
+    "lfs": {
+      "oid": "67cc5adc6959acfa978ee67a0b53cc02f2fb064b16811d7a300a505117acaad1",
+      "size": 1088574402,
+      "pointerSize": 135
+    },
+    "xetHash": "7bacdcb890e9125b2663197f2b611d0b6fc106e7b86ef18757ca2485c17aad86",
+    "path": "iter5_servers.zip"
+  },
+  {
+    "type": "file",
+    "oid": "4209ff995b70a2713025bccff81d66e247460e8e",
+    "size": 1218495812,
+    "lfs": {
+      "oid": "a66baee83b5d7b810e4064472fbc9030ba656a324e806aa263187e754e6935ec",
+      "size": 1218495812,
+      "pointerSize": 135
+    },
+    "xetHash": "cde327b243419efb5c0fd40bb99ede60f0fc16720f0d4a06c29076c00ea5c492",
+    "path": "original_servers.zip"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_BEFORE_NEW_BENCHMARK_SCORES",
+  "task_ids": [
+    133,
+    144,
+    235,
+    249,
+    291,
+    448
+  ],
+  "tasks_sha256": "779b842d261ca872f41aa5431e9acf3b081c24ff779d7acadfd0a63c25032c0e",
+  "selection": "All chosen official tasks whose required servers are a subset of the five frozen deployed server identities, sorted by idx; no score-based selection.",
+  "runs": 3,
+  "judge_runs": 1,
+  "created_unix": 1793272468.5875177,
+  "limitations": "Two changed tasks and four chart retention tasks; several charts lack numbers; no invented inputs."
+}

@@ -1,0 +1,78 @@
+{
+  "tools": [
+    {
+      "name": "weather.forecast",
+      "description": "Return a fixture forecast for a canonical location identifier such as SG-SIN.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "location"
+        ],
+        "additionalProperties": false
+      },
+      "server": "weather"
+    },
+    {
+      "name": "files.read",
+      "description": "Read a fixture text file using an absolute path.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "server": "filesystem"
+    },
+    {
+      "name": "reports.write",
+      "description": "Replacement fixture report writer.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "text"
+        ],
+        "additionalProperties": false
+      },
+      "server": "reports"
+    }
+  ],
+  "usage_rules": {
+    "weather.forecast": [
+      "Resolve city names to canonical identifiers before calling; Singapore maps to SG-SIN in this fixture."
+    ],
+    "files.read": [
+      "Use the path argument and preserve the file contents."
+    ],
+    "reports.write": [
+      "Pass the target path and report text."
+    ]
+  },
+  "routing": {
+    "weather.forecast": "weather-v3",
+    "files.read": "filesystem",
+    "reports.write": "reports"
+  },
+  "global_rules": [
+    "Use tool observations as evidence and preserve unrelated tool knowledge."
+  ]
+}

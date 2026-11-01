@@ -1,0 +1,59 @@
+{
+  "invalid_attempt_count": 1,
+  "invalid_attempts": [
+    {
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_benchmark/run_0/middle/full_rewrite/INVALID_ATTEMPTS/144_2376bd236a224846a2d543b4d40e0825.json",
+      "sha256": "e79cbae8eafe7a75f2b5a1ae766d36e9837777927587a0c710ea9b1c393f3821",
+      "status": "INVALID_INFRASTRUCTURE_NOT_SCORED",
+      "phase": "agent_execution",
+      "task_id": "144",
+      "strategy": "full_rewrite",
+      "version": "Middle",
+      "error_type": "TimeoutExpired",
+      "scores": null
+    }
+  ],
+  "model_log_status_counts": {
+    "COMPLETED_WITHOUT_BUILTIN_ACTIONS": 93,
+    "FAILED_NOT_SCORED": 1
+  },
+  "calls_not_linked_to_accepted_cells": [
+    {
+      "call_id": "agent_af584fe46a1f4fbb86a2fd114ae9c68d",
+      "status": "COMPLETED_WITHOUT_BUILTIN_ACTIONS",
+      "request_type": "agent_action",
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_af584fe46a1f4fbb86a2fd114ae9c68d/metadata.json",
+      "elapsed_seconds": 20.801550149917603,
+      "usage": {
+        "input_tokens": 11737,
+        "cached_input_tokens": 7808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 70,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "call_id": "agent_e97877b832214aa6ae94ca3f1b461687",
+      "status": "COMPLETED_WITHOUT_BUILTIN_ACTIONS",
+      "request_type": "agent_action",
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_e97877b832214aa6ae94ca3f1b461687/metadata.json",
+      "elapsed_seconds": 19.162662029266357,
+      "usage": {
+        "input_tokens": 11538,
+        "cached_input_tokens": 7808,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 59,
+        "reasoning_output_tokens": 0
+      }
+    },
+    {
+      "call_id": "agent_f549f715abda4b8c87a0f27a66e344f9",
+      "status": "FAILED_NOT_SCORED",
+      "request_type": "agent_action",
+      "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/outputs/PE6203_Project4/Group_Project/results/live_model_calls/agent_f549f715abda4b8c87a0f27a66e344f9/metadata.json",
+      "elapsed_seconds": 300.0702929496765,
+      "usage": null
+    }
+  ],
+  "interpretation": "Invalid attempts and unsuccessful model calls remain saved and unscored. Successful retries fill the same frozen grid cell. Completed but unlinked calls may be abandoned attempts and are not assumed to be formal results."
+}

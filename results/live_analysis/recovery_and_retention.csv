@@ -1,0 +1,13 @@
+strategy,version,cohort,task_count,paired_observations,tf_delta_vs_no_update,positive_tf_loss_vs_no_update,tf_delta_vs_early_no_update,improved_count,regressed_count,equal_count,status
+no_update,Middle,changed,2,2,0.0,0.0,0.0,0,0,2,available
+no_update,Middle,retained,1,1,0.0,0.0,0.0,0,0,1,available
+no_update,Late,changed,2,2,0.0,0.0,0.0,0,0,2,available
+no_update,Late,retained,1,1,0.0,0.0,0.0,0,0,1,available
+full_rewrite,Middle,changed,2,2,0.0,0.0,0.0,0,0,2,available
+full_rewrite,Middle,retained,1,1,0.0,0.0,0.0,0,0,1,available
+full_rewrite,Late,changed,2,2,0.0,0.0,0.0,0,0,2,available
+full_rewrite,Late,retained,1,1,0.0,0.0,0.0,0,0,1,available
+selective_patch,Middle,changed,2,2,0.0,0.0,0.0,0,0,2,available
+selective_patch,Middle,retained,1,1,0.0,0.0,0.0,0,0,1,available
+selective_patch,Late,changed,2,2,0.0,0.0,0.0,0,0,2,available
+selective_patch,Late,retained,1,1,0.0,0.0,0.0,0,0,1,available

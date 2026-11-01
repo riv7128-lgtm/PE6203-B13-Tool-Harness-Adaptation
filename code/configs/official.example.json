@@ -1,0 +1,29 @@
+{
+  "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+  "model": "SET_MODEL",
+  "judge_model": "SET_JUDGE_MODEL",
+  "api_base_url": "SET_MODEL_API_BASE_URL",
+  "judge_api_base_url": "SET_JUDGE_API_BASE_URL",
+  "api_key_env": "MODEL_API_KEY",
+  "judge_api_key_env": "JUDGE_API_KEY",
+  "temperature": 0.2,
+  "judge_temperature": 0.0,
+  "max_tokens": 4096,
+  "judge_max_tokens": 8192,
+  "max_rounds": 15,
+  "seed": 6203,
+  "run_seeds": [6203, 6204, 6205],
+  "runs": 3,
+  "judge_runs": 5,
+  "fixed_time": "2026-10-27",
+  "api_timeout_seconds": 120,
+  "tool_result_max_chars": 500,
+  "workspace": "SET_ISOLATED_BENCHMARK_WORKSPACE",
+  "file_tree": "SET_ANNOTATION_RESOURCE_TREE",
+  "reset_command": [],
+  "endpoints": {
+    "early": "http://127.0.0.1:3050/mcp",
+    "middle": "http://127.0.0.1:3051/mcp",
+    "late": "http://127.0.0.1:3052/mcp"
+  }
+}

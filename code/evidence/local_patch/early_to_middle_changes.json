@@ -1,0 +1,162 @@
+{
+  "added": [
+    "reports.write"
+  ],
+  "removed": [
+    "reports.save"
+  ],
+  "changed": [
+    "weather.forecast"
+  ],
+  "affected": [
+    "reports.save",
+    "reports.write",
+    "weather.forecast"
+  ],
+  "unchanged": [
+    "files.read"
+  ],
+  "renamed": [
+    {
+      "from": "reports.save",
+      "to": "reports.write"
+    }
+  ],
+  "details": {
+    "weather.forecast": {
+      "kind": "changed",
+      "levels": [
+        "Description",
+        "Parameter",
+        "Usage"
+      ],
+      "changes": [
+        {
+          "path": "/tool/description",
+          "operation": "replace",
+          "before": "Return a fixture forecast for a city name.",
+          "after": "Return a fixture forecast. The city argument was replaced by location."
+        },
+        {
+          "path": "/tool/inputSchema/properties/city",
+          "operation": "remove",
+          "before": {
+            "type": "string"
+          }
+        },
+        {
+          "path": "/tool/inputSchema/properties/location",
+          "operation": "add",
+          "after": {
+            "type": "string"
+          }
+        },
+        {
+          "path": "/tool/inputSchema/required",
+          "operation": "replace",
+          "before": [
+            "city"
+          ],
+          "after": [
+            "location"
+          ]
+        },
+        {
+          "path": "/usage_rules",
+          "operation": "replace",
+          "before": [
+            "Pass a city name using the city argument."
+          ],
+          "after": [
+            "Pass the city name using location; city is no longer accepted."
+          ]
+        }
+      ]
+    },
+    "reports.write": {
+      "kind": "added",
+      "levels": [
+        "Tool"
+      ],
+      "changes": [
+        {
+          "path": "/",
+          "operation": "add",
+          "after": {
+            "tool": {
+              "name": "reports.write",
+              "description": "Replacement fixture report writer.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "server": "reports"
+            },
+            "usage_rules": [
+              "Pass the target path and report text."
+            ],
+            "routing": "reports"
+          }
+        }
+      ],
+      "renamed_from": "reports.save"
+    },
+    "reports.save": {
+      "kind": "removed",
+      "levels": [
+        "Tool"
+      ],
+      "changes": [
+        {
+          "path": "/",
+          "operation": "remove",
+          "before": {
+            "tool": {
+              "name": "reports.save",
+              "description": "Save fixture report text.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "server": "reports"
+            },
+            "usage_rules": [
+              "Pass the target path and report text."
+            ],
+            "routing": "reports"
+          }
+        }
+      ],
+      "renamed_to": "reports.write"
+    }
+  },
+  "global_rules_changed": false,
+  "global_rule_changes": [],
+  "unhandled_top_level_changes": [],
+  "old_digest": "c51e04431addd8b277677f7d33bdabf33235aa4429c9e5cf3ce64bc0c5a2a724",
+  "new_digest": "c89dbfc29af3e2ddfc48fede92d77b8525fc94cfb5010598c01101e5fbb60010"
+}

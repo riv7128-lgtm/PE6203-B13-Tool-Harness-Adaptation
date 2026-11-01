@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "tool_calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "tool_4abd2802bae7eb6090f002e6",
+              "tool_62329d5c96a66cab9ef7fe8d",
+              "tool_d1fa49c8a0c88d0ef9abcf45",
+              "tool_6e9dabb27c0444ca64d11455",
+              "tool_6fc35a20b85a31efdb2182ef",
+              "tool_70d7924e0d309d5540d3dcc1",
+              "tool_255deca1dcf826ee08e7fb86",
+              "tool_aef85a53af52ccdbacaa6996",
+              "tool_1732256b1cc59f0c35dc649c",
+              "tool_115410a98d964573fe621401",
+              "tool_1fc1dc18f1681387c1de9db5",
+              "tool_0362e8b3250d7a3f0ce9788e",
+              "tool_bc4fa699d17b1ee9156bdd1e",
+              "tool_cc61b31c4c87f35f5935a5c0",
+              "tool_5aac161b47563fe9a6655901",
+              "tool_0a2f5afc8f863758c347c3e5",
+              "tool_b35feee630354b43650181b4",
+              "tool_509899dd337623a6431395d7",
+              "tool_8f587060d9f7d336c5e41eb2",
+              "tool_64ad1a621e193143f563520c",
+              "tool_f4eff7656a742157f6628757",
+              "tool_262a92d9c64dea53cdb5b217",
+              "tool_806cec9bbe611350a8f70385",
+              "tool_f8d5eff80965ec6acde9ebc1",
+              "tool_407a1d917601cf5229a96a41",
+              "tool_c7e8b9acddfb88df86240259",
+              "tool_bbb741a7bb17d72934b46822",
+              "tool_8421eb2e0cc31d90e040ba0f"
+            ]
+          },
+          "arguments": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "arguments"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "content",
+    "tool_calls"
+  ],
+  "additionalProperties": false
+}

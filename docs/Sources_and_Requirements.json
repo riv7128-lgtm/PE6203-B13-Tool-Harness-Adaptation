@@ -1,0 +1,52 @@
+{
+  "assignment_document_url": "https://entuedu-my.sharepoint.com/:w:/r/personal/boan_staff_main_ntu_edu_sg/_layouts/15/Doc.aspx?sourcedoc=%7B78E21F50-89BD-4B59-94C1-01CD557E6555%7D&action=default",
+  "official_paper": "https://arxiv.org/abs/2607.14642",
+  "official_repository": "https://github.com/Octobrist/MCPEvol-Bench/tree/888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+  "benchmark_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+  "required_strategies": [
+    "no_update",
+    "full_rewrite",
+    "selective_patch"
+  ],
+  "required_metrics": [
+    "TF",
+    "PE",
+    "ECS"
+  ],
+  "required_deliverables": [
+    "Code and reproduction logs",
+    "Group report",
+    "10 minute presentation and 5 minute Q&A",
+    "Separate individual reports no more than 3 pages"
+  ],
+  "submission_route": "GitHub repository or Google Drive folder for project artifacts",
+  "individual_email": "YAOLONG001@e.ntu.edu.sg",
+  "individual_due_local": "2026-11-03 end of day UTC+8",
+  "supplement_20261029": {
+    "facts": "results/supplement_20261029/facts.json",
+    "old_pilot_conditions": 27,
+    "partial_new_batch_conditions": 20,
+    "new_conditions": 2,
+    "no_score_pooling": true,
+    "identity_fields": "Verify against current course notice; not completed by this update."
+  },
+  "optimization_20261029": {
+    "model_calls": 0,
+    "facts": "results/optimization_20261029/facts.json",
+    "original_implementation": "code/reference_harness",
+    "historical_agent_scores_not_relabelled": true
+  },
+  "individual_report_requirement_source": "Course announcement text provided by the student on 2026-10-30: individual report no more than three pages; contributions, lessons learned, future plans; email by end of Nov 3.",
+  "member_04": {
+    "name": "Zheng Yongjie",
+    "student_id": "G2610659B"
+  },
+  "team_roster": {
+    "01": "Huang Yu",
+    "02": "Shen Bowen",
+    "03": "Chanchai Chan",
+    "04": "Zheng Yongjie",
+    "05": "chan hio weng",
+    "06": "Zhong Yingmei"
+  }
+}

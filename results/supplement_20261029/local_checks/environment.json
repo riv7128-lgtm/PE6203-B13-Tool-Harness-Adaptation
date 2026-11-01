@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "perf_counter_ns",
+  "protocol": "7 repeats, one excluded warmup per method; cyclic method order; validation outside timing; adaptation includes existing internal checks; no disk IO/model calls inside timed region",
+  "source_hashes": {
+    "analysis.py": "f787fb8b7c4825384e1bf1a08c2448ec8eee9396d2393a95bb29c5ef9f105471",
+    "baselines.py": "ebfe3113789e07caf75810075e8680e67ab4f5313a3472de5e396a31f6451576",
+    "changes.py": "af622c8ad09ee879f1deedc438b207157d3f12148dea9066a7e48a028a9ce189",
+    "description_overlay.py": "951d2f6b6623dae3dba581fd0f2c180479adc864a5809d0064860951a5b56a60",
+    "literal_parser.py": "8f9425fc323f0ce18acb990cb08dff90ce967cfaaa7e4ec0b2da2c07f3a3a201",
+    "metrics.py": "5935dfa78b136c770075c190c758c1d1ed202c101467d4b86af7c4db1f4455ca",
+    "official.py": "79d434b5158e4373ad3dd0a508e785247f8dd312ec8c9ce4d2aceb86494ba26f",
+    "patch.py": "23943f1e7e551e202596524774653bd1f70f0a3d682bd0b19c4b91f4442a9ad6",
+    "runner.py": "a4e62fdc8675b0d2d2274f449fd966d6c9f5552a174ed949e8ca52680a70ce92",
+    "validation.py": "8fc2c21fa3032ef0b4551022e161b3330afda3422739257a61d421753a99d01a",
+    "__init__.py": "5f94f028fd8ff35559352ba6bc86579a01df62c50e6315402044980e53581f05",
+    "__main__.py": "8fda124942c1535a5de3d48057be3524a626b1f648786b7b6c0ec5fcc2aa1fec"
+  }
+}

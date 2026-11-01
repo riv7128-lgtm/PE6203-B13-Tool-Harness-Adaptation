@@ -1,0 +1,2897 @@
+{
+  "version": "original",
+  "status": "EXTRACTED_NOT_EXECUTED",
+  "primary_packages": [
+    "@umengfe/mcp-server-chart"
+  ],
+  "packages": [
+    {
+      "version": "original",
+      "prefix": "node_modules/@umengfe/mcp-server-chart",
+      "signature": "64cb57edaf188b74c0dde8fe5ed2285d1c6d6ebb26b12eeaa5e790f3b92cfe16",
+      "file_count": 91,
+      "downloaded_bytes": 71261,
+      "file_hashes": [
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/LICENSE",
+          "sha256": "a6e512d52a66fcd88bebc7a62c7a348a7af70a17ca27f1d97943c56053712e48",
+          "size": 1080
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/area.js",
+          "sha256": "6aa4280ac9ccdf075ce0003baed01ba5ed66cea99307babcc71a09e13c80206d",
+          "size": 2029
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/bar.js",
+          "sha256": "2ebe49bb3f8913f294ff9c9c8c8d526a9db00c6d40baf123fc6163fa04bbc0e6",
+          "size": 2590
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/base.js",
+          "sha256": "f49ccf0eac1f4d611653f596e4a1a9eaaf368b569bcd9d9475dae6dfbb0b8c9e",
+          "size": 5437
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/boxplot.js",
+          "sha256": "1df506275261b73db121ded855563eb2477ca08da711dc5160272620f9d7f810",
+          "size": 1700
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/column.js",
+          "sha256": "97b1fb2a2a731e12accd9f1f7e7e04ce45910f17338b0641014be225b3bef6eb",
+          "size": 2683
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/district-map.js",
+          "sha256": "c9735a99079d5ee29bf6a9a1ad7183462d7142cd6d304de4d4c7187234a53eab",
+          "size": 5216
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/dual-axes.js",
+          "sha256": "93394a750f1a3a28c818142da09f41d6894c970cbfc4e904c9673cff4c6c8611",
+          "size": 2450
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/fishbone-diagram.js",
+          "sha256": "05c737fdaf4549bd4e834861b29a2802a40a6b01583b78012e8dfef0bc526070",
+          "size": 2317
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/flow-diagram.js",
+          "sha256": "43d913cf4e44f6f2fbfdb13c0317b495ff1c798c7fbc0826ecc36b2db924cb8e",
+          "size": 1500
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/funnel.js",
+          "sha256": "73d02af5d7c97350d8ea07c04f0baea98dd8ba98ad2ac6edf1473b2a1b8f5a14",
+          "size": 1486
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/heatmap.js",
+          "sha256": "562463e508380c65f7ea4d018764e119522dc04f94eea3445535f333dd09f744",
+          "size": 1681
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/histogram.js",
+          "sha256": "1c1f67f564308942c1f94b6939e41313fb00e408bd30ba78204e69768769185c",
+          "size": 1637
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/indented-tree.js",
+          "sha256": "4daabed2403d7a385c0d63372f7050a7635066f7681c31eb26c573f1bc6b820b",
+          "size": 2292
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/index.js",
+          "sha256": "76c59e3f4c20601f862bb0960672f838055b1b534d7bdac772ad668bc3d50c07",
+          "size": 5148
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/line.js",
+          "sha256": "e953499f98348512277fa5034a7d0005e3d1f71626ec842b5b611341d1b867df",
+          "size": 1697
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/liquid.js",
+          "sha256": "91e77dd5a24a799021c6ac8f3fbb400d0d78d23f7965433ce6e44a1305c37a40",
+          "size": 1681
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/mind-map.js",
+          "sha256": "4c753a17a2778c52d7e9cad9ad7d656ba89cf406f524df45740333be2f50a988",
+          "size": 1835
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/network-graph.js",
+          "sha256": "7b131b07e0911deb7f855e2a29f4469d8aa054d96e8f1523960771becec978a7",
+          "size": 1500
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/organization-chart.js",
+          "sha256": "7f97194f02441cef2bddf841fc8639495658d39c9bbfd0c8efc445f8008b91f6",
+          "size": 2525
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/path-map.js",
+          "sha256": "7e1de130890e5a74720749d9011056b51136dc7f1368103428f1f124f6cbf202",
+          "size": 1079
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/pie.js",
+          "sha256": "d06390f3a3742301f10bab5d574e1e8ecbbb4b9843f5a61bc0dff6f1faf68927",
+          "size": 1609
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/pin-map.js",
+          "sha256": "5ff877a15f1889e3604d4b7b26e4f931d93094096d9dfe1942ef4eba11c71fa8",
+          "size": 1657
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/radar.js",
+          "sha256": "bcfd5626270008e484339d13b095dcff6c3c4c876fac160eb07e9673130cda4d",
+          "size": 1685
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/sankey.js",
+          "sha256": "a1447f5c39ff07a80331cb977b69e2c2826e1da53392d266fe2abf187288ab7a",
+          "size": 1823
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/scatter.js",
+          "sha256": "16a0c6f9a95bb3c2a9a11a95218690695958075f5442f4c826c3ace53f32232e",
+          "size": 1528
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/table.js",
+          "sha256": "0d90098a282be13bfc5cc87814a40640b74d798a0a4c4b741a7b8c127eda2cf5",
+          "size": 1574
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/treemap.js",
+          "sha256": "d11eedfc6a89b2d60f682086c105aed3bd69cca96cbfcf32a80982f434a7eb44",
+          "size": 2117
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/venn.js",
+          "sha256": "3529cdee5cc11d18c7e68a605bec3807d4058224a369f88ab7f4e130f3083792",
+          "size": 1792
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/violin.js",
+          "sha256": "9d9b61ca8179e7dccea5355ddd25696842cb7b6c82cf18e980791c06a35c0479",
+          "size": 1699
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/word-cloud.js",
+          "sha256": "44036773362c0fb29561e1d7eb94199000bf46f95f78a62fbbb41ecf0c0d3d89",
+          "size": 1458
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/area.d.ts",
+          "sha256": "1f5b692a9b707d8981ff847710439e18e53883b3872adafa6fe78ab58d8a449a",
+          "size": 1993
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/bar.d.ts",
+          "sha256": "b1980ea301d7eaad183c7a788992ac2b36fced21754031346e8c6cfce8cb5639",
+          "size": 2859
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/base.d.ts",
+          "sha256": "05d445f5851925568a752f59a55f98bcb4642deb020abbdea1c2c485e8bc479b",
+          "size": 1886
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/boxplot.d.ts",
+          "sha256": "e3d9d98186fda893887332aed2e2edd5bd2304fdc48f1152769ab8116b889e12",
+          "size": 1811
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/column.d.ts",
+          "sha256": "41be36c01721477dfd24bdb84f3ad08d1084384f1ee0d3e1c3c74bad4353b388",
+          "size": 2862
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/district-map.d.ts",
+          "sha256": "47e58b676da8d3e2d2510dfd6c18a161aa547d5e5c21cfa206a1c03d6c8d8d5f",
+          "size": 3539
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/dual-axes.d.ts",
+          "sha256": "18a74a598c7845b8e313e5e93c279108ffd6d9231ed9e682dd1ed7fc5fa2ec4f",
+          "size": 1889
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/fishbone-diagram.d.ts",
+          "sha256": "69ac6a4ebb8e82dd89d97c5b69ee82a63ee205141cec133405e926612738cbe8",
+          "size": 1132
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/flow-diagram.d.ts",
+          "sha256": "e3cb75b967c8b2e4aeff5810bed9bdc165e6624196a8bca7e68b987cdc6b56c5",
+          "size": 2752
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/funnel.d.ts",
+          "sha256": "58dcf069a10cd084381bdaa7472af42de8a8426ad5b21457048813484916f91f",
+          "size": 1559
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/heatmap.d.ts",
+          "sha256": "a447057434a6201c1d7f6300107b9272d7891101aab910bf95d94f970b3c9852",
+          "size": 1827
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/histogram.d.ts",
+          "sha256": "41a61c81c346161cf465e0687cced418015ad18e553022a7ea9b3c1ab36e8cc1",
+          "size": 1490
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/indented-tree.d.ts",
+          "sha256": "751e4e017672533b956fa606ed0af195d98048b749116c11d056d0baed28cf69",
+          "size": 1133
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/index.d.ts",
+          "sha256": "11d030e346b3a78e6cb7114a9219d79a7276a66dc3a88dff7ef4c8f9a2561829",
+          "size": 1351
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/line.d.ts",
+          "sha256": "171792cf67a0690ca173e075114d332a10fb2166f764d2d1ba29d2a843a9a378",
+          "size": 1935
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/liquid.d.ts",
+          "sha256": "051656c3e62326bd833a023a3c93072fce6f556cc0d9f2b403ff177dbfeb3705",
+          "size": 1357
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/mind-map.d.ts",
+          "sha256": "1b3beb2ef279f538d242f5d4f05c1eb3f40a1efdc87e0c052ea1a9918d74c234",
+          "size": 1118
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/network-graph.d.ts",
+          "sha256": "90ed3ce33573df15fee1237ddb49d693864f8c106cb4e31c602d5ec2d0871dc1",
+          "size": 2753
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/organization-chart.d.ts",
+          "sha256": "9fc8dfe3a0968bd54e65df997d4173b382036c57dbc49b3237ef1164e96bdb56",
+          "size": 4461
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/path-map.d.ts",
+          "sha256": "e401ae8f04a50890ff2097b4959447a54b88ef5815ae3af12a678dd36243896b",
+          "size": 803
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/pie.d.ts",
+          "sha256": "3b514908c7ab92d16dab75b2a5fdee65aa80c689e3f576725cc2c154a207a501",
+          "size": 1604
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/pin-map.d.ts",
+          "sha256": "7a46c28d1e3759ac121454d85404ca161d777a9b7eb7b6246674b0340e2693b5",
+          "size": 1185
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/radar.d.ts",
+          "sha256": "571ce2f2b1e589a17f8ae0c57dad706fd75c066fece446edd1db8e026c32246c",
+          "size": 1812
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/sankey.d.ts",
+          "sha256": "66fc0e10c85a9adc19e4810e79909c5ca3be500c5d272839ae249f6b1f044b28",
+          "size": 1741
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/scatter.d.ts",
+          "sha256": "99358e27bcf49a39a4fcd79d4c593261e6b43c7f1a3ced572da2015d33e28d43",
+          "size": 1778
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/table.d.ts",
+          "sha256": "3adbbe831506f2d61e896a071d8832e734a474da6c19a81c67cd193f3a989712",
+          "size": 1338
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/treemap.d.ts",
+          "sha256": "d38db2f6914dee8f96777b688bbcfff64e58ace0aa085e1e81244c77a8c60c09",
+          "size": 3016
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/venn.d.ts",
+          "sha256": "57cf52683caef746b7e4cf59234ecd69974d10212b8240cacdb85de48310375c",
+          "size": 1696
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/violin.d.ts",
+          "sha256": "29336c5910eea4f25ea83d1828dba0f17bb2e931ac56b8b4b48ef01e0eb0bcb6",
+          "size": 1810
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/charts/word-cloud.d.ts",
+          "sha256": "ea28fcb1969199106f045da046ed862aefdc9d5bdaba6e458c1701028ec636e5",
+          "size": 1550
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/callTool.js",
+          "sha256": "6b3aa797c3660826a7e910a5884b7dc11d5e04318a7480b5ce4daf8f23804eca",
+          "size": 6235
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/env.js",
+          "sha256": "ec4dc2bebb538cd63ef61611d904ff251f48441d95c1577bc74b518c24ae8d5c",
+          "size": 1085
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/generate.js",
+          "sha256": "adc40b5e824aa9c20fc3e10d30050ea236213cfa47f779a244d7737c15f19380",
+          "size": 2686
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/index.js",
+          "sha256": "0311c3a063a550d3836d9dbb6834e764f6cae0f8a983acfcabf9a54628ca3493",
+          "size": 658
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/logger.js",
+          "sha256": "33253ce47f083532be5eec21d494bbf01055cd75162996938eea9e714b860abb",
+          "size": 1383
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/schema.js",
+          "sha256": "112c1a17d898ebb219c252d0577bfb713c0400f75d3382a0587a555a3b491ce5",
+          "size": 595
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/validator.js",
+          "sha256": "46afd3a4e4d7bdf1a8ec422e9256ea2a48cd0dab365488a4b33438cd6d615d00",
+          "size": 2696
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/callTool.d.ts",
+          "sha256": "8979adf29f585ada12828fccecfe7e034476e0ededbf100f1171143c3406777e",
+          "size": 873
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/env.d.ts",
+          "sha256": "b09141e8f9c8a613f7c935d26718a4d013e699bf016b5996ade1fc957bce555d",
+          "size": 373
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/generate.d.ts",
+          "sha256": "1ca2889a9bee30d037bf8b3cce9cc9cd2bbd6d5a8a715246b1e6677e925264e9",
+          "size": 867
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/index.d.ts",
+          "sha256": "2ac5084d889b108110e0b71e7eefe32aba97f4fb0854854049768a2ace743f41",
+          "size": 130
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/logger.d.ts",
+          "sha256": "dd7a5dc7d124c7cdbdcc02d24dfae4cf47b2c2240001bfcbbfc0b83e8af07bd1",
+          "size": 669
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/schema.d.ts",
+          "sha256": "9e96224c0337358ef1811ae1073508a40122739b50a5c3f5bc731d8ac271948a",
+          "size": 301
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/utils/validator.d.ts",
+          "sha256": "29ce8657675b70fc611f7f3df0c40c8c1e8c100d7e3cf0c7c571176a3fefd2f8",
+          "size": 828
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/index.js",
+          "sha256": "7280465ddd9589d0741a4f22b2671586583e0817c6b5f880090fc3ee943fd9ec",
+          "size": 2430
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/index.js",
+          "sha256": "345783db1cdf05276eaa0a3307bbc676db91237133b61ff14dae5cf6d0403808",
+          "size": 712
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/sse.js",
+          "sha256": "6f9d8270e4fc1c88bd7a648b9b540998ca3044ab6976dba39cf5490c4ba90d8d",
+          "size": 3073
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/stdio.js",
+          "sha256": "16bdcf23e144545ef430c463c703f93372627e12619b2682c7ac24c5e74331ed",
+          "size": 1204
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/streamable.js",
+          "sha256": "64822cbde890c40f3bd2700544018b8186bc86ccf368119d3f50edafc57b4e84",
+          "size": 3136
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/index.d.ts",
+          "sha256": "d994bf06aab38aef285568aad899cff377e8b2799b107da1c11d330e21889f01",
+          "size": 148
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/sse.d.ts",
+          "sha256": "9d6db914da63ee0fd6892e357f693d58f11c33d442147d1baad73305f1034435",
+          "size": 197
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/stdio.d.ts",
+          "sha256": "f2dab7250b5dc9ae80ef7ef72a64eda016845970f66f84f19a28bb6ab9672027",
+          "size": 149
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/services/streamable.d.ts",
+          "sha256": "34bcdbe100e7968058214a3eba2da94d67b63b594c8c5543b80791826cddb11b",
+          "size": 217
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/sdk.js",
+          "sha256": "89c61da3b3aca7e0a1869d33d2791e5204c45bd947ba6409e945a8ae03ffb607",
+          "size": 1132
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/server.js",
+          "sha256": "6ac187d5c745c05caee43103fb0a01aaad9bdde0a45b2c2bf7338d3203fc3bff",
+          "size": 5462
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/index.d.ts",
+          "sha256": "43e818adf60173644896298637f47b01d5819b17eda46eaa32d0c7d64724d012",
+          "size": 31
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/sdk.d.ts",
+          "sha256": "4c8341886f443cce39e84bc728b55d5c7b7b69a89fa7237841aea0610d8ac761",
+          "size": 201
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/build/server.d.ts",
+          "sha256": "f402265ba438ee56f934e040e9a9486ef11a53332ed83fdffd3b5f5828a6a117",
+          "size": 613
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/package.json",
+          "sha256": "3d9857e7b4571a290cac317766837534851f06c90cc0a1dba5a7a186711a64a8",
+          "size": 1884
+        },
+        {
+          "name": "node_modules/@umengfe/mcp-server-chart/README.md",
+          "sha256": "cd55468de720d9109726dc5639ffd9225f2c93f5c1e06c13168aa896acaed05f",
+          "size": 13283
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "@umengfe/mcp-server-chart",
+      "package_version": "0.0.9",
+      "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.11.4",
+        "axios": "^1.11.0",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "zod": "^3.25.16",
+        "zod-to-json-schema": "^3.24.5"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/@modelcontextprotocol/sdk",
+      "signature": "2bc9af58b05769313ebe0b64aa7183850141745b844c74ba1cf85b30dd324c9e",
+      "file_count": 1165,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/@modelcontextprotocol/sdk",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "@modelcontextprotocol/sdk",
+      "package_version": "1.27.1",
+      "dependencies": {
+        "@hono/node-server": "^1.19.9",
+        "ajv": "^8.17.1",
+        "ajv-formats": "^3.0.1",
+        "content-type": "^1.0.5",
+        "cors": "^2.8.5",
+        "cross-spawn": "^7.0.5",
+        "eventsource": "^3.0.2",
+        "eventsource-parser": "^3.0.0",
+        "express": "^5.2.1",
+        "express-rate-limit": "^8.2.1",
+        "hono": "^4.11.4",
+        "jose": "^6.1.3",
+        "json-schema-typed": "^8.0.2",
+        "pkce-challenge": "^5.0.0",
+        "raw-body": "^3.0.0",
+        "zod": "^3.25 || ^4.0",
+        "zod-to-json-schema": "^3.25.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/axios",
+      "signature": "c360c5505da604e286d859a607f7c64514dfc490a830e860f364cf713d15e51f",
+      "file_count": 86,
+      "downloaded_bytes": 649677,
+      "file_hashes": [
+        {
+          "name": "node_modules/axios/LICENSE",
+          "sha256": "82761059eaedacb3356803aea8a170d8298609f91b14fc32ee1bfb40d690183c",
+          "size": 1084
+        },
+        {
+          "name": "node_modules/axios/dist/browser/axios.cjs",
+          "sha256": "6fca21db9998208a092a73b2e4d66f061ca1c759e4f542fef52ef2e153a24c69",
+          "size": 109681
+        },
+        {
+          "name": "node_modules/axios/dist/browser/axios.cjs.map",
+          "sha256": "98c2bb84c3efe950b324b7e932db07c97b715ed359ce3625a450e3b806a0ad3d",
+          "size": 227989
+        },
+        {
+          "name": "node_modules/axios/dist/node/axios.cjs",
+          "sha256": "aa48ca320646c4c32071b47ba90e9ae443323b0c4f6edeed29207078dc1651a2",
+          "size": 151259
+        },
+        {
+          "name": "node_modules/axios/dist/node/axios.cjs.map",
+          "sha256": "ba1d7721b2fe2f318d07b073bf1dd54bb1de17e731c5fce1c084bf17b8b3e525",
+          "size": 312627
+        },
+        {
+          "name": "node_modules/axios/dist/axios.js",
+          "sha256": "dc1ec618a42e3bb7709ef6635c88f2067f163bbc8666374eb2dbfaeace808744",
+          "size": 150545
+        },
+        {
+          "name": "node_modules/axios/dist/esm/axios.js",
+          "sha256": "e254462996f265b1f1b16b6d88dd2bdc2966867e71090b27be74f7a871b438ae",
+          "size": 110510
+        },
+        {
+          "name": "node_modules/axios/dist/esm/axios.min.js",
+          "sha256": "898592fb2bc73db6d47662d6d9afb00581d003faad7c87962af8b0857d74169a",
+          "size": 37190
+        },
+        {
+          "name": "node_modules/axios/dist/esm/axios.js.map",
+          "sha256": "47218e66a827c51217c7eaa258e1cfd58bc362c159bfb766a103488a83bace13",
+          "size": 229228
+        },
+        {
+          "name": "node_modules/axios/dist/esm/axios.min.js.map",
+          "sha256": "8826693b788a5ff8fea716793d857e2e1fb7105d30f70eca65c1a6503f7d85ea",
+          "size": 178796
+        },
+        {
+          "name": "node_modules/axios/dist/axios.min.js",
+          "sha256": "5b6f5272687f00639981c4e177c2360d266ec2f291d0e9f682af3dadb3bec43f",
+          "size": 52995
+        },
+        {
+          "name": "node_modules/axios/dist/axios.js.map",
+          "sha256": "381c3a64626cc8c9174de5e885cff90952a0263b26c2cf40fdab103ce30055d0",
+          "size": 261875
+        },
+        {
+          "name": "node_modules/axios/dist/axios.min.js.map",
+          "sha256": "bb8c6ba8e7a01a0d07894c479b9c78d20941b168f70eb2e8a28122b5add150b1",
+          "size": 187532
+        },
+        {
+          "name": "node_modules/axios/index.d.cts",
+          "sha256": "c46bfe2085597ebcc05bf6f23b066fdffd98cd2034fa982b234c64da05a1d4d5",
+          "size": 20412
+        },
+        {
+          "name": "node_modules/axios/lib/adapters/adapters.js",
+          "sha256": "0db5d425923450310f6b084dfb76b77a7f730fef4f724e012ad3e0ef9251cd92",
+          "size": 3310
+        },
+        {
+          "name": "node_modules/axios/lib/adapters/fetch.js",
+          "sha256": "bda66f2bd63e2375b96d89d4a6e76874a468bbd0bc764ced118b6cd66b44a82d",
+          "size": 8678
+        },
+        {
+          "name": "node_modules/axios/lib/adapters/http.js",
+          "sha256": "7d1a243fbce309a93909a0574b8dd5673ae944ac7c7b0063077d795b031e6c55",
+          "size": 29327
+        },
+        {
+          "name": "node_modules/axios/lib/adapters/xhr.js",
+          "sha256": "729322b2440f89dd4451e1928e847f42aaf2cc72c37276d945748c7918efe8d6",
+          "size": 7448
+        },
+        {
+          "name": "node_modules/axios/lib/adapters/README.md",
+          "sha256": "82e7ad662220113a72d91bde36ad5c43139310b1c9d73c7b996d645879af3ef2",
+          "size": 911
+        },
+        {
+          "name": "node_modules/axios/lib/axios.js",
+          "sha256": "1ee4dce4ce982228f2980aa4573a496464a8afd5f866592a47000b3ae25cd49b",
+          "size": 2558
+        },
+        {
+          "name": "node_modules/axios/lib/core/Axios.js",
+          "sha256": "09d361f05cbd8a9ba2a2bf9cad5b6e949365d7faa23224323ed9fd1a56d55e03",
+          "size": 7509
+        },
+        {
+          "name": "node_modules/axios/lib/core/AxiosError.js",
+          "sha256": "74f6ef043ceef395dbf2d557addc4a9792bf2a0f406fa61bc3702cf501b45a10",
+          "size": 2921
+        },
+        {
+          "name": "node_modules/axios/lib/core/AxiosHeaders.js",
+          "sha256": "86d40c966e7d0a9bb33e07a5091bd49bd8ff5fb948321fa0fb06ba01a76f3a09",
+          "size": 7614
+        },
+        {
+          "name": "node_modules/axios/lib/core/buildFullPath.js",
+          "sha256": "44b19502ea4f5658255f13d63d45dddad1f26ea5ffd55c9c28f76da7a031cd8e",
+          "size": 783
+        },
+        {
+          "name": "node_modules/axios/lib/core/dispatchRequest.js",
+          "sha256": "f0430d59ab8371a7387fbdf84812149a464120d635dd3bcd8284653a9ae37e49",
+          "size": 2211
+        },
+        {
+          "name": "node_modules/axios/lib/core/InterceptorManager.js",
+          "sha256": "77ec91c0e0a5cc0e0be8bf9e8e7cff903a83731c877fa2b1ccfc885bf226cfdc",
+          "size": 1594
+        },
+        {
+          "name": "node_modules/axios/lib/core/mergeConfig.js",
+          "sha256": "1fe184e5aa753db967e6398f92c667f0afc0e28b430d7fdb13ef165c6f0fde91",
+          "size": 3488
+        },
+        {
+          "name": "node_modules/axios/lib/core/settle.js",
+          "sha256": "d444f1b15a57785e19ffbe2479a3423b781b57f47ce344e5698f5a5a6df74a31",
+          "size": 880
+        },
+        {
+          "name": "node_modules/axios/lib/core/transformData.js",
+          "sha256": "f1fd720e64e5813aca4d362a0ba7b761c243876ce11aa80a78c9e195fd33caaa",
+          "size": 776
+        },
+        {
+          "name": "node_modules/axios/lib/core/README.md",
+          "sha256": "6982a869f4da4405a7b74e182ca2eea0da2ade583edd606d182bfc49aee4cd2a",
+          "size": 399
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/AxiosTransformStream.js",
+          "sha256": "2bfbf260692a1dc826eff185544345aa400e71a9ff5b862a5aa2bfbe480c5e8b",
+          "size": 3809
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/AxiosURLSearchParams.js",
+          "sha256": "e8fc6de181deb5f4402e188cd8e71c746151eb24aa0111853c1eefc06eaf6be7",
+          "size": 1471
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/bind.js",
+          "sha256": "9a04b935a12b31ca104ada3b68d484c5371c751bb85dcf18215309f5de9188d2",
+          "size": 444
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/buildURL.js",
+          "sha256": "f3e48beb6bf7832df48acba2bdfde9b5762086b88b8a1d03fade39582a49fe91",
+          "size": 1592
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/callbackify.js",
+          "sha256": "a7e23fce488972aa264ceed0470b6e0ecf0b1dffab24f762c65c7913a3e17c9d",
+          "size": 417
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/combineURLs.js",
+          "sha256": "4ba8cf99c8ecafb3eb840c80acaed436d692e3f2449f2f06a91bf1a16c3d6292",
+          "size": 382
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/composeSignals.js",
+          "sha256": "6ae6b14b9f691df9d4b043a039073c4fe6414ea871bf8c4cd7da72ab211431c8",
+          "size": 1460
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/cookies.js",
+          "sha256": "88bc7e3416e3fb909a2726c8d83d86b2ac458cafdeb1e4f9c8bc69273bdb7268",
+          "size": 1399
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/deprecatedMethod.js",
+          "sha256": "0ef9abbd830bb26072507ac3eb39e32f068508afd00622b4f3b67f4b9f4c3ef4",
+          "size": 777
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/estimateDataURLDecodedBytes.js",
+          "sha256": "324428c4caa8b8ed9c5e394f1458bd7e3b0ae3ac6fc15dd9b26babb3d5c70c1b",
+          "size": 2060
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/formDataToJSON.js",
+          "sha256": "741358e283979732fa9e80e0c595a0be560c35ae61c20191687285e4851f7cf2",
+          "size": 2166
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/formDataToStream.js",
+          "sha256": "63b3e70b19aa9c3a3c15ee53aa2d3dc2444aeca3b21e79546b4bf5bb14c11583",
+          "size": 3029
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/fromDataURI.js",
+          "sha256": "98a27eda10ee39c76a956a89fe66b3f979824e08a08a845918b33269e5c27acb",
+          "size": 1369
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/HttpStatusCode.js",
+          "sha256": "e825e22101f60ac49beed9c3170d81fd4670cd3ffe56ce9d11c736f2603607b0",
+          "size": 1760
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/isAbsoluteURL.js",
+          "sha256": "088d43296f0ffb12f2e85d48375c544b173ba37263ae6abc1a6106fbbc76d469",
+          "size": 617
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/isAxiosError.js",
+          "sha256": "c3e6d0944407e3a9972954ae72701fd4329f09357f33932f5b35802097828559",
+          "size": 369
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/isURLSameOrigin.js",
+          "sha256": "d4ef0a17491b801d96e545a1d1632b6050ea303b758a01725cdb2f790bcc6755",
+          "size": 464
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/null.js",
+          "sha256": "b0d5bcbaccc56e47cd5514a3f6c66ad69dedc7d7a35035943971ab3a8272c0ac",
+          "size": 56
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/parseHeaders.js",
+          "sha256": "7eb5f6cbe0cb7d62d7fa2396c9f85bd9f8d8aca2ecebe94193936dfa1c1b3028",
+          "size": 1445
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/parseProtocol.js",
+          "sha256": "e1a4898f0ee10140d8719e71fb8d3e8b5995f1ad509501bc7b5b626c9986a5b1",
+          "size": 153
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/progressEventReducer.js",
+          "sha256": "366ff1097cfe707cac9ec667866c2679cdf0e7aff987d85f3baaf2c7975951e0",
+          "size": 1282
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/readBlob.js",
+          "sha256": "0169c54ef3271a4826109a7b91141afeb62372540e8c9efdf27f99773e042941",
+          "size": 323
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/resolveConfig.js",
+          "sha256": "7c5e9d900bcb5c4524c9bd6bf8205bf6bbfab7bab28c577f2081aa197cb81a42",
+          "size": 2278
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/speedometer.js",
+          "sha256": "b18c1747677bc15445d446ef5762e445222c20cc2964046c435ac471d521a9aa",
+          "size": 1094
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/spread.js",
+          "sha256": "6a30c5a54dfb043005559170326349a795f125f32a398b908ae8d882f4225f62",
+          "size": 566
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/throttle.js",
+          "sha256": "190c9b9600ce96d542f71248d7a83ed4a959287bf37be8d614cd450fded7a1cb",
+          "size": 854
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/toFormData.js",
+          "sha256": "13744c17843083e633783f8a867ba202ad948d371d673731c92d006c701077e0",
+          "size": 6435
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/toURLEncodedForm.js",
+          "sha256": "119ee561290393ffe4a2346c8ccb9d0d80f1005feafa8bade7416564d85c8326",
+          "size": 542
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/trackStream.js",
+          "sha256": "e79d69cd217c29318ad85def34f44c6910e16f276c3f2ea9c8f63289ee0dd688",
+          "size": 1764
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/validator.js",
+          "sha256": "36a1131aeae4501fe25896dd44468cbd34d54195baeee3fac7922d4b15c28fe9",
+          "size": 2867
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/ZlibHeaderTransformStream.js",
+          "sha256": "d7b1e8d36d918e1dfadb83b3758dcb401a8900bde0b2d18a6b2c9cdb72f49547",
+          "size": 688
+        },
+        {
+          "name": "node_modules/axios/lib/helpers/README.md",
+          "sha256": "b8fe226abed5bdd9fc5eed1d9b906f4eff742f838685b5ab4fd08e41fe57c193",
+          "size": 351
+        },
+        {
+          "name": "node_modules/axios/lib/platform/browser/classes/Blob.js",
+          "sha256": "3f0fb8c6b323ee6c1fe814acb30b085bb1849b6e6f718c32ae6fb7becf6f8758",
+          "size": 73
+        },
+        {
+          "name": "node_modules/axios/lib/platform/browser/classes/FormData.js",
+          "sha256": "9e5280d27e7e78e2e37f835418161aab2cfb69101a121354fd86d2771fbfa51a",
+          "size": 81
+        },
+        {
+          "name": "node_modules/axios/lib/platform/browser/classes/URLSearchParams.js",
+          "sha256": "8e410769a3294c05eaf88ccb35045997d02daf7b7742158fd054c6d73a628c18",
+          "size": 188
+        },
+        {
+          "name": "node_modules/axios/lib/platform/browser/index.js",
+          "sha256": "5bb54d43ab8fe39ab280f5657160087df8b03f456aafba3198db643ff90440bc",
+          "size": 310
+        },
+        {
+          "name": "node_modules/axios/lib/platform/node/classes/FormData.js",
+          "sha256": "f80d8dd5ae168098f0e0abaff652a21f25277048d498f4b0207d1980afd07277",
+          "size": 60
+        },
+        {
+          "name": "node_modules/axios/lib/platform/node/classes/URLSearchParams.js",
+          "sha256": "902ab44c602ed27d360b31994b468e6e517b90560862bf326e32604f1557cd85",
+          "size": 74
+        },
+        {
+          "name": "node_modules/axios/lib/platform/node/index.js",
+          "sha256": "7197a6bd2378cec7481c3a9697c8bf042498ae427cb9f00567acb46b8dad36b3",
+          "size": 837
+        },
+        {
+          "name": "node_modules/axios/lib/platform/index.js",
+          "sha256": "ff53d7bea9e964ffdf348cd59ebe931daf8430adaef8071a3e8f03fd44ac49a0",
+          "size": 132
+        },
+        {
+          "name": "node_modules/axios/lib/platform/common/utils.js",
+          "sha256": "b744eee57f03928fbde9a9c8813dfa00a0f5b7f8803840d34ad9449561174ae3",
+          "size": 1603
+        },
+        {
+          "name": "node_modules/axios/lib/cancel/CanceledError.js",
+          "sha256": "227a7f7d6b1f14d83560438e2563c1950e3399e48ec251992a69eda00d370f15",
+          "size": 618
+        },
+        {
+          "name": "node_modules/axios/lib/cancel/CancelToken.js",
+          "sha256": "933b19cc36e0c4a29d85f0e65b23d386ead41423be081016bf8011cd3431eec7",
+          "size": 2796
+        },
+        {
+          "name": "node_modules/axios/lib/cancel/isCancel.js",
+          "sha256": "c5ec9e27f9d90ac0dd6aa7921c273ca3e3d9aeca8acf93c54c5dd8305bb624f1",
+          "size": 99
+        },
+        {
+          "name": "node_modules/axios/lib/env/data.js",
+          "sha256": "58b2d7901261ca710ea7e17531fb6e73867566481326c957e1fbc86e32eb7347",
+          "size": 32
+        },
+        {
+          "name": "node_modules/axios/lib/env/classes/FormData.js",
+          "sha256": "c4dc250e5dcf0b3446526c83df86d315c6edfa12a38c0ce9cb9ae476da990f68",
+          "size": 106
+        },
+        {
+          "name": "node_modules/axios/lib/env/README.md",
+          "sha256": "9edc67c3c914a8eb30a6d8ccc12d6ccf21937af25bbd05b6176647dbbec13b50",
+          "size": 131
+        },
+        {
+          "name": "node_modules/axios/lib/defaults/index.js",
+          "sha256": "ae6f37f13a9a5d735c009b58abfa233d4d99d2fbcf5c78495b17e2e7c581c923",
+          "size": 4725
+        },
+        {
+          "name": "node_modules/axios/lib/defaults/transitional.js",
+          "sha256": "2890b44e2f9640498b41f1efdac37b78f552b69242da738cecbdb5c7978dc3be",
+          "size": 160
+        },
+        {
+          "name": "node_modules/axios/lib/utils.js",
+          "sha256": "765b5a84bb197fb38d2f5a6d47603ca92e581a67b0d58457be0b17efb1d6baa3",
+          "size": 23296
+        },
+        {
+          "name": "node_modules/axios/index.js",
+          "sha256": "ce5fd14c88a2537dceadbbbb0e2341c5b572092f0e44390674ebbc38d06e209c",
+          "size": 684
+        },
+        {
+          "name": "node_modules/axios/package.json",
+          "sha256": "104413d1400cbeb96381c962ce88a37654c0bd642040e6706c1f605656fe0a02",
+          "size": 7357
+        },
+        {
+          "name": "node_modules/axios/CHANGELOG.md",
+          "sha256": "f97b4fd2e5662a84bc87fc134ef5292e12d8fe46d18b81b7ece6f10ccbc5c5b5",
+          "size": 105490
+        },
+        {
+          "name": "node_modules/axios/MIGRATION_GUIDE.md",
+          "sha256": "ec726d8029f29692ee5ad2a81d8b1a101d733051333e998db2afcf6df0bad449",
+          "size": 21742
+        },
+        {
+          "name": "node_modules/axios/README.md",
+          "sha256": "ee523e1c3256c3d079f75f37b5416485ba797a23cdfb2ae391ef49d56d9bd0cd",
+          "size": 75780
+        },
+        {
+          "name": "node_modules/axios/index.d.ts",
+          "sha256": "faf770b3935c2ba6558b2bb65af5d5de58945d81f496dc1a5938c41a1abb358b",
+          "size": 20532
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "axios",
+      "package_version": "1.13.6",
+      "dependencies": {
+        "follow-redirects": "^1.15.11",
+        "form-data": "^4.0.5",
+        "proxy-from-env": "^1.1.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/cors",
+      "signature": "40fdc6adc5463433afcd926973d0770b41e57836afd0ee5d8f6d6864d3034387",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/cors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cors",
+      "package_version": "2.8.6",
+      "dependencies": {
+        "object-assign": "^4",
+        "vary": "^1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/express",
+      "signature": "0856d93618f84a2e6d20ef3d5d540e340866060403dd14b6a38fe2aac02f20ba",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/express",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "express",
+      "package_version": "5.2.1",
+      "dependencies": {
+        "accepts": "^2.0.0",
+        "body-parser": "^2.2.1",
+        "content-disposition": "^1.0.0",
+        "content-type": "^1.0.5",
+        "cookie": "^0.7.1",
+        "cookie-signature": "^1.2.1",
+        "debug": "^4.4.0",
+        "depd": "^2.0.0",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "etag": "^1.8.1",
+        "finalhandler": "^2.1.0",
+        "fresh": "^2.0.0",
+        "http-errors": "^2.0.0",
+        "merge-descriptors": "^2.0.0",
+        "mime-types": "^3.0.0",
+        "on-finished": "^2.4.1",
+        "once": "^1.4.0",
+        "parseurl": "^1.3.3",
+        "proxy-addr": "^2.0.7",
+        "qs": "^6.14.0",
+        "range-parser": "^1.2.1",
+        "router": "^2.2.0",
+        "send": "^1.1.0",
+        "serve-static": "^2.2.0",
+        "statuses": "^2.0.1",
+        "type-is": "^2.0.1",
+        "vary": "^1.1.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/zod",
+      "signature": "c83f2e4411c66e66ee8fbd54298ceeec303fa0c37d6bd50537a2f07a05b8fbbf",
+      "file_count": 596,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/zod",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "zod",
+      "package_version": "3.25.76",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/zod-to-json-schema",
+      "signature": "1be91325885722a621069c223e00038a2bf5f35de19dbb362935e751df337acb",
+      "file_count": 130,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/zod-to-json-schema",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "zod-to-json-schema",
+      "package_version": "3.25.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/@hono/node-server",
+      "signature": "f58a774ffb67b53c0b23b457f2eb92d429166cf6e1b2a52da483f5154c91089a",
+      "file_count": 55,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@hono/node-server",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "@hono/node-server",
+      "package_version": "1.19.11",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/@modelcontextprotocol/sdk/node_modules/ajv",
+      "signature": "1eaa671d7f530bab30e4d135a4db0cb577299819f24282ae6f2c29eee0451d53",
+      "file_count": 466,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@modelcontextprotocol/sdk/node_modules/ajv",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ajv",
+      "package_version": "8.18.0",
+      "dependencies": {
+        "fast-deep-equal": "^3.1.3",
+        "fast-uri": "^3.0.1",
+        "json-schema-traverse": "^1.0.0",
+        "require-from-string": "^2.0.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/@modelcontextprotocol/sdk/node_modules/pkce-challenge",
+      "signature": "d7ee146732357d4f10e452ac60bb62b88102d63a95f70ba87e421683c72ecca7",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@modelcontextprotocol/sdk/node_modules/pkce-challenge",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "pkce-challenge",
+      "package_version": "5.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/accepts",
+      "signature": "9c45c13e2710732cc7fcda8d6342d59543f68f7a94eaa57b0297aa06af84f7ca",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/accepts",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "accepts",
+      "package_version": "2.0.0",
+      "dependencies": {
+        "mime-types": "^3.0.0",
+        "negotiator": "^1.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ajv-formats",
+      "signature": "904247bab20af39407813e8e745f134feb5e7d586af19b2ee5758ff92ef88d8d",
+      "file_count": 493,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/ajv-formats",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ajv-formats",
+      "package_version": "3.0.1",
+      "dependencies": {
+        "ajv": "^8.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/body-parser",
+      "signature": "ee48379f4a2e6e79b9a442762b740b7fccb8762ff581083875674d06851c88a4",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/body-parser",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "body-parser",
+      "package_version": "2.2.2",
+      "dependencies": {
+        "bytes": "^3.1.2",
+        "content-type": "^1.0.5",
+        "debug": "^4.4.3",
+        "http-errors": "^2.0.0",
+        "iconv-lite": "^0.7.0",
+        "on-finished": "^2.4.1",
+        "qs": "^6.14.1",
+        "raw-body": "^3.0.1",
+        "type-is": "^2.0.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/content-disposition",
+      "signature": "2ea46ab587026a056a6103152c002a78dd6f13328f97bbd46dc3f4c84fda6c45",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/content-disposition",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "content-disposition",
+      "package_version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/content-type",
+      "signature": "e4578b5639a697dae2681c9e37b690fb3e49bd41a6157b3c3c1c7e948acb82e9",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/content-type",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "content-type",
+      "package_version": "1.0.5",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/cookie",
+      "signature": "44444657e6cfbbdd620b8c5772a0591e73b8d5ac6a7ab81d2bebcc1646e67bca",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/cookie",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cookie",
+      "package_version": "0.7.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/cookie-signature",
+      "signature": "2c567f674928bfd71a06b19485da07be37d64ed2782667a027cd5b2f61ef3618",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/cookie-signature",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cookie-signature",
+      "package_version": "1.2.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/cross-spawn",
+      "signature": "42faa5ce884e0016fa9eee41f8df3aab3c42d45c54dca4227d0f5a6dd51752b8",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/cross-spawn",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cross-spawn",
+      "package_version": "7.0.6",
+      "dependencies": {
+        "path-key": "^3.1.0",
+        "shebang-command": "^2.0.0",
+        "which": "^2.0.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/debug",
+      "signature": "335a83fb78c8c9f44e96a7c447771b1c5be83e9b21a2512e869f94c734f2f781",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/debug",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "debug",
+      "package_version": "4.4.3",
+      "dependencies": {
+        "ms": "^2.1.3"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/depd",
+      "signature": "d98bba8e33b50e3e7c7e2dc9eb0b7791190be7fa8269546c105e192f5493c286",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/depd",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "depd",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/encodeurl",
+      "signature": "5f34857a93cf97b40cddc2770ada4f93ecea8b74ec830a773e46e23a102e92c8",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/encodeurl",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "encodeurl",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/escape-html",
+      "signature": "74d6d3d01f5cb9fa4b7b3efb9777dc6718ee9c46c80e2db54c5f18d31a7a7d2b",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/escape-html",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "escape-html",
+      "package_version": "1.0.3",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/etag",
+      "signature": "93a42870df29f557a75f05ca9898f547ec44f8097ac1ce198d76e1f5aac35c4b",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/etag",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "etag",
+      "package_version": "1.8.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/eventsource",
+      "signature": "d7ec15771e076640804583cfe2d5eeefb6331aa14f5c2b2798b7ffbd3a4c7569",
+      "file_count": 13,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/eventsource",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "eventsource",
+      "package_version": "3.0.7",
+      "dependencies": {
+        "eventsource-parser": "^3.0.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/eventsource-parser",
+      "signature": "4feeb31b4f6b8daf96f4330b860e803257c5c8c5f63a6764d9ef0be6eeb424c2",
+      "file_count": 21,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/eventsource-parser",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "eventsource-parser",
+      "package_version": "3.0.6",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/express-rate-limit",
+      "signature": "ed82f29bc98c598f5643f5471e3bb5d18d315087efd33a4b06b979a0f3ddee71",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/express-rate-limit",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "express-rate-limit",
+      "package_version": "8.3.0",
+      "dependencies": {
+        "ip-address": "10.1.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/finalhandler",
+      "signature": "c0001e55f8d1cd6173f04132f96dc1796b84b38f3bf85eadeeea2bb5ad5de7dd",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/finalhandler",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "finalhandler",
+      "package_version": "2.1.1",
+      "dependencies": {
+        "debug": "^4.4.0",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "on-finished": "^2.4.1",
+        "parseurl": "^1.3.3",
+        "statuses": "^2.0.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/follow-redirects",
+      "signature": "beba2551b857678c1f214b7d281fe06f6ade652eb8f90587235724cc124f3ff0",
+      "file_count": 7,
+      "downloaded_bytes": 10720,
+      "file_hashes": [
+        {
+          "name": "node_modules/follow-redirects/LICENSE",
+          "sha256": "bfa8a54bb952ccda79f0f1889721d108f5b605babbb2b8a3705ffb52f4132eb7",
+          "size": 1136
+        },
+        {
+          "name": "node_modules/follow-redirects/debug.js",
+          "sha256": "8dbf7e71a9292be180e3469a6b7a164171d3c39dec79e5dbc4aa1c9f09509faf",
+          "size": 315
+        },
+        {
+          "name": "node_modules/follow-redirects/http.js",
+          "sha256": "754c0078c57625db7b55b4c3fb30ff5c207fc49284a5022742e81d0c595403c5",
+          "size": 37
+        },
+        {
+          "name": "node_modules/follow-redirects/https.js",
+          "sha256": "7a28e323ffd91094e083a8954fe027839c06d948603d7f2719ed17c446885272",
+          "size": 38
+        },
+        {
+          "name": "node_modules/follow-redirects/index.js",
+          "sha256": "9683fe89f61669cc73e758f8acdc5e5b631b7c15dd00db345329d4fa99ae7709",
+          "size": 20647
+        },
+        {
+          "name": "node_modules/follow-redirects/package.json",
+          "sha256": "da6ff38493cd86ab580a575af47bcaaec134130beadb7724be441872789455c1",
+          "size": 1290
+        },
+        {
+          "name": "node_modules/follow-redirects/README.md",
+          "sha256": "b75a334d7c4d7f21500da7ab388238bf81ae5132738b971d8f8e4a2216d8d75c",
+          "size": 6456
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "follow-redirects",
+      "package_version": "1.15.11",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/form-data",
+      "signature": "dca8eb336c72227cdd924bcbc454194db773c84190d8ab8f4959ffa5d46cb153",
+      "file_count": 19,
+      "downloaded_bytes": 59923,
+      "file_hashes": [
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/LICENSE",
+          "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6",
+          "size": 1167
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/index.js",
+          "sha256": "8cfccaac306beb650d60c7f069ae0f4b39d648f1e3914696b18c133ab33e6419",
+          "size": 3663
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/package.json",
+          "sha256": "5053cc10259c3913ab6b6c8f13170a619c0d1836c1d9081238329a559fafeb3a",
+          "size": 1149
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/HISTORY.md",
+          "sha256": "277b1cfc3e8fdb57e8b3fc9ebdef37d108ac13572b60091cccaf0e863167adc0",
+          "size": 8812
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/README.md",
+          "sha256": "19e8eaca7dc91f7ad8e46114ce1689e4976368435f41a0039f48aaf27e5e6a20",
+          "size": 3481
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/LICENSE",
+          "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b",
+          "size": 1172
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/index.js",
+          "sha256": "2ccebf3d525708c915c6a86ffbb68e5023d34c9bc30b6b4021db9ebbc6ca9ecc",
+          "size": 189
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/db.json",
+          "sha256": "85c8e1ba609079947c8df83c092900ab0226e1d7b60e5e7105fb7dd701833263",
+          "size": 185882
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/package.json",
+          "sha256": "d03e37b915a050af548d543f4e45ff5de06ec767c19e745f18c431d9dc26b5bf",
+          "size": 1624
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/HISTORY.md",
+          "sha256": "1e820a4ab3b25cc858eed9d2629ddb39bfd48bab307bedec769308c258199aa6",
+          "size": 12581
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/README.md",
+          "sha256": "5cc863fd64953afa39d206b510378b73e8c767c5fd124bb8d4017db921c94855",
+          "size": 4091
+        },
+        {
+          "name": "node_modules/form-data/License",
+          "sha256": "e5b780d4f38d1d3328e3e53186c4e62d3fa149ea6f2bacd5de5ad0c30ac85343",
+          "size": 1118
+        },
+        {
+          "name": "node_modules/form-data/lib/browser.js",
+          "sha256": "2981e594dd48d8f48e7aad33d64c5a27d5b20a6adf78b0e1efef706dd189636f",
+          "size": 117
+        },
+        {
+          "name": "node_modules/form-data/lib/form_data.js",
+          "sha256": "ccf1c1077340212f58e39d6054c9822aaaef2ed6220c3a502bee446fa3fa6fb6",
+          "size": 14577
+        },
+        {
+          "name": "node_modules/form-data/lib/populate.js",
+          "sha256": "3c566ebe2e52a364120a665a6e7c7130a7c47503d61b36c74798b54d9414467f",
+          "size": 232
+        },
+        {
+          "name": "node_modules/form-data/package.json",
+          "sha256": "5aa0a49ad333a05776c6c236fed575c73ec2290dd4204d3d79e749281baa8787",
+          "size": 3008
+        },
+        {
+          "name": "node_modules/form-data/CHANGELOG.md",
+          "sha256": "1b18d44f773e95bf651ef954c1d51deec02e1885ec0528e3950fa309d9e24aaf",
+          "size": 48300
+        },
+        {
+          "name": "node_modules/form-data/README.md",
+          "sha256": "d196d63a7b2dbb92ba0a68e0c5dbfa11b824412a3bc2bd0fb3a6652be1fbbf35",
+          "size": 12034
+        },
+        {
+          "name": "node_modules/form-data/index.d.ts",
+          "sha256": "736097ddbb2903bef918bb3b5811ef1c9c5656f2a73bd39b22a91b9cc2525e50",
+          "size": 1825
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "form-data",
+      "package_version": "4.0.5",
+      "dependencies": {
+        "asynckit": "^0.4.0",
+        "combined-stream": "^1.0.8",
+        "es-set-tostringtag": "^2.1.0",
+        "hasown": "^2.0.2",
+        "mime-types": "^2.1.12"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/fresh",
+      "signature": "dd318e05a21782eaffdb97da99a73fffd631e5f9810d88717c5e3a61dee0a246",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/fresh",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "fresh",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/hono",
+      "signature": "47f88748411d33d9a9f4909f12740d7b5b007e18c3adfdb01df3c23fffdfdb27",
+      "file_count": 562,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/hono",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "hono",
+      "package_version": "4.12.5",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/http-errors",
+      "signature": "51b355050efbd5fc32aaa6f7016b6f1a4819d52788208ee692e984c128ba69b0",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/http-errors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "http-errors",
+      "package_version": "2.0.1",
+      "dependencies": {
+        "depd": "~2.0.0",
+        "inherits": "~2.0.4",
+        "setprototypeof": "~1.2.0",
+        "statuses": "~2.0.2",
+        "toidentifier": "~1.0.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/jose",
+      "signature": "557d59774900bd37501ce666177ec5a5f391992c59e1bd9da107414bc51847bc",
+      "file_count": 101,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/jose",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "jose",
+      "package_version": "6.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/json-schema-typed",
+      "signature": "495c31ce1dd0744faacc647c57bd9a7dc332646c996787b921cc0e692c04bd09",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/json-schema-typed",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "json-schema-typed",
+      "package_version": "8.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/merge-descriptors",
+      "signature": "abd70641491a4afe59b5185553aa28c17b9512851ea3bc8c5da35bde7666b34f",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/merge-descriptors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "merge-descriptors",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/mime-types",
+      "signature": "dbcd48e0740ab4066ae7d443ae3171b258366df3d5c6e3218e9a6c73c3460f1c",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mime-types",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "mime-types",
+      "package_version": "3.0.2",
+      "dependencies": {
+        "mime-db": "^1.54.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/object-assign",
+      "signature": "3f49476af22912b033bbec9d620b610758cbc42219e8085acf6cfc16d034e9a1",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/object-assign",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "object-assign",
+      "package_version": "4.1.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/on-finished",
+      "signature": "4376cde17a54cfb420bcd9bb506949344a08526d8ab85f4c2c09337771750048",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/on-finished",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "on-finished",
+      "package_version": "2.4.1",
+      "dependencies": {
+        "ee-first": "1.1.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/once",
+      "signature": "ecd87a13f2cede11e81f0e451c5484c0586dd83686c09ab1f1193a47a61e003a",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/once",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "once",
+      "package_version": "1.4.0",
+      "dependencies": {
+        "wrappy": "1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/parseurl",
+      "signature": "c28842dd37a429a7f6f5dbee697c54df92f2503e40fe0c3f5ff9f0a97efbe39c",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/parseurl",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "parseurl",
+      "package_version": "1.3.3",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/proxy-addr",
+      "signature": "4ee5636a0e36d85a9cd4e020a4ab2221dfbf6b2faceab6f4b748bb6827a35e0e",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/proxy-addr",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "proxy-addr",
+      "package_version": "2.0.7",
+      "dependencies": {
+        "forwarded": "0.2.0",
+        "ipaddr.js": "1.9.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/proxy-from-env",
+      "signature": "16799c6eabf15944be809403215ca1502226aba756b7e8e8f5f7b46a19cebe6c",
+      "file_count": 7,
+      "downloaded_bytes": 8732,
+      "file_hashes": [
+        {
+          "name": "node_modules/proxy-from-env/.eslintrc",
+          "sha256": "962dcb38a0d4bf6b2d41d92daeaca9a98f1a86578b81849cdab7d4e5304726d4",
+          "size": 743
+        },
+        {
+          "name": "node_modules/proxy-from-env/LICENSE",
+          "sha256": "f55828df4b8752c48e765a806465b76a103e3cb363379c569b15a1df2ba2d79e",
+          "size": 1087
+        },
+        {
+          "name": "node_modules/proxy-from-env/index.js",
+          "sha256": "7c0368a10c3706c8a4b3b8547bb589bfd1ddfcc516110847aac239620cf2dda3",
+          "size": 3348
+        },
+        {
+          "name": "node_modules/proxy-from-env/test.js",
+          "sha256": "c0a59a835a6943a0fb0f8bd81fa2907f57081a101ec33a1ef60e118808869f63",
+          "size": 17720
+        },
+        {
+          "name": "node_modules/proxy-from-env/package.json",
+          "sha256": "a99da95a16d2dcc5e8006883f53721cc6224a8706863b20bf0a334170a1fe0ca",
+          "size": 956
+        },
+        {
+          "name": "node_modules/proxy-from-env/README.md",
+          "sha256": "18d64e58ef3307b088d70b43ed06100fdcec6230ec2a7c4140dae05498bc63e6",
+          "size": 5270
+        },
+        {
+          "name": "node_modules/proxy-from-env/.travis.yml",
+          "sha256": "f2700a4a62321eba46e413cd0289f7d250097ecc2b2a0f4bc86349d82cc69cff",
+          "size": 328
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "proxy-from-env",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/qs",
+      "signature": "827f8080f2dfc0937bdf02a41caa40845d614be6f99473dfd6ea52df4027ac14",
+      "file_count": 20,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/qs",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "qs",
+      "package_version": "6.15.0",
+      "dependencies": {
+        "side-channel": "^1.1.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/range-parser",
+      "signature": "5abc0ae0eee3c5178b105fc18e67d21f4fd8833f8876b4a3590e3552f2b6f781",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/range-parser",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "range-parser",
+      "package_version": "1.2.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/raw-body",
+      "signature": "12d94d35c929e99e30861969ce48de47a19d394702d81327f67f46fde3168d06",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/raw-body",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "raw-body",
+      "package_version": "3.0.2",
+      "dependencies": {
+        "bytes": "~3.1.2",
+        "http-errors": "~2.0.1",
+        "iconv-lite": "~0.7.0",
+        "unpipe": "~1.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/router",
+      "signature": "adedad8d2281bf557fb8ef4dea6a7946f775deb7e5e4c72fd274112f7b285fa3",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/router",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "router",
+      "package_version": "2.2.0",
+      "dependencies": {
+        "debug": "^4.4.0",
+        "depd": "^2.0.0",
+        "is-promise": "^4.0.0",
+        "parseurl": "^1.3.3",
+        "path-to-regexp": "^8.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/send",
+      "signature": "a7982d40068b6a4bb45780e7e174d6df717ac47292ae7f0e980661f9652e8347",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/send",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "send",
+      "package_version": "1.2.1",
+      "dependencies": {
+        "debug": "^4.4.3",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "etag": "^1.8.1",
+        "fresh": "^2.0.0",
+        "http-errors": "^2.0.1",
+        "mime-types": "^3.0.2",
+        "ms": "^2.1.3",
+        "on-finished": "^2.4.1",
+        "range-parser": "^1.2.1",
+        "statuses": "^2.0.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/serve-static",
+      "signature": "1bcc8410b4963d3c93922a65716e464af3feae8f1097ecf4945ade59aace1dcb",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/serve-static",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "serve-static",
+      "package_version": "2.2.1",
+      "dependencies": {
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "parseurl": "^1.3.3",
+        "send": "^1.2.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/statuses",
+      "signature": "674fe1c47e1f1d45de91bdc2869f9410ed2bb33812f8768e841b0be38cb298ea",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/statuses",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "statuses",
+      "package_version": "2.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/type-is",
+      "signature": "e2db1f22546c41d0899844d92856f9399a77b64a6c2eef7312f768825ee44b8c",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/type-is",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "type-is",
+      "package_version": "2.0.1",
+      "dependencies": {
+        "content-type": "^1.0.5",
+        "media-typer": "^1.1.0",
+        "mime-types": "^3.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/vary",
+      "signature": "bfadfc93e350ce41f8c1311d653813cc27e4ef345cb1b03373ed56849e27d4ea",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/vary",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "vary",
+      "package_version": "1.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/@modelcontextprotocol/sdk/node_modules/json-schema-traverse",
+      "signature": "ce5f797a4303973b615cf7a44429e3511c2df16ee869fd5280f9b159d629f6a0",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@modelcontextprotocol/sdk/node_modules/json-schema-traverse",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "json-schema-traverse",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ajv-formats/node_modules/ajv",
+      "signature": "1eaa671d7f530bab30e4d135a4db0cb577299819f24282ae6f2c29eee0451d53",
+      "file_count": 466,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/ajv-formats/node_modules/ajv",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ajv",
+      "package_version": "8.18.0",
+      "dependencies": {
+        "fast-deep-equal": "^3.1.3",
+        "fast-uri": "^3.0.1",
+        "json-schema-traverse": "^1.0.0",
+        "require-from-string": "^2.0.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/asynckit",
+      "signature": "214eb285a6179fa41eeeddacf24ab8937b18c4b6e70e297d94b4de4808ea1baf",
+      "file_count": 20,
+      "downloaded_bytes": 12597,
+      "file_hashes": [
+        {
+          "name": "node_modules/asynckit/package.json",
+          "sha256": "63eb9ff63be2e241ee6e80434d4641d6e9b5157d88bd3bbb692fcb2dfc8da4a9",
+          "size": 1611
+        },
+        {
+          "name": "node_modules/asynckit/README.md",
+          "sha256": "be5bbf9c6a02774a397f2ace8bcfb1a34d052723d8474bf3e46e0623066c8701",
+          "size": 7640
+        },
+        {
+          "name": "node_modules/asynckit/LICENSE",
+          "sha256": "1953150d5d4b10c7542cee6f6e0c613b2682545233f069d75cfff1936386ce10",
+          "size": 1078
+        },
+        {
+          "name": "node_modules/asynckit/bench.js",
+          "sha256": "b6c4a058c4fd03900f3786ef216322d57553ec83998e19b6d557dc39acfd2f9f",
+          "size": 1256
+        },
+        {
+          "name": "node_modules/asynckit/index.js",
+          "sha256": "397441fd78b69d7bdaaa48a0f354c8d07086a24414655b0601ab4f0c26e15f2f",
+          "size": 156
+        },
+        {
+          "name": "node_modules/asynckit/stream.js",
+          "sha256": "7d3986c8b5a0902da235697dcd2b080617a148ac505ae959e7a23156a204f9af",
+          "size": 703
+        },
+        {
+          "name": "node_modules/asynckit/parallel.js",
+          "sha256": "5296e5c3581ad9dc1f04aedaf1132df9736c580a326970e3975856f73aebfaea",
+          "size": 1017
+        },
+        {
+          "name": "node_modules/asynckit/serial.js",
+          "sha256": "b9bd1e776ab9c386ad2a832e0c02db980cdfc1276ca9969697845c7e45b7795f",
+          "size": 501
+        },
+        {
+          "name": "node_modules/asynckit/serialOrdered.js",
+          "sha256": "6ee8b4c5e8ded944d0afc55eba298c2bad1c621db1af56b427e96117cf63e41b",
+          "size": 1751
+        },
+        {
+          "name": "node_modules/asynckit/lib/abort.js",
+          "sha256": "2c64e26dbd17f4c5ee9e017a098cda40e5eb2234a89cfeb46287f6378b74a66a",
+          "size": 497
+        },
+        {
+          "name": "node_modules/asynckit/lib/defer.js",
+          "sha256": "91e4ffb114b4d60af8da177eb388d507a13dc9bc449f68e2d4912083cbc2b1f7",
+          "size": 441
+        },
+        {
+          "name": "node_modules/asynckit/lib/iterate.js",
+          "sha256": "1ed503336dc4f4b252852c45f8ea0b3b8eb9eab90dfa11189d9d00de888010ba",
+          "size": 1794
+        },
+        {
+          "name": "node_modules/asynckit/lib/readable_asynckit.js",
+          "sha256": "a23c413a059f4422ce03f22cd2a373b2fa6930ac47cc103a0e7e26a6ee6d0602",
+          "size": 1611
+        },
+        {
+          "name": "node_modules/asynckit/lib/async.js",
+          "sha256": "cc91aca5b66788252bb01207ec797419eb4add90b88740395e818d12fc77bf87",
+          "size": 599
+        },
+        {
+          "name": "node_modules/asynckit/lib/readable_serial.js",
+          "sha256": "b79637514db671ef3dcecde523017542c19e63f8eb93c5a5ab42b2f05bcc9a9d",
+          "size": 655
+        },
+        {
+          "name": "node_modules/asynckit/lib/readable_serial_ordered.js",
+          "sha256": "9ddda7cb6c54a672d8a7e8cdd029d44e35335f7fa6e6102daf0c9f60137b59af",
+          "size": 941
+        },
+        {
+          "name": "node_modules/asynckit/lib/state.js",
+          "sha256": "9c3fe921ce1c205c62ce1cca97e1eb9335f3ddf066626a36c9a44bd59bd7a2db",
+          "size": 941
+        },
+        {
+          "name": "node_modules/asynckit/lib/streamify.js",
+          "sha256": "6112cce2460f0fda4b284d893329fa6a814a86dd4614f782babc2f7de9e7ac0a",
+          "size": 2964
+        },
+        {
+          "name": "node_modules/asynckit/lib/terminator.js",
+          "sha256": "aeecf0a3c9e141ba3f7711426438de2172521a92b37ec3157b04e1a38e337bd0",
+          "size": 533
+        },
+        {
+          "name": "node_modules/asynckit/lib/readable_parallel.js",
+          "sha256": "d254fc0dc21eb4608336a462592b44cbbcab954d3b6904a26a4766e03dcce202",
+          "size": 673
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "asynckit",
+      "package_version": "0.4.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/bytes",
+      "signature": "38be5cbbb38a31efa44ea1ebb121b437b3bc2f68067f59ae3498e6543998c511",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/bytes",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "bytes",
+      "package_version": "3.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/combined-stream",
+      "signature": "2731a146bcfcac9f6972d8343fc4477d5b080d08d4c3ea26878404735bd971c8",
+      "file_count": 5,
+      "downloaded_bytes": 4644,
+      "file_hashes": [
+        {
+          "name": "node_modules/combined-stream/package.json",
+          "sha256": "761adece21443081ae818fe0e18864d7fa03f387075b89afa6cc5dd98356fafa",
+          "size": 640
+        },
+        {
+          "name": "node_modules/combined-stream/License",
+          "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+          "size": 1085
+        },
+        {
+          "name": "node_modules/combined-stream/Readme.md",
+          "sha256": "f4409df97c1568d7dd74307e2bbfb9afb3c3cb9b95f0c67272d44a305f30724a",
+          "size": 4551
+        },
+        {
+          "name": "node_modules/combined-stream/yarn.lock",
+          "sha256": "0377e3c4f750c1fa620a92891233904881c9d4c49f7fbd31304aeef34c24d7a7",
+          "size": 551
+        },
+        {
+          "name": "node_modules/combined-stream/lib/combined_stream.js",
+          "sha256": "f3ef1f988ac4292df828cead080b96a2a97bdce1ab8f44f76345820c58ce7b59",
+          "size": 4687
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "combined-stream",
+      "package_version": "1.0.8",
+      "dependencies": {
+        "delayed-stream": "~1.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ee-first",
+      "signature": "c75737c29338ad950166d19a133df18309164aa47aab6d8e2cba2a7513ab0b75",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ee-first",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ee-first",
+      "package_version": "1.1.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/es-set-tostringtag",
+      "signature": "2d0db7c114d917f03d05b3c286ee66852c5a475b8dd72f0f3f06ac22c4356f15",
+      "file_count": 10,
+      "downloaded_bytes": 6951,
+      "file_hashes": [
+        {
+          "name": "node_modules/es-set-tostringtag/.eslintrc",
+          "sha256": "74e902a86f8225f37ee223801bbf5ac11f9d0a330a9b04c8909ef21147ffa412",
+          "size": 138
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/.nycrc",
+          "sha256": "997785c50b0773e5e18bf15550fbf57823c634fefe623cd37b3c83696402ad0a",
+          "size": 139
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/LICENSE",
+          "sha256": "1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466",
+          "size": 1073
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/index.js",
+          "sha256": "12b5351b9d620ef78423e21bfd5d0202627b43a0a4b5bf46f7315a2772791fef",
+          "size": 1213
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/test/index.js",
+          "sha256": "e232a30bf3e7aa37ed9dcb3ea2b21248350f664d27fca0a665d875596e74f3de",
+          "size": 2235
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/package.json",
+          "sha256": "c9506942c9ef472286aff079bb65b7f3edcaccbc7f59fac9f419787b570086e5",
+          "size": 2193
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/tsconfig.json",
+          "sha256": "6346ee4c020f341387588479dd83740a65ab902a462b8c6b3b8bf51f032c6795",
+          "size": 116
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/CHANGELOG.md",
+          "sha256": "79a874acb654eab75c1a4949a219a2c5eb1625732679d8943902f434d9d32e94",
+          "size": 4968
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/README.md",
+          "sha256": "d98d41a011e45ff71dce6038a0e357926f2968e2b2e99b70f873addec0f5d499",
+          "size": 2233
+        },
+        {
+          "name": "node_modules/es-set-tostringtag/index.d.ts",
+          "sha256": "0da377e44e50f99e944dc7cb44853dacbb7ffc41288e8b0981714394870b5e60",
+          "size": 236
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "es-set-tostringtag",
+      "package_version": "2.1.0",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.6",
+        "has-tostringtag": "^1.0.2",
+        "hasown": "^2.0.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/fast-deep-equal",
+      "signature": "935b978a2fb9d64a8f415cca7d992aceef3c018ef973dd99d27612fc0ff6c5f5",
+      "file_count": 11,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/fast-deep-equal",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "fast-deep-equal",
+      "package_version": "3.1.3",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/fast-uri",
+      "signature": "3f5a375a521594ecd177b1813e21075d77cc7fa56f4fec9eddc69ce0d378d6fe",
+      "file_count": 33,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/fast-uri",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "fast-uri",
+      "package_version": "3.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/form-data/node_modules/mime-types",
+      "signature": "8cc2de2349bc44fe47ea548e9c874f1c445e7122a8a19ddc252047c3b9983ce7",
+      "file_count": 5,
+      "downloaded_bytes": 6375,
+      "file_hashes": [
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/LICENSE",
+          "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6",
+          "size": 1167
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/index.js",
+          "sha256": "8cfccaac306beb650d60c7f069ae0f4b39d648f1e3914696b18c133ab33e6419",
+          "size": 3663
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/package.json",
+          "sha256": "5053cc10259c3913ab6b6c8f13170a619c0d1836c1d9081238329a559fafeb3a",
+          "size": 1149
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/HISTORY.md",
+          "sha256": "277b1cfc3e8fdb57e8b3fc9ebdef37d108ac13572b60091cccaf0e863167adc0",
+          "size": 8812
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-types/README.md",
+          "sha256": "19e8eaca7dc91f7ad8e46114ce1689e4976368435f41a0039f48aaf27e5e6a20",
+          "size": 3481
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "mime-types",
+      "package_version": "2.1.35",
+      "dependencies": {
+        "mime-db": "1.52.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/forwarded",
+      "signature": "b121a66ed20649006ff3ac6a63c601bc4a44eebf77492a283a78f4230b53ddc6",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/forwarded",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "forwarded",
+      "package_version": "0.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/hasown",
+      "signature": "a88d43256aaf623e4c76f291afd9c81a8db0ccf019979b9ec1d620b715f87d99",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/hasown",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "hasown",
+      "package_version": "2.0.2",
+      "dependencies": {
+        "function-bind": "^1.1.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/iconv-lite",
+      "signature": "7f5c08918b10bf3fd74f9d0658cfcd67b2ee630bfc65b0be43e52df48fc7ed88",
+      "file_count": 27,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/iconv-lite",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "iconv-lite",
+      "package_version": "0.7.2",
+      "dependencies": {
+        "safer-buffer": ">= 2.1.2 < 3.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/inherits",
+      "signature": "cd85fde2c789db6c9c0cab2b24b73a34d8cbd46fba9279b96735a019d75c8d8a",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/inherits",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "inherits",
+      "package_version": "2.0.4",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ip-address",
+      "signature": "0baa03b5e18c35dda361791c96ee877501e79ef01ff3ac04a0ccf64901125521",
+      "file_count": 48,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/ip-address",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ip-address",
+      "package_version": "10.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ipaddr.js",
+      "signature": "a8949a29b3189fdc87a72907620b6d808c3620c4d321bb32e900efa03a98a8e7",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/ipaddr.js",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ipaddr.js",
+      "package_version": "1.9.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/is-promise",
+      "signature": "11fe8cf87d1f55405f019c65af177b54d7980bb2ed6ffd21f51109aa242f10aa",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/is-promise",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "is-promise",
+      "package_version": "4.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/media-typer",
+      "signature": "02838d768becafe8ce6c9497504d88cb19410331e3a943b0d0d8a24e0645ad9f",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/media-typer",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "media-typer",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/mime-db",
+      "signature": "5024f2d3b5f8f9ff790875c60a05e31d494a22ea812ba136ccf1ff174f8d0b7b",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mime-db",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "mime-db",
+      "package_version": "1.54.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ms",
+      "signature": "7e6c934b313803bc0ac5e7fd0c6a9ab0fb5b85910f5fa90388db1e4ce0ec4187",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/ms",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ms",
+      "package_version": "2.1.3",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/negotiator",
+      "signature": "43ac63a46a4e7106555629b93d81e393b351fc9cb6dc8b39aee8707937e00cf7",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/negotiator",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "negotiator",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/path-key",
+      "signature": "70c3102e19d27fbba1d66457b30c63e2688fd588a9e38af6248f4f133ca78d9f",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/path-key",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "path-key",
+      "package_version": "3.1.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/path-to-regexp",
+      "signature": "366bfa4d8c24f03fbcf9a7e9e514cf082ab5911c4fd7511a7cf06e8020e9e333",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/path-to-regexp",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "path-to-regexp",
+      "package_version": "8.3.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/require-from-string",
+      "signature": "6e5bb2c0155f0e7c160dada26582139b94c98d0a5e2aaff845fcd808c25ba386",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/require-from-string",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "require-from-string",
+      "package_version": "2.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/setprototypeof",
+      "signature": "de28bd213ba16c932b46613e893f8664d6e75f5934d7b171ce3e28436f0cbefb",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/setprototypeof",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "setprototypeof",
+      "package_version": "1.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/shebang-command",
+      "signature": "766e7f150e938090113cfec2e1ac2213dba16e131aadf5c9a64ea4d5527aca1e",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/shebang-command",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "shebang-command",
+      "package_version": "2.0.0",
+      "dependencies": {
+        "shebang-regex": "^3.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/side-channel",
+      "signature": "8b5ba1d242b5f487b86e22f5d57807fe725f73e14dba985e7ffa6dce1a478e77",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/side-channel",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel",
+      "package_version": "1.1.0",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "object-inspect": "^1.13.3",
+        "side-channel-list": "^1.0.0",
+        "side-channel-map": "^1.0.1",
+        "side-channel-weakmap": "^1.0.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/toidentifier",
+      "signature": "fd8230aa631287f1f3e8bb5304e1db073c7737aa463cbc752cb81d2d7438aa8a",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/toidentifier",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "toidentifier",
+      "package_version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/unpipe",
+      "signature": "b040a5ba77cd94156510497f3b4ed9e694e0b6e2d0031255ea439fd6f40d4b3c",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/unpipe",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "unpipe",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/which",
+      "signature": "94c8101ad8acb2e0b983ec9e6c2daf6ac2f033b5f41a463f6f88463383506e6f",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/which",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "which",
+      "package_version": "2.0.2",
+      "dependencies": {
+        "isexe": "^2.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/wrappy",
+      "signature": "4285b81afd35a7cef35caef52da27f33dd93391b5de37200e8ae937fba1a174c",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/wrappy",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "wrappy",
+      "package_version": "1.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/ajv-formats/node_modules/json-schema-traverse",
+      "signature": "ce5f797a4303973b615cf7a44429e3511c2df16ee869fd5280f9b159d629f6a0",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ajv-formats/node_modules/json-schema-traverse",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "json-schema-traverse",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/delayed-stream",
+      "signature": "0c9688ab5d90c36e777cea772c95da6d5a73e0955c6279e7fe8dbf7335ad4a29",
+      "file_count": 6,
+      "downloaded_bytes": 4049,
+      "file_hashes": [
+        {
+          "name": "node_modules/delayed-stream/package.json",
+          "sha256": "4f5bd886efbd8feda6ac04db6ac1aa8b2e8dfc159503b0652667e1bc88efd4cb",
+          "size": 684
+        },
+        {
+          "name": "node_modules/delayed-stream/.npmignore",
+          "sha256": "f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2",
+          "size": 5
+        },
+        {
+          "name": "node_modules/delayed-stream/License",
+          "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547",
+          "size": 1085
+        },
+        {
+          "name": "node_modules/delayed-stream/Makefile",
+          "sha256": "90e1ae0474085186499fe5a5c1d6ae31726175fa4e1a2158c9914be4bfc5bae6",
+          "size": 57
+        },
+        {
+          "name": "node_modules/delayed-stream/Readme.md",
+          "sha256": "5940dca6c65d1bf74e089cf84a3948e7b2b75da5dc50a36df470f7393918cf1c",
+          "size": 3871
+        },
+        {
+          "name": "node_modules/delayed-stream/lib/delayed_stream.js",
+          "sha256": "05f147c24e59e1c538329711b6e4a389fbbf321290fe176cda18750298d77c72",
+          "size": 2319
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "delayed-stream",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/es-errors",
+      "signature": "c4f0151f98c4fd0941948d760556835e16c0bf597c5247d472e88e71f66bb0eb",
+      "file_count": 22,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/es-errors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-errors",
+      "package_version": "1.3.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/form-data/node_modules/mime-db",
+      "signature": "b4f9da5ef8dc4b7959b1b686696a50878477296d699aadb9922554232f8dea12",
+      "file_count": 6,
+      "downloaded_bytes": 28678,
+      "file_hashes": [
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/LICENSE",
+          "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b",
+          "size": 1172
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/index.js",
+          "sha256": "2ccebf3d525708c915c6a86ffbb68e5023d34c9bc30b6b4021db9ebbc6ca9ecc",
+          "size": 189
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/db.json",
+          "sha256": "85c8e1ba609079947c8df83c092900ab0226e1d7b60e5e7105fb7dd701833263",
+          "size": 185882
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/package.json",
+          "sha256": "d03e37b915a050af548d543f4e45ff5de06ec767c19e745f18c431d9dc26b5bf",
+          "size": 1624
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/HISTORY.md",
+          "sha256": "1e820a4ab3b25cc858eed9d2629ddb39bfd48bab307bedec769308c258199aa6",
+          "size": 12581
+        },
+        {
+          "name": "node_modules/form-data/node_modules/mime-db/README.md",
+          "sha256": "5cc863fd64953afa39d206b510378b73e8c767c5fd124bb8d4017db921c94855",
+          "size": 4091
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "mime-db",
+      "package_version": "1.52.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/function-bind",
+      "signature": "a6025a3c763bc785a8d27f8c706f712f7b298bfa8292fc4c0a888cbe425c1043",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/function-bind",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "function-bind",
+      "package_version": "1.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/get-intrinsic",
+      "signature": "295a4d4701e4147439ed0b7f18a5b864bed9421a62f33e0ce8fe685edd49ec4e",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/get-intrinsic",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "get-intrinsic",
+      "package_version": "1.3.0",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.2",
+        "es-define-property": "^1.0.1",
+        "es-errors": "^1.3.0",
+        "es-object-atoms": "^1.1.1",
+        "function-bind": "^1.1.2",
+        "get-proto": "^1.0.1",
+        "gopd": "^1.2.0",
+        "has-symbols": "^1.1.0",
+        "hasown": "^2.0.2",
+        "math-intrinsics": "^1.1.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/has-tostringtag",
+      "signature": "02c3f705bdc13fb18ae65228c75b5c17bdb1a77253926441b0c35f4a8d50b117",
+      "file_count": 16,
+      "downloaded_bytes": 9119,
+      "file_hashes": [
+        {
+          "name": "node_modules/has-tostringtag/.eslintrc",
+          "sha256": "0694050195fc694c5846b0a2a66b437ac775da988f0a779c55fb892597f7f641",
+          "size": 43
+        },
+        {
+          "name": "node_modules/has-tostringtag/.nycrc",
+          "sha256": "948366fea3b423a46366326d0bb2e54b08abd1cf0b243678ba6625740c40da5a",
+          "size": 216
+        },
+        {
+          "name": "node_modules/has-tostringtag/LICENSE",
+          "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa",
+          "size": 1067
+        },
+        {
+          "name": "node_modules/has-tostringtag/test/shams/core-js.js",
+          "sha256": "8ef6ccae4ddd5b8d6f918c66a3a358793b14dfd3f0f42fd1d305db92e9aec4e3",
+          "size": 935
+        },
+        {
+          "name": "node_modules/has-tostringtag/test/shams/get-own-property-symbols.js",
+          "sha256": "f959db77cdc23a8a071158a76da43fe5f0da97f0b83b1dbf87fa4024a77c7219",
+          "size": 828
+        },
+        {
+          "name": "node_modules/has-tostringtag/test/index.js",
+          "sha256": "870b05394a7ac2daa373f50db4d6e0782587472f7442d15cdca42a2d7d2efbeb",
+          "size": 679
+        },
+        {
+          "name": "node_modules/has-tostringtag/test/tests.js",
+          "sha256": "ab4ee069a833e5eb2f8bf58f7228c5a8fdc54cba37096b14ea6e68544e7875d2",
+          "size": 532
+        },
+        {
+          "name": "node_modules/has-tostringtag/index.js",
+          "sha256": "14e192d4c15b0fc042629b25bc9c3f07aaf23b937ea46785f5e288a1a0f9beb9",
+          "size": 196
+        },
+        {
+          "name": "node_modules/has-tostringtag/shams.js",
+          "sha256": "e5e0b7bbca35fa5911487361da2bc00b880d62114be6f3be87a876a59037020b",
+          "size": 189
+        },
+        {
+          "name": "node_modules/has-tostringtag/package.json",
+          "sha256": "30ab773c52021a6b800ea48f251abeeb1f6e378300f819204dfbb38d6e43f3ad",
+          "size": 2838
+        },
+        {
+          "name": "node_modules/has-tostringtag/tsconfig.json",
+          "sha256": "b772fc0e85fe374bb32302cdbc08c8854d6a679bcf7f4f7b8da28098e2979521",
+          "size": 3611
+        },
+        {
+          "name": "node_modules/has-tostringtag/CHANGELOG.md",
+          "sha256": "6c721d97055e8381694c7fa7a14f1bf2def9ea072488bcfe4b51073717b53810",
+          "size": 3543
+        },
+        {
+          "name": "node_modules/has-tostringtag/README.md",
+          "sha256": "bcf8eec2c348d4509573a3b85c98705b5bdf1b59e903a9f621fb5a33be0532cb",
+          "size": 2190
+        },
+        {
+          "name": "node_modules/has-tostringtag/index.d.ts",
+          "sha256": "365c4ff8b3415bed8253b793eb1dedec93fe9cb007dadb85ca2ba92774048a37",
+          "size": 70
+        },
+        {
+          "name": "node_modules/has-tostringtag/shams.d.ts",
+          "sha256": "d038bb6f5519fbb044b9520b2c3ded20d7f47f884e056c6bad4962aa93dc2d9f",
+          "size": 80
+        },
+        {
+          "name": "node_modules/has-tostringtag/.github/FUNDING.yml",
+          "sha256": "5af2fc8a34665542659d4ce1520f5df2054affc3754edc49001e65d0c200e2e5",
+          "size": 586
+        }
+      ],
+      "skipped_symlinks": [],
+      "package_name": "has-tostringtag",
+      "package_version": "1.0.2",
+      "dependencies": {
+        "has-symbols": "^1.0.3"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/isexe",
+      "signature": "a5fc2afdeb389918e13334c673e932e177024c62a5bc6395f9ef1d77f92fb8ab",
+      "file_count": 8,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/isexe",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "isexe",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/object-inspect",
+      "signature": "6dbfff8618e0383bfc0063a81ff003b167d91dd5845d6bcfe2fa834f506edef8",
+      "file_count": 34,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/object-inspect",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "object-inspect",
+      "package_version": "1.13.4",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/safer-buffer",
+      "signature": "b03de6be70d1d3106729fc47d8df33e5635c4f81f14ca18a712e65eac3293e8c",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/safer-buffer",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "safer-buffer",
+      "package_version": "2.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/shebang-regex",
+      "signature": "1c5b922103939a39bb6b7c44b74d930ca1f43cd1e6d0f0f833c99b64ede93c77",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/shebang-regex",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "shebang-regex",
+      "package_version": "3.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/side-channel-list",
+      "signature": "80a4a67e01b0782954c263e430b06d5c8d0f42b1559c5587b06e2fb1fce6e818",
+      "file_count": 13,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/side-channel-list",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel-list",
+      "package_version": "1.0.0",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "object-inspect": "^1.13.3"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/side-channel-map",
+      "signature": "8d00c21bc758f7795e0576de1d6703ade6c788555b60366f1ab1857381b01a81",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/side-channel-map",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel-map",
+      "package_version": "1.0.1",
+      "dependencies": {
+        "call-bound": "^1.0.2",
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.5",
+        "object-inspect": "^1.13.3"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/side-channel-weakmap",
+      "signature": "a33e11f5d4134641aac5b024852f484f32d3a9a7c1ff84c51efc767bfc8a174f",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/side-channel-weakmap",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel-weakmap",
+      "package_version": "1.0.2",
+      "dependencies": {
+        "call-bound": "^1.0.2",
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.5",
+        "object-inspect": "^1.13.3",
+        "side-channel-map": "^1.0.1"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/call-bind-apply-helpers",
+      "signature": "68e1eb181e8ee60e2e4664c7a1e6ba1310cf6b21c6bef519c07f55565b48c892",
+      "file_count": 21,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/call-bind-apply-helpers",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "call-bind-apply-helpers",
+      "package_version": "1.0.2",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "function-bind": "^1.1.2"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/call-bound",
+      "signature": "581b8c6d1a40c782383c1896651116c19c776a8bcd39ac3b1450b7222018f7dd",
+      "file_count": 11,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/call-bound",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "call-bound",
+      "package_version": "1.0.4",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.2",
+        "get-intrinsic": "^1.3.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/es-define-property",
+      "signature": "317269bb906d0a5b8d6725ac307bb2da8eec4a45c8f2b1c1a6fe3f271f827e3d",
+      "file_count": 11,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/es-define-property",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-define-property",
+      "package_version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/es-object-atoms",
+      "signature": "46fb9a9209a91fb206d2ca77dd4bd8bfc7e1871068d89a396ecc6a16a7bc087b",
+      "file_count": 16,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/es-object-atoms",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-object-atoms",
+      "package_version": "1.1.1",
+      "dependencies": {
+        "es-errors": "^1.3.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/get-proto",
+      "signature": "78daa60040ec299997f824bf57dce544fe048456494e7244a0715abc725cffa2",
+      "file_count": 15,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/get-proto",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "get-proto",
+      "package_version": "1.0.1",
+      "dependencies": {
+        "dunder-proto": "^1.0.1",
+        "es-object-atoms": "^1.0.0"
+      }
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/gopd",
+      "signature": "5eec5f326c3cd28f2b85cdaf9dd0aafdcf1cf6930b2f3896b37e7cd06d5e2c06",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/gopd",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "gopd",
+      "package_version": "1.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/has-symbols",
+      "signature": "aa2523557b891619bc28288570a4ece0a786f5585520436e5dd35fd45ecaf803",
+      "file_count": 16,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/has-symbols",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "has-symbols",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/math-intrinsics",
+      "signature": "bef875dd3c02665b1fa163ca497940ed319d14d4cc7810f841a87366134bdc19",
+      "file_count": 38,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/math-intrinsics",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "math-intrinsics",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "original",
+      "prefix": "node_modules/dunder-proto",
+      "signature": "16f6d589245fe883584ea3b7beb3bb4e9d5cf8d1307db807fac4a1e46e349361",
+      "file_count": 15,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/dunder-proto",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "dunder-proto",
+      "package_version": "1.0.1",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.1",
+        "es-errors": "^1.3.0",
+        "gopd": "^1.2.0"
+      }
+    }
+  ],
+  "missing": [],
+  "package_count": 105,
+  "downloaded_bytes": 872726
+}

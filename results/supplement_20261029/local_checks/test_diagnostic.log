@@ -1,0 +1,84 @@
+test_unexposed_parameters_are_never_claimed_as_controls (test_cli_protocol.CLIProtocolTests.test_unexposed_parameters_are_never_claimed_as_controls) ... ok
+test_agent_response_is_openai_shaped_and_saved (test_codex_backend.CodexBackendTests.test_agent_response_is_openai_shaped_and_saved) ... ok
+test_cli_preflight_does_not_demand_api_keys (test_codex_backend.CodexBackendTests.test_cli_preflight_does_not_demand_api_keys) ... ok
+test_command_disables_unrelated_action_surfaces (test_codex_backend.CodexBackendTests.test_command_disables_unrelated_action_surfaces) ... ok
+test_final_and_judge_use_separate_calls (test_codex_backend.CodexBackendTests.test_final_and_judge_use_separate_calls) ... ok
+test_reject_builtin_tool_or_missing_measured_usage (test_codex_backend.CodexBackendTests.test_reject_builtin_tool_or_missing_measured_usage) ... ok
+test_schema_limits_call_names (test_codex_backend.CodexBackendTests.test_schema_limits_call_names) ... ok
+test_transport_warnings_are_not_actions_but_ignored_flags_fail (test_codex_backend.CodexBackendTests.test_transport_warnings_are_not_actions_but_ignored_flags_fail) ... ok
+test_absent_ordinary_parameter_is_skipped_without_creation (test_description_overlay.DescriptionOverlayTests.test_absent_ordinary_parameter_is_skipped_without_creation) ... ok
+test_actual_official_time_mcp_metadata (test_description_overlay.DescriptionOverlayTests.test_actual_official_time_mcp_metadata) ... skipped 'Official source checkout is not bundled'
+test_actual_rules_match_pinned_upstream_pure_function (test_description_overlay.DescriptionOverlayTests.test_actual_rules_match_pinned_upstream_pure_function) ... skipped 'Official source checkout is not bundled'
+test_first_tool_key_selection_matches_upstream_order (test_description_overlay.DescriptionOverlayTests.test_first_tool_key_selection_matches_upstream_order) ... ok
+test_flat_description_is_ignored_like_upstream (test_description_overlay.DescriptionOverlayTests.test_flat_description_is_ignored_like_upstream) ... ok
+test_later_layers_override_earlier_descriptions (test_description_overlay.DescriptionOverlayTests.test_later_layers_override_earlier_descriptions) ... ok
+test_missing_special_nested_path_fails_without_schema_repair (test_description_overlay.DescriptionOverlayTests.test_missing_special_nested_path_fails_without_schema_repair) ... ok
+test_nested_fields_apply_without_mutating_inputs_or_contract (test_description_overlay.DescriptionOverlayTests.test_nested_fields_apply_without_mutating_inputs_or_contract) ... ok
+test_non_desc_and_different_server_or_tool_are_unchanged (test_description_overlay.DescriptionOverlayTests.test_non_desc_and_different_server_or_tool_are_unchanged) ... ok
+test_qualified_identity_is_preserved (test_description_overlay.DescriptionOverlayTests.test_qualified_identity_is_preserved) ... ok
+test_three_official_special_nested_parameter_paths (test_description_overlay.DescriptionOverlayTests.test_three_official_special_nested_parameter_paths) ... ok
+test_version_selection_and_provenance (test_description_overlay.DescriptionOverlayTests.test_version_selection_and_provenance) ... ok
+test_all_tool_rejections_in_group_remain_observable (test_infrastructure.InfrastructureTests.test_all_tool_rejections_in_group_remain_observable) ... ok
+test_broken_mcp_protocol_is_not_unknown_tool_failure (test_infrastructure.InfrastructureTests.test_broken_mcp_protocol_is_not_unknown_tool_failure) ... ok
+test_connection_refused_invalidates_attempt (test_infrastructure.InfrastructureTests.test_connection_refused_invalidates_attempt) ... ok
+test_invalid_model_json_is_valid_task_failure_without_transport (test_infrastructure.InfrastructureTests.test_invalid_model_json_is_valid_task_failure_without_transport) ... ok
+test_iserror_is_valid_failure_and_raw_observation_is_untruncated (test_infrastructure.InfrastructureTests.test_iserror_is_valid_failure_and_raw_observation_is_untruncated) ... ok
+test_missing_harness_route_invalidates_before_execution (test_infrastructure.InfrastructureTests.test_missing_harness_route_invalidates_before_execution) ... ok
+test_mixed_nested_exceptiongroup_fails_closed (test_infrastructure.InfrastructureTests.test_mixed_nested_exceptiongroup_fails_closed) ... ok
+test_old_route_and_parameter_are_not_repaired (test_infrastructure.InfrastructureTests.test_old_route_and_parameter_are_not_repaired) ... ok
+test_secret_values_removed_from_observations_and_error_evidence (test_infrastructure.InfrastructureTests.test_secret_values_removed_from_observations_and_error_evidence) ... ok
+test_unknown_model_alias_does_not_query_current_tools (test_infrastructure.InfrastructureTests.test_unknown_model_alias_does_not_query_current_tools) ... ok
+test_js_data_and_comments (test_literal_parser.LiteralParserTests.test_js_data_and_comments) ... ok
+test_js_unicode_and_hex_escapes (test_literal_parser.LiteralParserTests.test_js_unicode_and_hex_escapes) ... ok
+test_reject_executable_values (test_literal_parser.LiteralParserTests.test_reject_executable_values) ... ok
+test_reject_nonfinite_and_incomplete (test_literal_parser.LiteralParserTests.test_reject_nonfinite_and_incomplete) ... ok
+test_reject_python_only_and_identity_escapes (test_literal_parser.LiteralParserTests.test_reject_python_only_and_identity_escapes) ... ok
+test_urls_and_escapes (test_literal_parser.LiteralParserTests.test_urls_and_escapes) ... ok
+test_bad_mean_does_not_fallback (test_metrics.MetricsTests.test_bad_mean_does_not_fallback) ... ok
+test_cohorts_must_cover_exact_tasks (test_metrics.MetricsTests.test_cohorts_must_cover_exact_tasks) ... ok
+test_complete_recovery_retention (test_metrics.MetricsTests.test_complete_recovery_retention) ... ok
+test_costs_not_duplicated_per_task (test_metrics.MetricsTests.test_costs_not_duplicated_per_task) ... ok
+test_ecs_not_aggregate_before_variance (test_metrics.MetricsTests.test_ecs_not_aggregate_before_variance) ... ok
+test_failure_cases_are_executed_local_only (test_metrics.MetricsTests.test_failure_cases_are_executed_local_only) ... ok
+test_formula_matches_official_source (test_metrics.MetricsTests.test_formula_matches_official_source) ... skipped 'Official checkout not packaged; direct formula tests remain available'
+test_official_directory_import_and_missing_file (test_metrics.MetricsTests.test_official_directory_import_and_missing_file) ... ok
+test_official_mean_fields (test_metrics.MetricsTests.test_official_mean_fields) ... ok
+test_reject_missing_duplicate_mismatch_and_local (test_metrics.MetricsTests.test_reject_missing_duplicate_mismatch_and_local) ... ok
+test_alias_is_api_safe_and_qualified (test_official.OfficialTests.test_alias_is_api_safe_and_qualified) ... ok
+test_fixed_server_context_includes_new_tools (test_official.OfficialTests.test_fixed_server_context_includes_new_tools) ... ok
+test_harness_output_schema_is_visible_without_live_refresh (test_official.OfficialTests.test_harness_output_schema_is_visible_without_live_refresh) ... ok
+test_judge_decodes_alias_only_in_copied_evidence (test_official.OfficialTests.test_judge_decodes_alias_only_in_copied_evidence) ... ok
+test_normalization_keeps_output_schema_and_unique_identity (test_official.OfficialTests.test_normalization_keeps_output_schema_and_unique_identity) ... ok
+test_preflight_fails_without_creds_and_config (test_official.OfficialTests.test_preflight_fails_without_creds_and_config) ... ok
+test_prepared_subset_preserves_all_original_fields (test_official.OfficialTests.test_prepared_subset_preserves_all_original_fields) ... ok
+test_description_usage_and_route_changes_are_detected (test_patch.DetectionTests.test_description_usage_and_route_changes_are_detected) ... ok
+test_identical_and_tool_reorder_are_not_changes (test_patch.DetectionTests.test_identical_and_tool_reorder_are_not_changes) ... ok
+test_invalid_rename_fails (test_patch.DetectionTests.test_invalid_rename_fails) ... ok
+test_json_boolean_and_number_are_not_identical (test_patch.DetectionTests.test_json_boolean_and_number_are_not_identical) ... ok
+test_nested_parameter_and_output_changes_are_localized (test_patch.DetectionTests.test_nested_parameter_and_output_changes_are_localized) ... ok
+test_rename_is_not_inferred (test_patch.DetectionTests.test_rename_is_not_inferred) ... ok
+test_usage_only_change_is_affected (test_patch.DetectionTests.test_usage_only_change_is_affected) ... ok
+test_add_remove_and_cleanup_keyed_knowledge (test_patch.PatchTests.test_add_remove_and_cleanup_keyed_knowledge) ... ok
+test_detects_injected_over_update (test_patch.PatchTests.test_detects_injected_over_update) ... ok
+test_does_not_mutate_inputs_or_alias_outputs (test_patch.PatchTests.test_does_not_mutate_inputs_or_alias_outputs) ... ok
+test_global_change_is_preserved_and_flagged_as_unsupported (test_patch.PatchTests.test_global_change_is_preserved_and_flagged_as_unsupported) ... ok
+test_optional_maps_absent_are_not_introduced (test_patch.PatchTests.test_optional_maps_absent_are_not_introduced) ... ok
+test_patch_restores_changed_call_and_preserves_unrelated_tool (test_patch.PatchTests.test_patch_restores_changed_call_and_preserves_unrelated_tool) ... ok
+test_rule_removal_does_not_leave_stale_rule (test_patch.PatchTests.test_rule_removal_does_not_leave_stale_rule) ... ok
+test_dangling_rule_rejected (test_patch.ValidationTests.test_dangling_rule_rejected) ... ok
+test_duplicate_tool_names_rejected (test_patch.ValidationTests.test_duplicate_tool_names_rejected) ... ok
+test_integer_rejects_boolean (test_patch.ValidationTests.test_integer_rejects_boolean) ... ok
+test_nonfinite_json_rejected (test_patch.ValidationTests.test_nonfinite_json_rejected) ... ok
+test_unknown_tool_and_missing_parameter (test_patch.ValidationTests.test_unknown_tool_and_missing_parameter) ... ok
+test_unsupported_json_schema_features_are_reported (test_patch.ValidationTests.test_unsupported_json_schema_features_are_reported) ... ok
+test_adaptation_cost_is_not_token_estimate (test_runner.RunnerTests.test_adaptation_cost_is_not_token_estimate) ... ok
+test_baselines_are_deep_copies (test_runner.RunnerTests.test_baselines_are_deep_copies) ... ok
+test_cli_adapt_persists_audit (test_runner.RunnerTests.test_cli_adapt_persists_audit) ... ok
+test_cohort_resolves_benchmark_server_aliases (test_runner.RunnerTests.test_cohort_resolves_benchmark_server_aliases) ... ok
+test_cohort_uses_required_tools (test_runner.RunnerTests.test_cohort_uses_required_tools) ... ok
+test_stale_schema_and_route_are_used_at_current_endpoint (test_runner.RunnerTests.test_stale_schema_and_route_are_used_at_current_endpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 79 tests in 0.171s
+
+OK (skipped=3)

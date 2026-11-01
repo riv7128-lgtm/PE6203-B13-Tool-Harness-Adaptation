@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "tool_calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "tool_d349446f315355e3167585a8",
+              "tool_5d45a89d6f13a226c667d102",
+              "tool_1a446458b3e45e86315b4a20",
+              "tool_690294f8cfab4db1bfade70d",
+              "tool_5da64f5909f2e35cafa84ef7",
+              "tool_642081c592bf7064f80dd660",
+              "tool_f56c1774e6eaf9b52adb3a00",
+              "tool_7f5305db7da35fa6d749c502"
+            ]
+          },
+          "arguments": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "arguments"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "content",
+    "tool_calls"
+  ],
+  "additionalProperties": false
+}

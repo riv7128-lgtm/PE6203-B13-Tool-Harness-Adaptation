@@ -1,0 +1,36 @@
+{
+  "status": "INVALID_INFRASTRUCTURE_NOT_SCORED",
+  "phase": "agent_execution",
+  "task_id": "144",
+  "metadata": {
+    "strategy": "full_rewrite",
+    "version": "Middle",
+    "run_id": "0",
+    "run_seed": null,
+    "seed_controlled": false,
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211",
+    "protocol_fingerprint": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211",
+    "task_ids": [
+      "133",
+      "144",
+      "235",
+      "249",
+      "291",
+      "448"
+    ],
+    "cohort": "changed",
+    "affected_required_tools": [
+      "time-mcp_1mcp_convert_time"
+    ],
+    "agent_visible_harness_sha256": "98bb60a2217c339f9999410664ad0bae9255140f59766afc5bf71a184414de0d",
+    "execution_snapshot_sha256": "98bb60a2217c339f9999410664ad0bae9255140f59766afc5bf71a184414de0d",
+    "execution_endpoint": "http://127.0.0.1:3051/mcp/"
+  },
+  "error_type": "RuntimeError",
+  "error": "Codex CLI failed with exit code 1; see saved stderr log",
+  "error_details": null,
+  "raw_tool_observations": null,
+  "trajectory_messages": null,
+  "created_unix": 1793272895.7972348,
+  "scores": null
+}

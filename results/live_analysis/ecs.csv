@@ -1,0 +1,4 @@
+strategy,ecs_mean,ecs_run_sample_std,run_count
+no_update,10.0,,1
+full_rewrite,10.0,,1
+selective_patch,10.0,,1

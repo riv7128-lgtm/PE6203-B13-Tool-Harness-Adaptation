@@ -1,0 +1,11 @@
+{
+  "request_type": "agent_action",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Connectivity check only. Return content READY and no tool calls."
+    }
+  ],
+  "allowed_tools": [],
+  "response_rules": "Return JSON content and tool_calls. Each call has an allowed name and arguments encoded as a JSON object string. Propose only supplied tools. Use an empty tool_calls array when finished, with a final answer grounded in observed results. Do not execute tools yourself."
+}

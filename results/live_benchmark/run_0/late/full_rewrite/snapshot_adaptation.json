@@ -1,0 +1,28 @@
+{
+  "strategy": "full_rewrite",
+  "old_sha256": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+  "new_sha256": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a",
+  "result_sha256": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a",
+  "actual_changed_tools": [
+    "math-mcp_1mcp_batch_evaluate",
+    "math-mcp_1mcp_validate_syntax",
+    "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+    "mcp-ai-agent-guidelines_1mcp_design-assistant",
+    "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+    "mcp-ai-agent-guidelines_1mcp_prompt-hierarchy",
+    "mcp-ai-agent-guidelines_1mcp_prompt-version-manager",
+    "mcp-ai-agent-guidelines_1mcp_prompting-hierarchy-evaluator",
+    "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+    "mcp-ai-agent-guidelines_1mcp_validate-spec",
+    "time-mcp_1mcp_convert_time",
+    "time-mcp_1mcp_current_time"
+  ],
+  "regenerated_tool_count": 81,
+  "serialized_update_bytes": 154063,
+  "elapsed_seconds": 0.0015816660015843809,
+  "llm_update_calls": 0,
+  "update_prompt_tokens": 0,
+  "update_completion_tokens": 0,
+  "update_api_cost_usd": 0.0,
+  "cost_scope": "Deterministic in-memory adaptation only; endpoint discovery and inference/judging costs are recorded separately."
+}

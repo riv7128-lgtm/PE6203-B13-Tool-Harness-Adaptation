@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_VALIDATED",
+  "accepted_cells": 27,
+  "expected_cells": 27,
+  "invalid_attempt_count": 1,
+  "records_json_matches_eval_grid": true
+}

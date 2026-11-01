@@ -1,0 +1,19 @@
+{"event": "CALL_COMPLETED", "budget": {"max_calls": 20, "max_input_tokens": 300000, "completed_calls": 2, "input_tokens": 40742, "output_tokens": 440, "status": "RUNNING", "automatic_retries": 0}}
+{"event": "CALL_COMPLETED", "budget": {"max_calls": 20, "max_input_tokens": 300000, "completed_calls": 3, "input_tokens": 74982, "output_tokens": 942, "status": "RUNNING", "automatic_retries": 0}}
+{"event": "CALL_COMPLETED", "budget": {"max_calls": 20, "max_input_tokens": 300000, "completed_calls": 4, "input_tokens": 134509, "output_tokens": 1358, "status": "RUNNING", "automatic_retries": 0}}
+{"event": "CONDITION_COMPLETED", "strategy": "full_rewrite", "scores": {"task_fulfillment_mean": 10.0, "planning_and_efficiency_mean": 10.0, "successful_runs": 1, "total_runs": 1}}
+{"event": "CALL_COMPLETED", "budget": {"max_calls": 20, "max_input_tokens": 300000, "completed_calls": 5, "input_tokens": 165702, "output_tokens": 1755, "status": "RUNNING", "automatic_retries": 0}}
+{"event": "CALL_COMPLETED", "budget": {"max_calls": 20, "max_input_tokens": 300000, "completed_calls": 6, "input_tokens": 200067, "output_tokens": 2106, "status": "RUNNING", "automatic_retries": 0}}
+Traceback (most recent call last):
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\run_bounded.py", line 57, in <module>
+    case['eval_result']=official.judge_trajectory(case,official.task_harness(new,task),config,root/'work/official/MCPEvol-Bench-pinned')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\official.py", line 648, in judge_trajectory
+    response = completion(config, [{"role": "user", "content": prompt}], judge=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\code\harness_adapt\official.py", line 276, in completion
+    return codex_cli_completion(config, messages, tools, judge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\eai项目文件\6203 后半\OneDrive_1_2026-10-26\supplemental_experiments\live_pilot\run_bounded.py", line 23, in bounded_completion
+    raise RuntimeError('BUDGET_STOP: insufficient input-token reserve for next request')
+RuntimeError: BUDGET_STOP: insufficient input-token reserve for next request

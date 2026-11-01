@@ -1,0 +1,25 @@
+{
+  "evidence_type": "LOCAL_CONTRACT_TEST",
+  "is_official_benchmark": false,
+  "old_tools": 3,
+  "new_tools": 3,
+  "added": [
+    "reports.write"
+  ],
+  "removed": [
+    "reports.save"
+  ],
+  "changed": [
+    "weather.forecast"
+  ],
+  "unchanged": [
+    "files.read"
+  ],
+  "preserved_unaffected_knowledge": true,
+  "affected_knowledge_matches_target": true,
+  "single_observed_adaptation_seconds": 0.0005003329715691507,
+  "adaptation_api_calls": 0,
+  "adaptation_api_tokens": 0,
+  "task_scores": null,
+  "task_score_status": "NOT_RUN_OFFICIAL_AGENT_AND_JUDGE"
+}

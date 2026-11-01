@@ -1,0 +1,45 @@
+{
+  "evidence_type": "LOCAL_CONTRACT_TEST",
+  "is_official_benchmark": false,
+  "failure_type": "under_update",
+  "cause": "The old parameter key city remains in the harness after the environment requires location.",
+  "environment": "middle",
+  "trajectory": [
+    {
+      "step": 1,
+      "harness": "early unchanged",
+      "action": {
+        "tool": "weather.forecast",
+        "arguments": {
+          "city": "Singapore"
+        }
+      },
+      "result": {
+        "accepted": false,
+        "errors": [
+          "$.location: required property missing",
+          "$.city: additional property forbidden"
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "harness": "selectively patched",
+      "action": {
+        "tool": "weather.forecast",
+        "arguments": {
+          "location": "Singapore"
+        }
+      },
+      "result": {
+        "accepted": true,
+        "observation": {
+          "fixture_only": true,
+          "location": "Singapore",
+          "forecast": "illustrative local value"
+        }
+      }
+    }
+  ],
+  "interpretation": "The obsolete argument is rejected and the repaired argument is structurally accepted. This is not an LLM task-success measurement."
+}

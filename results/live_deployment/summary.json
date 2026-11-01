@@ -1,0 +1,40 @@
+{
+  "status": "ACTUAL_THREE_STAGE_MCP_SNAPSHOTS_CAPTURED",
+  "tool_counts": {
+    "early": 78,
+    "middle": 79,
+    "late": 81
+  },
+  "snapshot_sha256": {
+    "early": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+    "middle": "c51cfd2295cfb0fa0d8ec8c29e81cfeb5bd1f7ab077049956ef46629796c1c84",
+    "late": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a"
+  },
+  "cohort_by_version": {
+    "Middle": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained"
+    },
+    "Late": {
+      "133": "changed",
+      "144": "changed",
+      "235": "retained"
+    }
+  },
+  "change_counts": {
+    "middle": {
+      "added": 1,
+      "removed": 0,
+      "changed": 6,
+      "unchanged": 72
+    },
+    "late": {
+      "added": 3,
+      "removed": 0,
+      "changed": 9,
+      "unchanged": 69
+    }
+  },
+  "benchmark_scores_produced": false
+}

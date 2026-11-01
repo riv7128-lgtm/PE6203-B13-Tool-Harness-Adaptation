@@ -1,0 +1,10 @@
+{"type":"thread.started","thread_id":"01a18051-3f92-7771-87a0-6c53820835dc"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"error","message":"Reconnecting... 5/5 (stream disconnected before completion: Connection reset by peer (os error 54))"}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Falling back from WebSockets to HTTPS transport. stream disconnected before completion: Connection reset by peer (os error 54)"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"content\":\"Created all three chart specifications with Chinese labels and sales in millions of yuan:\\n\\n- Province sales map: Guangdong leads at ¥15.8M.\\n- Monthly area chart: sales rise from ¥1.2M in January to ¥3.5M in December.\\n- Grouped column chart: Guangdong exceeds Jiangsu across all three product categories.\\n\\nThe supplied province totals sum to ¥53.4M, while monthly sales sum to ¥25.4M; confirm their reporting scope before presenting them as the same annual total.\",\"tool_calls\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":33364,"cached_input_tokens":8064,"cache_write_input_tokens":0,"output_tokens":128,"reasoning_output_tokens":0}}

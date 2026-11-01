@@ -1,0 +1,2727 @@
+[
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@executeautomation/playwright-mcp-server",
+    "tool": "playwright_navigate",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "search_files",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "search_files",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_manage_schema",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_manage_schema",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@modelcontextprotocol/server-memory",
+    "tool": "create_entities",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@modelcontextprotocol/server-memory",
+    "tool": "create_entities",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@tsmztech/mcp-server-salesforce",
+    "tool": "salesforce_search_all",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@tsmztech/mcp-server-salesforce",
+    "tool": "salesforce_search_all",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@tsmztech/mcp-server-salesforce",
+    "tool": "salesforce_search_all",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "batch_review",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@bharathvaj/whois-mcp",
+    "tool": "whois_domain",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-knowledge-graph",
+    "tool": "aim_memory_get_related",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-knowledge-graph",
+    "tool": "aim_memory_get_related",
+    "hunk_index": 1,
+    "reason": "unsupported_literal",
+    "detail": "Identifier required"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-knowledge-graph",
+    "tool": "aim_memory_get_related",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-trends-hub",
+    "tool": "get_infoq_news",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "fetch-mcp",
+    "tool": "fetch_url",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-filesystem-server",
+    "tool": "read_file",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-filesystem-server",
+    "tool": "read_file",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "convert_timezone",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "convert_timezone",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "convert_timezone",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@upstash/context7-mcp",
+    "tool": "query-docs",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@upstash/context7-mcp",
+    "tool": "query-docs",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 5,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "mcp-server-commands",
+    "tool": "run_process",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "slidev-mcp",
+    "tool": "create_bulk_slides",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "slidev-mcp",
+    "tool": "create_bulk_slides",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_execute_query",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_execute_query",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_execute_query",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@opentofu/opentofu-mcp-server",
+    "tool": "search-opentofu-registry",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@opentofu/opentofu-mcp-server",
+    "tool": "search-opentofu-registry",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@botanicastudios/crossref-mcp",
+    "tool": "searchByDateRange",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "fetch-mcp",
+    "tool": "fetch_url",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@rtuin/mcp-mermaid-validator",
+    "tool": "validateMermaid",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@pollinations/model-context-protocol",
+    "tool": "generateMultiModalContent",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 5,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 6,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 7,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "convert_timezone",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "convert_timezone",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-server-commands",
+    "tool": "run_process",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-weather-demo",
+    "tool": "get-forecast",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-weather-demo",
+    "tool": "get-forecast",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-sequential-thinking",
+    "tool": "sequentialthinking",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-sequential-thinking",
+    "tool": "sequentialthinking",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-sequential-thinking",
+    "tool": "sequentialthinking",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@remotion/mcp",
+    "tool": "remotion-documentation",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@remotion/mcp",
+    "tool": "remotion-documentation",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@upstash/context7-mcp",
+    "tool": "query-docs",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@upstash/context7-mcp",
+    "tool": "query-docs",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-memory",
+    "tool": "get_related_entities",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-memory",
+    "tool": "get_related_entities",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mermaid-mcp-server",
+    "tool": "get_diagram",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@bharathvaj/whois-mcp",
+    "tool": "whois_domain",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@bharathvaj/whois-mcp",
+    "tool": "whois_domain",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@bharathvaj/whois-mcp",
+    "tool": "whois_domain",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@knip/mcp",
+    "tool": "knip-run",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@knip/mcp",
+    "tool": "knip-run",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "ygocdb-mcp-server",
+    "tool": "search_cards",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "ygocdb-mcp-server",
+    "tool": "search_cards",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "ygocdb-mcp-server",
+    "tool": "search_cards",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@jinzcdev/leetcode-mcp-server",
+    "tool": "search_problems",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@jinzcdev/leetcode-mcp-server",
+    "tool": "search_problems",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@jinzcdev/leetcode-mcp-server",
+    "tool": "search_problems",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "search_files",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "search_files",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_all",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "mcp-ai-agent-guidelines",
+    "tool": "prompt-version-manager",
+    "hunk_index": 0,
+    "reason": "unsupported_literal",
+    "detail": "Identifier required"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-sequentialthinking-tools",
+    "tool": "sequentialthinking_tools",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-server-commands",
+    "tool": "run_process",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 5,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 5,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@rtuin/mcp-mermaid-validator",
+    "tool": "validateMermaid",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@rtuin/mcp-mermaid-validator",
+    "tool": "validateMermaid",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-filesystem-server",
+    "tool": "read_multiple_files",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@opentofu/opentofu-mcp-server",
+    "tool": "search-opentofu-registry",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@opentofu/opentofu-mcp-server",
+    "tool": "search-opentofu-registry",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@upstash/context7-mcp",
+    "tool": "query-docs",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@upstash/context7-mcp",
+    "tool": "query-docs",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@j0kz/orchestrator-mcp",
+    "tool": "run_workflow",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@j0kz/orchestrator-mcp",
+    "tool": "run_workflow",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@j0kz/orchestrator-mcp",
+    "tool": "run_workflow",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@knip/mcp",
+    "tool": "knip-run",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@knip/mcp",
+    "tool": "knip-run",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "xcomet-mcp-server",
+    "tool": "xcomet_evaluate",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "xcomet-mcp-server",
+    "tool": "xcomet_evaluate",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "xcomet-mcp-server",
+    "tool": "xcomet_evaluate",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-weather-demo",
+    "tool": "get-forecast",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-weather-demo",
+    "tool": "get-forecast",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@remotion/mcp",
+    "tool": "remotion-documentation",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "review_file",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "mcp-echarts",
+    "tool": "generate_line_chart",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-filesystem-server",
+    "tool": "list_directory",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@executeautomation/playwright-mcp-server",
+    "tool": "playwright_navigate",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@kazuph/mcp-taskmanager",
+    "tool": "request_planning",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "qr-mcp-service",
+    "tool": "generate_qr_code",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-server-commands",
+    "tool": "run_process",
+    "hunk_index": 0,
+    "reason": "unsupported_literal",
+    "detail": "Expected '}' at 232"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-calculator",
+    "tool": "loan_payment",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-weather-demo",
+    "tool": "get-forecast",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "slidev-mcp",
+    "tool": "create_bulk_slides",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_execute_query",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_execute_query",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@henkey/postgres-mcp-server",
+    "tool": "pg_execute_query",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@next-ai-drawio/mcp-server",
+    "tool": "create_new_diagram",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "meme-mcp",
+    "tool": "generateMeme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@su-record/hi-gcloud",
+    "tool": "gcp_run_status",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@su-record/hi-gcloud",
+    "tool": "gcp_run_status",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@opentofu/opentofu-mcp-server",
+    "tool": "search-opentofu-registry",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@opentofu/opentofu-mcp-server",
+    "tool": "search-opentofu-registry",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@itseasy21/mcp-knowledge-graph",
+    "tool": "create_entities",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@itseasy21/mcp-knowledge-graph",
+    "tool": "create_entities",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@modelcontextprotocol/server-memory",
+    "tool": "create_relations",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@modelcontextprotocol/server-memory",
+    "tool": "create_relations",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "coffee-mcp-agent",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "12306-mcp",
+    "tool": "get-tickets",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@sylphx/pdf-reader-mcp",
+    "tool": "read_pdf",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-knowledge-graph",
+    "tool": "aim_memory_store",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-knowledge-graph",
+    "tool": "aim_memory_store",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-knowledge-graph",
+    "tool": "aim_memory_store",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "ygocdb-mcp-server",
+    "tool": "search_cards",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "ygocdb-mcp-server",
+    "tool": "search_cards",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "ygocdb-mcp-server",
+    "tool": "search_cards",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "review_file",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "original_from_tina",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@botanicastudios/crossref-mcp",
+    "tool": "searchByTitle",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-trends-hub",
+    "tool": "get_infoq_news",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-trends-hub",
+    "tool": "get_infoq_news",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "fetch-mcp",
+    "tool": "fetch_url",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "read_text_file",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "read_text_file",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "read_text_file",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@modelcontextprotocol/server-filesystem",
+    "tool": "read_text_file",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "get_time_info",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_docs",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@voltagent/docs-mcp",
+    "tool": "search_voltagent_docs",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "kitty-coffee-test",
+    "tool": "orderCoffee",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@rtuin/mcp-mermaid-validator",
+    "tool": "validateMermaid",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@j0kz/orchestrator-mcp",
+    "tool": "run_workflow",
+    "hunk_index": 0,
+    "reason": "unsupported_literal",
+    "detail": "Identifier required"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@j0kz/orchestrator-mcp",
+    "tool": "run_workflow",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@j0kz/orchestrator-mcp",
+    "tool": "run_workflow",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@pollinations/model-context-protocol",
+    "tool": "generateImage",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@pollinations/model-context-protocol",
+    "tool": "generateImage",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@pollinations/model-context-protocol",
+    "tool": "generateImage",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@pollinations/model-context-protocol",
+    "tool": "generateImage",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "nfty-mcp-server",
+    "tool": "send-ntfy",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "nfty-mcp-server",
+    "tool": "send-ntfy",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@bharathvaj/whois-mcp",
+    "tool": "whois_domain",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "xcomet-mcp-server",
+    "tool": "xcomet_evaluate",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-tung-shing",
+    "tool": "get-tung-shing",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "docuking-mcp",
+    "tool": "docuking_talkplan",
+    "hunk_index": 0,
+    "reason": "unsupported_literal",
+    "detail": "Identifier required"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "docuking-mcp",
+    "tool": "docuking_talkplan",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "docuking-mcp",
+    "tool": "docuking_talkplan",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 2,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 3,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "flowbite-mcp",
+    "tool": "generate-theme",
+    "hunk_index": 4,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@wangshunnn/bilibili-mcp-server",
+    "tool": "search_videos",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@pimzino/agentic-tools-mcp",
+    "tool": "create_project",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@pimzino/agentic-tools-mcp",
+    "tool": "create_project",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@tsmztech/mcp-server-salesforce",
+    "tool": "salesforce_search_all",
+    "hunk_index": 0,
+    "reason": "not_complete_tool_literal_pair"
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@tsmztech/mcp-server-salesforce",
+    "tool": "salesforce_search_all",
+    "hunk_index": 1,
+    "reason": "not_complete_tool_literal_pair"
+  }
+]

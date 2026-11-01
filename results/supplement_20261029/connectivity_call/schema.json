@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "tool_calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "NO_TOOL_AVAILABLE"
+            ]
+          },
+          "arguments": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "arguments"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 0
+    }
+  },
+  "required": [
+    "content",
+    "tool_calls"
+  ],
+  "additionalProperties": false
+}

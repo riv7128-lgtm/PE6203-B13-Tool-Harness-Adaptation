@@ -1,0 +1,1052 @@
+{
+  "middle": {
+    "added": [
+      "mcp-ai-agent-guidelines_1mcp_constitution-validator"
+    ],
+    "removed": [],
+    "changed": [
+      "math-mcp_1mcp_validate_syntax",
+      "mcp-ai-agent-guidelines_1mcp_design-assistant",
+      "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+      "mcp-ai-agent-guidelines_1mcp_validate-spec",
+      "time-mcp_1mcp_convert_time"
+    ],
+    "affected": [
+      "math-mcp_1mcp_validate_syntax",
+      "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+      "mcp-ai-agent-guidelines_1mcp_design-assistant",
+      "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+      "mcp-ai-agent-guidelines_1mcp_validate-spec",
+      "time-mcp_1mcp_convert_time"
+    ],
+    "unchanged": [
+      "@umengfe/mcp-server-chart_1mcp_generate_area_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_bar_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_boxplot_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_column_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_district_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_dual_axes_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_fishbone_diagram",
+      "@umengfe/mcp-server-chart_1mcp_generate_flow_diagram",
+      "@umengfe/mcp-server-chart_1mcp_generate_funnel_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_heatmap_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_histogram_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_indented_tree",
+      "@umengfe/mcp-server-chart_1mcp_generate_line_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_liquid_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_mind_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_network_graph",
+      "@umengfe/mcp-server-chart_1mcp_generate_organization_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_path_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_pie_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_pin_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_radar_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_sankey_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_scatter_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_table",
+      "@umengfe/mcp-server-chart_1mcp_generate_treemap_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_venn_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_violin_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_word_cloud_chart",
+      "math-mcp_1mcp_clear_variables",
+      "math-mcp_1mcp_evaluate",
+      "math-mcp_1mcp_get_variable",
+      "math-mcp_1mcp_list_variables",
+      "math-mcp_1mcp_set_variable",
+      "mcp-ai-agent-guidelines_1mcp_agent-orchestrator",
+      "mcp-ai-agent-guidelines_1mcp_architecture-design-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_clean-code-scorer",
+      "mcp-ai-agent-guidelines_1mcp_code-analysis-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_code-hygiene-analyzer",
+      "mcp-ai-agent-guidelines_1mcp_coverage-dashboard-design-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_debugging-assistant-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_dependency-auditor",
+      "mcp-ai-agent-guidelines_1mcp_digital-enterprise-architect-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_documentation-generator-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_domain-neutral-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_gap-frameworks-analyzers",
+      "mcp-ai-agent-guidelines_1mcp_guidelines-validator",
+      "mcp-ai-agent-guidelines_1mcp_hierarchy-level-selector",
+      "mcp-ai-agent-guidelines_1mcp_iterative-coverage-enhancer",
+      "mcp-ai-agent-guidelines_1mcp_l9-distinguished-engineer-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_memory-context-optimizer",
+      "mcp-ai-agent-guidelines_1mcp_mermaid-diagram-generator",
+      "mcp-ai-agent-guidelines_1mcp_mode-switcher",
+      "mcp-ai-agent-guidelines_1mcp_model-compatibility-checker",
+      "mcp-ai-agent-guidelines_1mcp_project-onboarding",
+      "mcp-ai-agent-guidelines_1mcp_prompt-chaining-builder",
+      "mcp-ai-agent-guidelines_1mcp_prompt-flow-builder",
+      "mcp-ai-agent-guidelines_1mcp_prompt-hierarchy",
+      "mcp-ai-agent-guidelines_1mcp_prompting-hierarchy-evaluator",
+      "mcp-ai-agent-guidelines_1mcp_quick-developer-prompts-builder",
+      "mcp-ai-agent-guidelines_1mcp_security-hardening-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_semantic-code-analyzer",
+      "mcp-ai-agent-guidelines_1mcp_spark-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_sprint-timeline-calculator",
+      "mcp-ai-agent-guidelines_1mcp_strategy-frameworks-builder",
+      "mcp-ai-agent-guidelines_1mcp_update-progress",
+      "time-mcp_1mcp_current_time",
+      "time-mcp_1mcp_days_in_month",
+      "time-mcp_1mcp_get_timestamp",
+      "time-mcp_1mcp_get_week_year",
+      "time-mcp_1mcp_relative_time",
+      "time_1mcp_convert_time",
+      "time_1mcp_get_current_time"
+    ],
+    "renamed": [],
+    "details": {
+      "math-mcp_1mcp_validate_syntax": {
+        "kind": "changed",
+        "levels": [
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/inputSchema/properties/allow_variables",
+            "operation": "add",
+            "after": {
+              "type": "boolean",
+              "description": "If true, allow variable references during validation when supported",
+              "default": false
+            }
+          },
+          {
+            "path": "/tool/inputSchema/properties/detailed",
+            "operation": "add",
+            "after": {
+              "type": "boolean",
+              "description": "If true, return a more detailed validation result when supported",
+              "default": false
+            }
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_design-assistant": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Orchestrate multi-phase design workflows with constraint validation, coverage enforcement, and artifact generation. BEST FOR: Coordinating design sessions, enforcing constraints, and producing ADRs and roadmaps. Example: 'Use the design-assistant to start a design session for an API gateway.'",
+            "after": "Orchestrate multi-phase design workflows with built-in constraint validation, coverage enforcement, and artifact generation. Outputs can be further validated using constitution-validator for constitutional compliance verification. BEST FOR: Coordinating design sessions, enforcing constraints, producing ADRs and roadmaps. Example: 'Use the design-assistant to start a design session for an API gateway.'"
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder": {
+        "kind": "changed",
+        "levels": [
+          "Description",
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Create AI prompts with context→goal→requirements hierarchy supporting chain-of-thought, few-shot, and zero-shot techniques. BEST FOR: code reviews, feature specifications, technical decisions, complex task breakdown. OUTPUTS: Structured markdown prompts for LLM injection.",
+            "after": "Create AI prompts using a context → goal → requirements hierarchy, with support for techniques such as chain-of-thought, few-shot, and zero-shot prompting. BEST FOR: code reviews, feature specifications, technical decisions, and complex task breakdowns. OUTPUTS: Structured markdown prompts for LLM use."
+          },
+          {
+            "path": "/tool/inputSchema/properties/audience/description",
+            "operation": "replace",
+            "before": "Target audience or expertise level",
+            "after": "The target audience or intended expertise level"
+          },
+          {
+            "path": "/tool/inputSchema/properties/autoSelectTechniques/description",
+            "operation": "replace",
+            "before": "Infer techniques automatically from context/goal/requirements",
+            "after": "Whether to infer techniques automatically from the context, goal, and requirements"
+          },
+          {
+            "path": "/tool/inputSchema/properties/context/description",
+            "operation": "replace",
+            "before": "The broad context or domain",
+            "after": "The broader context or domain for the prompt"
+          },
+          {
+            "path": "/tool/inputSchema/properties/goal/description",
+            "operation": "replace",
+            "before": "The specific goal or objective",
+            "after": "The specific goal or objective of the prompt"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includeDisclaimer/description",
+            "operation": "replace",
+            "before": "Append a third-party disclaimer section",
+            "after": "Whether to append a third-party disclaimer section"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includePitfalls/description",
+            "operation": "replace",
+            "before": "Include a Pitfalls section",
+            "after": "Whether to include a Pitfalls section"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includeReferences/description",
+            "operation": "replace",
+            "before": "Append a short references list",
+            "after": "Whether to append a short references list"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includeTechniqueHints/description",
+            "operation": "replace",
+            "before": "Include a Technique Hints section",
+            "after": "Whether to include a Technique Hints section"
+          },
+          {
+            "path": "/tool/inputSchema/properties/outputFormat/description",
+            "operation": "replace",
+            "before": "Desired output format",
+            "after": "The desired output format"
+          },
+          {
+            "path": "/tool/inputSchema/properties/provider/description",
+            "operation": "replace",
+            "before": "Model family for tailored tips",
+            "after": "The model family used for tailored tips"
+          },
+          {
+            "path": "/tool/inputSchema/properties/requirements/description",
+            "operation": "replace",
+            "before": "Detailed requirements and constraints",
+            "after": "A list of detailed requirements and constraints"
+          },
+          {
+            "path": "/tool/inputSchema/properties/style/description",
+            "operation": "replace",
+            "before": "Preferred prompt formatting style",
+            "after": "The preferred prompt formatting style"
+          },
+          {
+            "path": "/tool/inputSchema/properties/techniques/description",
+            "operation": "replace",
+            "before": "Optional list of technique hints to include",
+            "after": "An optional list of technique hints to include"
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_speckit-generator": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Generate GitHub Spec-Kit artifacts (all documents: README.md, spec.md, plan.md, tasks.md, progress.md, adr.md, roadmap.md) from requirements. Optionally validate against CONSTITUTION.md. BEST FOR: feature specs, project planning.",
+            "after": "Generate GitHub Spec-Kit artifacts (all documents: README.md, spec.md, plan.md, tasks.md, progress.md, adr.md, roadmap.md) from requirements with integrated constitutional validation during generation. Use constitution-validator for standalone validation of existing artifacts. BEST FOR: feature specs, project planning, constitutional compliance."
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_validate-spec": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Validate spec.md content against constitutional constraints without generating artifacts. Useful for iterative spec refinement and quality assurance. BEST FOR: spec validation, quality checks, constitutional compliance. OUTPUTS: Validation report with score, errors, warnings, and recommendations.",
+            "after": "Validate spec.md structure, completeness, and constitutional constraints without generating artifacts. Focuses on spec.md-specific validation. For broader artifact validation (ADRs, roadmaps, plans), use constitution-validator. BEST FOR: spec.md validation, iterative refinement, quality checks. OUTPUTS: Validation report with score, errors, warnings, and recommendations."
+          }
+        ]
+      },
+      "time-mcp_1mcp_convert_time": {
+        "kind": "changed",
+        "levels": [
+          "Description",
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Convert time between timezones.",
+            "after": "Convert a time from one timezone to another."
+          },
+          {
+            "path": "/tool/inputSchema/properties/sourceTimezone/description",
+            "operation": "add",
+            "after": "The source timezone of the input time."
+          },
+          {
+            "path": "/tool/inputSchema/properties/targetTimezone/description",
+            "operation": "add",
+            "after": "The timezone to convert the input time into."
+          },
+          {
+            "path": "/tool/inputSchema/properties/time/description",
+            "operation": "add",
+            "after": "The time value to convert."
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_constitution-validator": {
+        "kind": "added",
+        "levels": [
+          "Tool"
+        ],
+        "changes": [
+          {
+            "path": "/",
+            "operation": "add",
+            "after": {
+              "tool": {
+                "name": "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+                "description": "Validate any project artifact (spec.md, ADR, roadmap, plan, or custom document) against CONSTITUTION.md principles, constraints, and quality standards. Provides standalone constitutional compliance checking independent of generation workflows. BEST FOR: post-generation validation, constitutional compliance audits, artifact quality assurance. OUTPUTS: Detailed validation report with compliance score, principle violations, constraint breaches, and remediation recommendations.",
+                "inputSchema": {
+                  "type": "object",
+                  "properties": {
+                    "artifactContent": {
+                      "type": "string",
+                      "description": "Content of the artifact to validate (spec.md, ADR, roadmap, plan, etc.)"
+                    },
+                    "artifactType": {
+                      "type": "string",
+                      "enum": [
+                        "spec",
+                        "adr",
+                        "roadmap",
+                        "plan",
+                        "tasks",
+                        "progress",
+                        "custom"
+                      ],
+                      "description": "Type of artifact being validated",
+                      "default": "spec"
+                    },
+                    "constitutionPath": {
+                      "type": "string",
+                      "description": "Path to CONSTITUTION.md file (optional if constitutionContent provided)"
+                    },
+                    "constitutionContent": {
+                      "type": "string",
+                      "description": "CONSTITUTION.md content directly (optional if constitutionPath provided)"
+                    },
+                    "validationLevel": {
+                      "type": "string",
+                      "enum": [
+                        "strict",
+                        "standard",
+                        "lenient"
+                      ],
+                      "description": "Validation strictness level",
+                      "default": "standard"
+                    },
+                    "checkPrinciples": {
+                      "type": "boolean",
+                      "description": "Validate against constitutional principles",
+                      "default": true
+                    },
+                    "checkConstraints": {
+                      "type": "boolean",
+                      "description": "Validate against constitutional constraints",
+                      "default": true
+                    },
+                    "checkQualityStandards": {
+                      "type": "boolean",
+                      "description": "Validate against quality standards",
+                      "default": true
+                    },
+                    "outputFormat": {
+                      "type": "string",
+                      "enum": [
+                        "json",
+                        "markdown",
+                        "summary"
+                      ],
+                      "description": "Output format for validation results",
+                      "default": "markdown"
+                    },
+                    "includeRecommendations": {
+                      "type": "boolean",
+                      "description": "Include remediation recommendations",
+                      "default": true
+                    },
+                    "includeExamples": {
+                      "type": "boolean",
+                      "description": "Include compliant examples for violations",
+                      "default": false
+                    }
+                  },
+                  "required": [
+                    "artifactContent"
+                  ]
+                },
+                "server": "mcp-ai-agent-guidelines"
+              },
+              "routing": "mcp-ai-agent-guidelines_1mcp_constitution-validator"
+            }
+          }
+        ]
+      }
+    },
+    "global_rules_changed": false,
+    "global_rule_changes": [],
+    "unhandled_top_level_changes": [],
+    "old_digest": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+    "new_digest": "c51cfd2295cfb0fa0d8ec8c29e81cfeb5bd1f7ab077049956ef46629796c1c84"
+  },
+  "late": {
+    "added": [
+      "math-mcp_1mcp_batch_evaluate",
+      "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+      "mcp-ai-agent-guidelines_1mcp_prompt-version-manager"
+    ],
+    "removed": [],
+    "changed": [
+      "math-mcp_1mcp_validate_syntax",
+      "mcp-ai-agent-guidelines_1mcp_design-assistant",
+      "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_prompt-hierarchy",
+      "mcp-ai-agent-guidelines_1mcp_prompting-hierarchy-evaluator",
+      "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+      "mcp-ai-agent-guidelines_1mcp_validate-spec",
+      "time-mcp_1mcp_convert_time",
+      "time-mcp_1mcp_current_time"
+    ],
+    "affected": [
+      "math-mcp_1mcp_batch_evaluate",
+      "math-mcp_1mcp_validate_syntax",
+      "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+      "mcp-ai-agent-guidelines_1mcp_design-assistant",
+      "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_prompt-hierarchy",
+      "mcp-ai-agent-guidelines_1mcp_prompt-version-manager",
+      "mcp-ai-agent-guidelines_1mcp_prompting-hierarchy-evaluator",
+      "mcp-ai-agent-guidelines_1mcp_speckit-generator",
+      "mcp-ai-agent-guidelines_1mcp_validate-spec",
+      "time-mcp_1mcp_convert_time",
+      "time-mcp_1mcp_current_time"
+    ],
+    "unchanged": [
+      "@umengfe/mcp-server-chart_1mcp_generate_area_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_bar_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_boxplot_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_column_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_district_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_dual_axes_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_fishbone_diagram",
+      "@umengfe/mcp-server-chart_1mcp_generate_flow_diagram",
+      "@umengfe/mcp-server-chart_1mcp_generate_funnel_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_heatmap_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_histogram_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_indented_tree",
+      "@umengfe/mcp-server-chart_1mcp_generate_line_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_liquid_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_mind_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_network_graph",
+      "@umengfe/mcp-server-chart_1mcp_generate_organization_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_path_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_pie_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_pin_map",
+      "@umengfe/mcp-server-chart_1mcp_generate_radar_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_sankey_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_scatter_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_table",
+      "@umengfe/mcp-server-chart_1mcp_generate_treemap_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_venn_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_violin_chart",
+      "@umengfe/mcp-server-chart_1mcp_generate_word_cloud_chart",
+      "math-mcp_1mcp_clear_variables",
+      "math-mcp_1mcp_evaluate",
+      "math-mcp_1mcp_get_variable",
+      "math-mcp_1mcp_list_variables",
+      "math-mcp_1mcp_set_variable",
+      "mcp-ai-agent-guidelines_1mcp_agent-orchestrator",
+      "mcp-ai-agent-guidelines_1mcp_architecture-design-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_clean-code-scorer",
+      "mcp-ai-agent-guidelines_1mcp_code-analysis-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_code-hygiene-analyzer",
+      "mcp-ai-agent-guidelines_1mcp_coverage-dashboard-design-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_debugging-assistant-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_dependency-auditor",
+      "mcp-ai-agent-guidelines_1mcp_digital-enterprise-architect-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_documentation-generator-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_domain-neutral-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_gap-frameworks-analyzers",
+      "mcp-ai-agent-guidelines_1mcp_guidelines-validator",
+      "mcp-ai-agent-guidelines_1mcp_hierarchy-level-selector",
+      "mcp-ai-agent-guidelines_1mcp_iterative-coverage-enhancer",
+      "mcp-ai-agent-guidelines_1mcp_l9-distinguished-engineer-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_memory-context-optimizer",
+      "mcp-ai-agent-guidelines_1mcp_mermaid-diagram-generator",
+      "mcp-ai-agent-guidelines_1mcp_mode-switcher",
+      "mcp-ai-agent-guidelines_1mcp_model-compatibility-checker",
+      "mcp-ai-agent-guidelines_1mcp_project-onboarding",
+      "mcp-ai-agent-guidelines_1mcp_prompt-chaining-builder",
+      "mcp-ai-agent-guidelines_1mcp_prompt-flow-builder",
+      "mcp-ai-agent-guidelines_1mcp_quick-developer-prompts-builder",
+      "mcp-ai-agent-guidelines_1mcp_security-hardening-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_semantic-code-analyzer",
+      "mcp-ai-agent-guidelines_1mcp_spark-prompt-builder",
+      "mcp-ai-agent-guidelines_1mcp_sprint-timeline-calculator",
+      "mcp-ai-agent-guidelines_1mcp_strategy-frameworks-builder",
+      "mcp-ai-agent-guidelines_1mcp_update-progress",
+      "time-mcp_1mcp_days_in_month",
+      "time-mcp_1mcp_get_timestamp",
+      "time-mcp_1mcp_get_week_year",
+      "time-mcp_1mcp_relative_time",
+      "time_1mcp_convert_time",
+      "time_1mcp_get_current_time"
+    ],
+    "renamed": [],
+    "details": {
+      "math-mcp_1mcp_validate_syntax": {
+        "kind": "changed",
+        "levels": [
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/inputSchema/properties/allow_variables",
+            "operation": "add",
+            "after": {
+              "type": "boolean",
+              "description": "Explicitly specify whether variable references are allowed during validation"
+            }
+          },
+          {
+            "path": "/tool/inputSchema/properties/check_balanced",
+            "operation": "add",
+            "after": {
+              "type": "boolean",
+              "description": "If true, perform additional validation to ensure all brackets and parentheses are properly balanced",
+              "default": true
+            }
+          },
+          {
+            "path": "/tool/inputSchema/properties/detailed",
+            "operation": "add",
+            "after": {
+              "type": "boolean",
+              "description": "If true, return a more detailed validation result when supported",
+              "default": false
+            }
+          },
+          {
+            "path": "/tool/inputSchema/properties/expression/minLength",
+            "operation": "add",
+            "after": 1
+          },
+          {
+            "path": "/tool/inputSchema/properties/max_depth",
+            "operation": "add",
+            "after": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Maximum allowed nesting depth for expressions (e.g., nested parentheses or function calls). If specified, validation fails if depth exceeds this limit"
+            }
+          },
+          {
+            "path": "/tool/inputSchema/properties/show_ast",
+            "operation": "add",
+            "after": {
+              "type": "boolean",
+              "description": "If true, include the abstract syntax tree (AST) structure in the validation result",
+              "default": false
+            }
+          },
+          {
+            "path": "/tool/inputSchema/required",
+            "operation": "replace",
+            "before": [
+              "expression"
+            ],
+            "after": [
+              "expression",
+              "allow_variables"
+            ]
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_design-assistant": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Orchestrate multi-phase design workflows with constraint validation, coverage enforcement, and artifact generation. BEST FOR: Coordinating design sessions, enforcing constraints, and producing ADRs and roadmaps. Example: 'Use the design-assistant to start a design session for an API gateway.'",
+            "after": "Orchestrate multi-phase design workflows with built-in constraint validation, coverage enforcement, and artifact generation. Outputs can be further validated using constitution-validator for constitutional compliance verification. BEST FOR: Coordinating design sessions, enforcing constraints, producing ADRs and roadmaps. Example: 'Use the design-assistant to start a design session for an API gateway.'"
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_hierarchical-prompt-builder": {
+        "kind": "changed",
+        "levels": [
+          "Description",
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Create AI prompts with context→goal→requirements hierarchy supporting chain-of-thought, few-shot, and zero-shot techniques. BEST FOR: code reviews, feature specifications, technical decisions, complex task breakdown. OUTPUTS: Structured markdown prompts for LLM injection.",
+            "after": "Create AI prompts using a context → goal → requirements hierarchy, with support for techniques such as chain-of-thought, few-shot, and zero-shot prompting. BEST FOR: code reviews, feature specifications, technical decisions, and complex task breakdowns. OUTPUTS: Structured markdown prompts for LLM use."
+          },
+          {
+            "path": "/tool/inputSchema/properties/audience/description",
+            "operation": "replace",
+            "before": "Target audience or expertise level",
+            "after": "The target audience or intended expertise level"
+          },
+          {
+            "path": "/tool/inputSchema/properties/autoSelectTechniques/description",
+            "operation": "replace",
+            "before": "Infer techniques automatically from context/goal/requirements",
+            "after": "Whether to infer techniques automatically from the context, goal, and requirements"
+          },
+          {
+            "path": "/tool/inputSchema/properties/context/description",
+            "operation": "replace",
+            "before": "The broad context or domain",
+            "after": "The broader context or domain for the prompt"
+          },
+          {
+            "path": "/tool/inputSchema/properties/goal/description",
+            "operation": "replace",
+            "before": "The specific goal or objective",
+            "after": "The specific goal or objective of the prompt"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includeDisclaimer/description",
+            "operation": "replace",
+            "before": "Append a third-party disclaimer section",
+            "after": "Whether to append a third-party disclaimer section"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includePitfalls/description",
+            "operation": "replace",
+            "before": "Include a Pitfalls section",
+            "after": "Whether to include a Pitfalls section"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includeReferences/description",
+            "operation": "replace",
+            "before": "Append a short references list",
+            "after": "Whether to append a short references list"
+          },
+          {
+            "path": "/tool/inputSchema/properties/includeTechniqueHints/description",
+            "operation": "replace",
+            "before": "Include a Technique Hints section",
+            "after": "Whether to include a Technique Hints section"
+          },
+          {
+            "path": "/tool/inputSchema/properties/outputFormat/description",
+            "operation": "replace",
+            "before": "Desired output format",
+            "after": "The desired output format"
+          },
+          {
+            "path": "/tool/inputSchema/properties/provider/description",
+            "operation": "replace",
+            "before": "Model family for tailored tips",
+            "after": "The model family used for tailored tips"
+          },
+          {
+            "path": "/tool/inputSchema/properties/requirements/description",
+            "operation": "replace",
+            "before": "Detailed requirements and constraints",
+            "after": "A list of detailed requirements and constraints"
+          },
+          {
+            "path": "/tool/inputSchema/properties/style/description",
+            "operation": "replace",
+            "before": "Preferred prompt formatting style",
+            "after": "The preferred prompt formatting style"
+          },
+          {
+            "path": "/tool/inputSchema/properties/techniques/description",
+            "operation": "replace",
+            "before": "Optional list of technique hints to include",
+            "after": "An optional list of technique hints to include"
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_prompt-hierarchy": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Manage prompting hierarchy operations with modes: 'build' (create prompts), 'select' (recommend level), 'evaluate' (score quality). BEST FOR: all hierarchy operations, prompt creation, level selection, quality assessment. OUTPUTS: Mode-specific structured responses.",
+            "after": "Manage prompting hierarchy operations with modes: 'build' (create prompts), 'select' (recommend level), 'evaluate' (score quality). BEST FOR: all hierarchy operations, prompt creation, level selection, quality assessment. OUTPUTS: Mode-specific structured responses. TIP: Persist built prompts as named versions using prompt-version-manager to enable diffing and rollback across iterations."
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_prompting-hierarchy-evaluator": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Evaluate prompt quality with hierarchical taxonomy and numeric scoring based on clarity, specificity, completeness, and cognitive complexity. BEST FOR: prompt quality assessment, effectiveness measurement, prompt optimization. OUTPUTS: Detailed scores with improvement recommendations.",
+            "after": "Evaluate prompt quality with hierarchical taxonomy and numeric scoring based on clarity, specificity, completeness, and cognitive complexity. BEST FOR: prompt quality assessment, effectiveness measurement, prompt optimization. OUTPUTS: Detailed scores with improvement recommendations. TIP: Store evaluation snapshots as named versions in prompt-version-manager to track quality improvements over time."
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_speckit-generator": {
+        "kind": "changed",
+        "levels": [
+          "Description",
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Generate GitHub Spec-Kit artifacts (all documents: README.md, spec.md, plan.md, tasks.md, progress.md, adr.md, roadmap.md) from requirements. Optionally validate against CONSTITUTION.md. BEST FOR: feature specs, project planning.",
+            "after": "Generates complete GitHub Spec-Kit documentation suite (README.md, spec.md, plan.md, tasks.md, progress.md, adr.md, roadmap.md) from project requirements. Optionally validates generated artifacts against constitutional guidelines during creation. For validating pre-existing artifacts, use constitution-validator instead. Ideal for feature specifications, project planning, and ensuring constitutional compliance. Tip: Track spec evolution by versioning generated artifacts with prompt-version-manager."
+          },
+          {
+            "path": "/tool/inputSchema/properties/acceptanceCriteria/description",
+            "operation": "replace",
+            "before": "Acceptance criteria for completion (optional)",
+            "after": "Criteria that must be met for the project to be considered complete (optional)"
+          },
+          {
+            "path": "/tool/inputSchema/properties/constitutionPath/description",
+            "operation": "replace",
+            "before": "Path to CONSTITUTION.md file (optional)",
+            "after": "File path to the CONSTITUTION.md document for validation reference (optional)"
+          },
+          {
+            "path": "/tool/inputSchema/properties/objectives/description",
+            "operation": "replace",
+            "before": "Strategic objectives for the project",
+            "after": "List of strategic objectives defining project goals, each with optional priority level (high, medium, or low)"
+          },
+          {
+            "path": "/tool/inputSchema/properties/outOfScope/description",
+            "operation": "replace",
+            "before": "Explicitly out-of-scope items (optional)",
+            "after": "Items explicitly excluded from the project scope (optional)"
+          },
+          {
+            "path": "/tool/inputSchema/properties/overview/description",
+            "operation": "replace",
+            "before": "High-level overview of the feature/project",
+            "after": "High-level summary describing the feature or project scope"
+          },
+          {
+            "path": "/tool/inputSchema/properties/requirements/description",
+            "operation": "replace",
+            "before": "Functional and non-functional requirements",
+            "after": "Project requirements categorized as functional or non-functional, each with optional priority level (high, medium, or low)"
+          },
+          {
+            "path": "/tool/inputSchema/properties/title/description",
+            "operation": "replace",
+            "before": "Specification title",
+            "after": "Title of the specification or project"
+          },
+          {
+            "path": "/tool/inputSchema/properties/validateAgainstConstitution/description",
+            "operation": "replace",
+            "before": "Whether to validate against constitution before rendering (optional)",
+            "after": "Enable validation of generated artifacts against constitutional guidelines before final rendering (optional)"
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_validate-spec": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Validate spec.md content against constitutional constraints without generating artifacts. Useful for iterative spec refinement and quality assurance. BEST FOR: spec validation, quality checks, constitutional compliance. OUTPUTS: Validation report with score, errors, warnings, and recommendations.",
+            "after": "Validate spec.md structure, completeness, and constitutional constraints without generating artifacts. Focuses on spec.md-specific validation. For broader artifact validation (ADRs, roadmaps, plans), use constitution-validator. BEST FOR: spec.md validation, iterative refinement, quality checks. OUTPUTS: Validation report with score, errors, warnings, and recommendations."
+          }
+        ]
+      },
+      "time-mcp_1mcp_convert_time": {
+        "kind": "changed",
+        "levels": [
+          "Description",
+          "Parameter"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Convert time between timezones.",
+            "after": "Convert a time from one timezone to another."
+          },
+          {
+            "path": "/tool/inputSchema/properties/sourceTimezone/description",
+            "operation": "add",
+            "after": "The source timezone of the input time."
+          },
+          {
+            "path": "/tool/inputSchema/properties/targetTimezone/description",
+            "operation": "add",
+            "after": "The timezone to convert the input time to."
+          },
+          {
+            "path": "/tool/inputSchema/properties/time/description",
+            "operation": "add",
+            "after": "The time value to convert."
+          }
+        ]
+      },
+      "time-mcp_1mcp_current_time": {
+        "kind": "changed",
+        "levels": [
+          "Description"
+        ],
+        "changes": [
+          {
+            "path": "/tool/description",
+            "operation": "replace",
+            "before": "Get the current date and time.",
+            "after": "Get the current date and time, optionally formatted using one of the supported format values and optionally for a specified timezone."
+          }
+        ]
+      },
+      "math-mcp_1mcp_batch_evaluate": {
+        "kind": "added",
+        "levels": [
+          "Tool"
+        ],
+        "changes": [
+          {
+            "path": "/",
+            "operation": "add",
+            "after": {
+              "tool": {
+                "name": "math-mcp_1mcp_batch_evaluate",
+                "description": "Evaluate multiple mathematical expressions in a single batch operation",
+                "inputSchema": {
+                  "type": "object",
+                  "properties": {
+                    "expressions": {
+                      "type": "array",
+                      "description": "Array of mathematical expressions to evaluate",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "stop_on_error": {
+                      "type": "boolean",
+                      "description": "If true, stop processing on first error; if false, continue and report all results",
+                      "default": false
+                    }
+                  },
+                  "required": [
+                    "expressions"
+                  ]
+                },
+                "server": "math-mcp"
+              },
+              "routing": "math-mcp_1mcp_batch_evaluate"
+            }
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_constitution-validator": {
+        "kind": "added",
+        "levels": [
+          "Tool"
+        ],
+        "changes": [
+          {
+            "path": "/",
+            "operation": "add",
+            "after": {
+              "tool": {
+                "name": "mcp-ai-agent-guidelines_1mcp_constitution-validator",
+                "description": "Validate any project artifact (spec.md, ADR, roadmap, plan, or custom document) against CONSTITUTION.md principles, constraints, and quality standards. Provides standalone constitutional compliance checking independent of generation workflows. BEST FOR: post-generation validation, constitutional compliance audits, artifact quality assurance. OUTPUTS: Detailed validation report with compliance score, principle violations, constraint breaches, and remediation recommendations.",
+                "inputSchema": {
+                  "type": "object",
+                  "properties": {
+                    "artifactContent": {
+                      "type": "string",
+                      "description": "Content of the artifact to validate (spec.md, ADR, roadmap, plan, etc.)"
+                    },
+                    "artifactType": {
+                      "type": "string",
+                      "enum": [
+                        "spec",
+                        "adr",
+                        "roadmap",
+                        "plan",
+                        "tasks",
+                        "progress",
+                        "custom"
+                      ],
+                      "description": "Type of artifact being validated",
+                      "default": "spec"
+                    },
+                    "constitutionPath": {
+                      "type": "string",
+                      "description": "Path to CONSTITUTION.md file (optional if constitutionContent provided)"
+                    },
+                    "constitutionContent": {
+                      "type": "string",
+                      "description": "CONSTITUTION.md content directly (optional if constitutionPath provided)"
+                    },
+                    "validationLevel": {
+                      "type": "string",
+                      "enum": [
+                        "strict",
+                        "standard",
+                        "lenient"
+                      ],
+                      "description": "Validation strictness level",
+                      "default": "standard"
+                    },
+                    "checkPrinciples": {
+                      "type": "boolean",
+                      "description": "Validate against constitutional principles",
+                      "default": true
+                    },
+                    "checkConstraints": {
+                      "type": "boolean",
+                      "description": "Validate against constitutional constraints",
+                      "default": true
+                    },
+                    "checkQualityStandards": {
+                      "type": "boolean",
+                      "description": "Validate against quality standards",
+                      "default": true
+                    },
+                    "outputFormat": {
+                      "type": "string",
+                      "enum": [
+                        "json",
+                        "markdown",
+                        "summary"
+                      ],
+                      "description": "Output format for validation results",
+                      "default": "markdown"
+                    },
+                    "includeRecommendations": {
+                      "type": "boolean",
+                      "description": "Include remediation recommendations",
+                      "default": true
+                    },
+                    "includeExamples": {
+                      "type": "boolean",
+                      "description": "Include compliant examples for violations",
+                      "default": false
+                    }
+                  },
+                  "required": [
+                    "artifactContent"
+                  ]
+                },
+                "server": "mcp-ai-agent-guidelines"
+              },
+              "routing": "mcp-ai-agent-guidelines_1mcp_constitution-validator"
+            }
+          }
+        ]
+      },
+      "mcp-ai-agent-guidelines_1mcp_prompt-version-manager": {
+        "kind": "added",
+        "levels": [
+          "Tool"
+        ],
+        "changes": [
+          {
+            "path": "/",
+            "operation": "add",
+            "after": {
+              "tool": {
+                "name": "mcp-ai-agent-guidelines_1mcp_prompt-version-manager",
+                "description": "Version and manage prompt artifacts with save, list, diff, restore, and delete operations using an in-memory registry of named prompt versions and optional metadata output. BEST FOR: prompt lifecycle management, iterative prompt refinement, A/B comparison of prompt variants, rollback to previous prompt versions. OUTPUTS: Version metadata, line-level diffs between versions, restored prompt content, or deletion confirmation.",
+                "inputSchema": {
+                  "type": "object",
+                  "properties": {
+                    "action": {
+                      "type": "string",
+                      "enum": [
+                        "save",
+                        "list",
+                        "diff",
+                        "restore",
+                        "delete"
+                      ],
+                      "description": "Operation to perform: 'save' stores a prompt version, 'list' shows all versions for a key, 'diff' computes line-level diff between two versions, 'restore' retrieves a specific version's content, 'delete' removes a version."
+                    },
+                    "key": {
+                      "type": "string",
+                      "description": "Logical name for the prompt (e.g., 'auth-system-prompt', 'onboarding-spec'). Groups versions under a shared identifier.",
+                      "examples": [
+                        "auth-system-prompt",
+                        "payment-spec",
+                        "onboarding-flow"
+                      ]
+                    },
+                    "content": {
+                      "type": "string",
+                      "description": "Prompt content to save (required for 'save' action)."
+                    },
+                    "label": {
+                      "type": "string",
+                      "description": "Optional human-readable label for the version (e.g., 'v1-initial', 'v2-with-cot').",
+                      "examples": [
+                        "v1-initial",
+                        "v2-chain-of-thought",
+                        "v3-security-hardened"
+                      ]
+                    },
+                    "versionA": {
+                      "type": "string",
+                      "description": "Version ID or label for the base side of a diff (required for 'diff' action)."
+                    },
+                    "versionB": {
+                      "type": "string",
+                      "description": "Version ID or label for the comparison side of a diff (required for 'diff' action). Omit to diff against the latest saved version."
+                    },
+                    "versionId": {
+                      "type": "string",
+                      "description": "Specific version ID to restore or delete (required for 'restore' and 'delete' actions)."
+                    },
+                    "includeMetadata": {
+                      "type": "boolean",
+                      "description": "Include version metadata (timestamp, label, character count) in the response.",
+                      "default": true
+                    }
+                  },
+                  "required": [
+                    "action",
+                    "key"
+                  ]
+                },
+                "server": "mcp-ai-agent-guidelines"
+              },
+              "routing": "mcp-ai-agent-guidelines_1mcp_prompt-version-manager"
+            }
+          }
+        ]
+      }
+    },
+    "global_rules_changed": false,
+    "global_rule_changes": [],
+    "unhandled_top_level_changes": [],
+    "old_digest": "eafd4755172a40b75748034d28e94e36f738a324db8fcb761d81fcc5f5b4de28",
+    "new_digest": "443727a5895ce49c3942c7115c34a77a3fa1f5ce24b85f90f56b1dc4bf5fe59a"
+  }
+}

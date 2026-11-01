@@ -1,0 +1,222 @@
+[
+  {
+    "task_id": "133",
+    "strategy": "no_update",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "133",
+    "strategy": "no_update",
+    "version": "Late",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "changed",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "133",
+    "strategy": "no_update",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "changed",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "144",
+    "strategy": "no_update",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "144",
+    "strategy": "no_update",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "changed",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "144",
+    "strategy": "no_update",
+    "version": "Late",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "changed",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "235",
+    "strategy": "no_update",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "235",
+    "strategy": "no_update",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "235",
+    "strategy": "no_update",
+    "version": "Late",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "249",
+    "strategy": "no_update",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "249",
+    "strategy": "no_update",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "249",
+    "strategy": "no_update",
+    "version": "Late",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "291",
+    "strategy": "no_update",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "291",
+    "strategy": "no_update",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "291",
+    "strategy": "no_update",
+    "version": "Late",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "448",
+    "strategy": "no_update",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "448",
+    "strategy": "no_update",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "448",
+    "strategy": "no_update",
+    "version": "Late",
+    "run_id": "0",
+    "tf": 1.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "133",
+    "strategy": "full_rewrite",
+    "version": "Early",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "retained",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  },
+  {
+    "task_id": "133",
+    "strategy": "full_rewrite",
+    "version": "Middle",
+    "run_id": "0",
+    "tf": 10.0,
+    "pe": 10.0,
+    "cohort": "changed",
+    "evidence_kind": "official_mcpevol_judge",
+    "protocol_id": "16ce21edfd124e4c04cba3877818cb4b91a8cae1a67c2cef14c1be0239da3211"
+  }
+]

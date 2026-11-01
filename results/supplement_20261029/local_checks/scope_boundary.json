@@ -1,0 +1,313 @@
+{
+  "kind": "SYNTHETIC_SCOPE_BOUNDARY_NOT_BENCHMARK",
+  "old": {
+    "tools": [
+      {
+        "name": "tool.0000",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      },
+      {
+        "name": "tool.0001",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      },
+      {
+        "name": "tool.0002",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "routing": {
+      "tool.0000": "service/0",
+      "tool.0001": "service/1",
+      "tool.0002": "service/2"
+    },
+    "usage_rules": {
+      "tool.0000": [
+        "Supply id."
+      ],
+      "tool.0001": [
+        "Supply id."
+      ],
+      "tool.0002": [
+        "Supply id."
+      ]
+    },
+    "global_rules": [
+      "Preserve unrelated tools."
+    ]
+  },
+  "target": {
+    "tools": [
+      {
+        "name": "tool.0000",
+        "description": "Lookup a record using record_id instead of id.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "record_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "record_id"
+          ]
+        }
+      },
+      {
+        "name": "tool.0001",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      },
+      {
+        "name": "tool.0002",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "routing": {
+      "tool.0000": "service/0",
+      "tool.0001": "service/1",
+      "tool.0002": "service/2"
+    },
+    "usage_rules": {
+      "tool.0000": [
+        "Supply record_id."
+      ],
+      "tool.0001": [
+        "Supply id."
+      ],
+      "tool.0002": [
+        "Supply id."
+      ]
+    },
+    "global_rules": [
+      "All calls must carry a newly required authorization context."
+    ]
+  },
+  "patched": {
+    "tools": [
+      {
+        "name": "tool.0000",
+        "description": "Lookup a record using record_id instead of id.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "record_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "record_id"
+          ]
+        }
+      },
+      {
+        "name": "tool.0001",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      },
+      {
+        "name": "tool.0002",
+        "description": "Lookup a record by its identifier.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "routing": {
+      "tool.0000": "service/0",
+      "tool.0001": "service/1",
+      "tool.0002": "service/2"
+    },
+    "usage_rules": {
+      "tool.0000": [
+        "Supply record_id."
+      ],
+      "tool.0001": [
+        "Supply id."
+      ],
+      "tool.0002": [
+        "Supply id."
+      ]
+    },
+    "global_rules": [
+      "Preserve unrelated tools."
+    ]
+  },
+  "audit": {
+    "method": "selective_tool_record_patch",
+    "scope": "affected tool records and tool-keyed usage rules and routing",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "tool.0000"
+      ],
+      "affected": [
+        "tool.0000"
+      ],
+      "unchanged": [
+        "tool.0001",
+        "tool.0002"
+      ],
+      "renamed": [],
+      "details": {
+        "tool.0000": {
+          "kind": "changed",
+          "levels": [
+            "Description",
+            "Parameter",
+            "Usage"
+          ],
+          "changes": [
+            {
+              "path": "/tool/description",
+              "operation": "replace",
+              "before": "Lookup a record by its identifier.",
+              "after": "Lookup a record using record_id instead of id."
+            },
+            {
+              "path": "/tool/inputSchema/properties/id",
+              "operation": "remove",
+              "before": {
+                "type": "string"
+              }
+            },
+            {
+              "path": "/tool/inputSchema/properties/record_id",
+              "operation": "add",
+              "after": {
+                "type": "string"
+              }
+            },
+            {
+              "path": "/tool/inputSchema/required",
+              "operation": "replace",
+              "before": [
+                "id"
+              ],
+              "after": [
+                "record_id"
+              ]
+            },
+            {
+              "path": "/usage_rules",
+              "operation": "replace",
+              "before": [
+                "Supply id."
+              ],
+              "after": [
+                "Supply record_id."
+              ]
+            }
+          ]
+        }
+      },
+      "global_rules_changed": true,
+      "global_rule_changes": [
+        {
+          "path": "/global_rules",
+          "operation": "replace",
+          "before": [
+            "Preserve unrelated tools."
+          ],
+          "after": [
+            "All calls must carry a newly required authorization context."
+          ]
+        }
+      ],
+      "unhandled_top_level_changes": [],
+      "old_digest": "60c92cc99d335fe44c920e7ce71ca2a79788e230f8460e90d95a5fdfb08aa9e1",
+      "new_digest": "df8c172093e587b51d48addf7f71d3a26e5b585f06642150d79d1583cb72e072"
+    },
+    "preservation": {
+      "unchanged_tools_checked": 2,
+      "unchanged_tool_names": [
+        "tool.0001",
+        "tool.0002"
+      ],
+      "preserved": true,
+      "violations": [],
+      "global_rules_preserved": true
+    },
+    "affected_knowledge_matches_target": true,
+    "unresolved_affected_entries": [],
+    "global_rules_updated": false,
+    "unsupported_global_change": true,
+    "unsupported_top_level_changes": [],
+    "output_digest": "bbb928ef7c5d4b196ffe419f983e21d9adfbd9e51ebe9eb2ac06d79b0d7466ed",
+    "evidence_type": "STRUCTURAL_AUDIT_NOT_TASK_SCORE"
+  },
+  "global_target_reached": false,
+  "interpretation": "Tool records update correctly; global policy is preserved and flagged unsupported, so complete target knowledge is not reached. No agent failure or task score is claimed."
+}

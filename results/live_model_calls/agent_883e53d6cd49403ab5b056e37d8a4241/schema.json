@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "tool_calls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "tool_93980865182a68cde7e0d19e",
+              "tool_bb773b01552a8125f8570941",
+              "tool_a9d7abb0417a4c3f3b9ca466",
+              "tool_435cc2a901015770c5f2e4ad",
+              "tool_b686afc496f724c12c84e1b3",
+              "tool_894f961f14fe17daf923508a",
+              "tool_a30f2613f66b6a8b9f1891bc",
+              "tool_cd681cae659c74a42ad5efa8",
+              "tool_87f6da85e0a9bdef69901143",
+              "tool_d582c5c133aa12e868bfdfeb",
+              "tool_e7afb4c45f8a18f145a6938a",
+              "tool_6803a03475ee407d6089eac8",
+              "tool_85299480a7666a38e550ff3b",
+              "tool_8cf511e09c5dee9a884a4cb7",
+              "tool_1eafdfe43fbb8c37d79f4562",
+              "tool_0d59e485d80c36cdb748a0c6",
+              "tool_745b01284199a554f0b8a175",
+              "tool_6958aee21498deb400880db8",
+              "tool_d4e1daf6917d8c06cf3761aa",
+              "tool_3003fdb2d996b6fd6cbb4a8b",
+              "tool_6bb553f130cc3a74e01d5ad0",
+              "tool_fd2180c968e9e46150758556",
+              "tool_d290fe81c0a731cc9e687b95",
+              "tool_c5b81889367dfaf981edecf8",
+              "tool_9d95ca00b42c5965699af52a",
+              "tool_762e1ad619f66e314051593c",
+              "tool_a34c66d315c053ef819fabd9",
+              "tool_c9f64e355d7a39f81a0b5fc0",
+              "tool_e93825f270dcbb7dbbbd9c92",
+              "tool_7b67c3e9e6df598a43ea1539",
+              "tool_9696b568a201373ef43f7bdd",
+              "tool_7fa4047f2928a3eb0758a5da",
+              "tool_977c7f7c57c58acc38c07699",
+              "tool_2b0f1f04e1cae79bef978875",
+              "tool_811407f6affcb61a11c73268",
+              "tool_2d93a54d650559b8fb3f5d30",
+              "tool_463afb49d4b2b0b710e25e3b",
+              "tool_0f087a36b76751cfe307363d",
+              "tool_ba7323b63236bea1e1042130",
+              "tool_1776c28347889e2d16c24f34",
+              "tool_8716d1abe00652d91f077c5d",
+              "tool_762b68490a9c7d619cce1518"
+            ]
+          },
+          "arguments": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "arguments"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "content",
+    "tool_calls"
+  ],
+  "additionalProperties": false
+}

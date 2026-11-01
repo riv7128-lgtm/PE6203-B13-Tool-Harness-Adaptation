@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a18763-24f8-7192-83d1-cc30f56e82bd"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"content\":\"The request contains no sales figures, and the supplied tools can only visualize provided data. To create accurate charts, the required inputs are Q1 2026 sales totals by province and January–March weekly sales for Guangdong, Zhejiang, and Jiangsu, including the currency or unit. No charts were generated because doing so would require inventing sales data.\",\"tool_calls\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":29638,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":104,"reasoning_output_tokens":15}}

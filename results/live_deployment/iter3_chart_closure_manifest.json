@@ -1,0 +1,1495 @@
+{
+  "version": "iter3",
+  "status": "EXTRACTED_NOT_EXECUTED",
+  "primary_packages": [
+    "@umengfe/mcp-server-chart"
+  ],
+  "packages": [
+    {
+      "version": "iter3",
+      "prefix": "node_modules/@umengfe/mcp-server-chart",
+      "signature": "64cb57edaf188b74c0dde8fe5ed2285d1c6d6ebb26b12eeaa5e790f3b92cfe16",
+      "file_count": 91,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@umengfe/mcp-server-chart",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "@umengfe/mcp-server-chart",
+      "package_version": "0.0.9",
+      "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.11.4",
+        "axios": "^1.11.0",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "zod": "^3.25.16",
+        "zod-to-json-schema": "^3.24.5"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/@modelcontextprotocol/sdk",
+      "signature": "2bc9af58b05769313ebe0b64aa7183850141745b844c74ba1cf85b30dd324c9e",
+      "file_count": 1165,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@modelcontextprotocol/sdk",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "@modelcontextprotocol/sdk",
+      "package_version": "1.27.1",
+      "dependencies": {
+        "@hono/node-server": "^1.19.9",
+        "ajv": "^8.17.1",
+        "ajv-formats": "^3.0.1",
+        "content-type": "^1.0.5",
+        "cors": "^2.8.5",
+        "cross-spawn": "^7.0.5",
+        "eventsource": "^3.0.2",
+        "eventsource-parser": "^3.0.0",
+        "express": "^5.2.1",
+        "express-rate-limit": "^8.2.1",
+        "hono": "^4.11.4",
+        "jose": "^6.1.3",
+        "json-schema-typed": "^8.0.2",
+        "pkce-challenge": "^5.0.0",
+        "raw-body": "^3.0.0",
+        "zod": "^3.25 || ^4.0",
+        "zod-to-json-schema": "^3.25.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/axios",
+      "signature": "c360c5505da604e286d859a607f7c64514dfc490a830e860f364cf713d15e51f",
+      "file_count": 86,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/axios",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "axios",
+      "package_version": "1.13.6",
+      "dependencies": {
+        "follow-redirects": "^1.15.11",
+        "form-data": "^4.0.5",
+        "proxy-from-env": "^1.1.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/cors",
+      "signature": "40fdc6adc5463433afcd926973d0770b41e57836afd0ee5d8f6d6864d3034387",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/cors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cors",
+      "package_version": "2.8.6",
+      "dependencies": {
+        "object-assign": "^4",
+        "vary": "^1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/express",
+      "signature": "0856d93618f84a2e6d20ef3d5d540e340866060403dd14b6a38fe2aac02f20ba",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/express",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "express",
+      "package_version": "5.2.1",
+      "dependencies": {
+        "accepts": "^2.0.0",
+        "body-parser": "^2.2.1",
+        "content-disposition": "^1.0.0",
+        "content-type": "^1.0.5",
+        "cookie": "^0.7.1",
+        "cookie-signature": "^1.2.1",
+        "debug": "^4.4.0",
+        "depd": "^2.0.0",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "etag": "^1.8.1",
+        "finalhandler": "^2.1.0",
+        "fresh": "^2.0.0",
+        "http-errors": "^2.0.0",
+        "merge-descriptors": "^2.0.0",
+        "mime-types": "^3.0.0",
+        "on-finished": "^2.4.1",
+        "once": "^1.4.0",
+        "parseurl": "^1.3.3",
+        "proxy-addr": "^2.0.7",
+        "qs": "^6.14.0",
+        "range-parser": "^1.2.1",
+        "router": "^2.2.0",
+        "send": "^1.1.0",
+        "serve-static": "^2.2.0",
+        "statuses": "^2.0.1",
+        "type-is": "^2.0.1",
+        "vary": "^1.1.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/zod",
+      "signature": "c83f2e4411c66e66ee8fbd54298ceeec303fa0c37d6bd50537a2f07a05b8fbbf",
+      "file_count": 596,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/zod",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "zod",
+      "package_version": "3.25.76",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/zod-to-json-schema",
+      "signature": "1be91325885722a621069c223e00038a2bf5f35de19dbb362935e751df337acb",
+      "file_count": 130,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/zod-to-json-schema",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "zod-to-json-schema",
+      "package_version": "3.25.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/@hono/node-server",
+      "signature": "f58a774ffb67b53c0b23b457f2eb92d429166cf6e1b2a52da483f5154c91089a",
+      "file_count": 55,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@hono/node-server",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "@hono/node-server",
+      "package_version": "1.19.11",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/@modelcontextprotocol/sdk/node_modules/ajv",
+      "signature": "1eaa671d7f530bab30e4d135a4db0cb577299819f24282ae6f2c29eee0451d53",
+      "file_count": 466,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@modelcontextprotocol/sdk/node_modules/ajv",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ajv",
+      "package_version": "8.18.0",
+      "dependencies": {
+        "fast-deep-equal": "^3.1.3",
+        "fast-uri": "^3.0.1",
+        "json-schema-traverse": "^1.0.0",
+        "require-from-string": "^2.0.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/@modelcontextprotocol/sdk/node_modules/pkce-challenge",
+      "signature": "d7ee146732357d4f10e452ac60bb62b88102d63a95f70ba87e421683c72ecca7",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@modelcontextprotocol/sdk/node_modules/pkce-challenge",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "pkce-challenge",
+      "package_version": "5.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/accepts",
+      "signature": "9c45c13e2710732cc7fcda8d6342d59543f68f7a94eaa57b0297aa06af84f7ca",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/accepts",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "accepts",
+      "package_version": "2.0.0",
+      "dependencies": {
+        "mime-types": "^3.0.0",
+        "negotiator": "^1.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ajv-formats",
+      "signature": "904247bab20af39407813e8e745f134feb5e7d586af19b2ee5758ff92ef88d8d",
+      "file_count": 493,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ajv-formats",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ajv-formats",
+      "package_version": "3.0.1",
+      "dependencies": {
+        "ajv": "^8.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/body-parser",
+      "signature": "ee48379f4a2e6e79b9a442762b740b7fccb8762ff581083875674d06851c88a4",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/body-parser",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "body-parser",
+      "package_version": "2.2.2",
+      "dependencies": {
+        "bytes": "^3.1.2",
+        "content-type": "^1.0.5",
+        "debug": "^4.4.3",
+        "http-errors": "^2.0.0",
+        "iconv-lite": "^0.7.0",
+        "on-finished": "^2.4.1",
+        "qs": "^6.14.1",
+        "raw-body": "^3.0.1",
+        "type-is": "^2.0.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/content-disposition",
+      "signature": "2ea46ab587026a056a6103152c002a78dd6f13328f97bbd46dc3f4c84fda6c45",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/content-disposition",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "content-disposition",
+      "package_version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/content-type",
+      "signature": "e4578b5639a697dae2681c9e37b690fb3e49bd41a6157b3c3c1c7e948acb82e9",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/content-type",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "content-type",
+      "package_version": "1.0.5",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/cookie",
+      "signature": "44444657e6cfbbdd620b8c5772a0591e73b8d5ac6a7ab81d2bebcc1646e67bca",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/cookie",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cookie",
+      "package_version": "0.7.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/cookie-signature",
+      "signature": "2c567f674928bfd71a06b19485da07be37d64ed2782667a027cd5b2f61ef3618",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/cookie-signature",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cookie-signature",
+      "package_version": "1.2.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/cross-spawn",
+      "signature": "42faa5ce884e0016fa9eee41f8df3aab3c42d45c54dca4227d0f5a6dd51752b8",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/cross-spawn",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "cross-spawn",
+      "package_version": "7.0.6",
+      "dependencies": {
+        "path-key": "^3.1.0",
+        "shebang-command": "^2.0.0",
+        "which": "^2.0.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/debug",
+      "signature": "335a83fb78c8c9f44e96a7c447771b1c5be83e9b21a2512e869f94c734f2f781",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/debug",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "debug",
+      "package_version": "4.4.3",
+      "dependencies": {
+        "ms": "^2.1.3"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/depd",
+      "signature": "d98bba8e33b50e3e7c7e2dc9eb0b7791190be7fa8269546c105e192f5493c286",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/depd",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "depd",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/encodeurl",
+      "signature": "5f34857a93cf97b40cddc2770ada4f93ecea8b74ec830a773e46e23a102e92c8",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/encodeurl",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "encodeurl",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/escape-html",
+      "signature": "74d6d3d01f5cb9fa4b7b3efb9777dc6718ee9c46c80e2db54c5f18d31a7a7d2b",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/escape-html",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "escape-html",
+      "package_version": "1.0.3",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/etag",
+      "signature": "93a42870df29f557a75f05ca9898f547ec44f8097ac1ce198d76e1f5aac35c4b",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/etag",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "etag",
+      "package_version": "1.8.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/eventsource",
+      "signature": "d7ec15771e076640804583cfe2d5eeefb6331aa14f5c2b2798b7ffbd3a4c7569",
+      "file_count": 13,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/eventsource",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "eventsource",
+      "package_version": "3.0.7",
+      "dependencies": {
+        "eventsource-parser": "^3.0.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/eventsource-parser",
+      "signature": "4feeb31b4f6b8daf96f4330b860e803257c5c8c5f63a6764d9ef0be6eeb424c2",
+      "file_count": 21,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/eventsource-parser",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "eventsource-parser",
+      "package_version": "3.0.6",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/express-rate-limit",
+      "signature": "ed82f29bc98c598f5643f5471e3bb5d18d315087efd33a4b06b979a0f3ddee71",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/express-rate-limit",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "express-rate-limit",
+      "package_version": "8.3.0",
+      "dependencies": {
+        "ip-address": "10.1.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/finalhandler",
+      "signature": "c0001e55f8d1cd6173f04132f96dc1796b84b38f3bf85eadeeea2bb5ad5de7dd",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/finalhandler",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "finalhandler",
+      "package_version": "2.1.1",
+      "dependencies": {
+        "debug": "^4.4.0",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "on-finished": "^2.4.1",
+        "parseurl": "^1.3.3",
+        "statuses": "^2.0.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/follow-redirects",
+      "signature": "beba2551b857678c1f214b7d281fe06f6ade652eb8f90587235724cc124f3ff0",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/follow-redirects",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "follow-redirects",
+      "package_version": "1.15.11",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/form-data",
+      "signature": "dca8eb336c72227cdd924bcbc454194db773c84190d8ab8f4959ffa5d46cb153",
+      "file_count": 19,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/form-data",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "form-data",
+      "package_version": "4.0.5",
+      "dependencies": {
+        "asynckit": "^0.4.0",
+        "combined-stream": "^1.0.8",
+        "es-set-tostringtag": "^2.1.0",
+        "hasown": "^2.0.2",
+        "mime-types": "^2.1.12"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/fresh",
+      "signature": "dd318e05a21782eaffdb97da99a73fffd631e5f9810d88717c5e3a61dee0a246",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/fresh",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "fresh",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/hono",
+      "signature": "47f88748411d33d9a9f4909f12740d7b5b007e18c3adfdb01df3c23fffdfdb27",
+      "file_count": 562,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/hono",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "hono",
+      "package_version": "4.12.5",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/http-errors",
+      "signature": "51b355050efbd5fc32aaa6f7016b6f1a4819d52788208ee692e984c128ba69b0",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/http-errors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "http-errors",
+      "package_version": "2.0.1",
+      "dependencies": {
+        "depd": "~2.0.0",
+        "inherits": "~2.0.4",
+        "setprototypeof": "~1.2.0",
+        "statuses": "~2.0.2",
+        "toidentifier": "~1.0.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/jose",
+      "signature": "557d59774900bd37501ce666177ec5a5f391992c59e1bd9da107414bc51847bc",
+      "file_count": 101,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/jose",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "jose",
+      "package_version": "6.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/json-schema-typed",
+      "signature": "495c31ce1dd0744faacc647c57bd9a7dc332646c996787b921cc0e692c04bd09",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/json-schema-typed",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "json-schema-typed",
+      "package_version": "8.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/merge-descriptors",
+      "signature": "abd70641491a4afe59b5185553aa28c17b9512851ea3bc8c5da35bde7666b34f",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/merge-descriptors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "merge-descriptors",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/mime-types",
+      "signature": "dbcd48e0740ab4066ae7d443ae3171b258366df3d5c6e3218e9a6c73c3460f1c",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mime-types",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "mime-types",
+      "package_version": "3.0.2",
+      "dependencies": {
+        "mime-db": "^1.54.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/object-assign",
+      "signature": "3f49476af22912b033bbec9d620b610758cbc42219e8085acf6cfc16d034e9a1",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/object-assign",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "object-assign",
+      "package_version": "4.1.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/on-finished",
+      "signature": "4376cde17a54cfb420bcd9bb506949344a08526d8ab85f4c2c09337771750048",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/on-finished",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "on-finished",
+      "package_version": "2.4.1",
+      "dependencies": {
+        "ee-first": "1.1.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/once",
+      "signature": "ecd87a13f2cede11e81f0e451c5484c0586dd83686c09ab1f1193a47a61e003a",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/once",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "once",
+      "package_version": "1.4.0",
+      "dependencies": {
+        "wrappy": "1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/parseurl",
+      "signature": "c28842dd37a429a7f6f5dbee697c54df92f2503e40fe0c3f5ff9f0a97efbe39c",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/parseurl",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "parseurl",
+      "package_version": "1.3.3",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/proxy-addr",
+      "signature": "4ee5636a0e36d85a9cd4e020a4ab2221dfbf6b2faceab6f4b748bb6827a35e0e",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/proxy-addr",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "proxy-addr",
+      "package_version": "2.0.7",
+      "dependencies": {
+        "forwarded": "0.2.0",
+        "ipaddr.js": "1.9.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/proxy-from-env",
+      "signature": "16799c6eabf15944be809403215ca1502226aba756b7e8e8f5f7b46a19cebe6c",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/proxy-from-env",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "proxy-from-env",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/qs",
+      "signature": "827f8080f2dfc0937bdf02a41caa40845d614be6f99473dfd6ea52df4027ac14",
+      "file_count": 20,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/qs",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "qs",
+      "package_version": "6.15.0",
+      "dependencies": {
+        "side-channel": "^1.1.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/range-parser",
+      "signature": "5abc0ae0eee3c5178b105fc18e67d21f4fd8833f8876b4a3590e3552f2b6f781",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/range-parser",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "range-parser",
+      "package_version": "1.2.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/raw-body",
+      "signature": "12d94d35c929e99e30861969ce48de47a19d394702d81327f67f46fde3168d06",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/raw-body",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "raw-body",
+      "package_version": "3.0.2",
+      "dependencies": {
+        "bytes": "~3.1.2",
+        "http-errors": "~2.0.1",
+        "iconv-lite": "~0.7.0",
+        "unpipe": "~1.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/router",
+      "signature": "adedad8d2281bf557fb8ef4dea6a7946f775deb7e5e4c72fd274112f7b285fa3",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/router",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "router",
+      "package_version": "2.2.0",
+      "dependencies": {
+        "debug": "^4.4.0",
+        "depd": "^2.0.0",
+        "is-promise": "^4.0.0",
+        "parseurl": "^1.3.3",
+        "path-to-regexp": "^8.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/send",
+      "signature": "a7982d40068b6a4bb45780e7e174d6df717ac47292ae7f0e980661f9652e8347",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/send",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "send",
+      "package_version": "1.2.1",
+      "dependencies": {
+        "debug": "^4.4.3",
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "etag": "^1.8.1",
+        "fresh": "^2.0.0",
+        "http-errors": "^2.0.1",
+        "mime-types": "^3.0.2",
+        "ms": "^2.1.3",
+        "on-finished": "^2.4.1",
+        "range-parser": "^1.2.1",
+        "statuses": "^2.0.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/serve-static",
+      "signature": "1bcc8410b4963d3c93922a65716e464af3feae8f1097ecf4945ade59aace1dcb",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/serve-static",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "serve-static",
+      "package_version": "2.2.1",
+      "dependencies": {
+        "encodeurl": "^2.0.0",
+        "escape-html": "^1.0.3",
+        "parseurl": "^1.3.3",
+        "send": "^1.2.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/statuses",
+      "signature": "674fe1c47e1f1d45de91bdc2869f9410ed2bb33812f8768e841b0be38cb298ea",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/statuses",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "statuses",
+      "package_version": "2.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/type-is",
+      "signature": "e2db1f22546c41d0899844d92856f9399a77b64a6c2eef7312f768825ee44b8c",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/type-is",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "type-is",
+      "package_version": "2.0.1",
+      "dependencies": {
+        "content-type": "^1.0.5",
+        "media-typer": "^1.1.0",
+        "mime-types": "^3.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/vary",
+      "signature": "bfadfc93e350ce41f8c1311d653813cc27e4ef345cb1b03373ed56849e27d4ea",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/vary",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "vary",
+      "package_version": "1.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/@modelcontextprotocol/sdk/node_modules/json-schema-traverse",
+      "signature": "ce5f797a4303973b615cf7a44429e3511c2df16ee869fd5280f9b159d629f6a0",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@modelcontextprotocol/sdk/node_modules/json-schema-traverse",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "json-schema-traverse",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ajv-formats/node_modules/ajv",
+      "signature": "1eaa671d7f530bab30e4d135a4db0cb577299819f24282ae6f2c29eee0451d53",
+      "file_count": 466,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ajv-formats/node_modules/ajv",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ajv",
+      "package_version": "8.18.0",
+      "dependencies": {
+        "fast-deep-equal": "^3.1.3",
+        "fast-uri": "^3.0.1",
+        "json-schema-traverse": "^1.0.0",
+        "require-from-string": "^2.0.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/asynckit",
+      "signature": "214eb285a6179fa41eeeddacf24ab8937b18c4b6e70e297d94b4de4808ea1baf",
+      "file_count": 20,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/asynckit",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "asynckit",
+      "package_version": "0.4.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/bytes",
+      "signature": "38be5cbbb38a31efa44ea1ebb121b437b3bc2f68067f59ae3498e6543998c511",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/bytes",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "bytes",
+      "package_version": "3.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/combined-stream",
+      "signature": "2731a146bcfcac9f6972d8343fc4477d5b080d08d4c3ea26878404735bd971c8",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/combined-stream",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "combined-stream",
+      "package_version": "1.0.8",
+      "dependencies": {
+        "delayed-stream": "~1.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ee-first",
+      "signature": "c75737c29338ad950166d19a133df18309164aa47aab6d8e2cba2a7513ab0b75",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ee-first",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ee-first",
+      "package_version": "1.1.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/es-set-tostringtag",
+      "signature": "2d0db7c114d917f03d05b3c286ee66852c5a475b8dd72f0f3f06ac22c4356f15",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/es-set-tostringtag",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-set-tostringtag",
+      "package_version": "2.1.0",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.6",
+        "has-tostringtag": "^1.0.2",
+        "hasown": "^2.0.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/fast-deep-equal",
+      "signature": "935b978a2fb9d64a8f415cca7d992aceef3c018ef973dd99d27612fc0ff6c5f5",
+      "file_count": 11,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/fast-deep-equal",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "fast-deep-equal",
+      "package_version": "3.1.3",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/fast-uri",
+      "signature": "3f5a375a521594ecd177b1813e21075d77cc7fa56f4fec9eddc69ce0d378d6fe",
+      "file_count": 33,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/fast-uri",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "fast-uri",
+      "package_version": "3.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/form-data/node_modules/mime-types",
+      "signature": "8cc2de2349bc44fe47ea548e9c874f1c445e7122a8a19ddc252047c3b9983ce7",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/form-data/node_modules/mime-types",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "mime-types",
+      "package_version": "2.1.35",
+      "dependencies": {
+        "mime-db": "1.52.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/forwarded",
+      "signature": "b121a66ed20649006ff3ac6a63c601bc4a44eebf77492a283a78f4230b53ddc6",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/forwarded",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "forwarded",
+      "package_version": "0.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/hasown",
+      "signature": "a88d43256aaf623e4c76f291afd9c81a8db0ccf019979b9ec1d620b715f87d99",
+      "file_count": 10,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/hasown",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "hasown",
+      "package_version": "2.0.2",
+      "dependencies": {
+        "function-bind": "^1.1.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/iconv-lite",
+      "signature": "7f5c08918b10bf3fd74f9d0658cfcd67b2ee630bfc65b0be43e52df48fc7ed88",
+      "file_count": 27,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/iconv-lite",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "iconv-lite",
+      "package_version": "0.7.2",
+      "dependencies": {
+        "safer-buffer": ">= 2.1.2 < 3.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/inherits",
+      "signature": "cd85fde2c789db6c9c0cab2b24b73a34d8cbd46fba9279b96735a019d75c8d8a",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/inherits",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "inherits",
+      "package_version": "2.0.4",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ip-address",
+      "signature": "0baa03b5e18c35dda361791c96ee877501e79ef01ff3ac04a0ccf64901125521",
+      "file_count": 48,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ip-address",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ip-address",
+      "package_version": "10.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ipaddr.js",
+      "signature": "a8949a29b3189fdc87a72907620b6d808c3620c4d321bb32e900efa03a98a8e7",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ipaddr.js",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ipaddr.js",
+      "package_version": "1.9.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/is-promise",
+      "signature": "11fe8cf87d1f55405f019c65af177b54d7980bb2ed6ffd21f51109aa242f10aa",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/is-promise",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "is-promise",
+      "package_version": "4.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/media-typer",
+      "signature": "02838d768becafe8ce6c9497504d88cb19410331e3a943b0d0d8a24e0645ad9f",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/media-typer",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "media-typer",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/mime-db",
+      "signature": "5024f2d3b5f8f9ff790875c60a05e31d494a22ea812ba136ccf1ff174f8d0b7b",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mime-db",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "mime-db",
+      "package_version": "1.54.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ms",
+      "signature": "7e6c934b313803bc0ac5e7fd0c6a9ab0fb5b85910f5fa90388db1e4ce0ec4187",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ms",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "ms",
+      "package_version": "2.1.3",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/negotiator",
+      "signature": "43ac63a46a4e7106555629b93d81e393b351fc9cb6dc8b39aee8707937e00cf7",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/negotiator",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "negotiator",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/path-key",
+      "signature": "70c3102e19d27fbba1d66457b30c63e2688fd588a9e38af6248f4f133ca78d9f",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/path-key",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "path-key",
+      "package_version": "3.1.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/path-to-regexp",
+      "signature": "366bfa4d8c24f03fbcf9a7e9e514cf082ab5911c4fd7511a7cf06e8020e9e333",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/path-to-regexp",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "path-to-regexp",
+      "package_version": "8.3.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/require-from-string",
+      "signature": "6e5bb2c0155f0e7c160dada26582139b94c98d0a5e2aaff845fcd808c25ba386",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/require-from-string",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "require-from-string",
+      "package_version": "2.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/setprototypeof",
+      "signature": "de28bd213ba16c932b46613e893f8664d6e75f5934d7b171ce3e28436f0cbefb",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/setprototypeof",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "setprototypeof",
+      "package_version": "1.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/shebang-command",
+      "signature": "766e7f150e938090113cfec2e1ac2213dba16e131aadf5c9a64ea4d5527aca1e",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/shebang-command",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "shebang-command",
+      "package_version": "2.0.0",
+      "dependencies": {
+        "shebang-regex": "^3.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/side-channel",
+      "signature": "8b5ba1d242b5f487b86e22f5d57807fe725f73e14dba985e7ffa6dce1a478e77",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/side-channel",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel",
+      "package_version": "1.1.0",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "object-inspect": "^1.13.3",
+        "side-channel-list": "^1.0.0",
+        "side-channel-map": "^1.0.1",
+        "side-channel-weakmap": "^1.0.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/toidentifier",
+      "signature": "fd8230aa631287f1f3e8bb5304e1db073c7737aa463cbc752cb81d2d7438aa8a",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/toidentifier",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "toidentifier",
+      "package_version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/unpipe",
+      "signature": "b040a5ba77cd94156510497f3b4ed9e694e0b6e2d0031255ea439fd6f40d4b3c",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/unpipe",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "unpipe",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/which",
+      "signature": "94c8101ad8acb2e0b983ec9e6c2daf6ac2f033b5f41a463f6f88463383506e6f",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/which",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "which",
+      "package_version": "2.0.2",
+      "dependencies": {
+        "isexe": "^2.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/wrappy",
+      "signature": "4285b81afd35a7cef35caef52da27f33dd93391b5de37200e8ae937fba1a174c",
+      "file_count": 4,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/wrappy",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "wrappy",
+      "package_version": "1.0.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/ajv-formats/node_modules/json-schema-traverse",
+      "signature": "ce5f797a4303973b615cf7a44429e3511c2df16ee869fd5280f9b159d629f6a0",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/ajv-formats/node_modules/json-schema-traverse",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "json-schema-traverse",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/delayed-stream",
+      "signature": "0c9688ab5d90c36e777cea772c95da6d5a73e0955c6279e7fe8dbf7335ad4a29",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/delayed-stream",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "delayed-stream",
+      "package_version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/es-errors",
+      "signature": "c4f0151f98c4fd0941948d760556835e16c0bf597c5247d472e88e71f66bb0eb",
+      "file_count": 22,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/es-errors",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-errors",
+      "package_version": "1.3.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/form-data/node_modules/mime-db",
+      "signature": "b4f9da5ef8dc4b7959b1b686696a50878477296d699aadb9922554232f8dea12",
+      "file_count": 6,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/form-data/node_modules/mime-db",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "mime-db",
+      "package_version": "1.52.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/function-bind",
+      "signature": "a6025a3c763bc785a8d27f8c706f712f7b298bfa8292fc4c0a888cbe425c1043",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/function-bind",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "function-bind",
+      "package_version": "1.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/get-intrinsic",
+      "signature": "295a4d4701e4147439ed0b7f18a5b864bed9421a62f33e0ce8fe685edd49ec4e",
+      "file_count": 9,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/get-intrinsic",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "get-intrinsic",
+      "package_version": "1.3.0",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.2",
+        "es-define-property": "^1.0.1",
+        "es-errors": "^1.3.0",
+        "es-object-atoms": "^1.1.1",
+        "function-bind": "^1.1.2",
+        "get-proto": "^1.0.1",
+        "gopd": "^1.2.0",
+        "has-symbols": "^1.1.0",
+        "hasown": "^2.0.2",
+        "math-intrinsics": "^1.1.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/has-tostringtag",
+      "signature": "02c3f705bdc13fb18ae65228c75b5c17bdb1a77253926441b0c35f4a8d50b117",
+      "file_count": 16,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/has-tostringtag",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "has-tostringtag",
+      "package_version": "1.0.2",
+      "dependencies": {
+        "has-symbols": "^1.0.3"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/isexe",
+      "signature": "a5fc2afdeb389918e13334c673e932e177024c62a5bc6395f9ef1d77f92fb8ab",
+      "file_count": 8,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/isexe",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "isexe",
+      "package_version": "2.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/object-inspect",
+      "signature": "6dbfff8618e0383bfc0063a81ff003b167d91dd5845d6bcfe2fa834f506edef8",
+      "file_count": 34,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/object-inspect",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "object-inspect",
+      "package_version": "1.13.4",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/safer-buffer",
+      "signature": "b03de6be70d1d3106729fc47d8df33e5635c4f81f14ca18a712e65eac3293e8c",
+      "file_count": 7,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/safer-buffer",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "safer-buffer",
+      "package_version": "2.1.2",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/shebang-regex",
+      "signature": "1c5b922103939a39bb6b7c44b74d930ca1f43cd1e6d0f0f833c99b64ede93c77",
+      "file_count": 5,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/shebang-regex",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "shebang-regex",
+      "package_version": "3.0.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/side-channel-list",
+      "signature": "80a4a67e01b0782954c263e430b06d5c8d0f42b1559c5587b06e2fb1fce6e818",
+      "file_count": 13,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/side-channel-list",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel-list",
+      "package_version": "1.0.0",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "object-inspect": "^1.13.3"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/side-channel-map",
+      "signature": "8d00c21bc758f7795e0576de1d6703ade6c788555b60366f1ab1857381b01a81",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/side-channel-map",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel-map",
+      "package_version": "1.0.1",
+      "dependencies": {
+        "call-bound": "^1.0.2",
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.5",
+        "object-inspect": "^1.13.3"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/side-channel-weakmap",
+      "signature": "a33e11f5d4134641aac5b024852f484f32d3a9a7c1ff84c51efc767bfc8a174f",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/side-channel-weakmap",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "side-channel-weakmap",
+      "package_version": "1.0.2",
+      "dependencies": {
+        "call-bound": "^1.0.2",
+        "es-errors": "^1.3.0",
+        "get-intrinsic": "^1.2.5",
+        "object-inspect": "^1.13.3",
+        "side-channel-map": "^1.0.1"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/call-bind-apply-helpers",
+      "signature": "68e1eb181e8ee60e2e4664c7a1e6ba1310cf6b21c6bef519c07f55565b48c892",
+      "file_count": 21,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/call-bind-apply-helpers",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "call-bind-apply-helpers",
+      "package_version": "1.0.2",
+      "dependencies": {
+        "es-errors": "^1.3.0",
+        "function-bind": "^1.1.2"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/call-bound",
+      "signature": "581b8c6d1a40c782383c1896651116c19c776a8bcd39ac3b1450b7222018f7dd",
+      "file_count": 11,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/call-bound",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "call-bound",
+      "package_version": "1.0.4",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.2",
+        "get-intrinsic": "^1.3.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/es-define-property",
+      "signature": "317269bb906d0a5b8d6725ac307bb2da8eec4a45c8f2b1c1a6fe3f271f827e3d",
+      "file_count": 11,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/es-define-property",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-define-property",
+      "package_version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/es-object-atoms",
+      "signature": "46fb9a9209a91fb206d2ca77dd4bd8bfc7e1871068d89a396ecc6a16a7bc087b",
+      "file_count": 16,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/es-object-atoms",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "es-object-atoms",
+      "package_version": "1.1.1",
+      "dependencies": {
+        "es-errors": "^1.3.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/get-proto",
+      "signature": "78daa60040ec299997f824bf57dce544fe048456494e7244a0715abc725cffa2",
+      "file_count": 15,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/get-proto",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "get-proto",
+      "package_version": "1.0.1",
+      "dependencies": {
+        "dunder-proto": "^1.0.1",
+        "es-object-atoms": "^1.0.0"
+      }
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/gopd",
+      "signature": "5eec5f326c3cd28f2b85cdaf9dd0aafdcf1cf6930b2f3896b37e7cd06d5e2c06",
+      "file_count": 12,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/gopd",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "gopd",
+      "package_version": "1.2.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/has-symbols",
+      "signature": "aa2523557b891619bc28288570a4ece0a786f5585520436e5dd35fd45ecaf803",
+      "file_count": 16,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/has-symbols",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "has-symbols",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/math-intrinsics",
+      "signature": "bef875dd3c02665b1fa163ca497940ed319d14d4cc7810f841a87366134bdc19",
+      "file_count": 38,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/math-intrinsics",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "math-intrinsics",
+      "package_version": "1.1.0",
+      "dependencies": {}
+    },
+    {
+      "version": "iter3",
+      "prefix": "node_modules/dunder-proto",
+      "signature": "16f6d589245fe883584ea3b7beb3bb4e9d5cf8d1307db807fac4a1e46e349361",
+      "file_count": 15,
+      "copied_identical_archive_records_from": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/dunder-proto",
+      "downloaded_bytes": 0,
+      "file_hashes": [],
+      "package_name": "dunder-proto",
+      "package_version": "1.0.1",
+      "dependencies": {
+        "call-bind-apply-helpers": "^1.0.1",
+        "es-errors": "^1.3.0",
+        "gopd": "^1.2.0"
+      }
+    }
+  ],
+  "missing": [],
+  "package_count": 105,
+  "downloaded_bytes": 0
+}

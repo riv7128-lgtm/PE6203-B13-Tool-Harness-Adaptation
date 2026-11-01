@@ -1,0 +1,1323 @@
+[
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 1,
+    "old_tool": {
+      "name": "validate_syntax",
+      "description": "Validate mathematical expression syntax against grammar",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to validate"
+          },
+          "detailed": {
+            "type": "boolean",
+            "description": "If true, return a more detailed validation result when supported",
+            "default": false
+          },
+          "allow_variables": {
+            "type": "boolean",
+            "description": "If true, allow variable references during validation when supported",
+            "default": false
+          },
+          "show_ast": {
+            "type": "boolean",
+            "description": "If true, include the abstract syntax tree (AST) structure in the validation result",
+            "default": false
+          },
+          "check_balanced": {
+            "type": "boolean",
+            "description": "If true, perform additional validation to ensure all brackets and parentheses are properly balanced",
+            "default": false
+          },
+          "max_depth": {
+            "type": "number",
+            "description": "Maximum allowed nesting depth for expressions (e.g., nested parentheses or function calls). If specified, validation fails if depth exceeds this limit"
+          }
+        },
+        "required": [
+          "expression"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "validate_syntax",
+      "description": "Validate mathematical expression syntax against grammar",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to validate",
+            "minLength": 1
+          },
+          "detailed": {
+            "type": "boolean",
+            "description": "If true, return a more detailed validation result when supported",
+            "default": false
+          },
+          "allow_variables": {
+            "type": "boolean",
+            "description": "Explicitly specify whether variable references are allowed during validation"
+          },
+          "show_ast": {
+            "type": "boolean",
+            "description": "If true, include the abstract syntax tree (AST) structure in the validation result",
+            "default": false
+          },
+          "check_balanced": {
+            "type": "boolean",
+            "description": "If true, perform additional validation to ensure all brackets and parentheses are properly balanced",
+            "default": true
+          },
+          "max_depth": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "description": "Maximum allowed nesting depth for expressions (e.g., nested parentheses or function calls). If specified, validation fails if depth exceeds this limit"
+          }
+        },
+        "required": [
+          "expression",
+          "allow_variables"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "batch_review",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "batch_review",
+      "description": "Review multiple files at once and return an aggregated multi-file summary with per-file results",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filePaths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of file paths to review"
+          },
+          "config": {
+            "type": "object",
+            "description": "Optional review configuration"
+          }
+        },
+        "required": [
+          "filePaths"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "batch_review",
+      "description": "Review multiple files at once and return an aggregated multi-file summary with per-file results",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filePaths": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of file paths to review"
+          },
+          "config": {
+            "type": "object",
+            "properties": {
+              "summaryOnly": {
+                "type": "boolean",
+                "description": "Return a concise batch summary instead of full per-file results (default: false)"
+              },
+              "includeSuggestions": {
+                "type": "boolean",
+                "description": "Include suggestion details in per-file results (default: true)"
+              },
+              "outputFormat": {
+                "type": "string",
+                "enum": [
+                  "json",
+                  "summary"
+                ],
+                "description": "Format of the batch review output (default: 'json')"
+              }
+            },
+            "description": "Optional review configuration"
+          }
+        },
+        "required": [
+          "filePaths"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b",
+    "server": "saleskit-mcp",
+    "tool": "clientOcrEntry",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "clientOcrEntry",
+      "description": "客户资料OCR识别与录入：从客户名片或证件图片中提取结构化信息，并进行有效性验证（支持URL或本地路径）",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "imageUrls": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "📸 客户名片或证件图片 - 支持URL或本地路径（如 C:\\图片\\名片.jpg），本地图片将自动转换上传",
+            "minItems": 1
+          },
+          "batchMode": {
+            "type": "boolean",
+            "description": "是否启用批处理模式，自动识别单张图片中的多个客户信息（如多张名片合影）。默认false",
+            "default": false
+          },
+          "customValidationRules": {
+            "type": "object",
+            "description": "自定义验证规则，格式：{\"字段名\": {\"required\": true/false, \"pattern\": \"正则表达式\", \"errorMessage\": \"错误提示\"}}。例如：{\"公司名称\": {\"required\": true, \"pattern\": \"^[\\u4e00-\\u9fa5]+$\", \"errorMessage\": \"公司名称必须为中文\"}}"
+          }
+        },
+        "required": [
+          "imageUrls"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "clientOcrEntry",
+      "description": "客户资料OCR识别与录入：从客户名片或证件图片中提取结构化信息，并进行有效性验证（支持URL或本地路径）",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "imageUrls": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "📸 客户名片或证件图片 - 支持URL或本地路径（如 C:\\图片\\名片.jpg），本地图片将自动转换上传",
+            "minItems": 1
+          },
+          "batchMode": {
+            "type": "boolean",
+            "description": "是否启用批处理模式，自动识别单张图片中的多个客户信息（如多张名片合影）。默认false",
+            "default": false
+          },
+          "customValidationRules": {
+            "type": "object",
+            "description": "自定义验证规则，格式：{\"字段名\": {\"required\": true/false, \"pattern\": \"正则表达式\", \"errorMessage\": \"错误提示\"}}。例如：{\"公司名称\": {\"required\": true, \"pattern\": \"^[\\u4e00-\\u9fa5]+$\", \"errorMessage\": \"公司名称必须为中文\"}}"
+          },
+          "ocrLanguage": {
+            "type": "string",
+            "description": "可选：OCR识别语言偏好，例如 zh-CN、en-US 或 auto，默认 auto"
+          },
+          "fieldMapping": {
+            "type": "object",
+            "description": "可选：字段映射规则，用于将别名字段标准化为业务字段名，例如 {\"手机\": \"联系电话\"}"
+          },
+          "dedupeStrategy": {
+            "type": "string",
+            "enum": [
+              "none",
+              "name_phone",
+              "company_phone"
+            ],
+            "description": "可选：去重策略，默认 none"
+          }
+        },
+        "required": [
+          "imageUrls"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 1,
+    "old_tool": {
+      "name": "searchBooks",
+      "description": "搜索书籍、作者和其他内容",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "搜索关键词"
+          },
+          "page": {
+            "type": "number",
+            "description": "页码（可选，默认为1）"
+          },
+          "limit": {
+            "type": "number",
+            "description": "每页结果数量（可选，默认为10）"
+          },
+          "sort": {
+            "type": "string",
+            "description": "排序方式（可选，例如new、old、random）"
+          },
+          "fields": {
+            "type": "string",
+            "description": "返回字段列表（可选，使用逗号分隔）"
+          },
+          "language": {
+            "type": "string",
+            "description": "语言过滤代码（可选，如eng）"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "searchBooks",
+      "description": "搜索书籍、作者和其他内容",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "搜索关键词"
+          },
+          "page": {
+            "type": "number",
+            "description": "页码（可选，默认为1）"
+          },
+          "limit": {
+            "type": "number",
+            "description": "每页结果数量（可选，默认为10）"
+          },
+          "sort": {
+            "type": "string",
+            "description": "排序方式（可选，例如new、old、random）"
+          },
+          "fields": {
+            "type": "string",
+            "description": "返回字段列表（可选，使用逗号分隔）"
+          },
+          "language": {
+            "type": "string",
+            "description": "语言过滤代码（可选，如eng）"
+          },
+          "title": {
+            "type": "string",
+            "description": "按书名过滤（可选，与 query 搭配使用）"
+          },
+          "author": {
+            "type": "string",
+            "description": "按作者名过滤（可选）"
+          },
+          "subject": {
+            "type": "string",
+            "description": "按主题过滤（可选，如 science fiction）"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 1,
+    "old_tool": {
+      "name": "get_clojars_history",
+      "description": "Get version history of a Clojars dependency",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dependency": {
+            "type": "string",
+            "description": "Clojars dependency name in format \"group/artifact\" (e.g. \"metosin/reitit\")"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Number of versions to return (default: 15, max: 100)",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "include_latest_first": {
+            "type": "boolean",
+            "description": "Whether to return versions in newest-to-oldest order (default: true)"
+          },
+          "stable_only": {
+            "type": "boolean",
+            "description": "Whether to exclude pre-release versions such as alpha, beta, rc, snapshot, and milestone releases (default: false)"
+          }
+        },
+        "required": [
+          "dependency"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "get_clojars_history",
+      "description": "Get version history of a Clojars dependency",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dependency": {
+            "type": "string",
+            "description": "Clojars dependency name in format \"group/artifact\" (e.g. \"metosin/reitit\")"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Number of versions to return (default: 15, max: 100)",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "include_latest_first": {
+            "type": "boolean",
+            "description": "Whether to return versions in newest-to-oldest order (default: true)"
+          },
+          "stable_only": {
+            "type": "boolean",
+            "description": "Whether to exclude pre-release versions such as alpha, beta, rc, snapshot, and milestone releases (default: false)"
+          },
+          "offset": {
+            "type": "number",
+            "description": "Number of versions to skip before applying limit (for pagination, default: 0)",
+            "minimum": 0
+          },
+          "from_date": {
+            "type": "string",
+            "description": "Filter versions released on or after this date (ISO 8601 format: YYYY-MM-DD)",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "to_date": {
+            "type": "string",
+            "description": "Filter versions released on or before this date (ISO 8601 format: YYYY-MM-DD)",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        "required": [
+          "dependency"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+    "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431",
+    "server": "claude-faf-mcp",
+    "tool": "faf_readme",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "faf_readme",
+      "description": "📖 Extract 6 Ws (Who/What/Why/Where/When/How) from README.md into human_context - Smart pattern matching 🧡⚡️",
+      "annotations": {
+        "title": "Extract from README",
+        "readOnlyHint": false,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "apply": {
+            "type": "boolean",
+            "description": "Apply extracted content to project.faf (default: preview only)"
+          },
+          "force": {
+            "type": "boolean",
+            "description": "Overwrite existing human_context values (default: only fill empty slots)"
+          },
+          "path": {
+            "type": "string",
+            "description": "Project path. Sets session context for subsequent calls."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "new_tool": {
+      "name": "faf_readme",
+      "description": "📖 Extract 6 Ws (Who/What/Why/Where/When/How) from README.md into human_context - Smart pattern matching 🧡⚡️",
+      "annotations": {
+        "title": "Extract from README",
+        "readOnlyHint": false,
+        "destructiveHint": false,
+        "openWorldHint": false
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "apply": {
+            "type": "boolean",
+            "description": "Apply extracted content to project.faf (default: preview only)"
+          },
+          "force": {
+            "type": "boolean",
+            "description": "Overwrite existing human_context values (default: only fill empty slots)"
+          },
+          "path": {
+            "type": "string",
+            "description": "Project path. Sets session context for subsequent calls."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+    "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "review_file",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "review_file",
+      "description": "Review a code file and provide detailed analysis with issues, metrics, and suggestions",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filePath": {
+            "type": "string",
+            "description": "Path to the file to review"
+          },
+          "config": {
+            "type": "object",
+            "description": "Optional review configuration",
+            "properties": {
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "strict",
+                  "moderate",
+                  "lenient"
+                ],
+                "description": "Review severity level"
+              },
+              "autoFix": {
+                "type": "boolean",
+                "description": "Automatically apply fixes when possible"
+              },
+              "includeMetrics": {
+                "type": "boolean",
+                "description": "Include code metrics in the result"
+              }
+            }
+          },
+          "includeSuggestions": {
+            "type": "boolean",
+            "description": "Include suggestion details in the response (default: true)"
+          },
+          "outputFormat": {
+            "type": "string",
+            "enum": [
+              "json",
+              "summary"
+            ],
+            "description": "Format of the review result output (default: json)"
+          }
+        },
+        "required": [
+          "filePath"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "review_file",
+      "description": "Review a code file and return focused results with optional concise summary output",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filePath": {
+            "type": "string",
+            "description": "Path to the file to review"
+          },
+          "includeSuggestions": {
+            "type": "boolean",
+            "description": "Include suggestion details in the response (default: true)"
+          },
+          "summaryOnly": {
+            "type": "boolean",
+            "description": "Return a concise summary response instead of the full review payload (default: false)"
+          },
+          "outputFormat": {
+            "type": "string",
+            "enum": [
+              "json",
+              "summary"
+            ],
+            "description": "Format of the review result output (default: json)"
+          }
+        },
+        "required": [
+          "filePath"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "mcp-maven-deps",
+    "tool": "get_latest_release",
+    "hunk_index": 1,
+    "old_tool": {
+      "name": "get_latest_release",
+      "description": "Get the latest release version of a Maven dependency (excludes pre-releases by default)",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dependency": {
+            "type": "string",
+            "description": "Maven coordinate in format \"groupId:artifactId[:version][:packaging][:classifier]\" (e.g. \"org.springframework:spring-core\" or \"org.springframework:spring-core:5.3.20:jar\")"
+          },
+          "excludePreReleases": {
+            "type": "boolean",
+            "description": "Whether to exclude pre-release versions (alpha, beta, milestone, RC, snapshot). Default: true",
+            "default": true
+          }
+        },
+        "required": [
+          "dependency"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "get_latest_release",
+      "description": "Get the latest release version of a Maven dependency (excludes pre-releases by default)",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dependency": {
+            "type": "string",
+            "description": "Maven coordinate in format \"groupId:artifactId[:version][:packaging][:classifier]\" (e.g. \"org.springframework:spring-core\" or \"org.springframework:spring-core:5.3.20:jar\")"
+          },
+          "excludePreReleases": {
+            "type": "boolean",
+            "description": "Whether to exclude pre-release versions (alpha, beta, milestone, RC, snapshot). Default: true",
+            "default": true
+          },
+          "packaging": {
+            "type": "string",
+            "description": "Optional packaging override if not specified in the dependency coordinate (e.g. \"jar\")"
+          },
+          "rows": {
+            "type": "number",
+            "description": "Optional number of versions to fetch before filtering (default: 100, max: 200)",
+            "minimum": 1,
+            "maximum": 200
+          }
+        },
+        "required": [
+          "dependency"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "clojars-deps-server",
+    "tool": "get_clojars_history",
+    "hunk_index": 1,
+    "old_tool": {
+      "name": "get_clojars_history",
+      "description": "Get version history of a Clojars dependency",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dependency": {
+            "type": "string",
+            "description": "Clojars dependency name in format \"group/artifact\" (e.g. \"metosin/reitit\")"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Number of versions to return (default: 15, max: 100)",
+            "minimum": 1,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "dependency"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "get_clojars_history",
+      "description": "Get version history of a Clojars dependency",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dependency": {
+            "type": "string",
+            "description": "Clojars dependency name in format \"group/artifact\" (e.g. \"metosin/reitit\")"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Number of versions to return (default: 15, max: 100)",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "include_latest_first": {
+            "type": "boolean",
+            "description": "Whether to return versions in newest-to-oldest order (default: true)"
+          },
+          "stable_only": {
+            "type": "boolean",
+            "description": "Whether to exclude pre-release versions such as alpha, beta, rc, snapshot, and milestone releases (default: false)"
+          }
+        },
+        "required": [
+          "dependency"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "math-mcp",
+    "tool": "validate_syntax",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "validate_syntax",
+      "description": "Validate mathematical expression syntax against grammar",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to validate"
+          }
+        },
+        "required": [
+          "expression"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "validate_syntax",
+      "description": "Validate mathematical expression syntax against grammar",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "Mathematical expression to validate"
+          },
+          "detailed": {
+            "type": "boolean",
+            "description": "If true, return a more detailed validation result when supported",
+            "default": false
+          },
+          "allow_variables": {
+            "type": "boolean",
+            "description": "If true, allow variable references during validation when supported",
+            "default": false
+          }
+        },
+        "required": [
+          "expression"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "slidev-mcp",
+    "tool": "create_bulk_slides",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "create_bulk_slides",
+      "description": "Create a complete presentation with multiple slides at once based on topic",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "The main topic of the presentation"
+          },
+          "slideCount": {
+            "type": "number",
+            "description": "Number of slides to generate (default: 10)",
+            "default": 10
+          },
+          "style": {
+            "type": "string",
+            "enum": [
+              "minimal",
+              "detailed",
+              "visual",
+              "academic"
+            ],
+            "description": "Presentation style",
+            "default": "detailed"
+          },
+          "includeAnimations": {
+            "type": "boolean",
+            "description": "Include animations in slides",
+            "default": true
+          },
+          "includeCode": {
+            "type": "boolean",
+            "description": "Include code examples",
+            "default": false
+          },
+          "includeImages": {
+            "type": "boolean",
+            "description": "Include images in slides",
+            "default": true
+          },
+          "theme": {
+            "type": "string",
+            "description": "Theme to apply",
+            "default": "default"
+          },
+          "customInstructions": {
+            "type": "string",
+            "description": "Additional custom instructions for slide generation"
+          }
+        },
+        "required": [
+          "topic"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "create_bulk_slides",
+      "description": "Create a complete presentation with multiple slides at once based on topic",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "The main topic of the presentation"
+          },
+          "slideCount": {
+            "type": "number",
+            "description": "Number of slides to generate (default: 10)",
+            "default": 10
+          },
+          "style": {
+            "type": "string",
+            "enum": [
+              "minimal",
+              "detailed",
+              "visual",
+              "academic"
+            ],
+            "description": "Presentation style",
+            "default": "detailed"
+          },
+          "includeAnimations": {
+            "type": "boolean",
+            "description": "Include animations in slides",
+            "default": true
+          },
+          "includeCode": {
+            "type": "boolean",
+            "description": "Include code examples",
+            "default": false
+          },
+          "includeImages": {
+            "type": "boolean",
+            "description": "Include images in slides",
+            "default": true
+          },
+          "theme": {
+            "type": "string",
+            "description": "Theme to apply",
+            "default": "default"
+          },
+          "customInstructions": {
+            "type": "string",
+            "description": "Additional custom instructions for slide generation"
+          },
+          "title": {
+            "type": "string",
+            "description": "Optional custom title for the cover slide"
+          },
+          "subtitle": {
+            "type": "string",
+            "description": "Optional custom subtitle for the cover slide"
+          },
+          "preserveCover": {
+            "type": "boolean",
+            "description": "Keep the existing cover slide unchanged",
+            "default": false
+          }
+        },
+        "required": [
+          "topic"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "plantuml-mcp-server",
+    "tool": "generate_plantuml_diagram",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "generate_plantuml_diagram",
+      "description": "Generate a PlantUML diagram with automatic syntax validation and error reporting for auto-fix workflows. Returns embeddable image URLs for valid diagrams or structured error details for invalid syntax that can be automatically corrected. Optionally saves the diagram to a local file.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "plantuml_code": {
+            "type": "string",
+            "description": "PlantUML diagram code. Will be automatically validated for syntax errors before generating the diagram URL."
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "svg",
+              "png"
+            ],
+            "default": "svg",
+            "description": "Output image format (SVG or PNG)"
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Optional. Path to save diagram locally. Automatically creates all necessary parent directories. Restricted to current working directory by default. Set PLANTUML_ALLOWED_DIRS env var (colon-separated paths, or \"*\" for unrestricted) to allow additional directories. Only .svg and .png extensions permitted."
+          }
+        },
+        "required": [
+          "plantuml_code"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "generate_plantuml_diagram",
+      "description": "Generate a PlantUML diagram with automatic syntax validation and error reporting for auto-fix workflows. Returns embeddable image URLs for valid diagrams or structured error details for invalid syntax that can be automatically corrected. Optionally saves the diagram to a local file.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "plantuml_code": {
+            "type": "string",
+            "description": "PlantUML diagram code. Will be automatically validated for syntax errors before generating the diagram URL."
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "svg",
+              "png"
+            ],
+            "default": "svg",
+            "description": "Output image format (SVG or PNG)"
+          },
+          "output_path": {
+            "type": "string",
+            "description": "Optional. Path to save diagram locally. Automatically creates all necessary parent directories. Restricted to current working directory by default. Set PLANTUML_ALLOWED_DIRS env var (colon-separated paths, or \"*\" for unrestricted) to allow additional directories. Only .svg and .png extensions permitted."
+          },
+          "diagram_name": {
+            "type": "string",
+            "description": "Optional. Base filename to use when output_path is omitted or refers to a directory-like path. The selected format extension is applied automatically."
+          },
+          "validate_syntax": {
+            "type": "boolean",
+            "default": true,
+            "description": "Optional. Whether to validate PlantUML syntax before generating the diagram. Defaults to true."
+          },
+          "return_markdown_embed": {
+            "type": "boolean",
+            "default": true,
+            "description": "Optional. Whether to include markdown_embed in successful responses. Defaults to true."
+          }
+        },
+        "required": [
+          "plantuml_code"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@itseasy21/mcp-knowledge-graph",
+    "tool": "create_entities",
+    "hunk_index": 1,
+    "old_tool": {
+      "name": "create_entities",
+      "description": "Create multiple new entities in the knowledge graph",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "entities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the entity"
+                },
+                "entityType": {
+                  "type": "string",
+                  "description": "The type of the entity"
+                },
+                "observations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "An array of observation contents associated with the entity"
+                }
+              },
+              "required": [
+                "name",
+                "entityType",
+                "observations"
+              ]
+            }
+          }
+        },
+        "required": [
+          "entities"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "create_entities",
+      "description": "Create multiple new entities in the knowledge graph",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "entities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the entity"
+                },
+                "entityType": {
+                  "type": "string",
+                  "description": "The type of the entity"
+                },
+                "observations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "An array of observation contents associated with the entity"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          },
+          "allowOverwrite": {
+            "type": "boolean",
+            "description": "When true, existing entities with the same name are updated instead of skipped"
+          },
+          "defaultEntityType": {
+            "type": "string",
+            "description": "Fallback entity type for entities that omit entityType"
+          },
+          "defaultObservations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Fallback observations for entities that omit observations"
+          }
+        },
+        "required": [
+          "entities"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "giisp-openlibrary-mcp",
+    "tool": "searchBooks",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "searchBooks",
+      "description": "搜索书籍、作者和其他内容",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "搜索关键词"
+          },
+          "page": {
+            "type": "number",
+            "description": "页码（可选，默认为1）"
+          },
+          "limit": {
+            "type": "number",
+            "description": "每页结果数量（可选，默认为10）"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "searchBooks",
+      "description": "搜索书籍、作者和其他内容",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "搜索关键词"
+          },
+          "page": {
+            "type": "number",
+            "description": "页码（可选，默认为1）"
+          },
+          "limit": {
+            "type": "number",
+            "description": "每页结果数量（可选，默认为10）"
+          },
+          "sort": {
+            "type": "string",
+            "description": "排序方式（可选，例如new、old、random）"
+          },
+          "fields": {
+            "type": "string",
+            "description": "返回字段列表（可选，使用逗号分隔）"
+          },
+          "language": {
+            "type": "string",
+            "description": "语言过滤代码（可选，如eng）"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@j0kz/smart-reviewer-mcp",
+    "tool": "review_file",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "review_file",
+      "description": "Review a code file and provide detailed analysis with issues, metrics, and suggestions",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filePath": {
+            "type": "string",
+            "description": "Path to the file to review"
+          },
+          "config": {
+            "type": "object",
+            "description": "Optional review configuration",
+            "properties": {
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "strict",
+                  "moderate",
+                  "lenient"
+                ],
+                "description": "Review severity level"
+              },
+              "autoFix": {
+                "type": "boolean",
+                "description": "Automatically apply fixes when possible"
+              },
+              "includeMetrics": {
+                "type": "boolean",
+                "description": "Include code metrics in the result"
+              }
+            }
+          }
+        },
+        "required": [
+          "filePath"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "review_file",
+      "description": "Review a code file and provide detailed analysis with issues, metrics, and suggestions",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filePath": {
+            "type": "string",
+            "description": "Path to the file to review"
+          },
+          "config": {
+            "type": "object",
+            "description": "Optional review configuration",
+            "properties": {
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "strict",
+                  "moderate",
+                  "lenient"
+                ],
+                "description": "Review severity level"
+              },
+              "autoFix": {
+                "type": "boolean",
+                "description": "Automatically apply fixes when possible"
+              },
+              "includeMetrics": {
+                "type": "boolean",
+                "description": "Include code metrics in the result"
+              }
+            }
+          },
+          "includeSuggestions": {
+            "type": "boolean",
+            "description": "Include suggestion details in the response (default: true)"
+          },
+          "outputFormat": {
+            "type": "string",
+            "enum": [
+              "json",
+              "summary"
+            ],
+            "description": "Format of the review result output (default: json)"
+          }
+        },
+        "required": [
+          "filePath"
+        ]
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@guanxiong/mcp-server-time",
+    "tool": "get_time_info",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "get_time_info",
+      "description": "获取详细的时间信息，包括年、月、日、时、分、秒等",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "timezone": {
+            "type": "string",
+            "description": "时区（例如：Asia/Shanghai, UTC）。默认为系统时区"
+          }
+        }
+      }
+    },
+    "new_tool": {
+      "name": "get_time_info",
+      "description": "获取详细的时间信息，包括年、月、日、时、分、秒等",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "timezone": {
+            "type": "string",
+            "description": "时区（例如：Asia/Shanghai, UTC）。默认为系统时区"
+          },
+          "locale": {
+            "type": "string",
+            "description": "用于本地化星期显示的区域设置。默认为 zh-CN"
+          },
+          "includeTimestamp": {
+            "type": "boolean",
+            "description": "是否在结果中包含毫秒级时间戳。默认为 false"
+          },
+          "hour12": {
+            "type": "boolean",
+            "description": "是否使用 12 小时制格式化时区时间。默认为 false"
+          }
+        }
+      }
+    }
+  },
+  {
+    "file": "src/custom/data/mutation/HYBRID/evolution.json",
+    "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46",
+    "server": "@hugeicons/mcp-server",
+    "tool": "search_icons",
+    "hunk_index": 0,
+    "old_tool": {
+      "name": "search_icons",
+      "description": "Search for icons by name or tags. Use commas to search for multiple icons (e.g. 'home, notification, settings')",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query to find relevant icons. Separate multiple searches with commas"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    "new_tool": {
+      "name": "search_icons",
+      "description": "Search for icons by name or tags. Use commas to search for multiple icons (e.g. 'home, notification, settings')",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query to find relevant icons. Separate multiple searches with commas"
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Optional maximum number of results to return",
+            "minimum": 1
+          },
+          "style": {
+            "type": "string",
+            "description": "Optional style filter for results",
+            "enum": [
+              "bulk-rounded",
+              "duotone-rounded",
+              "solid-rounded",
+              "solid-sharp",
+              "solid-standard",
+              "stroke-rounded",
+              "stroke-sharp",
+              "stroke-standard",
+              "twotone-rounded"
+            ]
+          },
+          "exact_match": {
+            "type": "boolean",
+            "description": "When true, only exact icon name matches are returned"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "node": "24.19.0",
+  "codex_cli": "codex-cli 0.164.0-alpha.11.1",
+  "requested_model_alias": "gpt-6.1-sol",
+  "serving_revision": null,
+  "platform": "macOS arm64",
+  "python_lock_kind": "pip freeze versions, no wheel hashes"
+}

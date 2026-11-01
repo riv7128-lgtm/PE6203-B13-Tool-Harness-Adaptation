@@ -1,0 +1,1578 @@
+{
+  "early": {
+    "overlay_provenance": {
+      "stage": "Early",
+      "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+      "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+      "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+      "upstream_functions": [
+        "get_all_evolution_status",
+        "return_involved_mutated_tool_status"
+      ],
+      "layer_order": "root_to_deep",
+      "layer_count": 0,
+      "layers": [],
+      "stage_mapping": "Early none, Middle root once, Late all four root to deep",
+      "source_hash_note": "These hashes cover ordered JSON objects. Record raw source-file SHA256 separately.",
+      "permitted_fields": [
+        "description",
+        "inputSchema property description"
+      ],
+      "strategy_independent": true,
+      "raw_source_files": [
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/evolution.json",
+          "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+          "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+          "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+          "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+        }
+      ]
+    },
+    "description_audits": [],
+    "server_entries": {
+      "math-mcp": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/math-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/early/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "original_servers.zip",
+          "entrypoint": "node_modules/math-mcp/dist/index.js",
+          "entrypoint_sha256": "81c2cc0799296987a26a013ef3b1d6a203a617393e3a63128969c54d01ed4795",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_chart_closure_manifest.json",
+          "description_metadata_sources": []
+        },
+        "official_server_id": "math-mcp"
+      },
+      "mcp-ai-agent-guidelines": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/mcp-ai-agent-guidelines/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/early/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "original_servers.zip",
+          "entrypoint": "node_modules/mcp-ai-agent-guidelines/dist/index.js",
+          "entrypoint_sha256": "1a093b658532c8bd314460666db428f56fe14f6591743ec4be24d46b1e2d4281",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_chart_closure_manifest.json",
+          "description_metadata_sources": []
+        },
+        "official_server_id": "mcp-ai-agent-guidelines"
+      },
+      "time-mcp": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/time-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/early/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "original_servers.zip",
+          "entrypoint": "node_modules/time-mcp/dist/index.js",
+          "entrypoint_sha256": "4d142d9a98d64f892cad5b50b5ebff09d534d9f466db277008eea2b3fe04e3b0",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_chart_closure_manifest.json",
+          "description_metadata_sources": []
+        },
+        "official_server_id": "time-mcp"
+      },
+      "@umengfe/mcp-server-chart": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/original/node_modules/@umengfe/mcp-server-chart/build/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/early/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "original_servers.zip",
+          "entrypoint": "node_modules/@umengfe/mcp-server-chart/build/index.js",
+          "entrypoint_sha256": "7280465ddd9589d0741a4f22b2671586583e0817c6b5f880090fc3ee943fd9ec",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/original_chart_closure_manifest.json",
+          "description_metadata_sources": []
+        },
+        "official_server_id": "@umengfe/mcp-server-chart"
+      },
+      "time": {
+        "command": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_venv/bin/mcp-server-time",
+        "args": [
+          "--local-timezone=America/New_York"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/early/sandbox",
+        "env": {},
+        "source_provenance": {
+          "distribution": "mcp-server-time",
+          "frozen_version": "2026.1.26",
+          "scope": "Unchanged public Python server used by official configs; original uvx was unpinned and this deployment explicitly freezes its version across stages"
+        },
+        "official_server_id": "time"
+      }
+    }
+  },
+  "middle": {
+    "overlay_provenance": {
+      "stage": "Middle",
+      "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+      "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+      "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+      "upstream_functions": [
+        "get_all_evolution_status",
+        "return_involved_mutated_tool_status"
+      ],
+      "layer_order": "root_to_deep",
+      "layer_count": 1,
+      "layers": [
+        {
+          "index": 0,
+          "source_path": "src/custom/data/mutation/HYBRID/evolution.json",
+          "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167"
+        }
+      ],
+      "stage_mapping": "Early none, Middle root once, Late all four root to deep",
+      "source_hash_note": "These hashes cover ordered JSON objects. Record raw source-file SHA256 separately.",
+      "permitted_fields": [
+        "description",
+        "inputSchema property description"
+      ],
+      "strategy_independent": true,
+      "raw_source_files": [
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/evolution.json",
+          "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+          "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+          "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+          "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+        }
+      ]
+    },
+    "description_audits": [
+      {
+        "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+        "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+        "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+        "upstream_functions": [
+          "get_all_evolution_status",
+          "return_involved_mutated_tool_status"
+        ],
+        "server_id": "mcp-ai-agent-guidelines",
+        "tool_identity": "hierarchical-prompt-builder",
+        "lookup_tool_name": "hierarchical-prompt-builder",
+        "layer_order": "root_to_deep",
+        "layers": [
+          {
+            "index": 0,
+            "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167",
+            "mutation_type": "DESC",
+            "selected_tool": "hierarchical-prompt-builder",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          }
+        ],
+        "edits": [
+          {
+            "layer_index": 0,
+            "path": "/description",
+            "before_present": true,
+            "before": "Create AI prompts with context→goal→requirements hierarchy supporting chain-of-thought, few-shot, and zero-shot techniques. BEST FOR: code reviews, feature specifications, technical decisions, complex task breakdown. OUTPUTS: Structured markdown prompts for LLM injection.",
+            "after": "Create AI prompts using a context → goal → requirements hierarchy, with support for techniques such as chain-of-thought, few-shot, and zero-shot prompting. BEST FOR: code reviews, feature specifications, technical decisions, and complex task breakdowns. OUTPUTS: Structured markdown prompts for LLM use.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/context/description",
+            "before_present": true,
+            "before": "The broad context or domain",
+            "after": "The broader context or domain for the prompt",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/goal/description",
+            "before_present": true,
+            "before": "The specific goal or objective",
+            "after": "The specific goal or objective of the prompt",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/requirements/description",
+            "before_present": true,
+            "before": "Detailed requirements and constraints",
+            "after": "A list of detailed requirements and constraints",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/outputFormat/description",
+            "before_present": true,
+            "before": "Desired output format",
+            "after": "The desired output format",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/audience/description",
+            "before_present": true,
+            "before": "Target audience or expertise level",
+            "after": "The target audience or intended expertise level",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includeDisclaimer/description",
+            "before_present": true,
+            "before": "Append a third-party disclaimer section",
+            "after": "Whether to append a third-party disclaimer section",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includeReferences/description",
+            "before_present": true,
+            "before": "Append a short references list",
+            "after": "Whether to append a short references list",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/techniques/description",
+            "before_present": true,
+            "before": "Optional list of technique hints to include",
+            "after": "An optional list of technique hints to include",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includeTechniqueHints/description",
+            "before_present": true,
+            "before": "Include a Technique Hints section",
+            "after": "Whether to include a Technique Hints section",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includePitfalls/description",
+            "before_present": true,
+            "before": "Include a Pitfalls section",
+            "after": "Whether to include a Pitfalls section",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/autoSelectTechniques/description",
+            "before_present": true,
+            "before": "Infer techniques automatically from context/goal/requirements",
+            "after": "Whether to infer techniques automatically from the context, goal, and requirements",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/provider/description",
+            "before_present": true,
+            "before": "Model family for tailored tips",
+            "after": "The model family used for tailored tips",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/style/description",
+            "before_present": true,
+            "before": "Preferred prompt formatting style",
+            "after": "The preferred prompt formatting style",
+            "value_changed": true
+          }
+        ],
+        "ignored_fields": [
+          {
+            "layer_index": 0,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/3/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/4/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/5/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/6/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/7/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/8/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/9/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/10/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/11/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/12/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          }
+        ],
+        "input_sha256": "8fe53402b3dae2136630906ee18c1459748bec7e3bfb51af878406bcc4ef09fd",
+        "status": "APPLIED_OR_UNCHANGED",
+        "limitations": [
+          "Only nested tool.modified_description and parameters[].modified_description are read.",
+          "Flat modified_description fields are ignored exactly as in the pinned upstream code.",
+          "The first non-metadata tool key is selected in each DESC server record.",
+          "Special nested paths fail when missing; ordinary missing parameters are skipped.",
+          "The interface scopes a tool to server_id and does not reproduce the upstream cross-server same-name overwrite bug.",
+          "Only description text changes. Tool names, schema types, required fields and task labels are never rewritten."
+        ],
+        "output_sha256": "15ec1bcdf3f69ddd8bfcd52c4c026db4e03da421204f1b78cc4d795897edcfaf",
+        "description_edit_count": 14,
+        "changed_description_count": 14,
+        "input_unmodified": true
+      },
+      {
+        "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+        "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+        "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+        "upstream_functions": [
+          "get_all_evolution_status",
+          "return_involved_mutated_tool_status"
+        ],
+        "server_id": "time-mcp",
+        "tool_identity": "convert_time",
+        "lookup_tool_name": "convert_time",
+        "layer_order": "root_to_deep",
+        "layers": [
+          {
+            "index": 0,
+            "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          }
+        ],
+        "edits": [
+          {
+            "layer_index": 0,
+            "path": "/description",
+            "before_present": true,
+            "before": "Convert time between timezones.",
+            "after": "Convert a time from one timezone to another.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/sourceTimezone/description",
+            "before_present": false,
+            "before": null,
+            "after": "The source timezone of the input time.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/targetTimezone/description",
+            "before_present": false,
+            "before": null,
+            "after": "The timezone to convert the input time into.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/time/description",
+            "before_present": false,
+            "before": null,
+            "after": "The time value to convert.",
+            "value_changed": true
+          }
+        ],
+        "ignored_fields": [
+          {
+            "layer_index": 0,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          }
+        ],
+        "input_sha256": "22365a851c843b041c4a8511055e1fd276fae7dbbdfb3951adf00584d3975320",
+        "status": "APPLIED_OR_UNCHANGED",
+        "limitations": [
+          "Only nested tool.modified_description and parameters[].modified_description are read.",
+          "Flat modified_description fields are ignored exactly as in the pinned upstream code.",
+          "The first non-metadata tool key is selected in each DESC server record.",
+          "Special nested paths fail when missing; ordinary missing parameters are skipped.",
+          "The interface scopes a tool to server_id and does not reproduce the upstream cross-server same-name overwrite bug.",
+          "Only description text changes. Tool names, schema types, required fields and task labels are never rewritten."
+        ],
+        "output_sha256": "1805497a31b68ed6fdeffb97cfe1701a56143d2ca24f2db1b0fb3edecc62f932",
+        "description_edit_count": 4,
+        "changed_description_count": 4,
+        "input_unmodified": true
+      }
+    ],
+    "server_entries": {
+      "math-mcp": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/math-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/middle/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter3_servers.zip",
+          "entrypoint": "node_modules/math-mcp/dist/index.js",
+          "entrypoint_sha256": "81c2cc0799296987a26a013ef3b1d6a203a617393e3a63128969c54d01ed4795",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            }
+          ]
+        },
+        "official_server_id": "math-mcp"
+      },
+      "mcp-ai-agent-guidelines": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/mcp-ai-agent-guidelines/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/middle/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter3_servers.zip",
+          "entrypoint": "node_modules/mcp-ai-agent-guidelines/dist/index.js",
+          "entrypoint_sha256": "ae253d8c9b4fc3c4d70b5cfb623cb6884f8a22ad8d4912db0dc7af6896aab407",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            }
+          ]
+        },
+        "official_server_id": "mcp-ai-agent-guidelines"
+      },
+      "time-mcp": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/time-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/middle/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter3_servers.zip",
+          "entrypoint": "node_modules/time-mcp/dist/index.js",
+          "entrypoint_sha256": "4d142d9a98d64f892cad5b50b5ebff09d534d9f466db277008eea2b3fe04e3b0",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            }
+          ]
+        },
+        "official_server_id": "time-mcp"
+      },
+      "@umengfe/mcp-server-chart": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter3/node_modules/@umengfe/mcp-server-chart/build/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/middle/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter3_servers.zip",
+          "entrypoint": "node_modules/@umengfe/mcp-server-chart/build/index.js",
+          "entrypoint_sha256": "7280465ddd9589d0741a4f22b2671586583e0817c6b5f880090fc3ee943fd9ec",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter3_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            }
+          ]
+        },
+        "official_server_id": "@umengfe/mcp-server-chart"
+      },
+      "time": {
+        "command": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_venv/bin/mcp-server-time",
+        "args": [
+          "--local-timezone=America/New_York"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/middle/sandbox",
+        "env": {},
+        "source_provenance": {
+          "distribution": "mcp-server-time",
+          "frozen_version": "2026.1.26",
+          "scope": "Unchanged public Python server used by official configs; original uvx was unpinned and this deployment explicitly freezes its version across stages"
+        },
+        "official_server_id": "time"
+      }
+    }
+  },
+  "late": {
+    "overlay_provenance": {
+      "stage": "Late",
+      "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+      "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+      "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+      "upstream_functions": [
+        "get_all_evolution_status",
+        "return_involved_mutated_tool_status"
+      ],
+      "layer_order": "root_to_deep",
+      "layer_count": 4,
+      "layers": [
+        {
+          "index": 0,
+          "source_path": "src/custom/data/mutation/HYBRID/evolution.json",
+          "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167"
+        },
+        {
+          "index": 1,
+          "source_path": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+          "ordered_json_sha256": "4cff2feea781ea688f110f5f4659cce121f47fbb832b996c86adb3c83d285219"
+        },
+        {
+          "index": 2,
+          "source_path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+          "ordered_json_sha256": "01e35793735d66be5173464b2c8c227f8e62feb455a3190fab2dd6c914223b1b"
+        },
+        {
+          "index": 3,
+          "source_path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+          "ordered_json_sha256": "17bb70bffea6a70565d751dcc735af633e176e81760d7173526462722b326038"
+        }
+      ],
+      "stage_mapping": "Early none, Middle root once, Late all four root to deep",
+      "source_hash_note": "These hashes cover ordered JSON objects. Record raw source-file SHA256 separately.",
+      "permitted_fields": [
+        "description",
+        "inputSchema property description"
+      ],
+      "strategy_independent": true,
+      "raw_source_files": [
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/evolution.json",
+          "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+          "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+          "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+        },
+        {
+          "path": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/official/MCPEvol-Bench/src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+          "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+        }
+      ]
+    },
+    "description_audits": [
+      {
+        "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+        "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+        "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+        "upstream_functions": [
+          "get_all_evolution_status",
+          "return_involved_mutated_tool_status"
+        ],
+        "server_id": "mcp-ai-agent-guidelines",
+        "tool_identity": "hierarchical-prompt-builder",
+        "lookup_tool_name": "hierarchical-prompt-builder",
+        "layer_order": "root_to_deep",
+        "layers": [
+          {
+            "index": 0,
+            "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167",
+            "mutation_type": "DESC",
+            "selected_tool": "hierarchical-prompt-builder",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          },
+          {
+            "index": 1,
+            "ordered_json_sha256": "4cff2feea781ea688f110f5f4659cce121f47fbb832b996c86adb3c83d285219",
+            "mutation_type": "TOOL",
+            "status": "non_DESC_not_applied"
+          },
+          {
+            "index": 2,
+            "ordered_json_sha256": "01e35793735d66be5173464b2c8c227f8e62feb455a3190fab2dd6c914223b1b",
+            "mutation_type": "PARAM",
+            "status": "non_DESC_not_applied"
+          },
+          {
+            "index": 3,
+            "ordered_json_sha256": "17bb70bffea6a70565d751dcc735af633e176e81760d7173526462722b326038",
+            "mutation_type": "DESC",
+            "selected_tool": "speckit-generator",
+            "ignored_tool_keys": [],
+            "status": "different_tool_not_applied"
+          }
+        ],
+        "edits": [
+          {
+            "layer_index": 0,
+            "path": "/description",
+            "before_present": true,
+            "before": "Create AI prompts with context→goal→requirements hierarchy supporting chain-of-thought, few-shot, and zero-shot techniques. BEST FOR: code reviews, feature specifications, technical decisions, complex task breakdown. OUTPUTS: Structured markdown prompts for LLM injection. TIP: Save and version generated prompts using prompt-version-manager for lifecycle tracking and rollback.",
+            "after": "Create AI prompts using a context → goal → requirements hierarchy, with support for techniques such as chain-of-thought, few-shot, and zero-shot prompting. BEST FOR: code reviews, feature specifications, technical decisions, and complex task breakdowns. OUTPUTS: Structured markdown prompts for LLM use.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/context/description",
+            "before_present": true,
+            "before": "The broad context or domain",
+            "after": "The broader context or domain for the prompt",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/goal/description",
+            "before_present": true,
+            "before": "The specific goal or objective",
+            "after": "The specific goal or objective of the prompt",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/requirements/description",
+            "before_present": true,
+            "before": "Detailed requirements and constraints",
+            "after": "A list of detailed requirements and constraints",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/outputFormat/description",
+            "before_present": true,
+            "before": "Desired output format",
+            "after": "The desired output format",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/audience/description",
+            "before_present": true,
+            "before": "Target audience or expertise level",
+            "after": "The target audience or intended expertise level",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includeDisclaimer/description",
+            "before_present": true,
+            "before": "Append a third-party disclaimer section",
+            "after": "Whether to append a third-party disclaimer section",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includeReferences/description",
+            "before_present": true,
+            "before": "Append a short references list",
+            "after": "Whether to append a short references list",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/techniques/description",
+            "before_present": true,
+            "before": "Optional list of technique hints to include",
+            "after": "An optional list of technique hints to include",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includeTechniqueHints/description",
+            "before_present": true,
+            "before": "Include a Technique Hints section",
+            "after": "Whether to include a Technique Hints section",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/includePitfalls/description",
+            "before_present": true,
+            "before": "Include a Pitfalls section",
+            "after": "Whether to include a Pitfalls section",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/autoSelectTechniques/description",
+            "before_present": true,
+            "before": "Infer techniques automatically from context/goal/requirements",
+            "after": "Whether to infer techniques automatically from the context, goal, and requirements",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/provider/description",
+            "before_present": true,
+            "before": "Model family for tailored tips",
+            "after": "The model family used for tailored tips",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/style/description",
+            "before_present": true,
+            "before": "Preferred prompt formatting style",
+            "after": "The preferred prompt formatting style",
+            "value_changed": true
+          }
+        ],
+        "ignored_fields": [
+          {
+            "layer_index": 0,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/3/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/4/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/5/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/6/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/7/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/8/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/9/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/10/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/11/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/12/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          }
+        ],
+        "input_sha256": "efa688c852e495c3ea06cf4969c39d6f5cb0b0bb4fd46594a23bad18095fb448",
+        "status": "APPLIED_OR_UNCHANGED",
+        "limitations": [
+          "Only nested tool.modified_description and parameters[].modified_description are read.",
+          "Flat modified_description fields are ignored exactly as in the pinned upstream code.",
+          "The first non-metadata tool key is selected in each DESC server record.",
+          "Special nested paths fail when missing; ordinary missing parameters are skipped.",
+          "The interface scopes a tool to server_id and does not reproduce the upstream cross-server same-name overwrite bug.",
+          "Only description text changes. Tool names, schema types, required fields and task labels are never rewritten."
+        ],
+        "output_sha256": "15ec1bcdf3f69ddd8bfcd52c4c026db4e03da421204f1b78cc4d795897edcfaf",
+        "description_edit_count": 14,
+        "changed_description_count": 14,
+        "input_unmodified": true
+      },
+      {
+        "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+        "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+        "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+        "upstream_functions": [
+          "get_all_evolution_status",
+          "return_involved_mutated_tool_status"
+        ],
+        "server_id": "mcp-ai-agent-guidelines",
+        "tool_identity": "speckit-generator",
+        "lookup_tool_name": "speckit-generator",
+        "layer_order": "root_to_deep",
+        "layers": [
+          {
+            "index": 0,
+            "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167",
+            "mutation_type": "DESC",
+            "selected_tool": "hierarchical-prompt-builder",
+            "ignored_tool_keys": [],
+            "status": "different_tool_not_applied"
+          },
+          {
+            "index": 1,
+            "ordered_json_sha256": "4cff2feea781ea688f110f5f4659cce121f47fbb832b996c86adb3c83d285219",
+            "mutation_type": "TOOL",
+            "status": "non_DESC_not_applied"
+          },
+          {
+            "index": 2,
+            "ordered_json_sha256": "01e35793735d66be5173464b2c8c227f8e62feb455a3190fab2dd6c914223b1b",
+            "mutation_type": "PARAM",
+            "status": "non_DESC_not_applied"
+          },
+          {
+            "index": 3,
+            "ordered_json_sha256": "17bb70bffea6a70565d751dcc735af633e176e81760d7173526462722b326038",
+            "mutation_type": "DESC",
+            "selected_tool": "speckit-generator",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          }
+        ],
+        "edits": [
+          {
+            "layer_index": 3,
+            "path": "/description",
+            "before_present": true,
+            "before": "Generate GitHub Spec-Kit artifacts (all documents: README.md, spec.md, plan.md, tasks.md, progress.md, adr.md, roadmap.md) from requirements with integrated constitutional validation during generation. Use constitution-validator for standalone validation of existing artifacts. BEST FOR: feature specs, project planning, constitutional compliance. TIP: Version generated spec artifacts using prompt-version-manager to maintain a history of spec iterations.",
+            "after": "Generates complete GitHub Spec-Kit documentation suite (README.md, spec.md, plan.md, tasks.md, progress.md, adr.md, roadmap.md) from project requirements. Optionally validates generated artifacts against constitutional guidelines during creation. For validating pre-existing artifacts, use constitution-validator instead. Ideal for feature specifications, project planning, and ensuring constitutional compliance. Tip: Track spec evolution by versioning generated artifacts with prompt-version-manager.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/title/description",
+            "before_present": true,
+            "before": "Specification title",
+            "after": "Title of the specification or project",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/overview/description",
+            "before_present": true,
+            "before": "High-level overview of the feature/project",
+            "after": "High-level summary describing the feature or project scope",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/objectives/description",
+            "before_present": true,
+            "before": "Strategic objectives for the project",
+            "after": "List of strategic objectives defining project goals, each with optional priority level (high, medium, or low)",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/requirements/description",
+            "before_present": true,
+            "before": "Functional and non-functional requirements",
+            "after": "Project requirements categorized as functional or non-functional, each with optional priority level (high, medium, or low)",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/acceptanceCriteria/description",
+            "before_present": true,
+            "before": "Acceptance criteria for completion (optional)",
+            "after": "Criteria that must be met for the project to be considered complete (optional)",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/outOfScope/description",
+            "before_present": true,
+            "before": "Explicitly out-of-scope items (optional)",
+            "after": "Items explicitly excluded from the project scope (optional)",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/constitutionPath/description",
+            "before_present": true,
+            "before": "Path to CONSTITUTION.md file (optional)",
+            "after": "File path to the CONSTITUTION.md document for validation reference (optional)",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/validateAgainstConstitution/description",
+            "before_present": true,
+            "before": "Whether to validate against constitution before rendering (optional)",
+            "after": "Enable validation of generated artifacts against constitutional guidelines before final rendering (optional)",
+            "value_changed": true
+          }
+        ],
+        "ignored_fields": [
+          {
+            "layer_index": 3,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/3/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/4/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/5/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/6/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/7/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          }
+        ],
+        "input_sha256": "f1f98063643fac91cd7635ebaaf14f10ea6b52a2e7e489b0beed46c657481ee0",
+        "status": "APPLIED_OR_UNCHANGED",
+        "limitations": [
+          "Only nested tool.modified_description and parameters[].modified_description are read.",
+          "Flat modified_description fields are ignored exactly as in the pinned upstream code.",
+          "The first non-metadata tool key is selected in each DESC server record.",
+          "Special nested paths fail when missing; ordinary missing parameters are skipped.",
+          "The interface scopes a tool to server_id and does not reproduce the upstream cross-server same-name overwrite bug.",
+          "Only description text changes. Tool names, schema types, required fields and task labels are never rewritten."
+        ],
+        "output_sha256": "0b074e08049739957955c53fdd3b0e427b732941cc0ff29e27775eec9b79a35e",
+        "description_edit_count": 9,
+        "changed_description_count": 9,
+        "input_unmodified": true
+      },
+      {
+        "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+        "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+        "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+        "upstream_functions": [
+          "get_all_evolution_status",
+          "return_involved_mutated_tool_status"
+        ],
+        "server_id": "time-mcp",
+        "tool_identity": "current_time",
+        "lookup_tool_name": "current_time",
+        "layer_order": "root_to_deep",
+        "layers": [
+          {
+            "index": 0,
+            "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "different_tool_not_applied"
+          },
+          {
+            "index": 1,
+            "ordered_json_sha256": "4cff2feea781ea688f110f5f4659cce121f47fbb832b996c86adb3c83d285219",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "different_tool_not_applied"
+          },
+          {
+            "index": 2,
+            "ordered_json_sha256": "01e35793735d66be5173464b2c8c227f8e62feb455a3190fab2dd6c914223b1b",
+            "mutation_type": "DESC",
+            "selected_tool": "current_time",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          },
+          {
+            "index": 3,
+            "ordered_json_sha256": "17bb70bffea6a70565d751dcc735af633e176e81760d7173526462722b326038",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "different_tool_not_applied"
+          }
+        ],
+        "edits": [
+          {
+            "layer_index": 2,
+            "path": "/description",
+            "before_present": true,
+            "before": "Get the current date and time.",
+            "after": "Get the current date and time, optionally formatted using one of the supported format values and optionally for a specified timezone.",
+            "value_changed": true
+          }
+        ],
+        "ignored_fields": [
+          {
+            "layer_index": 2,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          }
+        ],
+        "input_sha256": "84784771c91cfb99b32f44e23827f6fb1c5e91504904d60b134bd78598301af0",
+        "status": "APPLIED_OR_UNCHANGED",
+        "limitations": [
+          "Only nested tool.modified_description and parameters[].modified_description are read.",
+          "Flat modified_description fields are ignored exactly as in the pinned upstream code.",
+          "The first non-metadata tool key is selected in each DESC server record.",
+          "Special nested paths fail when missing; ordinary missing parameters are skipped.",
+          "The interface scopes a tool to server_id and does not reproduce the upstream cross-server same-name overwrite bug.",
+          "Only description text changes. Tool names, schema types, required fields and task labels are never rewritten."
+        ],
+        "output_sha256": "3b2ff0b30576f6463b4fddfd8d54931efb397ad68909a04e5e03f1373410f631",
+        "description_edit_count": 1,
+        "changed_description_count": 1,
+        "input_unmodified": true
+      },
+      {
+        "intervention": "OFFICIAL_DESC_METADATA_OVERLAY",
+        "upstream_commit": "888c779a0fe735f612ca62bdd1fdd7c9e6bf8701",
+        "upstream_file": "src/custom/real_mcp/tool_level_test.py",
+        "upstream_functions": [
+          "get_all_evolution_status",
+          "return_involved_mutated_tool_status"
+        ],
+        "server_id": "time-mcp",
+        "tool_identity": "convert_time",
+        "lookup_tool_name": "convert_time",
+        "layer_order": "root_to_deep",
+        "layers": [
+          {
+            "index": 0,
+            "ordered_json_sha256": "0fa79ae977e453c5471e15079350b7d9ecd4b2a9b2563f35c2ca17dbf4872167",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          },
+          {
+            "index": 1,
+            "ordered_json_sha256": "4cff2feea781ea688f110f5f4659cce121f47fbb832b996c86adb3c83d285219",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          },
+          {
+            "index": 2,
+            "ordered_json_sha256": "01e35793735d66be5173464b2c8c227f8e62feb455a3190fab2dd6c914223b1b",
+            "mutation_type": "DESC",
+            "selected_tool": "current_time",
+            "ignored_tool_keys": [],
+            "status": "different_tool_not_applied"
+          },
+          {
+            "index": 3,
+            "ordered_json_sha256": "17bb70bffea6a70565d751dcc735af633e176e81760d7173526462722b326038",
+            "mutation_type": "DESC",
+            "selected_tool": "convert_time",
+            "ignored_tool_keys": [],
+            "status": "matched_DESC_tool"
+          }
+        ],
+        "edits": [
+          {
+            "layer_index": 0,
+            "path": "/description",
+            "before_present": true,
+            "before": "Convert time between timezones.",
+            "after": "Convert a time from one timezone to another.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/sourceTimezone/description",
+            "before_present": false,
+            "before": null,
+            "after": "The source timezone of the input time.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/targetTimezone/description",
+            "before_present": false,
+            "before": null,
+            "after": "The timezone to convert the input time into.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 0,
+            "path": "/inputSchema/properties/time/description",
+            "before_present": false,
+            "before": null,
+            "after": "The time value to convert.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 1,
+            "path": "/description",
+            "before_present": true,
+            "before": "Convert a time from one timezone to another.",
+            "after": "Converts a given time from one timezone to another, returning the equivalent time in the target timezone.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 1,
+            "path": "/inputSchema/properties/sourceTimezone/description",
+            "before_present": true,
+            "before": "The source timezone of the input time.",
+            "after": "The timezone of the input time (e.g., 'America/New_York', 'UTC', 'Europe/London').",
+            "value_changed": true
+          },
+          {
+            "layer_index": 1,
+            "path": "/inputSchema/properties/targetTimezone/description",
+            "before_present": true,
+            "before": "The timezone to convert the input time into.",
+            "after": "The timezone to convert the time into (e.g., 'Asia/Tokyo', 'UTC', 'America/Los_Angeles').",
+            "value_changed": true
+          },
+          {
+            "layer_index": 1,
+            "path": "/inputSchema/properties/time/description",
+            "before_present": true,
+            "before": "The time value to convert.",
+            "after": "The time to convert, provided as a string (e.g., '2025-03-15T14:30:00' or '14:30:00').",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/description",
+            "before_present": true,
+            "before": "Converts a given time from one timezone to another, returning the equivalent time in the target timezone.",
+            "after": "Convert a time from one timezone to another.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/sourceTimezone/description",
+            "before_present": true,
+            "before": "The timezone of the input time (e.g., 'America/New_York', 'UTC', 'Europe/London').",
+            "after": "The source timezone of the input time.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/targetTimezone/description",
+            "before_present": true,
+            "before": "The timezone to convert the time into (e.g., 'Asia/Tokyo', 'UTC', 'America/Los_Angeles').",
+            "after": "The timezone to convert the input time to.",
+            "value_changed": true
+          },
+          {
+            "layer_index": 3,
+            "path": "/inputSchema/properties/time/description",
+            "before_present": true,
+            "before": "The time to convert, provided as a string (e.g., '2025-03-15T14:30:00' or '14:30:00').",
+            "after": "The time value to convert.",
+            "value_changed": true
+          }
+        ],
+        "ignored_fields": [
+          {
+            "layer_index": 0,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 0,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 1,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 1,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 1,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 1,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/tool/original_description",
+            "reason": "upstream_reads_only_modified_description"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/0/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/1/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          },
+          {
+            "layer_index": 3,
+            "path": "/parameters/2/original_description",
+            "reason": "upstream_does_not_read_parameter_provenance_field"
+          }
+        ],
+        "input_sha256": "22365a851c843b041c4a8511055e1fd276fae7dbbdfb3951adf00584d3975320",
+        "status": "APPLIED_OR_UNCHANGED",
+        "limitations": [
+          "Only nested tool.modified_description and parameters[].modified_description are read.",
+          "Flat modified_description fields are ignored exactly as in the pinned upstream code.",
+          "The first non-metadata tool key is selected in each DESC server record.",
+          "Special nested paths fail when missing; ordinary missing parameters are skipped.",
+          "The interface scopes a tool to server_id and does not reproduce the upstream cross-server same-name overwrite bug.",
+          "Only description text changes. Tool names, schema types, required fields and task labels are never rewritten."
+        ],
+        "output_sha256": "0e01db9c751709bb2d621a04fc70d223acf8f3a1be3740f5d913706223352d56",
+        "description_edit_count": 12,
+        "changed_description_count": 12,
+        "input_unmodified": true
+      }
+    ],
+    "server_entries": {
+      "math-mcp": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/math-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/late/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter5_servers.zip",
+          "entrypoint": "node_modules/math-mcp/dist/index.js",
+          "entrypoint_sha256": "81c2cc0799296987a26a013ef3b1d6a203a617393e3a63128969c54d01ed4795",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+              "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+            }
+          ]
+        },
+        "official_server_id": "math-mcp"
+      },
+      "mcp-ai-agent-guidelines": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/mcp-ai-agent-guidelines/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/late/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter5_servers.zip",
+          "entrypoint": "node_modules/mcp-ai-agent-guidelines/dist/index.js",
+          "entrypoint_sha256": "e250baa21c5b60c168a2eb6d053db88aea5402ccdfdc2dcc19acdb5e22d02127",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+              "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+            }
+          ]
+        },
+        "official_server_id": "mcp-ai-agent-guidelines"
+      },
+      "time-mcp": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/time-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/late/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter5_servers.zip",
+          "entrypoint": "node_modules/time-mcp/dist/index.js",
+          "entrypoint_sha256": "4d142d9a98d64f892cad5b50b5ebff09d534d9f466db277008eea2b3fe04e3b0",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+              "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+            }
+          ]
+        },
+        "official_server_id": "time-mcp"
+      },
+      "@umengfe/mcp-server-chart": {
+        "command": "/Users/huangyu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "args": [
+          "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/extracted/iter5/node_modules/@umengfe/mcp-server-chart/build/index.js"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/late/sandbox",
+        "env": {
+          "NO_COLOR": "1"
+        },
+        "source_provenance": {
+          "dataset": "anonymous2233/evol-servers",
+          "archive": "iter5_servers.zip",
+          "entrypoint": "node_modules/@umengfe/mcp-server-chart/build/index.js",
+          "entrypoint_sha256": "7280465ddd9589d0741a4f22b2671586583e0817c6b5f880090fc3ee943fd9ec",
+          "archive_crc_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_index.json",
+          "closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_closure_manifest.json",
+          "chart_closure_manifest": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_servers/iter5_chart_closure_manifest.json",
+          "description_metadata_sources": [
+            {
+              "path": "src/custom/data/mutation/HYBRID/evolution.json",
+              "sha256": "26d3e98c1464ab8b784bc37c3e7dc2c223038d1d3f06931cee56b76fb01acd46"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/evolution.json",
+              "sha256": "9186e5959df32b933bf88689d71454e98793bfcaf4c8b65478cc24ba2abf5a08"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "d78c551f0136a7b0ad17fcb519e27aeb14b0b885fcb0a6309e98b2526bdc9431"
+            },
+            {
+              "path": "src/custom/data/mutation/HYBRID/HYBRID/HYBRID/HYBRID/evolution.json",
+              "sha256": "43d7deba235cb60190ae8db805235551cde015f71f81829d374ec49b14418d2b"
+            }
+          ]
+        },
+        "official_server_id": "@umengfe/mcp-server-chart"
+      },
+      "time": {
+        "command": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_venv/bin/mcp-server-time",
+        "args": [
+          "--local-timezone=America/New_York"
+        ],
+        "cwd": "/Users/huangyu/Documents/Codex/2026-10-27/https-ntulearn-ntu-edu-sg-ultra-3/work/live_runtime/late/sandbox",
+        "env": {},
+        "source_provenance": {
+          "distribution": "mcp-server-time",
+          "frozen_version": "2026.1.26",
+          "scope": "Unchanged public Python server used by official configs; original uvx was unpinned and this deployment explicitly freezes its version across stages"
+        },
+        "official_server_id": "time"
+      }
+    }
+  }
+}

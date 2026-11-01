@@ -1,0 +1,62 @@
+[
+  {
+    "batch": "original",
+    "strategy": "no_update",
+    "input_tokens": 96910,
+    "output_tokens": 847,
+    "model_rounds": 3,
+    "tool_calls": 3,
+    "tool_errors": 1,
+    "model_call_elapsed_sum_s": 69.824
+  },
+  {
+    "batch": "original",
+    "strategy": "full_rewrite",
+    "input_tokens": 66499,
+    "output_tokens": 912,
+    "model_rounds": 2,
+    "tool_calls": 1,
+    "tool_errors": 0,
+    "model_call_elapsed_sum_s": 57.835
+  },
+  {
+    "batch": "original",
+    "strategy": "selective_patch",
+    "input_tokens": 66646,
+    "output_tokens": 783,
+    "model_rounds": 2,
+    "tool_calls": 2,
+    "tool_errors": 0,
+    "model_call_elapsed_sum_s": 45.009
+  },
+  {
+    "batch": "follow",
+    "strategy": "no_update",
+    "input_tokens": 95282,
+    "output_tokens": 817,
+    "model_rounds": 3,
+    "tool_calls": 3,
+    "tool_errors": 1,
+    "model_call_elapsed_sum_s": 30.258
+  },
+  {
+    "batch": "follow",
+    "strategy": "full_rewrite",
+    "input_tokens": 65427,
+    "output_tokens": 923,
+    "model_rounds": 2,
+    "tool_calls": 1,
+    "tool_errors": 0,
+    "model_call_elapsed_sum_s": 31.186
+  },
+  {
+    "batch": "follow",
+    "strategy": "selective_patch",
+    "input_tokens": 65558,
+    "output_tokens": 748,
+    "model_rounds": 2,
+    "tool_calls": 2,
+    "tool_errors": 0,
+    "model_call_elapsed_sum_s": 26.774
+  }
+]

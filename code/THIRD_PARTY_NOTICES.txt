@@ -1,0 +1,15 @@
+MCPEvol Bench source and data references
+
+Repository https://github.com/Octobrist/MCPEvol-Bench
+Pinned commit 888c779a0fe735f612ca62bdd1fdd7c9e6bf8701
+Paper https://arxiv.org/abs/2607.14642
+
+prepared_live/tasks.json preserves a selected subset of the original benchmark task
+objects and their source attribution. These records are third party source
+material, not newly authored task labels. Source manifests preserve original
+indices and hashes. Metric interfaces and the official judge rubric are cited
+in the project report. No license claim over third party material is made here.
+
+Core adaptation and analysis code was written with AI assistance for this
+course project. Students must verify actual contribution attribution before
+submitting personal statements.

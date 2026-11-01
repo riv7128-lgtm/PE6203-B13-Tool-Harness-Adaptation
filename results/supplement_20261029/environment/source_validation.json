@@ -1,0 +1,53 @@
+{
+  "status": "ARCHIVE_BYTES_VERIFIED_NEW_ENVIRONMENT",
+  "per_file_archive_checks": {
+    "original": {
+      "files": 11386,
+      "all_archive_file_hashes_match": true
+    },
+    "iter3": {
+      "files": 11387,
+      "all_archive_file_hashes_match": true
+    },
+    "iter5": {
+      "files": 11387,
+      "all_archive_file_hashes_match": true
+    }
+  },
+  "actual": {
+    "original": {
+      "file_count": 11386,
+      "total_bytes": 89959776,
+      "tree_sha256": "22e3b962609b43287109364f6fcee245f036ee502510ce01eaac5eaa63da7085"
+    },
+    "iter3": {
+      "file_count": 11387,
+      "total_bytes": 89971676,
+      "tree_sha256": "09462b3fddf8d0c6b7087f06f4716a6f25b1f2ecd141c874cbfdd62182921a43"
+    },
+    "iter5": {
+      "file_count": 11387,
+      "total_bytes": 89992566,
+      "tree_sha256": "2bd8b9e3c8c0bf17c7e9a4558cf549e439cf2acf8551be9726bdad7b1bc46c7a"
+    }
+  },
+  "old_frozen": {
+    "original": {
+      "file_count": 11390,
+      "total_bytes": 89966717,
+      "tree_sha256": "ea07e90021b2b5eff597cc57286feb70958a9090ee7a7800f686e6207ad0a31e"
+    },
+    "iter3": {
+      "file_count": 11387,
+      "total_bytes": 89971676,
+      "tree_sha256": "09462b3fddf8d0c6b7087f06f4716a6f25b1f2ecd141c874cbfdd62182921a43"
+    },
+    "iter5": {
+      "file_count": 11387,
+      "total_bytes": 89992566,
+      "tree_sha256": "2bd8b9e3c8c0bf17c7e9a4558cf549e439cf2acf8551be9726bdad7b1bc46c7a"
+    }
+  },
+  "old_frozen_match": false,
+  "note": "Do not claim exact frozen-runtime replication when old tree differs. Authoritative downloaded archive hashes were checked for every file."
+}

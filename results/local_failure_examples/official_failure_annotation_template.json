@@ -1,0 +1,23 @@
+{
+  "evidence_kind": "OFFICIAL_TRAJECTORY_REVIEW_PENDING",
+  "task_id": null,
+  "strategy": null,
+  "version": null,
+  "run_id": null,
+  "trajectory_path": null,
+  "trajectory_sha256": null,
+  "changed_tools": [],
+  "failure_type": null,
+  "required_categories": [
+    "under_update",
+    "over_update"
+  ],
+  "failed_call_step": null,
+  "before_knowledge": null,
+  "after_knowledge": null,
+  "observed_error": null,
+  "causal_evidence": null,
+  "counterfactual_control": null,
+  "reviewer": null,
+  "review_status": "pending actual benchmark execution"
+}

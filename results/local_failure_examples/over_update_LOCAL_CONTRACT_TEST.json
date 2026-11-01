@@ -1,0 +1,74 @@
+{
+  "evidence_kind": "LOCAL_CONTRACT_TEST",
+  "official_benchmark": false,
+  "agent_type": "deterministic in-process tool emulator",
+  "scores": null,
+  "benchmark_task_id": null,
+  "failure_type": "over_update",
+  "title": "Unrelated route changed by patch",
+  "environment_change": {
+    "changed_tool": "files.read",
+    "unchanged_tool": "math.add"
+  },
+  "attempted_update": {
+    "files.read.parameter": "file_path",
+    "math.add.route": "math-v2"
+  },
+  "trajectory": [
+    {
+      "step": 1,
+      "action": "control_before_patch",
+      "tool": "math.add",
+      "arguments": {
+        "a": 2,
+        "b": 3
+      },
+      "route": "math-v1",
+      "result": {
+        "ok": true,
+        "result": 5
+      }
+    },
+    {
+      "step": 2,
+      "action": "apply_faulty_patch",
+      "unrelated_route_after": "math-v2"
+    },
+    {
+      "step": 3,
+      "action": "call_tool",
+      "tool": "math.add",
+      "arguments": {
+        "a": 2,
+        "b": 3
+      },
+      "route": "math-v2",
+      "result": {
+        "ok": false,
+        "error": "WrongRoute",
+        "expected_route": "math-v1",
+        "actual_route": "math-v2"
+      }
+    },
+    {
+      "step": 4,
+      "action": "restore_unchanged_route",
+      "route": "math-v1"
+    },
+    {
+      "step": 5,
+      "action": "call_tool",
+      "tool": "math.add",
+      "arguments": {
+        "a": 2,
+        "b": 3
+      },
+      "route": "math-v1",
+      "result": {
+        "ok": true,
+        "result": 5
+      }
+    }
+  ],
+  "conclusion": "Changing an unaffected tool route damages a previously working call."
+}

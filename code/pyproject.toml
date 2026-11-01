@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pe6203-harness-adaptation"
+version = "0.1.0"
+description = "Reproducible tool knowledge adaptation and strict MCPEvol analysis"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["harness_adapt*"]
